@@ -16,8 +16,6 @@ jobs:
     env:
       HTTP_PROXY: ""
       HTTPS_PROXY: ""
-      http_proxy: ""
-      https_proxy: ""
       GLM_API_KEY: ${{ secrets.GLM_API_KEY }}
       GLM_BASE_URL: ${{ secrets.GLM_BASE_URL }}
     steps:
