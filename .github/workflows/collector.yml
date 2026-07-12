@@ -1,10 +1,7 @@
 name: HotNews Collector
 
 on:
-  schedule:
-    # 每 30 分钟运行一次（UTC 时间，+8 即北京时间）
-    - cron: '*/30 * * * *'
-  workflow_dispatch:  # 也支持手动触发
+  workflow_dispatch:  # 仅手动触发（自动采集已移至本机 launchd，避免海外节点调 GLM 触发限流）
 
 permissions:
   contents: write  # 允许提交 data.json / 缓存 回仓库

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-13T00:20:16+08:00",
+  "updated_at": "2026-07-13T00:52:37+08:00",
   "sources": [
     {
       "key": "hn-ai",
@@ -7,11 +7,11 @@
       "count": 25,
       "items": [
         {
-          "title": "Don't post generated/AI-edited comments. HN is for conversation between humans",
+          "title": "不要发布生成/AI编辑的评论。HN是供人类之间交流的",
           "url": "https://news.ycombinator.com/newsguidelines.html#generated",
           "hot": 4229,
           "rank": 1,
-          "desc": "关于Hacker News的内容和评论规范",
+          "desc": "Hacker News 社区规则概述",
           "extra": {
             "author": "usefulposter",
             "comments": 1668
@@ -23,7 +23,7 @@
           "url": "https://ciechanow.ski/airfoil/",
           "hot": 2544,
           "rank": 2,
-          "desc": "空气动力学原理与飞行机制",
+          "desc": "飞行物理学原理探讨",
           "extra": {
             "author": "todsacerdoti",
             "comments": 296
@@ -31,11 +31,11 @@
           "desc_source": "fetch"
         },
         {
-          "title": "Open source AI is the path forward",
+          "title": "开源AI是前进的道路",
           "url": "https://about.fb.com/news/2024/07/open-source-ai-is-the-path-forward/",
           "hot": 2360,
           "rank": 3,
-          "desc": "开源Linux的发展历程与AI的类似趋势",
+          "desc": "开源AI发展及其对行业的影响",
           "extra": {
             "author": "atgctg",
             "comments": 887
@@ -43,11 +43,11 @@
           "desc_source": "fetch"
         },
         {
-          "title": "My AI skeptic friends are all nuts",
+          "title": "我的AI怀疑论者朋友们都是疯子",
           "url": "https://fly.io/blog/youre-all-nuts/",
           "hot": 2356,
           "rank": 4,
-          "desc": "关于AI辅助编程的争议和思考",
+          "desc": "AI辅助编程的争议与思考",
           "extra": {
             "author": "tabletcorry",
             "comments": 2826
@@ -55,11 +55,11 @@
           "desc_source": "fetch"
         },
         {
-          "title": "An AI agent published a hit piece on me",
+          "title": "一个AI代理发布了一篇关于我的抨击文章",
           "url": "https://theshamblog.com/an-ai-agent-published-a-hit-piece-on-me/",
           "hot": 2346,
           "rank": 5,
-          "desc": "开源软件中AI行为不当的案例",
+          "desc": "开源社区中AI行为的研究案例",
           "extra": {
             "author": "scottshambaugh",
             "comments": 951
@@ -71,7 +71,7 @@
           "url": "https://deepmind.google/technologies/gemini/",
           "hot": 2135,
           "rank": 6,
-          "desc": "Gemini 3.5模型的应用和性能展示",
+          "desc": "Gemini 3.5模型的功能介绍和应用案例",
           "extra": {
             "author": "dmotz",
             "comments": 1602
@@ -79,11 +79,11 @@
           "desc_source": "fetch"
         },
         {
-          "title": "I believe there are entire companies right now under AI psychosis",
+          "title": "我相信现在有整个公司正陷入AI狂热中",
           "url": "https://twitter.com/mitchellh/status/2055380239711457578",
           "hot": 2105,
           "rank": 7,
-          "desc": "AI狂热与软件行业变革的担忧",
+          "desc": "AI在软件开发中的潜在风险和挑战",
           "extra": {
             "author": "reasonableklout",
             "comments": 1272
@@ -91,7 +91,7 @@
           "desc_source": "fetch"
         },
         {
-          "title": "IDF killed Gaza aid workers at point blank range in 2025 massacre: Report",
+          "title": "IDF在2025年的大屠杀中在近距离杀害了加沙援助工作者：报告",
           "url": "https://www.dropsitenews.com/p/israeli-soldiers-tel-sultan-gaza-red-crescent-civil-defense-massacre-report-forensic-architecture-earshot",
           "hot": 2084,
           "rank": 8,
@@ -103,7 +103,7 @@
           "desc_source": "fetch"
         },
         {
-          "title": "I'm Tired of Talking to AI",
+          "title": "我厌倦了和AI说话",
           "url": "https://orchidfiles.com/im-tired-of-ai-generated-answers/",
           "hot": 2013,
           "rank": 9,
@@ -115,11 +115,11 @@
           "desc_source": "fetch"
         },
         {
-          "title": "Bypassing airport security via SQL injection",
+          "title": "通过SQL注入绕过机场安检",
           "url": "https://ian.sh/tsa",
           "hot": 2004,
           "rank": 10,
-          "desc": "机场安检 Known Crewmember 程序",
+          "desc": "机场安检 Known Crewmember (KCM) 程序存在安全漏洞",
           "extra": {
             "author": "iancarroll",
             "comments": 440
@@ -127,11 +127,11 @@
           "desc_source": "fetch"
         },
         {
-          "title": "Air Con: $1697 for an on/off switch",
+          "title": "空调：1697美元的开关",
           "url": "https://blog.hopefullyuseful.com/blog/advantage-air-ezone-tablet-diy-repair/",
           "hot": 2001,
           "rank": 11,
-          "desc": "Aircon Controller 软件问题",
+          "desc": "空调控制系统软件问题导致高昂维修费用",
           "extra": {
             "author": "ranebo",
             "comments": 478
@@ -139,11 +139,11 @@
           "desc_source": "fetch"
         },
         {
-          "title": "Local AI needs to be the norm",
+          "title": "本地AI需要成为常态",
           "url": "https://unix.foo/posts/local-ai-needs-to-be-norm/",
           "hot": 1903,
           "rank": 12,
-          "desc": "Local AI 应该成为常态",
+          "desc": "本地AI模型应成为常态",
           "extra": {
             "author": "cylo",
             "comments": 749
@@ -151,11 +151,11 @@
           "desc_source": "fetch"
         },
         {
-          "title": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
+          "title": "Google Duplex：一个用于通过电话完成现实世界任务的AI系统",
           "url": "https://ai.googleblog.com/2018/05/duplex-ai-system-for-natural-conversation.html",
           "hot": 1875,
           "rank": 13,
-          "desc": "Google Duplex 技术",
+          "desc": "Google Duplex技术实现自然对话",
           "extra": {
             "author": "ivank",
             "comments": 750
@@ -163,11 +163,11 @@
           "desc_source": "fetch"
         },
         {
-          "title": "Google Chrome silently installs a 4 GB AI model on your device without consent",
+          "title": "Google Chrome在未经同意的情况下在您的设备上静默安装了4 GB的AI模型",
           "url": "https://www.thatprivacyguy.com/blog/chrome-silent-nano-install/",
           "hot": 1755,
           "rank": 14,
-          "desc": "Google Chrome 静默安装 AI 模型",
+          "desc": "Google Chrome静默安装AI模型",
           "extra": {
             "author": "john-doe",
             "comments": 1143
@@ -175,7 +175,7 @@
           "desc_source": "fetch"
         },
         {
-          "title": "Paper Airplane Designs",
+          "title": "纸飞机设计",
           "url": "https://www.foldnfly.com/",
           "hot": 1753,
           "rank": 15,
@@ -187,7 +187,7 @@
           "desc_source": "fetch"
         },
         {
-          "title": "AWS CEO says using AI to replace junior staff is 'Dumbest thing I've ever heard'",
+          "title": "AWS首席执行官表示，使用AI取代初级员工是“我听过的最愚蠢的事情”",
           "url": "https://www.theregister.com/2025/08/21/aws_ceo_entry_level_jobs_opinion/",
           "hot": 1697,
           "rank": 16,
@@ -198,11 +198,11 @@
           }
         },
         {
-          "title": "The young, inexperienced engineers aiding DOGE",
+          "title": "帮助DOGE的年轻、缺乏经验的工程师",
           "url": "https://www.wired.com/story/elon-musk-government-young-engineers/",
           "hot": 1683,
           "rank": 17,
-          "desc": "Elon Musk 掌管联邦政府基础设施",
+          "desc": "Elon Musk的团队在政府机构中担任关键角色",
           "extra": {
             "author": "medler",
             "comments": 2991
@@ -210,7 +210,7 @@
           "desc_source": "fetch"
         },
         {
-          "title": "Open source AI must win",
+          "title": "开源AI必须获胜",
           "url": "https://opensourceaimustwin.com/?share=v2",
           "hot": 1603,
           "rank": 18,
@@ -222,7 +222,7 @@
           "desc_source": "fetch"
         },
         {
-          "title": "Zoom terms now allow training AI on user content with no opt out",
+          "title": "Zoom的新条款现在允许在没有选择退出的情况下在用户内容上训练AI",
           "url": "https://explore.zoom.us/en/terms/",
           "hot": 1581,
           "rank": 19,
@@ -234,7 +234,7 @@
           "desc_source": "fetch"
         },
         {
-          "title": "Project Glasswing: Securing critical software for the AI era",
+          "title": "Project Glasswing：为AI时代保护关键软件",
           "url": "https://www.anthropic.com/glasswing",
           "hot": 1541,
           "rank": 20,
@@ -246,7 +246,7 @@
           "desc_source": "fetch"
         },
         {
-          "title": "Show HN: I'm an airline pilot – I built interactive graphs/globes of my flights",
+          "title": "Show HN：我是一个飞行员 - 我构建了我飞行路线的交互式图表/地球仪",
           "url": "https://jameshard.ing/pilot",
           "hot": 1539,
           "rank": 21,
@@ -258,7 +258,7 @@
           "desc_source": "fetch"
         },
         {
-          "title": "Show HN: Airmash – Multiplayer Missile Warfare HTML5 Game",
+          "title": "Show HN：Airmash - 多玩家导弹战争HTML5游戏",
           "url": "https://airma.sh/",
           "hot": 1535,
           "rank": 22,
@@ -269,7 +269,7 @@
           }
         },
         {
-          "title": "Can I run AI locally?",
+          "title": "我可以在本地运行AI吗？",
           "url": "https://www.canirun.ai/",
           "hot": 1520,
           "rank": 23,
@@ -281,7 +281,7 @@
           "desc_source": "fetch"
         },
         {
-          "title": "Andrej Karpathy: Software in the era of AI [video]",
+          "title": "Andrej Karpathy：AI时代的软件[视频]",
           "url": "https://www.youtube.com/watch?v=LCEmiRjPEtQ",
           "hot": 1481,
           "rank": 24,
@@ -293,7 +293,7 @@
           "desc_source": "fetch"
         },
         {
-          "title": "Contra Wirecutter on the IKEA air purifier",
+          "title": "反对Wirecutter对IKEA空气净化器的评价",
           "url": "https://dynomight.net/ikea-purifier/",
           "hot": 1474,
           "rank": 25,
@@ -312,17 +312,17 @@
       "count": 50,
       "items": [
         {
-          "title": "灿如繁星热度未破8000",
-          "url": "https://s.weibo.com/weibo?q=%E7%81%BF%E5%A6%82%E7%B9%81%E6%98%9F%E7%83%AD%E5%BA%A6%E6%9C%AA%E7%A0%B48000",
-          "hot": 1325337,
+          "title": "范志毅批哈兰德表现糟糕",
+          "url": "https://s.weibo.com/weibo?q=%E8%8C%83%E5%BF%97%E6%AF%85%E6%89%B9%E5%93%88%E5%85%B0%E5%BE%B7%E8%A1%A8%E7%8E%B0%E7%B3%9F%E7%B3%95",
+          "hot": 1003704,
           "rank": 1,
           "desc": null,
           "extra": {}
         },
         {
-          "title": "董事长遭女儿女婿联手提议罢免",
-          "url": "https://s.weibo.com/weibo?q=%E8%91%A3%E4%BA%8B%E9%95%BF%E9%81%AD%E5%A5%B3%E5%84%BF%E5%A5%B3%E5%A9%BF%E8%81%94%E6%89%8B%E6%8F%90%E8%AE%AE%E7%BD%A2%E5%85%8D",
-          "hot": 942083,
+          "title": "灿如繁星热度未破8000",
+          "url": "https://s.weibo.com/weibo?q=%E7%81%BF%E5%A6%82%E7%B9%81%E6%98%9F%E7%83%AD%E5%BA%A6%E6%9C%AA%E7%A0%B48000",
+          "hot": 991914,
           "rank": 2,
           "desc": null,
           "extra": {}
@@ -330,7 +330,7 @@
         {
           "title": "国产动力舟桥抗洪有多硬核",
           "url": "https://s.weibo.com/weibo?q=%E5%9B%BD%E4%BA%A7%E5%8A%A8%E5%8A%9B%E8%88%9F%E6%A1%A5%E6%8A%97%E6%B4%AA%E6%9C%89%E5%A4%9A%E7%A1%AC%E6%A0%B8",
-          "hot": 923560,
+          "hot": 988616,
           "rank": 3,
           "desc": null,
           "extra": {}
@@ -338,7 +338,7 @@
         {
           "title": "火鸡面被台风孤立了",
           "url": "https://s.weibo.com/weibo?q=%E7%81%AB%E9%B8%A1%E9%9D%A2%E8%A2%AB%E5%8F%B0%E9%A3%8E%E5%AD%A4%E7%AB%8B%E4%BA%86",
-          "hot": 922183,
+          "hot": 986291,
           "rank": 4,
           "desc": null,
           "extra": {}
@@ -346,55 +346,55 @@
         {
           "title": "功夫女足票房破5亿",
           "url": "https://s.weibo.com/weibo?q=%E5%8A%9F%E5%A4%AB%E5%A5%B3%E8%B6%B3%E7%A5%A8%E6%88%BF%E7%A0%B45%E4%BA%BF",
-          "hot": 905622,
+          "hot": 664076,
           "rank": 5,
+          "desc": null,
+          "extra": {}
+        },
+        {
+          "title": "董事长遭女儿女婿联手提议罢免",
+          "url": "https://s.weibo.com/weibo?q=%E8%91%A3%E4%BA%8B%E9%95%BF%E9%81%AD%E5%A5%B3%E5%84%BF%E5%A5%B3%E5%A9%BF%E8%81%94%E6%89%8B%E6%8F%90%E8%AE%AE%E7%BD%A2%E5%85%8D",
+          "hot": 612976,
+          "rank": 6,
+          "desc": null,
+          "extra": {}
+        },
+        {
+          "title": "冉莹颖说把北京贵阳美国的房子都卖了",
+          "url": "https://s.weibo.com/weibo?q=%E5%86%89%E8%8E%B9%E9%A2%96%E8%AF%B4%E6%8A%8A%E5%8C%97%E4%BA%AC%E8%B4%B5%E9%98%B3%E7%BE%8E%E5%9B%BD%E7%9A%84%E6%88%BF%E5%AD%90%E9%83%BD%E5%8D%96%E4%BA%86",
+          "hot": 536359,
+          "rank": 7,
           "desc": null,
           "extra": {}
         },
         {
           "title": "樊振东将解说世界杯决赛",
           "url": "https://s.weibo.com/weibo?q=%E6%A8%8A%E6%8C%AF%E4%B8%9C%E5%B0%86%E8%A7%A3%E8%AF%B4%E4%B8%96%E7%95%8C%E6%9D%AF%E5%86%B3%E8%B5%9B",
-          "hot": 777950,
-          "rank": 6,
-          "desc": null,
-          "extra": {}
-        },
-        {
-          "title": "范志毅批哈兰德表现糟糕",
-          "url": "https://s.weibo.com/weibo?q=%E8%8C%83%E5%BF%97%E6%AF%85%E6%89%B9%E5%93%88%E5%85%B0%E5%BE%B7%E8%A1%A8%E7%8E%B0%E7%B3%9F%E7%B3%95",
-          "hot": 733408,
-          "rank": 7,
+          "hot": 460928,
+          "rank": 8,
           "desc": null,
           "extra": {}
         },
         {
           "title": "中国女生在韩国救下一车人",
           "url": "https://s.weibo.com/weibo?q=%E4%B8%AD%E5%9B%BD%E5%A5%B3%E7%94%9F%E5%9C%A8%E9%9F%A9%E5%9B%BD%E6%95%91%E4%B8%8B%E4%B8%80%E8%BD%A6%E4%BA%BA",
-          "hot": 555826,
-          "rank": 8,
-          "desc": null,
-          "extra": {}
-        },
-        {
-          "title": "周深现场把伴舞开了",
-          "url": "https://s.weibo.com/weibo?q=%E5%91%A8%E6%B7%B1%E7%8E%B0%E5%9C%BA%E6%8A%8A%E4%BC%B4%E8%88%9E%E5%BC%80%E4%BA%86",
-          "hot": 522696,
+          "hot": 357443,
           "rank": 9,
-          "desc": null,
-          "extra": {}
-        },
-        {
-          "title": "功夫女足 浙江票仓",
-          "url": "https://s.weibo.com/weibo?q=%E5%8A%9F%E5%A4%AB%E5%A5%B3%E8%B6%B3%20%E6%B5%99%E6%B1%9F%E7%A5%A8%E4%BB%93",
-          "hot": 481383,
-          "rank": 10,
           "desc": null,
           "extra": {}
         },
         {
           "title": "巴威发威青岛巨浪滔天",
           "url": "https://s.weibo.com/weibo?q=%E5%B7%B4%E5%A8%81%E5%8F%91%E5%A8%81%E9%9D%92%E5%B2%9B%E5%B7%A8%E6%B5%AA%E6%BB%94%E5%A4%A9",
-          "hot": 477537,
+          "hot": 334328,
+          "rank": 10,
+          "desc": null,
+          "extra": {}
+        },
+        {
+          "title": "周深现场把伴舞开了",
+          "url": "https://s.weibo.com/weibo?q=%E5%91%A8%E6%B7%B1%E7%8E%B0%E5%9C%BA%E6%8A%8A%E4%BC%B4%E8%88%9E%E5%BC%80%E4%BA%86",
+          "hot": 327241,
           "rank": 11,
           "desc": null,
           "extra": {}
@@ -402,7 +402,7 @@
         {
           "title": "鹿晗范志毅直播",
           "url": "https://s.weibo.com/weibo?q=%E9%B9%BF%E6%99%97%E8%8C%83%E5%BF%97%E6%AF%85%E7%9B%B4%E6%92%AD",
-          "hot": 477469,
+          "hot": 326303,
           "rank": 12,
           "desc": null,
           "extra": {}
@@ -410,15 +410,15 @@
         {
           "title": "Bin回应不敌HLE",
           "url": "https://s.weibo.com/weibo?q=Bin%E5%9B%9E%E5%BA%94%E4%B8%8D%E6%95%8CHLE",
-          "hot": 460382,
+          "hot": 322227,
           "rank": 13,
           "desc": null,
           "extra": {}
         },
         {
-          "title": "百花杀暑期档黑马",
-          "url": "https://s.weibo.com/weibo?q=%E7%99%BE%E8%8A%B1%E6%9D%80%E6%9A%91%E6%9C%9F%E6%A1%A3%E9%BB%91%E9%A9%AC",
-          "hot": 412811,
+          "title": "功夫女足 浙江票仓",
+          "url": "https://s.weibo.com/weibo?q=%E5%8A%9F%E5%A4%AB%E5%A5%B3%E8%B6%B3%20%E6%B5%99%E6%B1%9F%E7%A5%A8%E4%BB%93",
+          "hot": 309211,
           "rank": 14,
           "desc": null,
           "extra": {}
@@ -426,15 +426,15 @@
         {
           "title": "何宣林出浪完全大升咖",
           "url": "https://s.weibo.com/weibo?q=%E4%BD%95%E5%AE%A3%E6%9E%97%E5%87%BA%E6%B5%AA%E5%AE%8C%E5%85%A8%E5%A4%A7%E5%8D%87%E5%92%96",
-          "hot": 388934,
+          "hot": 299409,
           "rank": 15,
           "desc": null,
           "extra": {}
         },
         {
-          "title": "中华人民共和国外交部郑重声明",
-          "url": "https://s.weibo.com/weibo?q=%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD%E5%A4%96%E4%BA%A4%E9%83%A8%E9%83%91%E9%87%8D%E5%A3%B0%E6%98%8E",
-          "hot": 357522,
+          "title": "哈兰德快哭了",
+          "url": "https://s.weibo.com/weibo?q=%E5%93%88%E5%85%B0%E5%BE%B7%E5%BF%AB%E5%93%AD%E4%BA%86",
+          "hot": 295463,
           "rank": 16,
           "desc": null,
           "extra": {}
@@ -442,23 +442,23 @@
         {
           "title": "王楚然陈星旭 快把我老板带走",
           "url": "https://s.weibo.com/weibo?q=%E7%8E%8B%E6%A5%9A%E7%84%B6%E9%99%88%E6%98%9F%E6%97%AD%20%E5%BF%AB%E6%8A%8A%E6%88%91%E8%80%81%E6%9D%BF%E5%B8%A6%E8%B5%B0",
-          "hot": 356904,
+          "hot": 294245,
           "rank": 17,
           "desc": null,
           "extra": {}
         },
         {
-          "title": "曾沛慈一场下来步数3万步",
-          "url": "https://s.weibo.com/weibo?q=%E6%9B%BE%E6%B2%9B%E6%85%88%E4%B8%80%E5%9C%BA%E4%B8%8B%E6%9D%A5%E6%AD%A5%E6%95%B03%E4%B8%87%E6%AD%A5",
-          "hot": 356834,
+          "title": "高中生拍门玩闹何以酿成命案",
+          "url": "https://s.weibo.com/weibo?q=%E9%AB%98%E4%B8%AD%E7%94%9F%E6%8B%8D%E9%97%A8%E7%8E%A9%E9%97%B9%E4%BD%95%E4%BB%A5%E9%85%BF%E6%88%90%E5%91%BD%E6%A1%88",
+          "hot": 289374,
           "rank": 18,
           "desc": null,
           "extra": {}
         },
         {
-          "title": "Xun要碎了",
-          "url": "https://s.weibo.com/weibo?q=Xun%E8%A6%81%E7%A2%8E%E4%BA%86",
-          "hot": 355907,
+          "title": "突然觉得带孩子很轻松",
+          "url": "https://s.weibo.com/weibo?q=%E7%AA%81%E7%84%B6%E8%A7%89%E5%BE%97%E5%B8%A6%E5%AD%A9%E5%AD%90%E5%BE%88%E8%BD%BB%E6%9D%BE",
+          "hot": 284842,
           "rank": 19,
           "desc": null,
           "extra": {}
@@ -466,23 +466,23 @@
         {
           "title": "新能源车平均车龄仅1.8年",
           "url": "https://s.weibo.com/weibo?q=%E6%96%B0%E8%83%BD%E6%BA%90%E8%BD%A6%E5%B9%B3%E5%9D%87%E8%BD%A6%E9%BE%84%E4%BB%851.8%E5%B9%B4",
-          "hot": 321634,
+          "hot": 274433,
           "rank": 20,
           "desc": null,
           "extra": {}
         },
         {
-          "title": "功夫女足",
-          "url": "https://s.weibo.com/weibo?q=%E5%8A%9F%E5%A4%AB%E5%A5%B3%E8%B6%B3",
-          "hot": 317941,
+          "title": "百花杀暑期档黑马",
+          "url": "https://s.weibo.com/weibo?q=%E7%99%BE%E8%8A%B1%E6%9D%80%E6%9A%91%E6%9C%9F%E6%A1%A3%E9%BB%91%E9%A9%AC",
+          "hot": 273410,
           "rank": 21,
           "desc": null,
           "extra": {}
         },
         {
-          "title": "世界杯史上最强半决赛",
-          "url": "https://s.weibo.com/weibo?q=%E4%B8%96%E7%95%8C%E6%9D%AF%E5%8F%B2%E4%B8%8A%E6%9C%80%E5%BC%BA%E5%8D%8A%E5%86%B3%E8%B5%9B",
-          "hot": 317059,
+          "title": "中华人民共和国外交部郑重声明",
+          "url": "https://s.weibo.com/weibo?q=%E4%B8%AD%E5%8D%8E%E4%BA%BA%E6%B0%91%E5%85%B1%E5%92%8C%E5%9B%BD%E5%A4%96%E4%BA%A4%E9%83%A8%E9%83%91%E9%87%8D%E5%A3%B0%E6%98%8E",
+          "hot": 263162,
           "rank": 22,
           "desc": null,
           "extra": {}
@@ -490,47 +490,47 @@
         {
           "title": "长期不换社交头像的人",
           "url": "https://s.weibo.com/weibo?q=%E9%95%BF%E6%9C%9F%E4%B8%8D%E6%8D%A2%E7%A4%BE%E4%BA%A4%E5%A4%B4%E5%83%8F%E7%9A%84%E4%BA%BA",
-          "hot": 316697,
+          "hot": 262371,
           "rank": 23,
+          "desc": null,
+          "extra": {}
+        },
+        {
+          "title": "曾沛慈一场下来步数3万步",
+          "url": "https://s.weibo.com/weibo?q=%E6%9B%BE%E6%B2%9B%E6%85%88%E4%B8%80%E5%9C%BA%E4%B8%8B%E6%9D%A5%E6%AD%A5%E6%95%B03%E4%B8%87%E6%AD%A5",
+          "hot": 251617,
+          "rank": 24,
+          "desc": null,
+          "extra": {}
+        },
+        {
+          "title": "Xun要碎了",
+          "url": "https://s.weibo.com/weibo?q=Xun%E8%A6%81%E7%A2%8E%E4%BA%86",
+          "hot": 225756,
+          "rank": 25,
+          "desc": null,
+          "extra": {}
+        },
+        {
+          "title": "功夫女足",
+          "url": "https://s.weibo.com/weibo?q=%E5%8A%9F%E5%A4%AB%E5%A5%B3%E8%B6%B3",
+          "hot": 217970,
+          "rank": 26,
           "desc": null,
           "extra": {}
         },
         {
           "title": "一直以为取卡针的作用只有换电话卡",
           "url": "https://s.weibo.com/weibo?q=%E4%B8%80%E7%9B%B4%E4%BB%A5%E4%B8%BA%E5%8F%96%E5%8D%A1%E9%92%88%E7%9A%84%E4%BD%9C%E7%94%A8%E5%8F%AA%E6%9C%89%E6%8D%A2%E7%94%B5%E8%AF%9D%E5%8D%A1",
-          "hot": 264908,
-          "rank": 24,
-          "desc": null,
-          "extra": {}
-        },
-        {
-          "title": "冉莹颖说把北京贵阳美国的房子都卖了",
-          "url": "https://s.weibo.com/weibo?q=%E5%86%89%E8%8E%B9%E9%A2%96%E8%AF%B4%E6%8A%8A%E5%8C%97%E4%BA%AC%E8%B4%B5%E9%98%B3%E7%BE%8E%E5%9B%BD%E7%9A%84%E6%88%BF%E5%AD%90%E9%83%BD%E5%8D%96%E4%BA%86",
-          "hot": 263684,
-          "rank": 25,
+          "hot": 201944,
+          "rank": 27,
           "desc": null,
           "extra": {}
         },
         {
           "title": "泰州地震",
           "url": "https://s.weibo.com/weibo?q=%E6%B3%B0%E5%B7%9E%E5%9C%B0%E9%9C%87",
-          "hot": 253415,
-          "rank": 26,
-          "desc": null,
-          "extra": {}
-        },
-        {
-          "title": "四川最近的现状",
-          "url": "https://s.weibo.com/weibo?q=%E5%9B%9B%E5%B7%9D%E6%9C%80%E8%BF%91%E7%9A%84%E7%8E%B0%E7%8A%B6",
-          "hot": 250464,
-          "rank": 27,
-          "desc": null,
-          "extra": {}
-        },
-        {
-          "title": "高中生拍门玩闹何以酿成命案",
-          "url": "https://s.weibo.com/weibo?q=%E9%AB%98%E4%B8%AD%E7%94%9F%E6%8B%8D%E9%97%A8%E7%8E%A9%E9%97%B9%E4%BD%95%E4%BB%A5%E9%85%BF%E6%88%90%E5%91%BD%E6%A1%88",
-          "hot": 225698,
+          "hot": 189284,
           "rank": 28,
           "desc": null,
           "extra": {}
@@ -538,7 +538,7 @@
         {
           "title": "赛力斯预计半年净亏损15至18亿元",
           "url": "https://s.weibo.com/weibo?q=%E8%B5%9B%E5%8A%9B%E6%96%AF%E9%A2%84%E8%AE%A1%E5%8D%8A%E5%B9%B4%E5%87%80%E4%BA%8F%E6%8D%9F15%E8%87%B318%E4%BA%BF%E5%85%83",
-          "hot": 214475,
+          "hot": 182073,
           "rank": 29,
           "desc": null,
           "extra": {}
@@ -546,127 +546,127 @@
         {
           "title": "这两场焦点战范大将军坐不住了",
           "url": "https://s.weibo.com/weibo?q=%E8%BF%99%E4%B8%A4%E5%9C%BA%E7%84%A6%E7%82%B9%E6%88%98%E8%8C%83%E5%A4%A7%E5%B0%86%E5%86%9B%E5%9D%90%E4%B8%8D%E4%BD%8F%E4%BA%86",
-          "hot": 209798,
+          "hot": 178298,
           "rank": 30,
           "desc": null,
           "extra": {}
         },
         {
-          "title": "侯明昊金莎接住了对方的戏",
-          "url": "https://s.weibo.com/weibo?q=%E4%BE%AF%E6%98%8E%E6%98%8A%E9%87%91%E8%8E%8E%E6%8E%A5%E4%BD%8F%E4%BA%86%E5%AF%B9%E6%96%B9%E7%9A%84%E6%88%8F",
-          "hot": 207384,
+          "title": "四川最近的现状",
+          "url": "https://s.weibo.com/weibo?q=%E5%9B%9B%E5%B7%9D%E6%9C%80%E8%BF%91%E7%9A%84%E7%8E%B0%E7%8A%B6",
+          "hot": 177495,
           "rank": 31,
-          "desc": null,
-          "extra": {}
-        },
-        {
-          "title": "太原理工大学CUBAL冠军",
-          "url": "https://s.weibo.com/weibo?q=%E5%A4%AA%E5%8E%9F%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6CUBAL%E5%86%A0%E5%86%9B",
-          "hot": 199653,
-          "rank": 32,
-          "desc": null,
-          "extra": {}
-        },
-        {
-          "title": "诸事皆宜 徐若晗",
-          "url": "https://s.weibo.com/weibo?q=%E8%AF%B8%E4%BA%8B%E7%9A%86%E5%AE%9C%20%E5%BE%90%E8%8B%A5%E6%99%97",
-          "hot": 193660,
-          "rank": 33,
-          "desc": null,
-          "extra": {}
-        },
-        {
-          "title": "突然感觉大家对精致生活祛魅了",
-          "url": "https://s.weibo.com/weibo?q=%E7%AA%81%E7%84%B6%E6%84%9F%E8%A7%89%E5%A4%A7%E5%AE%B6%E5%AF%B9%E7%B2%BE%E8%87%B4%E7%94%9F%E6%B4%BB%E7%A5%9B%E9%AD%85%E4%BA%86",
-          "hot": 192261,
-          "rank": 34,
-          "desc": null,
-          "extra": {}
-        },
-        {
-          "title": "丁程鑫直播8小时",
-          "url": "https://s.weibo.com/weibo?q=%E4%B8%81%E7%A8%8B%E9%91%AB%E7%9B%B4%E6%92%AD8%E5%B0%8F%E6%97%B6",
-          "hot": 190074,
-          "rank": 35,
           "desc": null,
           "extra": {}
         },
         {
           "title": "王俊凯一口气唱了周杰伦9首歌",
           "url": "https://s.weibo.com/weibo?q=%E7%8E%8B%E4%BF%8A%E5%87%AF%E4%B8%80%E5%8F%A3%E6%B0%94%E5%94%B1%E4%BA%86%E5%91%A8%E6%9D%B0%E4%BC%A69%E9%A6%96%E6%AD%8C",
-          "hot": 181485,
+          "hot": 167771,
+          "rank": 32,
+          "desc": null,
+          "extra": {}
+        },
+        {
+          "title": "世界杯史上最强半决赛",
+          "url": "https://s.weibo.com/weibo?q=%E4%B8%96%E7%95%8C%E6%9D%AF%E5%8F%B2%E4%B8%8A%E6%9C%80%E5%BC%BA%E5%8D%8A%E5%86%B3%E8%B5%9B",
+          "hot": 165658,
+          "rank": 33,
+          "desc": null,
+          "extra": {}
+        },
+        {
+          "title": "侯明昊金莎接住了对方的戏",
+          "url": "https://s.weibo.com/weibo?q=%E4%BE%AF%E6%98%8E%E6%98%8A%E9%87%91%E8%8E%8E%E6%8E%A5%E4%BD%8F%E4%BA%86%E5%AF%B9%E6%96%B9%E7%9A%84%E6%88%8F",
+          "hot": 160819,
+          "rank": 34,
+          "desc": null,
+          "extra": {}
+        },
+        {
+          "title": "汪苏泷气的直接脱了个衣服",
+          "url": "https://s.weibo.com/weibo?q=%E6%B1%AA%E8%8B%8F%E6%B3%B7%E6%B0%94%E7%9A%84%E7%9B%B4%E6%8E%A5%E8%84%B1%E4%BA%86%E4%B8%AA%E8%A1%A3%E6%9C%8D",
+          "hot": 160815,
+          "rank": 35,
+          "desc": null,
+          "extra": {}
+        },
+        {
+          "title": "突然感觉大家对精致生活祛魅了",
+          "url": "https://s.weibo.com/weibo?q=%E7%AA%81%E7%84%B6%E6%84%9F%E8%A7%89%E5%A4%A7%E5%AE%B6%E5%AF%B9%E7%B2%BE%E8%87%B4%E7%94%9F%E6%B4%BB%E7%A5%9B%E9%AD%85%E4%BA%86",
+          "hot": 157349,
           "rank": 36,
           "desc": null,
           "extra": {}
         },
         {
-          "title": "Bin被打成了BLG的最大弱点",
-          "url": "https://s.weibo.com/weibo?q=Bin%E8%A2%AB%E6%89%93%E6%88%90%E4%BA%86BLG%E7%9A%84%E6%9C%80%E5%A4%A7%E5%BC%B1%E7%82%B9",
-          "hot": 179650,
+          "title": "诸事皆宜 徐若晗",
+          "url": "https://s.weibo.com/weibo?q=%E8%AF%B8%E4%BA%8B%E7%9A%86%E5%AE%9C%20%E5%BE%90%E8%8B%A5%E6%99%97",
+          "hot": 157000,
           "rank": 37,
-          "desc": null,
-          "extra": {}
-        },
-        {
-          "title": "功夫女足豆瓣6.6票房却杀疯了",
-          "url": "https://s.weibo.com/weibo?q=%E5%8A%9F%E5%A4%AB%E5%A5%B3%E8%B6%B3%E8%B1%86%E7%93%A36.6%E7%A5%A8%E6%88%BF%E5%8D%B4%E6%9D%80%E7%96%AF%E4%BA%86",
-          "hot": 179258,
-          "rank": 38,
-          "desc": null,
-          "extra": {}
-        },
-        {
-          "title": "英格兰派出了贝林哄哈兰德",
-          "url": "https://s.weibo.com/weibo?q=%E8%8B%B1%E6%A0%BC%E5%85%B0%E6%B4%BE%E5%87%BA%E4%BA%86%E8%B4%9D%E6%9E%97%E5%93%84%E5%93%88%E5%85%B0%E5%BE%B7",
-          "hot": 178684,
-          "rank": 39,
-          "desc": null,
-          "extra": {}
-        },
-        {
-          "title": "特朗普担心被暗杀立报复遗嘱",
-          "url": "https://s.weibo.com/weibo?q=%E7%89%B9%E6%9C%97%E6%99%AE%E6%8B%85%E5%BF%83%E8%A2%AB%E6%9A%97%E6%9D%80%E7%AB%8B%E6%8A%A5%E5%A4%8D%E9%81%97%E5%98%B1",
-          "hot": 175568,
-          "rank": 40,
-          "desc": null,
-          "extra": {}
-        },
-        {
-          "title": "丁程鑫开始盘串了",
-          "url": "https://s.weibo.com/weibo?q=%E4%B8%81%E7%A8%8B%E9%91%AB%E5%BC%80%E5%A7%8B%E7%9B%98%E4%B8%B2%E4%BA%86",
-          "hot": 173372,
-          "rank": 41,
-          "desc": null,
-          "extra": {}
-        },
-        {
-          "title": "陈星旭又成周也王玉雯的桌子了",
-          "url": "https://s.weibo.com/weibo?q=%E9%99%88%E6%98%9F%E6%97%AD%E5%8F%88%E6%88%90%E5%91%A8%E4%B9%9F%E7%8E%8B%E7%8E%89%E9%9B%AF%E7%9A%84%E6%A1%8C%E5%AD%90%E4%BA%86",
-          "hot": 170182,
-          "rank": 42,
-          "desc": null,
-          "extra": {}
-        },
-        {
-          "title": "Bin 团队意识",
-          "url": "https://s.weibo.com/weibo?q=Bin%20%E5%9B%A2%E9%98%9F%E6%84%8F%E8%AF%86",
-          "hot": 169158,
-          "rank": 43,
           "desc": null,
           "extra": {}
         },
         {
           "title": "包文婧想让饺子考985",
           "url": "https://s.weibo.com/weibo?q=%E5%8C%85%E6%96%87%E5%A9%A7%E6%83%B3%E8%AE%A9%E9%A5%BA%E5%AD%90%E8%80%83985",
-          "hot": 165482,
+          "hot": 154278,
+          "rank": 38,
+          "desc": null,
+          "extra": {}
+        },
+        {
+          "title": "太原理工大学CUBAL冠军",
+          "url": "https://s.weibo.com/weibo?q=%E5%A4%AA%E5%8E%9F%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6CUBAL%E5%86%A0%E5%86%9B",
+          "hot": 143643,
+          "rank": 39,
+          "desc": null,
+          "extra": {}
+        },
+        {
+          "title": "丁程鑫直播8小时",
+          "url": "https://s.weibo.com/weibo?q=%E4%B8%81%E7%A8%8B%E9%91%AB%E7%9B%B4%E6%92%AD8%E5%B0%8F%E6%97%B6",
+          "hot": 143395,
+          "rank": 40,
+          "desc": null,
+          "extra": {}
+        },
+        {
+          "title": "功夫女足豆瓣6.6票房却杀疯了",
+          "url": "https://s.weibo.com/weibo?q=%E5%8A%9F%E5%A4%AB%E5%A5%B3%E8%B6%B3%E8%B1%86%E7%93%A36.6%E7%A5%A8%E6%88%BF%E5%8D%B4%E6%9D%80%E7%96%AF%E4%BA%86",
+          "hot": 134492,
+          "rank": 41,
+          "desc": null,
+          "extra": {}
+        },
+        {
+          "title": "BLG赛后众生相",
+          "url": "https://s.weibo.com/weibo?q=BLG%E8%B5%9B%E5%90%8E%E4%BC%97%E7%94%9F%E7%9B%B8",
+          "hot": 123244,
+          "rank": 42,
+          "desc": null,
+          "extra": {}
+        },
+        {
+          "title": "陈星旭又成周也王玉雯的桌子了",
+          "url": "https://s.weibo.com/weibo?q=%E9%99%88%E6%98%9F%E6%97%AD%E5%8F%88%E6%88%90%E5%91%A8%E4%B9%9F%E7%8E%8B%E7%8E%89%E9%9B%AF%E7%9A%84%E6%A1%8C%E5%AD%90%E4%BA%86",
+          "hot": 123231,
+          "rank": 43,
+          "desc": null,
+          "extra": {}
+        },
+        {
+          "title": "Bin被打成了BLG的最大弱点",
+          "url": "https://s.weibo.com/weibo?q=Bin%E8%A2%AB%E6%89%93%E6%88%90%E4%BA%86BLG%E7%9A%84%E6%9C%80%E5%A4%A7%E5%BC%B1%E7%82%B9",
+          "hot": 122828,
           "rank": 44,
           "desc": null,
           "extra": {}
         },
         {
-          "title": "中国女排2比3意大利女排",
-          "url": "https://s.weibo.com/weibo?q=%E4%B8%AD%E5%9B%BD%E5%A5%B3%E6%8E%922%E6%AF%943%E6%84%8F%E5%A4%A7%E5%88%A9%E5%A5%B3%E6%8E%92",
-          "hot": 156914,
+          "title": "鹿晗意外英格兰还留在世界杯",
+          "url": "https://s.weibo.com/weibo?q=%E9%B9%BF%E6%99%97%E6%84%8F%E5%A4%96%E8%8B%B1%E6%A0%BC%E5%85%B0%E8%BF%98%E7%95%99%E5%9C%A8%E4%B8%96%E7%95%8C%E6%9D%AF",
+          "hot": 121559,
           "rank": 45,
           "desc": null,
           "extra": {}
@@ -674,31 +674,31 @@
         {
           "title": "KSG和AG都被零封了",
           "url": "https://s.weibo.com/weibo?q=KSG%E5%92%8CAG%E9%83%BD%E8%A2%AB%E9%9B%B6%E5%B0%81%E4%BA%86",
-          "hot": 149554,
+          "hot": 119773,
           "rank": 46,
           "desc": null,
           "extra": {}
         },
         {
-          "title": "哈兰德快哭了",
-          "url": "https://s.weibo.com/weibo?q=%E5%93%88%E5%85%B0%E5%BE%B7%E5%BF%AB%E5%93%AD%E4%BA%86",
-          "hot": 149411,
+          "title": "周柯宇大晚上在山上跳扫腿舞",
+          "url": "https://s.weibo.com/weibo?q=%E5%91%A8%E6%9F%AF%E5%AE%87%E5%A4%A7%E6%99%9A%E4%B8%8A%E5%9C%A8%E5%B1%B1%E4%B8%8A%E8%B7%B3%E6%89%AB%E8%85%BF%E8%88%9E",
+          "hot": 116759,
           "rank": 47,
           "desc": null,
           "extra": {}
         },
         {
-          "title": "BLG赛后众生相",
-          "url": "https://s.weibo.com/weibo?q=BLG%E8%B5%9B%E5%90%8E%E4%BC%97%E7%94%9F%E7%9B%B8",
-          "hot": 145434,
+          "title": "英格兰派出了贝林哄哈兰德",
+          "url": "https://s.weibo.com/weibo?q=%E8%8B%B1%E6%A0%BC%E5%85%B0%E6%B4%BE%E5%87%BA%E4%BA%86%E8%B4%9D%E6%9E%97%E5%93%84%E5%93%88%E5%85%B0%E5%BE%B7",
+          "hot": 116690,
           "rank": 48,
           "desc": null,
           "extra": {}
         },
         {
-          "title": "WB夏季赛零封AG",
-          "url": "https://s.weibo.com/weibo?q=WB%E5%A4%8F%E5%AD%A3%E8%B5%9B%E9%9B%B6%E5%B0%81AG",
-          "hot": 141018,
+          "title": "中国预制房在海外火了",
+          "url": "https://s.weibo.com/weibo?q=%E4%B8%AD%E5%9B%BD%E9%A2%84%E5%88%B6%E6%88%BF%E5%9C%A8%E6%B5%B7%E5%A4%96%E7%81%AB%E4%BA%86",
+          "hot": 115793,
           "rank": 49,
           "desc": null,
           "extra": {}
@@ -706,7 +706,7 @@
         {
           "title": "明明天权与孙东旭合开公司",
           "url": "https://s.weibo.com/weibo?q=%E6%98%8E%E6%98%8E%E5%A4%A9%E6%9D%83%E4%B8%8E%E5%AD%99%E4%B8%9C%E6%97%AD%E5%90%88%E5%BC%80%E5%85%AC%E5%8F%B8",
-          "hot": 140644,
+          "hot": 115614,
           "rank": 50,
           "desc": null,
           "extra": {}
@@ -736,12 +736,13 @@
           "desc_source": "source"
         },
         {
-          "title": "世界杯四强法国、阿根廷、西班牙、英格兰，正好是 FIFA 排名前四的球队，你更看好谁夺冠？",
-          "url": "https://www.zhihu.com/question/2059606032012113468",
+          "title": "如何看待中华人民共和国外交部发布关于有关国家炒作「南海仲裁案裁决」出台十年的声明？释放了哪些信号？",
+          "url": "https://www.zhihu.com/question/2059717066660303002",
           "hot": null,
           "rank": 3,
-          "desc": null,
-          "extra": {}
+          "desc": "关于美国、菲律宾、澳大利亚、加拿大、爱沙尼亚、德国、意大利、日本、拉脱维亚、立陶宛、新西兰、罗马尼亚、斯洛文尼亚、英国等国于2026年7月12日发表所谓“纪念南海仲裁案裁决”十年联合声明，中华人民共和国外交部郑重声明如下： 一、中国对南海诸岛，包括东沙群岛、西沙群岛、中沙群岛和南沙群岛拥有主权；中国南海诸岛拥有内水、领海、毗连区、专属经济区和大陆架；中国在南海拥有历史性权利。中国对南海诸岛的主权和在南海的相关权益，是在漫长的历史过程中确立的。早在公元前2世纪的西汉时期，中国人民就在南海航行，并在长期实践中发现了南海诸岛。中国最早并持续、和平、有效地对南海诸岛及相关海域行使主权和管辖。南海诸岛属于中国早已成为国际社会的普遍共识。 二、南海是世界上最安全的海上通道之一，南海的航行和飞越自由从来不存在任何问题。中国坚定维护在南海的领土主权和海洋权益，坚定维护南海的和平稳定。针对有关国家在南海的侵权挑衅，中国采取坚定措施捍卫自身权益，合理合法，专业克制。美国等域外国家持续在南海强化军力部署，横冲直撞、煽风点火，此种军事化、胁迫性行径才是当前南海局势面临的主要挑战。 三、陆地领土问题不属于《联合国海洋法公约》调整范围。海洋划界争议已被中国2006年根据《联合国海洋法公约》第298条作出的声明排除出《联合国海洋法公约》强制争端解决程序。在领土问题和海洋划界争议上，中国不接受任何强加于中国的争端解决方案。中国将继续遵循联合国宪章确认的国际法基本原则和国际关系基本准则，包括尊重国家主权和领土完整以及和平解决争端原则，坚持与直接有关当事国在尊重历史事实的基础上，根据国际法，通过谈判协商解决南海有关争议，维护南海和平稳定。 四、中国在“南海仲裁案”问题上的立场是明确的、一贯的、坚定的。“南海仲裁案”违反“国家同意”“约定必须遵守”等国际法基本原则，违反《联合国海洋法公约》本身，更违背南海基本事实。所谓“裁决”是一张非法无效没有拘束力的废纸。中国不接受、不承认该“裁决”，反对且不接受任何基于该“裁决”的主张和行动。中国在南海的领土主权和海洋权益任何情况下不受该“裁决”影响。 五、“裁决”出台十年来，不但没有解决中菲涉海问题，反而成为菲律宾扩张领土海洋声索的工具，激化了地区矛盾，并为域外势力介入南海问题、搅动南海局势提供了借口，已成为影响中菲关系和南海和平稳定的“绊脚石”。如果按照“裁决”的标准，很多国家的岛礁将失去主张海洋权益的依据。试问，个别支持“裁决”的国家是否已自愿放弃本国相应岛礁的海洋权益？有关国家持续炒作非法“裁决”，与地区和平稳定的大势不符，同地区国家和人民谋求发展繁荣的愿景相悖，其企图注定不会得逞。我们敦促有关国家切实尊重中国在南海的领土主权和海洋权益，停止在南海问题上挑事生非，停止破坏南海和平稳定。外交部新闻_中华人民共和国外交部",
+          "extra": {},
+          "desc_source": "source"
         },
         {
           "title": "小红书前员工再发文实名举报 IPO 合规，哪些信息值得关注？",
@@ -762,13 +763,12 @@
           "desc_source": "source"
         },
         {
-          "title": "如何看待中华人民共和国外交部发布关于有关国家炒作「南海仲裁案裁决」出台十年的声明？释放了哪些信号？",
-          "url": "https://www.zhihu.com/question/2059717066660303002",
+          "title": "世界杯四强法国、阿根廷、西班牙、英格兰，正好是 FIFA 排名前四的球队，你更看好谁夺冠？",
+          "url": "https://www.zhihu.com/question/2059606032012113468",
           "hot": null,
           "rank": 6,
-          "desc": "关于美国、菲律宾、澳大利亚、加拿大、爱沙尼亚、德国、意大利、日本、拉脱维亚、立陶宛、新西兰、罗马尼亚、斯洛文尼亚、英国等国于2026年7月12日发表所谓“纪念南海仲裁案裁决”十年联合声明，中华人民共和国外交部郑重声明如下： 一、中国对南海诸岛，包括东沙群岛、西沙群岛、中沙群岛和南沙群岛拥有主权；中国南海诸岛拥有内水、领海、毗连区、专属经济区和大陆架；中国在南海拥有历史性权利。中国对南海诸岛的主权和在南海的相关权益，是在漫长的历史过程中确立的。早在公元前2世纪的西汉时期，中国人民就在南海航行，并在长期实践中发现了南海诸岛。中国最早并持续、和平、有效地对南海诸岛及相关海域行使主权和管辖。南海诸岛属于中国早已成为国际社会的普遍共识。 二、南海是世界上最安全的海上通道之一，南海的航行和飞越自由从来不存在任何问题。中国坚定维护在南海的领土主权和海洋权益，坚定维护南海的和平稳定。针对有关国家在南海的侵权挑衅，中国采取坚定措施捍卫自身权益，合理合法，专业克制。美国等域外国家持续在南海强化军力部署，横冲直撞、煽风点火，此种军事化、胁迫性行径才是当前南海局势面临的主要挑战。 三、陆地领土问题不属于《联合国海洋法公约》调整范围。海洋划界争议已被中国2006年根据《联合国海洋法公约》第298条作出的声明排除出《联合国海洋法公约》强制争端解决程序。在领土问题和海洋划界争议上，中国不接受任何强加于中国的争端解决方案。中国将继续遵循联合国宪章确认的国际法基本原则和国际关系基本准则，包括尊重国家主权和领土完整以及和平解决争端原则，坚持与直接有关当事国在尊重历史事实的基础上，根据国际法，通过谈判协商解决南海有关争议，维护南海和平稳定。 四、中国在“南海仲裁案”问题上的立场是明确的、一贯的、坚定的。“南海仲裁案”违反“国家同意”“约定必须遵守”等国际法基本原则，违反《联合国海洋法公约》本身，更违背南海基本事实。所谓“裁决”是一张非法无效没有拘束力的废纸。中国不接受、不承认该“裁决”，反对且不接受任何基于该“裁决”的主张和行动。中国在南海的领土主权和海洋权益任何情况下不受该“裁决”影响。 五、“裁决”出台十年来，不但没有解决中菲涉海问题，反而成为菲律宾扩张领土海洋声索的工具，激化了地区矛盾，并为域外势力介入南海问题、搅动南海局势提供了借口，已成为影响中菲关系和南海和平稳定的“绊脚石”。如果按照“裁决”的标准，很多国家的岛礁将失去主张海洋权益的依据。试问，个别支持“裁决”的国家是否已自愿放弃本国相应岛礁的海洋权益？有关国家持续炒作非法“裁决”，与地区和平稳定的大势不符，同地区国家和人民谋求发展繁荣的愿景相悖，其企图注定不会得逞。我们敦促有关国家切实尊重中国在南海的领土主权和海洋权益，停止在南海问题上挑事生非，停止破坏南海和平稳定。外交部新闻_中华人民共和国外交部",
-          "extra": {},
-          "desc_source": "source"
+          "desc": null,
+          "extra": {}
         },
         {
           "title": "如何看待 7 月 12 日伊朗再次宣布关闭霍尔木兹海峡？这种封锁会成为常态吗？从长期看，要怎么应对？",
@@ -831,13 +831,12 @@
           "desc_source": "source"
         },
         {
-          "title": "巴丹群岛距离中国台湾岛约 190 公里，为何被指菲律宾对其无主权？",
-          "url": "https://www.zhihu.com/question/2057979365087093311",
+          "title": "2026 MSI 决赛 BLG 输在哪？",
+          "url": "https://www.zhihu.com/question/2059726264324157732",
           "hot": null,
           "rank": 14,
-          "desc": "转发微博 为什么说菲律宾对巴丹群岛没有主权？#热点解读# 中国台湾岛和菲律宾吕宋岛之间有两组岛屿。巴丹群岛距离我台湾岛约190公里，而巴布延群岛则靠近吕宋岛。巴丹群岛由10个小岛组成，其中最大的是伊特巴亚特岛，其次是巴丹岛。巴丹群岛面积210平方公里。研究表明，岛上居民拥有独特的特征。他们自称是伊 ...全文",
-          "extra": {},
-          "desc_source": "source"
+          "desc": null,
+          "extra": {}
         },
         {
           "title": "为什么现在分享个人经历，很多人会用「创伤」来定义自己的感受？「创伤叙事」是不是被滥用了？",
@@ -858,18 +857,10 @@
           "desc_source": "source"
         },
         {
-          "title": "2026 MSI 决赛 BLG 输在哪？",
-          "url": "https://www.zhihu.com/question/2059726264324157732",
-          "hot": null,
-          "rank": 17,
-          "desc": null,
-          "extra": {}
-        },
-        {
           "title": "特厨隋坡探店全差评餐厅引争议，老板「逆天回怼」是高明还是失策？",
           "url": "https://www.zhihu.com/question/2059021609504186485",
           "hot": null,
-          "rank": 18,
+          "rank": 17,
           "desc": "7 月初，知名国宴大厨、美食博主特厨隋坡发布重庆黑珍珠餐厅尘香的探店视频，整桌菜品无一达标，成为其 2026 年首家收获全差评的门店，相关内容在各大社交平台引发大量网友讨论。两人用餐总计消费 691 元，多道高价菜品均出现明显硬伤，隋坡结合专业烹饪知识逐条指出问题，点评客观直白。 视频里，198 元干烧江团土腥味浓重，店家辩解称高油温能去除异味，隋坡当场戳破误区，表示高温只会把腥味锁在食材内部；49 元麻婆豆腐上桌已经放凉，宫保鸡丁小苏打过量口感发木，开水白菜工序偷工减料，多道菜品完全匹配不上黑珍珠定位与定价。 视频发酵后，该门店运营账号在评论区硬刚网友，面对食客质疑菜品有异味，店家直言吃饭全看运气，甚至用 “进店前就嗝屁就不用吃” 这类离谱话术回怼消费者，态度敷衍且缺乏诚意，低情商发言迅速激起网友 特厨隋坡探店全差评餐厅！老板逆天回怼硬刚全网",
           "extra": {},
           "desc_source": "source"
@@ -878,16 +869,16 @@
           "title": "如何评价 Bin 在 2026 季中赛决赛除绝活武器外的糟糕表现？",
           "url": "https://www.zhihu.com/question/2059724574866895892",
           "hot": null,
-          "rank": 19,
+          "rank": 18,
           "desc": null,
           "extra": {}
         },
         {
-          "title": "多名网络主播偷逃税被查，税务部门追缴税费并处罚款超 1330 万元，具有哪些警示意义？",
-          "url": "https://www.zhihu.com/question/2058858186505810525",
+          "title": "巴丹群岛距离中国台湾岛约 190 公里，为何被指菲律宾对其无主权？",
+          "url": "https://www.zhihu.com/question/2057979365087093311",
           "hot": null,
-          "rank": 20,
-          "desc": "记者7月10日从国家税务总局获悉，山东、浙江、四川等地税务部门当日集中曝光7起网红网店涉税违法案件。涉案主体不乏粉丝量超600万的网络主播、年销售额上亿元的热门网店。 此次集中曝光案件中的4起网络主播偷逃税案一大共同点就是“高流量低申报”——涉案主播直播间热度高、带货流量大，甚至常有粉丝打赏，可这些主播的税费申报缴纳却很低。 在多个网络平台直播带货的主播许静婉，粉丝关注量合计超过600万，她不仅申报缴纳个人所得税极少，且其负责带货的两家网店自成立以来各类税费申报数据均为0；主播汪一芳直播引流，网络热度高，粉丝量近百万，可本人四年期间仅申报缴纳个人所得税2000余元；主播郭晓峰的粉丝量高达240万，账号橱窗销售量累计达百万单，四年间缴纳税款合计仅有1.35万元；主播陈旭在2022年至2024年间几乎每天都直播，粉丝量高达100多万，直播间人气很高，粉丝经常打赏，可他2022年度个人所得税申报收入为0元，2023年度缴纳个人所得税仅几百元。 在深入调查后，税务部门对上述4名网络主播作出追缴税费款、加收滞纳金并处罚款的处理处罚决定，合计金额超过1330万元。目前，相关款项均已全部追缴入库。 值得注意的是，在另外3起网店偷逃税案件中，有网店竟以“逃逸式”注销的方式偷逃税款。在山东，税务部门调查发现，在2023年至2024年间，聊城开发区奶泡商贸经营部实际控制人任威成立奶泡商贸在网络平台销售货物，以多种方式隐匿经营收入2.07亿元，后又通过注销工商登记逃避纳税义务，少缴个人所得税、增值税等税费544.72万元。 国家税务总局相关部门负责人表示，通过私人账户收款隐匿收入、转换收入性质、“逃逸式”注销、进行虚假申报等方式偷逃税款属违法行为。平台企业应依法依规如实报送平台内经营者和从业人员涉税信息；平台内经营者和从业人员应增强法治意识，合规经营、诚信纳税。https://news.sina.cn/gn/2026-07-10/detail-inihhrai8421538.d.html?sinawapsharesource=newsapp&wm=3200_0024",
+          "rank": 19,
+          "desc": "转发微博 为什么说菲律宾对巴丹群岛没有主权？#热点解读# 中国台湾岛和菲律宾吕宋岛之间有两组岛屿。巴丹群岛距离我台湾岛约190公里，而巴布延群岛则靠近吕宋岛。巴丹群岛由10个小岛组成，其中最大的是伊特巴亚特岛，其次是巴丹岛。巴丹群岛面积210平方公里。研究表明，岛上居民拥有独特的特征。他们自称是伊 ...全文",
           "extra": {},
           "desc_source": "source"
         },
@@ -895,17 +886,8 @@
           "title": "周星驰官宣新「星女郎」雪野，她未来的发展潜力如何？",
           "url": "https://www.zhihu.com/question/2059265190982693711",
           "hot": null,
-          "rank": 21,
+          "rank": 20,
           "desc": "据灯塔专业版数据，截至7月11日11时32分，电影 《功夫女足》上映首日，总票房破1亿。 11日上午，@电影功夫女足 官方微博发文：累计票房破亿！“1”往无前勇闯赛场，一身功夫燃炸全场，感谢大家的喜爱与支持！ 据灯塔专业版，《功夫女足 》已打破3项影史纪录：中国影史暑期档影片首映日场次纪录、过去三年暑期档影片首映日场次纪录、过去三年暑期档影片预售票房纪录。 《功夫女足》是由周星驰执导并担任编剧，张小斐、迪丽热巴、张艺兴领衔主演，刘嘉玲、佐藤健特别出演，陈旻、李卓媚、秦鹏飞等主演的电影，于2026年7月11日在中国内地上映。 该片讲述了中国女子足球队“峨眉队”征战女足亚冠杯的热血故事，剧情围绕团队从不被看好到逆袭夺冠的成长历程。 电影融合少林功夫与足球元素，延续了《少林足球》标志性的“功夫足球” 风格。 11日，周星驰经纪人陈震宇宣布新人演员雪野，同时也在电影《功夫女足》中饰演同名角色，时隔8年迎来新的“星女郎”。 记者整理了一下具有代表性的几位星女郎，看看哪个更能触动你的心弦： 1、朱茵 合作电影：《大话西游之月光宝盒》《大话西游之大圣娶亲》《逃学威龙2》 2、莫文蔚 合作电影：《大话西游之月光宝盒》《大话西游之大圣娶亲》《喜剧之王》《食神》《回魂夜》《少林足球》《算死草》 3、张敏 合作电影：《逃学威龙》《逃学威龙2》《逃学威龙3龙过鸡年》《武状元苏乞儿》《漫画威龙》《鹿鼎记》《九品芝麻官之白面包青天》《赌圣》《赌圣2之上海滩赌圣》《赌侠》《新精武门1991》《最佳女婿》 4、邱淑贞 合作电影：《鹿鼎记》《鹿鼎记2神龙教》《算死草》《整蛊专家》 5、林青霞 合作电影：《鹿鼎记2神龙教》 6、陈德容 合作电影：《师兄撞鬼》《鹿鼎记》《鹿鼎记2神龙教》 7、张柏芝 合作电影：《喜剧之王》《少林足球》 8、袁咏仪 合作电影：《国产凌凌漆》 9、钟丽缇 合作电影：《破坏之王》《九品芝麻官之白面包青天》《97家有喜事》 10、张曼玉 合作电影：《家有喜事》《济公》 11、巩俐 合作电影：《唐伯虎点秋香》《赌圣2之上海滩赌圣》 12、黄圣依 合作电影：《功夫》 周星驰方时隔8年官宣新“星女郎”雪野：在电影《功夫女足》中饰演同名角色；该电影上映首日票房破亿，打破3项影史纪录，官方发文",
-          "extra": {},
-          "desc_source": "source"
-        },
-        {
-          "title": "如何看待 2026 年 7 月 11 日周星驰新电影《功夫女足》预测票房飙升至 18.6 亿人民币？",
-          "url": "https://www.zhihu.com/question/2059204572552361429",
-          "hot": null,
-          "rank": 22,
-          "desc": "《功夫女足》预测票房飙升至18.6亿人民币，上映首日票房预测值突破2.6亿人民币，能否为2026暑期档打开局面？ --- 7月11日最终票房详情如下： --- 截至7月11日晚上10:30，当日票房及预测如下： --- 截至7月11日下午4:00，当日票房及预测如下： --- 截至7月11日上午9:30，当日票房及预测如下：",
           "extra": {},
           "desc_source": "source"
         },
@@ -913,7 +895,7 @@
           "title": "冉莹颖称曾多次想离婚，录综艺本想救赎婚姻，录完「不再执着于改造对方」，透露出怎样的婚姻相处智慧？",
           "url": "https://www.zhihu.com/question/2057515225566242609",
           "hot": null,
-          "rank": 23,
+          "rank": 21,
           "desc": "7月6日，拳王邹市明妻子冉莹颖在《姐姐当家2》看片会上表示自己曾多次想离婚，更是自曝去民政局都去了3次。她坦言一开始上这个节目是为了救赎婚姻，改变丈夫，但录完后感觉救赎的是自己。 媒体提问：在录节目过程中，第一次进到演播室就失控大哭。 其实我特别感恩这次录制也让我的爱人看到了他自己的问题，让我自己也审视了自己的问题，我觉得女人在这个社会当中要越来越找到自己，让自己真正的强大起来 公开资料显示，《姐姐当家第二季》是由爱奇艺出品的熟龄女性观察节目，当家姐姐为杜华、房主任、冉莹颖、小鹿、徐梦桃。节目计划于2026年7月在爱奇艺播出。节目以“姐姐当家，爱是什么”为主题，聚焦不同年龄、不同职业、不同人生阶段女性的真实生活，将镜头对准家庭、婚姻、事业、自我成长等现实命题，在真实故事中重新探寻关于爱的多元答案。https://baijiahao.baidu.com/s?id=1869944807296919020&wfr=spider&for=pc",
           "extra": {},
           "desc_source": "source"
@@ -922,8 +904,26 @@
           "title": "如何评价三月女神放天理进提瓦特而不是不放？",
           "url": "https://www.zhihu.com/question/2059362768923391698",
           "hot": null,
-          "rank": 24,
+          "rank": 22,
           "desc": "最近有视频说把三月女神的故事写崩了，理由是三月没有坚定的立场，既没有在尼大王一边，也没有在天理这边，有能力又啥都没干，就觉得一开始能不放天理进来就不放呗",
+          "extra": {},
+          "desc_source": "source"
+        },
+        {
+          "title": "《水浒传》戴宗的能力平平，是不是被高估了？",
+          "url": "https://www.zhihu.com/question/2057377369963468673",
+          "hot": null,
+          "rank": 23,
+          "desc": "神行太保戴宗，除了跑得快好像再没啥突出贡献，能进天罡核心就是因为是宋江心腹！",
+          "extra": {},
+          "desc_source": "source"
+        },
+        {
+          "title": "多名网络主播偷逃税被查，税务部门追缴税费并处罚款超 1330 万元，具有哪些警示意义？",
+          "url": "https://www.zhihu.com/question/2058858186505810525",
+          "hot": null,
+          "rank": 24,
+          "desc": "记者7月10日从国家税务总局获悉，山东、浙江、四川等地税务部门当日集中曝光7起网红网店涉税违法案件。涉案主体不乏粉丝量超600万的网络主播、年销售额上亿元的热门网店。 此次集中曝光案件中的4起网络主播偷逃税案一大共同点就是“高流量低申报”——涉案主播直播间热度高、带货流量大，甚至常有粉丝打赏，可这些主播的税费申报缴纳却很低。 在多个网络平台直播带货的主播许静婉，粉丝关注量合计超过600万，她不仅申报缴纳个人所得税极少，且其负责带货的两家网店自成立以来各类税费申报数据均为0；主播汪一芳直播引流，网络热度高，粉丝量近百万，可本人四年期间仅申报缴纳个人所得税2000余元；主播郭晓峰的粉丝量高达240万，账号橱窗销售量累计达百万单，四年间缴纳税款合计仅有1.35万元；主播陈旭在2022年至2024年间几乎每天都直播，粉丝量高达100多万，直播间人气很高，粉丝经常打赏，可他2022年度个人所得税申报收入为0元，2023年度缴纳个人所得税仅几百元。 在深入调查后，税务部门对上述4名网络主播作出追缴税费款、加收滞纳金并处罚款的处理处罚决定，合计金额超过1330万元。目前，相关款项均已全部追缴入库。 值得注意的是，在另外3起网店偷逃税案件中，有网店竟以“逃逸式”注销的方式偷逃税款。在山东，税务部门调查发现，在2023年至2024年间，聊城开发区奶泡商贸经营部实际控制人任威成立奶泡商贸在网络平台销售货物，以多种方式隐匿经营收入2.07亿元，后又通过注销工商登记逃避纳税义务，少缴个人所得税、增值税等税费544.72万元。 国家税务总局相关部门负责人表示，通过私人账户收款隐匿收入、转换收入性质、“逃逸式”注销、进行虚假申报等方式偷逃税款属违法行为。平台企业应依法依规如实报送平台内经营者和从业人员涉税信息；平台内经营者和从业人员应增强法治意识，合规经营、诚信纳税。https://news.sina.cn/gn/2026-07-10/detail-inihhrai8421538.d.html?sinawapsharesource=newsapp&wm=3200_0024",
           "extra": {},
           "desc_source": "source"
         },
@@ -937,27 +937,10 @@
           "desc_source": "source"
         },
         {
-          "title": "《水浒传》戴宗的能力平平，是不是被高估了？",
-          "url": "https://www.zhihu.com/question/2057377369963468673",
-          "hot": null,
-          "rank": 26,
-          "desc": "神行太保戴宗，除了跑得快好像再没啥突出贡献，能进天罡核心就是因为是宋江心腹！",
-          "extra": {},
-          "desc_source": "source"
-        },
-        {
-          "title": "你如何看待每天在通勤的地铁上读书的那群人？",
-          "url": "https://www.zhihu.com/question/2057863050372151176",
-          "hot": null,
-          "rank": 27,
-          "desc": null,
-          "extra": {}
-        },
-        {
           "title": "网传大 S 遗产卡里仅有 200 万台币，这一消息真实性如何？",
           "url": "https://www.zhihu.com/question/2058340032570725122",
           "hot": null,
-          "rank": 28,
+          "rank": 26,
           "desc": "据台媒消息称，大S去世之后，卡里只有200万台币，且这些钱并不能用来偿还这套豪宅的贷款，而具俊晔因为思念，常常去其墓地陪伴，鲜少与徐家人聚会，目前是否长期待在台湾省也有待考证。可能是基于这方面的原因，具俊晔并没有继承这套豪宅，反而是汪小菲继续供贷，至于原因则是汪小菲认为这套房子日后也是两个孩子的。",
           "extra": {},
           "desc_source": "source"
@@ -966,7 +949,7 @@
           "title": "人类世界是不是已经进入所谓垃圾时间？",
           "url": "https://www.zhihu.com/question/2055655682284827287",
           "hot": null,
-          "rank": 29,
+          "rank": 27,
           "desc": "再科技发明未能实质性提升，物理学没有突破的情况下，人类是不是已经进入实质垃圾时间，你认为人类历史上这类垃圾时间对于人类文明的贡献是什么 ？",
           "extra": {},
           "desc_source": "source"
@@ -975,9 +958,27 @@
           "title": "为什么大家都拜关羽而不拜吕蒙？",
           "url": "https://www.zhihu.com/question/2058719073760966290",
           "hot": null,
-          "rank": 30,
+          "rank": 28,
           "desc": null,
           "extra": {}
+        },
+        {
+          "title": "修手机现在还行吗，是不是夕阳产业？",
+          "url": "https://www.zhihu.com/question/3073376206",
+          "hot": null,
+          "rank": 29,
+          "desc": "学徒费8000，500可以体验10多天。之后补7500，包教包会，学会程度靠自己。大家觉得可以去吗？",
+          "extra": {},
+          "desc_source": "source"
+        },
+        {
+          "title": "量子力学中为何那么关注本征值和本征函数？",
+          "url": "https://www.zhihu.com/question/3223916122",
+          "hot": null,
+          "rank": 30,
+          "desc": "量子力学课程中，发现很多都是围绕着本征值和本征函数展开的，比如厄米算符，氢原子，这是为何",
+          "extra": {},
+          "desc_source": "source"
         }
       ]
     },
@@ -989,7 +990,7 @@
         {
           "title": "贵州火把节已经准备就绪了",
           "url": "https://www.douyin.com/search/%E8%B4%B5%E5%B7%9E%E7%81%AB%E6%8A%8A%E8%8A%82%E5%B7%B2%E7%BB%8F%E5%87%86%E5%A4%87%E5%B0%B1%E7%BB%AA%E4%BA%86",
-          "hot": 12114490,
+          "hot": 12130178,
           "rank": 1,
           "desc": null,
           "extra": {}
@@ -997,7 +998,7 @@
         {
           "title": "火烧云落进千里江山图美到窒息",
           "url": "https://www.douyin.com/search/%E7%81%AB%E7%83%A7%E4%BA%91%E8%90%BD%E8%BF%9B%E5%8D%83%E9%87%8C%E6%B1%9F%E5%B1%B1%E5%9B%BE%E7%BE%8E%E5%88%B0%E7%AA%92%E6%81%AF",
-          "hot": 12105672,
+          "hot": 12111258,
           "rank": 2,
           "desc": null,
           "extra": {}
@@ -1005,7 +1006,7 @@
         {
           "title": "一组数据看中国经济稳中向优",
           "url": "https://www.douyin.com/search/%E4%B8%80%E7%BB%84%E6%95%B0%E6%8D%AE%E7%9C%8B%E4%B8%AD%E5%9B%BD%E7%BB%8F%E6%B5%8E%E7%A8%B3%E4%B8%AD%E5%90%91%E4%BC%98",
-          "hot": 11928811,
+          "hot": 12099022,
           "rank": 3,
           "desc": null,
           "extra": {}
@@ -1013,7 +1014,7 @@
         {
           "title": "善良真的会代代相传",
           "url": "https://www.douyin.com/search/%E5%96%84%E8%89%AF%E7%9C%9F%E7%9A%84%E4%BC%9A%E4%BB%A3%E4%BB%A3%E7%9B%B8%E4%BC%A0",
-          "hot": 11882913,
+          "hot": 11986284,
           "rank": 4,
           "desc": null,
           "extra": {}
@@ -1021,7 +1022,7 @@
         {
           "title": "用旧凉席打造岳武穆战甲",
           "url": "https://www.douyin.com/search/%E7%94%A8%E6%97%A7%E5%87%89%E5%B8%AD%E6%89%93%E9%80%A0%E5%B2%B3%E6%AD%A6%E7%A9%86%E6%88%98%E7%94%B2",
-          "hot": 11192839,
+          "hot": 11029739,
           "rank": 5,
           "desc": null,
           "extra": {}
@@ -1029,15 +1030,15 @@
         {
           "title": "维金斯抖音直播谈字母哥加盟",
           "url": "https://www.douyin.com/search/%E7%BB%B4%E9%87%91%E6%96%AF%E6%8A%96%E9%9F%B3%E7%9B%B4%E6%92%AD%E8%B0%88%E5%AD%97%E6%AF%8D%E5%93%A5%E5%8A%A0%E7%9B%9F",
-          "hot": 11167076,
+          "hot": 10931277,
           "rank": 6,
           "desc": null,
           "extra": {}
         },
         {
-          "title": "问界汽车上半年预亏超10亿",
-          "url": "https://www.douyin.com/search/%E9%97%AE%E7%95%8C%E6%B1%BD%E8%BD%A6%E4%B8%8A%E5%8D%8A%E5%B9%B4%E9%A2%84%E4%BA%8F%E8%B6%8510%E4%BA%BF",
-          "hot": 9207544,
+          "title": "南京地铁地面及高架区段暂停运营",
+          "url": "https://www.douyin.com/search/%E5%8D%97%E4%BA%AC%E5%9C%B0%E9%93%81%E5%9C%B0%E9%9D%A2%E5%8F%8A%E9%AB%98%E6%9E%B6%E5%8C%BA%E6%AE%B5%E6%9A%82%E5%81%9C%E8%BF%90%E8%90%A5",
+          "hot": 9200108,
           "rank": 7,
           "desc": null,
           "extra": {}
@@ -1045,23 +1046,23 @@
         {
           "title": "昆明版水上闯关太好玩了",
           "url": "https://www.douyin.com/search/%E6%98%86%E6%98%8E%E7%89%88%E6%B0%B4%E4%B8%8A%E9%97%AF%E5%85%B3%E5%A4%AA%E5%A5%BD%E7%8E%A9%E4%BA%86",
-          "hot": 9193084,
+          "hot": 9188573,
           "rank": 8,
-          "desc": null,
-          "extra": {}
-        },
-        {
-          "title": "南京地铁地面及高架区段暂停运营",
-          "url": "https://www.douyin.com/search/%E5%8D%97%E4%BA%AC%E5%9C%B0%E9%93%81%E5%9C%B0%E9%9D%A2%E5%8F%8A%E9%AB%98%E6%9E%B6%E5%8C%BA%E6%AE%B5%E6%9A%82%E5%81%9C%E8%BF%90%E8%90%A5",
-          "hot": 8906096,
-          "rank": 9,
           "desc": null,
           "extra": {}
         },
         {
           "title": "沈阳发布停课通知",
           "url": "https://www.douyin.com/search/%E6%B2%88%E9%98%B3%E5%8F%91%E5%B8%83%E5%81%9C%E8%AF%BE%E9%80%9A%E7%9F%A5",
-          "hot": 8847807,
+          "hot": 9048357,
+          "rank": 9,
+          "desc": null,
+          "extra": {}
+        },
+        {
+          "title": "康纳回归失利输在哪",
+          "url": "https://www.douyin.com/search/%E5%BA%B7%E7%BA%B3%E5%9B%9E%E5%BD%92%E5%A4%B1%E5%88%A9%E8%BE%93%E5%9C%A8%E5%93%AA",
+          "hot": 8804713,
           "rank": 10,
           "desc": null,
           "extra": {}
@@ -1069,15 +1070,15 @@
         {
           "title": "世界前四齐聚世界杯四强",
           "url": "https://www.douyin.com/search/%E4%B8%96%E7%95%8C%E5%89%8D%E5%9B%9B%E9%BD%90%E8%81%9A%E4%B8%96%E7%95%8C%E6%9D%AF%E5%9B%9B%E5%BC%BA",
-          "hot": 8646491,
+          "hot": 8654482,
           "rank": 11,
           "desc": null,
           "extra": {}
         },
         {
-          "title": "康纳腿伤告负",
-          "url": "https://www.douyin.com/search/%E5%BA%B7%E7%BA%B3%E8%85%BF%E4%BC%A4%E5%91%8A%E8%B4%9F",
-          "hot": 8458537,
+          "title": "LOL怀旧服7月30日上线",
+          "url": "https://www.douyin.com/search/LOL%E6%80%80%E6%97%A7%E6%9C%8D7%E6%9C%8830%E6%97%A5%E4%B8%8A%E7%BA%BF",
+          "hot": 8163169,
           "rank": 12,
           "desc": null,
           "extra": {}
@@ -1085,7 +1086,7 @@
         {
           "title": "28人借巴威造谣被查处",
           "url": "https://www.douyin.com/search/28%E4%BA%BA%E5%80%9F%E5%B7%B4%E5%A8%81%E9%80%A0%E8%B0%A3%E8%A2%AB%E6%9F%A5%E5%A4%84",
-          "hot": 8422295,
+          "hot": 8146975,
           "rank": 13,
           "desc": null,
           "extra": {}
@@ -1093,31 +1094,31 @@
         {
           "title": "太原理工勇夺第28届CUBAL冠军",
           "url": "https://www.douyin.com/search/%E5%A4%AA%E5%8E%9F%E7%90%86%E5%B7%A5%E5%8B%87%E5%A4%BA%E7%AC%AC28%E5%B1%8ACUBAL%E5%86%A0%E5%86%9B",
-          "hot": 8225433,
+          "hot": 8017562,
           "rank": 14,
-          "desc": null,
-          "extra": {}
-        },
-        {
-          "title": "LOL怀旧服7月30日上线",
-          "url": "https://www.douyin.com/search/LOL%E6%80%80%E6%97%A7%E6%9C%8D7%E6%9C%8830%E6%97%A5%E4%B8%8A%E7%BA%BF",
-          "hot": 7866744,
-          "rank": 15,
           "desc": null,
           "extra": {}
         },
         {
           "title": "哈兰德赛后发声",
           "url": "https://www.douyin.com/search/%E5%93%88%E5%85%B0%E5%BE%B7%E8%B5%9B%E5%90%8E%E5%8F%91%E5%A3%B0",
-          "hot": 7849203,
+          "hot": 7830214,
+          "rank": 15,
+          "desc": null,
+          "extra": {}
+        },
+        {
+          "title": "康纳腿伤告负",
+          "url": "https://www.douyin.com/search/%E5%BA%B7%E7%BA%B3%E8%85%BF%E4%BC%A4%E5%91%8A%E8%B4%9F",
+          "hot": 7827016,
           "rank": 16,
           "desc": null,
           "extra": {}
         },
         {
-          "title": "网友实拍台风登陆画面",
-          "url": "https://www.douyin.com/search/%E7%BD%91%E5%8F%8B%E5%AE%9E%E6%8B%8D%E5%8F%B0%E9%A3%8E%E7%99%BB%E9%99%86%E7%94%BB%E9%9D%A2",
-          "hot": 7833618,
+          "title": "花式助力功夫女足",
+          "url": "https://www.douyin.com/search/%E8%8A%B1%E5%BC%8F%E5%8A%A9%E5%8A%9B%E5%8A%9F%E5%A4%AB%E5%A5%B3%E8%B6%B3",
+          "hot": 7812171,
           "rank": 17,
           "desc": null,
           "extra": {}
@@ -1125,15 +1126,15 @@
         {
           "title": "功夫女足票房破4亿",
           "url": "https://www.douyin.com/search/%E5%8A%9F%E5%A4%AB%E5%A5%B3%E8%B6%B3%E7%A5%A8%E6%88%BF%E7%A0%B44%E4%BA%BF",
-          "hot": 7826504,
+          "hot": 7811080,
           "rank": 18,
           "desc": null,
           "extra": {}
         },
         {
-          "title": "直击巴威实况",
-          "url": "https://www.douyin.com/search/%E7%9B%B4%E5%87%BB%E5%B7%B4%E5%A8%81%E5%AE%9E%E5%86%B5",
-          "hot": 7822104,
+          "title": "忍不住化身一条搁浅的美人鱼",
+          "url": "https://www.douyin.com/search/%E5%BF%8D%E4%B8%8D%E4%BD%8F%E5%8C%96%E8%BA%AB%E4%B8%80%E6%9D%A1%E6%90%81%E6%B5%85%E7%9A%84%E7%BE%8E%E4%BA%BA%E9%B1%BC",
+          "hot": 7809248,
           "rank": 19,
           "desc": null,
           "extra": {}
@@ -1141,7 +1142,7 @@
         {
           "title": "HLE击败BLG夺冠",
           "url": "https://www.douyin.com/search/HLE%E5%87%BB%E8%B4%A5BLG%E5%A4%BA%E5%86%A0",
-          "hot": 7810342,
+          "hot": 7790324,
           "rank": 20,
           "desc": null,
           "extra": {}
@@ -1149,39 +1150,39 @@
         {
           "title": "吹吹山顶的风",
           "url": "https://www.douyin.com/search/%E5%90%B9%E5%90%B9%E5%B1%B1%E9%A1%B6%E7%9A%84%E9%A3%8E",
-          "hot": 7799465,
+          "hot": 7788669,
           "rank": 21,
-          "desc": null,
-          "extra": {}
-        },
-        {
-          "title": "功夫女足长沙路演",
-          "url": "https://www.douyin.com/search/%E5%8A%9F%E5%A4%AB%E5%A5%B3%E8%B6%B3%E9%95%BF%E6%B2%99%E8%B7%AF%E6%BC%94",
-          "hot": 7789806,
-          "rank": 22,
           "desc": null,
           "extra": {}
         },
         {
           "title": "旧路上的晚风 吹不散心里的人",
           "url": "https://www.douyin.com/search/%E6%97%A7%E8%B7%AF%E4%B8%8A%E7%9A%84%E6%99%9A%E9%A3%8E%20%E5%90%B9%E4%B8%8D%E6%95%A3%E5%BF%83%E9%87%8C%E7%9A%84%E4%BA%BA",
-          "hot": 7766888,
-          "rank": 23,
+          "hot": 7772791,
+          "rank": 22,
           "desc": null,
           "extra": {}
         },
         {
           "title": "我和我的洲搭子",
           "url": "https://www.douyin.com/search/%E6%88%91%E5%92%8C%E6%88%91%E7%9A%84%E6%B4%B2%E6%90%AD%E5%AD%90",
-          "hot": 7761760,
+          "hot": 7765705,
+          "rank": 23,
+          "desc": null,
+          "extra": {}
+        },
+        {
+          "title": "功夫女足长沙路演",
+          "url": "https://www.douyin.com/search/%E5%8A%9F%E5%A4%AB%E5%A5%B3%E8%B6%B3%E9%95%BF%E6%B2%99%E8%B7%AF%E6%BC%94",
+          "hot": 7761610,
           "rank": 24,
           "desc": null,
           "extra": {}
         },
         {
-          "title": "忍不住化身一条搁浅的美人鱼",
-          "url": "https://www.douyin.com/search/%E5%BF%8D%E4%B8%8D%E4%BD%8F%E5%8C%96%E8%BA%AB%E4%B8%80%E6%9D%A1%E6%90%81%E6%B5%85%E7%9A%84%E7%BE%8E%E4%BA%BA%E9%B1%BC",
-          "hot": 7757096,
+          "title": "全抖音都在鼓励哈兰德",
+          "url": "https://www.douyin.com/search/%E5%85%A8%E6%8A%96%E9%9F%B3%E9%83%BD%E5%9C%A8%E9%BC%93%E5%8A%B1%E5%93%88%E5%85%B0%E5%BE%B7",
+          "hot": 7759269,
           "rank": 25,
           "desc": null,
           "extra": {}
@@ -1189,103 +1190,103 @@
         {
           "title": "功夫女足片尾彩蛋空出的座位",
           "url": "https://www.douyin.com/search/%E5%8A%9F%E5%A4%AB%E5%A5%B3%E8%B6%B3%E7%89%87%E5%B0%BE%E5%BD%A9%E8%9B%8B%E7%A9%BA%E5%87%BA%E7%9A%84%E5%BA%A7%E4%BD%8D",
-          "hot": 7754870,
+          "hot": 7757806,
           "rank": 26,
-          "desc": null,
-          "extra": {}
-        },
-        {
-          "title": "沉浸式体验阿根廷瑞士比赛现场",
-          "url": "https://www.douyin.com/search/%E6%B2%89%E6%B5%B8%E5%BC%8F%E4%BD%93%E9%AA%8C%E9%98%BF%E6%A0%B9%E5%BB%B7%E7%91%9E%E5%A3%AB%E6%AF%94%E8%B5%9B%E7%8E%B0%E5%9C%BA",
-          "hot": 7749224,
-          "rank": 27,
-          "desc": null,
-          "extra": {}
-        },
-        {
-          "title": "花式助力功夫女足",
-          "url": "https://www.douyin.com/search/%E8%8A%B1%E5%BC%8F%E5%8A%A9%E5%8A%9B%E5%8A%9F%E5%A4%AB%E5%A5%B3%E8%B6%B3",
-          "hot": 7736629,
-          "rank": 28,
-          "desc": null,
-          "extra": {}
-        },
-        {
-          "title": "星爷 我们永远站在您身后",
-          "url": "https://www.douyin.com/search/%E6%98%9F%E7%88%B7%20%E6%88%91%E4%BB%AC%E6%B0%B8%E8%BF%9C%E7%AB%99%E5%9C%A8%E6%82%A8%E8%BA%AB%E5%90%8E",
-          "hot": 7728483,
-          "rank": 29,
           "desc": null,
           "extra": {}
         },
         {
           "title": "谁还没上jumpstyle舞蹈末班车",
           "url": "https://www.douyin.com/search/%E8%B0%81%E8%BF%98%E6%B2%A1%E4%B8%8Ajumpstyle%E8%88%9E%E8%B9%88%E6%9C%AB%E7%8F%AD%E8%BD%A6",
-          "hot": 7719541,
-          "rank": 30,
+          "hot": 7746177,
+          "rank": 27,
           "desc": null,
           "extra": {}
         },
         {
-          "title": "90后的回忆全在这了",
-          "url": "https://www.douyin.com/search/90%E5%90%8E%E7%9A%84%E5%9B%9E%E5%BF%86%E5%85%A8%E5%9C%A8%E8%BF%99%E4%BA%86",
-          "hot": 7717299,
-          "rank": 31,
-          "desc": null,
-          "extra": {}
-        },
-        {
-          "title": "全抖音都在鼓励哈兰德",
-          "url": "https://www.douyin.com/search/%E5%85%A8%E6%8A%96%E9%9F%B3%E9%83%BD%E5%9C%A8%E9%BC%93%E5%8A%B1%E5%93%88%E5%85%B0%E5%BE%B7",
-          "hot": 7714397,
-          "rank": 32,
+          "title": "沉浸式体验阿根廷瑞士比赛现场",
+          "url": "https://www.douyin.com/search/%E6%B2%89%E6%B5%B8%E5%BC%8F%E4%BD%93%E9%AA%8C%E9%98%BF%E6%A0%B9%E5%BB%B7%E7%91%9E%E5%A3%AB%E6%AF%94%E8%B5%9B%E7%8E%B0%E5%9C%BA",
+          "hot": 7732070,
+          "rank": 28,
           "desc": null,
           "extra": {}
         },
         {
           "title": "王力宏晒伤口恢复情况",
           "url": "https://www.douyin.com/search/%E7%8E%8B%E5%8A%9B%E5%AE%8F%E6%99%92%E4%BC%A4%E5%8F%A3%E6%81%A2%E5%A4%8D%E6%83%85%E5%86%B5",
-          "hot": 7711411,
-          "rank": 33,
+          "hot": 7728795,
+          "rank": 29,
+          "desc": null,
+          "extra": {}
+        },
+        {
+          "title": "90后的回忆全在这了",
+          "url": "https://www.douyin.com/search/90%E5%90%8E%E7%9A%84%E5%9B%9E%E5%BF%86%E5%85%A8%E5%9C%A8%E8%BF%99%E4%BA%86",
+          "hot": 7728726,
+          "rank": 30,
+          "desc": null,
+          "extra": {}
+        },
+        {
+          "title": "星爷 我们永远站在您身后",
+          "url": "https://www.douyin.com/search/%E6%98%9F%E7%88%B7%20%E6%88%91%E4%BB%AC%E6%B0%B8%E8%BF%9C%E7%AB%99%E5%9C%A8%E6%82%A8%E8%BA%AB%E5%90%8E",
+          "hot": 7711902,
+          "rank": 31,
+          "desc": null,
+          "extra": {}
+        },
+        {
+          "title": "挪威加时1:2不敌英格兰",
+          "url": "https://www.douyin.com/search/%E6%8C%AA%E5%A8%81%E5%8A%A0%E6%97%B61%3A2%E4%B8%8D%E6%95%8C%E8%8B%B1%E6%A0%BC%E5%85%B0",
+          "hot": 7707543,
+          "rank": 32,
           "desc": null,
           "extra": {}
         },
         {
           "title": "功夫女足豆瓣开分6.6分",
           "url": "https://www.douyin.com/search/%E5%8A%9F%E5%A4%AB%E5%A5%B3%E8%B6%B3%E8%B1%86%E7%93%A3%E5%BC%80%E5%88%866.6%E5%88%86",
-          "hot": 7695662,
-          "rank": 34,
-          "desc": null,
-          "extra": {}
-        },
-        {
-          "title": "功夫女足主创全员抖音集结",
-          "url": "https://www.douyin.com/search/%E5%8A%9F%E5%A4%AB%E5%A5%B3%E8%B6%B3%E4%B8%BB%E5%88%9B%E5%85%A8%E5%91%98%E6%8A%96%E9%9F%B3%E9%9B%86%E7%BB%93",
-          "hot": 7691831,
-          "rank": 35,
-          "desc": null,
-          "extra": {}
-        },
-        {
-          "title": "阿根廷加时3:1瑞士",
-          "url": "https://www.douyin.com/search/%E9%98%BF%E6%A0%B9%E5%BB%B7%E5%8A%A0%E6%97%B63%3A1%E7%91%9E%E5%A3%AB",
-          "hot": 7687201,
-          "rank": 36,
+          "hot": 7704425,
+          "rank": 33,
           "desc": null,
           "extra": {}
         },
         {
           "title": "一人一句和哈兰德说再见",
           "url": "https://www.douyin.com/search/%E4%B8%80%E4%BA%BA%E4%B8%80%E5%8F%A5%E5%92%8C%E5%93%88%E5%85%B0%E5%BE%B7%E8%AF%B4%E5%86%8D%E8%A7%81",
-          "hot": 7685304,
+          "hot": 7696427,
+          "rank": 34,
+          "desc": null,
+          "extra": {}
+        },
+        {
+          "title": "阿根廷加时3:1瑞士",
+          "url": "https://www.douyin.com/search/%E9%98%BF%E6%A0%B9%E5%BB%B7%E5%8A%A0%E6%97%B63%3A1%E7%91%9E%E5%A3%AB",
+          "hot": 7695355,
+          "rank": 35,
+          "desc": null,
+          "extra": {}
+        },
+        {
+          "title": "直击巴威实况",
+          "url": "https://www.douyin.com/search/%E7%9B%B4%E5%87%BB%E5%B7%B4%E5%A8%81%E5%AE%9E%E5%86%B5",
+          "hot": 7693426,
+          "rank": 36,
+          "desc": null,
+          "extra": {}
+        },
+        {
+          "title": "功夫女足主创全员抖音集结",
+          "url": "https://www.douyin.com/search/%E5%8A%9F%E5%A4%AB%E5%A5%B3%E8%B6%B3%E4%B8%BB%E5%88%9B%E5%85%A8%E5%91%98%E6%8A%96%E9%9F%B3%E9%9B%86%E7%BB%93",
+          "hot": 7689716,
           "rank": 37,
           "desc": null,
           "extra": {}
         },
         {
-          "title": "孙悦东北超现场表演夯爆了",
-          "url": "https://www.douyin.com/search/%E5%AD%99%E6%82%A6%E4%B8%9C%E5%8C%97%E8%B6%85%E7%8E%B0%E5%9C%BA%E8%A1%A8%E6%BC%94%E5%A4%AF%E7%88%86%E4%BA%86",
-          "hot": 7685031,
+          "title": "王者动物塑男团占领漫展",
+          "url": "https://www.douyin.com/search/%E7%8E%8B%E8%80%85%E5%8A%A8%E7%89%A9%E5%A1%91%E7%94%B7%E5%9B%A2%E5%8D%A0%E9%A2%86%E6%BC%AB%E5%B1%95",
+          "hot": 7680223,
           "rank": 38,
           "desc": null,
           "extra": {}
@@ -1293,95 +1294,95 @@
         {
           "title": "好久不见迪迦奥特曼大古",
           "url": "https://www.douyin.com/search/%E5%A5%BD%E4%B9%85%E4%B8%8D%E8%A7%81%E8%BF%AA%E8%BF%A6%E5%A5%A5%E7%89%B9%E6%9B%BC%E5%A4%A7%E5%8F%A4",
-          "hot": 7681201,
+          "hot": 7677761,
           "rank": 39,
           "desc": null,
           "extra": {}
         },
         {
-          "title": "天霸一霖巅峰赛再次登顶",
-          "url": "https://www.douyin.com/search/%E5%A4%A9%E9%9C%B8%E4%B8%80%E9%9C%96%E5%B7%85%E5%B3%B0%E8%B5%9B%E5%86%8D%E6%AC%A1%E7%99%BB%E9%A1%B6",
-          "hot": 7671856,
+          "title": "阿尔瓦雷斯天外飞仙世界波给到夯",
+          "url": "https://www.douyin.com/search/%E9%98%BF%E5%B0%94%E7%93%A6%E9%9B%B7%E6%96%AF%E5%A4%A9%E5%A4%96%E9%A3%9E%E4%BB%99%E4%B8%96%E7%95%8C%E6%B3%A2%E7%BB%99%E5%88%B0%E5%A4%AF",
+          "hot": 7674444,
           "rank": 40,
-          "desc": null,
-          "extra": {}
-        },
-        {
-          "title": "挪威加时1:2不敌英格兰",
-          "url": "https://www.douyin.com/search/%E6%8C%AA%E5%A8%81%E5%8A%A0%E6%97%B61%3A2%E4%B8%8D%E6%95%8C%E8%8B%B1%E6%A0%BC%E5%85%B0",
-          "hot": 7671115,
-          "rank": 41,
-          "desc": null,
-          "extra": {}
-        },
-        {
-          "title": "谢谢你们来过我的家乡",
-          "url": "https://www.douyin.com/search/%E8%B0%A2%E8%B0%A2%E4%BD%A0%E4%BB%AC%E6%9D%A5%E8%BF%87%E6%88%91%E7%9A%84%E5%AE%B6%E4%B9%A1",
-          "hot": 7670521,
-          "rank": 42,
-          "desc": null,
-          "extra": {}
-        },
-        {
-          "title": "王者动物塑男团占领漫展",
-          "url": "https://www.douyin.com/search/%E7%8E%8B%E8%80%85%E5%8A%A8%E7%89%A9%E5%A1%91%E7%94%B7%E5%9B%A2%E5%8D%A0%E9%A2%86%E6%BC%AB%E5%B1%95",
-          "hot": 7668419,
-          "rank": 43,
-          "desc": null,
-          "extra": {}
-        },
-        {
-          "title": "黄河之水真的从天上来",
-          "url": "https://www.douyin.com/search/%E9%BB%84%E6%B2%B3%E4%B9%8B%E6%B0%B4%E7%9C%9F%E7%9A%84%E4%BB%8E%E5%A4%A9%E4%B8%8A%E6%9D%A5",
-          "hot": 7663050,
-          "rank": 44,
-          "desc": null,
-          "extra": {}
-        },
-        {
-          "title": "一碗安徽炒面解锁地道烟火味",
-          "url": "https://www.douyin.com/search/%E4%B8%80%E7%A2%97%E5%AE%89%E5%BE%BD%E7%82%92%E9%9D%A2%E8%A7%A3%E9%94%81%E5%9C%B0%E9%81%93%E7%83%9F%E7%81%AB%E5%91%B3",
-          "hot": 7661844,
-          "rank": 45,
           "desc": null,
           "extra": {}
         },
         {
           "title": "沧元图第85集剧情解析",
           "url": "https://www.douyin.com/search/%E6%B2%A7%E5%85%83%E5%9B%BE%E7%AC%AC85%E9%9B%86%E5%89%A7%E6%83%85%E8%A7%A3%E6%9E%90",
-          "hot": 7660794,
-          "rank": 46,
+          "hot": 7671499,
+          "rank": 41,
+          "desc": null,
+          "extra": {}
+        },
+        {
+          "title": "天霸一霖巅峰赛再次登顶",
+          "url": "https://www.douyin.com/search/%E5%A4%A9%E9%9C%B8%E4%B8%80%E9%9C%96%E5%B7%85%E5%B3%B0%E8%B5%9B%E5%86%8D%E6%AC%A1%E7%99%BB%E9%A1%B6",
+          "hot": 7670677,
+          "rank": 42,
+          "desc": null,
+          "extra": {}
+        },
+        {
+          "title": "谢谢你们来过我的家乡",
+          "url": "https://www.douyin.com/search/%E8%B0%A2%E8%B0%A2%E4%BD%A0%E4%BB%AC%E6%9D%A5%E8%BF%87%E6%88%91%E7%9A%84%E5%AE%B6%E4%B9%A1",
+          "hot": 7666420,
+          "rank": 43,
+          "desc": null,
+          "extra": {}
+        },
+        {
+          "title": "一碗安徽炒面解锁地道烟火味",
+          "url": "https://www.douyin.com/search/%E4%B8%80%E7%A2%97%E5%AE%89%E5%BE%BD%E7%82%92%E9%9D%A2%E8%A7%A3%E9%94%81%E5%9C%B0%E9%81%93%E7%83%9F%E7%81%AB%E5%91%B3",
+          "hot": 7664445,
+          "rank": 44,
           "desc": null,
           "extra": {}
         },
         {
           "title": "全抖音都在看功夫女足",
           "url": "https://www.douyin.com/search/%E5%85%A8%E6%8A%96%E9%9F%B3%E9%83%BD%E5%9C%A8%E7%9C%8B%E5%8A%9F%E5%A4%AB%E5%A5%B3%E8%B6%B3",
-          "hot": 7657587,
-          "rank": 47,
+          "hot": 7662340,
+          "rank": 45,
           "desc": null,
           "extra": {}
         },
         {
           "title": "王者漫展圆梦青白蛇cos",
           "url": "https://www.douyin.com/search/%E7%8E%8B%E8%80%85%E6%BC%AB%E5%B1%95%E5%9C%86%E6%A2%A6%E9%9D%92%E7%99%BD%E8%9B%87cos",
-          "hot": 7657192,
-          "rank": 48,
+          "hot": 7657777,
+          "rank": 46,
           "desc": null,
           "extra": {}
         },
         {
           "title": "仲神师为何死追韩立四天四夜",
           "url": "https://www.douyin.com/search/%E4%BB%B2%E7%A5%9E%E5%B8%88%E4%B8%BA%E4%BD%95%E6%AD%BB%E8%BF%BD%E9%9F%A9%E7%AB%8B%E5%9B%9B%E5%A4%A9%E5%9B%9B%E5%A4%9C",
-          "hot": 7656763,
-          "rank": 49,
+          "hot": 7656422,
+          "rank": 47,
+          "desc": null,
+          "extra": {}
+        },
+        {
+          "title": "孙悦东北超现场表演夯爆了",
+          "url": "https://www.douyin.com/search/%E5%AD%99%E6%82%A6%E4%B8%9C%E5%8C%97%E8%B6%85%E7%8E%B0%E5%9C%BA%E8%A1%A8%E6%BC%94%E5%A4%AF%E7%88%86%E4%BA%86",
+          "hot": 7653481,
+          "rank": 48,
           "desc": null,
           "extra": {}
         },
         {
           "title": "蔡徐坤THE DEADMAN预告",
           "url": "https://www.douyin.com/search/%E8%94%A1%E5%BE%90%E5%9D%A4THE%20DEADMAN%E9%A2%84%E5%91%8A",
-          "hot": 7656239,
+          "hot": 7652457,
+          "rank": 49,
+          "desc": null,
+          "extra": {}
+        },
+        {
+          "title": "在龙门石窟许下我们的誓言",
+          "url": "https://www.douyin.com/search/%E5%9C%A8%E9%BE%99%E9%97%A8%E7%9F%B3%E7%AA%9F%E8%AE%B8%E4%B8%8B%E6%88%91%E4%BB%AC%E7%9A%84%E8%AA%93%E8%A8%80",
+          "hot": 7651584,
           "rank": 50,
           "desc": null,
           "extra": {}
@@ -1396,15 +1397,15 @@
         {
           "title": "外交部就日方恶劣言行提出严正交涉",
           "url": "https://www.toutiao.com/trending/7661435328175259702",
-          "hot": 56954450,
+          "hot": 50894837,
           "rank": 1,
           "desc": null,
           "extra": {}
         },
         {
-          "title": "台风巴威实时路径",
-          "url": "https://webcast-open.douyin.com/open/media_live/868608417107",
-          "hot": 51534517,
+          "title": "美国最后一名“铁肺”使用者去世",
+          "url": "https://www.toutiao.com/trending/7661192713169879046",
+          "hot": 46051553,
           "rank": 2,
           "desc": null,
           "extra": {}
@@ -1412,7 +1413,7 @@
         {
           "title": "一图读懂“六张网”之新型电网",
           "url": "https://www.toutiao.com/article/7661550521706234395",
-          "hot": 46630360,
+          "hot": 41669168,
           "rank": 3,
           "desc": null,
           "extra": {}
@@ -1420,7 +1421,7 @@
         {
           "title": "江苏盐城发生3.0级地震",
           "url": "https://www.toutiao.com/trending/7661641926701023238",
-          "hot": 42192894,
+          "hot": 37703823,
           "rank": 4,
           "desc": null,
           "extra": {}
@@ -1428,23 +1429,23 @@
         {
           "title": "中华人民共和国外交部郑重声明",
           "url": "https://www.toutiao.com/trending/7661537161598124074",
-          "hot": 38177709,
+          "hot": 34115830,
           "rank": 5,
+          "desc": null,
+          "extra": {}
+        },
+        {
+          "title": "台风巴威实时路径",
+          "url": "https://webcast-open.douyin.com/open/media_live/868608417107",
+          "hot": 30869279,
+          "rank": 6,
           "desc": null,
           "extra": {}
         },
         {
           "title": "7月17日油价将调整",
           "url": "https://www.toutiao.com/trending/7660698070631481371",
-          "hot": 34544620,
-          "rank": 6,
-          "desc": null,
-          "extra": {}
-        },
-        {
-          "title": "网友用虹吸原理巧吸窗台积水",
-          "url": "https://www.toutiao.com/trending/7661613861346279462",
-          "hot": 31257265,
+          "hot": 27931679,
           "rank": 7,
           "desc": null,
           "extra": {}
@@ -1452,23 +1453,23 @@
         {
           "title": "外交部用冲之鸟礁反问日本",
           "url": "https://www.toutiao.com/trending/7660572530613714953",
-          "hot": 28282743,
+          "hot": 25273628,
           "rank": 8,
-          "desc": null,
-          "extra": {}
-        },
-        {
-          "title": "张雪机车获第十名",
-          "url": "https://www.toutiao.com/trending/7660829605834522687",
-          "hot": 25591284,
-          "rank": 9,
           "desc": null,
           "extra": {}
         },
         {
           "title": "哈兰德：希望英格兰队取得好成绩",
           "url": "https://www.toutiao.com/trending/7661642867081658409",
-          "hot": 23155951,
+          "hot": 22868524,
+          "rank": 9,
+          "desc": null,
+          "extra": {}
+        },
+        {
+          "title": "张雪机车获第十名",
+          "url": "https://www.toutiao.com/trending/7660829605834522687",
+          "hot": 20692296,
           "rank": 10,
           "desc": null,
           "extra": {}
@@ -1476,39 +1477,39 @@
         {
           "title": "男子发布涉台风不实信息被行拘",
           "url": "https://www.toutiao.com/trending/7661316882703876146",
-          "hot": 20952371,
+          "hot": 18723164,
           "rank": 11,
-          "desc": null,
-          "extra": {}
-        },
-        {
-          "title": "世界女排联赛香港站中国队1胜3负收官",
-          "url": "https://www.toutiao.com/trending/7660705875501531178",
-          "hot": 18958489,
-          "rank": 12,
-          "desc": null,
-          "extra": {}
-        },
-        {
-          "title": "60万斤温州大黄鱼扛过台风巴威",
-          "url": "https://www.toutiao.com/trending/7661215856987258921",
-          "hot": 17154350,
-          "rank": 13,
           "desc": null,
           "extra": {}
         },
         {
           "title": "评论员：阿根廷已然露出冠军相",
           "url": "https://www.toutiao.com/trending/7661635610448236070",
-          "hot": 15521898,
-          "rank": 14,
+          "hot": 16941419,
+          "rank": 12,
           "desc": null,
           "extra": {}
         },
         {
           "title": "英前大臣：指责中国称霸完全站不住脚",
           "url": "https://www.toutiao.com/trending/7661199812137615403",
-          "hot": 14044794,
+          "hot": 15329230,
+          "rank": 13,
+          "desc": null,
+          "extra": {}
+        },
+        {
+          "title": "邹市明夫妇“两亿败局”的商业复盘",
+          "url": "https://www.toutiao.com/trending/7661213450978508842",
+          "hot": 13870461,
+          "rank": 14,
+          "desc": null,
+          "extra": {}
+        },
+        {
+          "title": "60万斤温州大黄鱼扛过台风巴威",
+          "url": "https://www.toutiao.com/trending/7661215856987258921",
+          "hot": 12550512,
           "rank": 15,
           "desc": null,
           "extra": {}
@@ -1516,31 +1517,31 @@
         {
           "title": "王力宏晒伤口恢复情况",
           "url": "https://www.toutiao.com/trending/7660859924104249398",
-          "hot": 12708255,
+          "hot": 11356173,
           "rank": 16,
           "desc": null,
           "extra": {}
         },
         {
-          "title": "邹市明夫妇“两亿败局”的商业复盘",
-          "url": "https://www.toutiao.com/trending/7661213450978508842",
-          "hot": 11498905,
+          "title": "世界女排联赛香港站中国队1胜3负收官",
+          "url": "https://www.toutiao.com/trending/7660705875501531178",
+          "hot": 10275490,
           "rank": 17,
-          "desc": null,
-          "extra": {}
-        },
-        {
-          "title": "阿根廷队为什么总是能逆转",
-          "url": "https://www.toutiao.com/trending/7661493142062972970",
-          "hot": 10404639,
-          "rank": 18,
           "desc": null,
           "extra": {}
         },
         {
           "title": "峨眉武术传人谈《功夫女足》",
           "url": "https://www.toutiao.com/trending/7661057066898866182",
-          "hot": 9414507,
+          "hot": 9297648,
+          "rank": 18,
+          "desc": null,
+          "extra": {}
+        },
+        {
+          "title": "俄乌冲突后中国市场对俄罗斯有多重要",
+          "url": "https://www.toutiao.com/trending/7661600153941315126",
+          "hot": 8412860,
           "rank": 19,
           "desc": null,
           "extra": {}
@@ -1548,7 +1549,7 @@
         {
           "title": "广西贵港抗洪官兵撤离打扫教室留诗",
           "url": "https://www.toutiao.com/trending/7661537332051050537",
-          "hot": 8518598,
+          "hot": 7612270,
           "rank": 20,
           "desc": null,
           "extra": {}
@@ -1556,151 +1557,151 @@
         {
           "title": "哈兰德首次世界杯5场7球",
           "url": "https://www.toutiao.com/trending/7661423605292568074",
-          "hot": 7707946,
+          "hot": 6887867,
           "rank": 21,
-          "desc": null,
-          "extra": {}
-        },
-        {
-          "title": "大理民宿为何越来越难做",
-          "url": "https://www.toutiao.com/trending/7661502857954201151",
-          "hot": 6974438,
-          "rank": 22,
           "desc": null,
           "extra": {}
         },
         {
           "title": "男子藏区搭帐篷住宿被小伙硬拽回家",
           "url": "https://www.toutiao.com/trending/7661104986348650538",
-          "hot": 6310733,
+          "hot": 6232400,
+          "rank": 22,
+          "desc": null,
+          "extra": {}
+        },
+        {
+          "title": "阿根廷队为什么总是能逆转",
+          "url": "https://www.toutiao.com/trending/7661493142062972970",
+          "hot": 5639308,
           "rank": 23,
-          "desc": null,
-          "extra": {}
-        },
-        {
-          "title": "文章女儿晒和妹妹出游照",
-          "url": "https://www.toutiao.com/trending/7661555483534262308",
-          "hot": 5710187,
-          "rank": 24,
-          "desc": null,
-          "extra": {}
-        },
-        {
-          "title": "盗窃嫌疑人作案后藏进沙滩帐篷被抓获",
-          "url": "https://www.toutiao.com/trending/7660392514222817343",
-          "hot": 5166791,
-          "rank": 25,
-          "desc": null,
-          "extra": {}
-        },
-        {
-          "title": "为何老外疯狂为中国技术溢价买单",
-          "url": "https://www.toutiao.com/trending/7661596444595326505",
-          "hot": 4675105,
-          "rank": 26,
-          "desc": null,
-          "extra": {}
-        },
-        {
-          "title": "美国最后一名“铁肺”使用者去世",
-          "url": "https://www.toutiao.com/trending/7661192713169879046",
-          "hot": 4230210,
-          "rank": 27,
-          "desc": null,
-          "extra": {}
-        },
-        {
-          "title": "哈兰德：我已经彻底累垮了",
-          "url": "https://www.toutiao.com/trending/7661430594974285850",
-          "hot": 3827653,
-          "rank": 28,
-          "desc": null,
-          "extra": {}
-        },
-        {
-          "title": "泽连斯基：乌官员须为武器库爆炸担责",
-          "url": "https://www.toutiao.com/trending/7660981203352289321",
-          "hot": 3463403,
-          "rank": 29,
-          "desc": null,
-          "extra": {}
-        },
-        {
-          "title": "交警罚完瓜农又掏钱买下110元瓜",
-          "url": "https://www.toutiao.com/trending/7660434557145088006",
-          "hot": 3133817,
-          "rank": 30,
-          "desc": null,
-          "extra": {}
-        },
-        {
-          "title": "李金羽谈哈兰德没办法进球",
-          "url": "https://www.toutiao.com/trending/7660773967641772078",
-          "hot": 2835595,
-          "rank": 31,
-          "desc": null,
-          "extra": {}
-        },
-        {
-          "title": "阿斯：阿根廷左路至今没有接班人选",
-          "url": "https://www.toutiao.com/trending/7660863191509450802",
-          "hot": 2565752,
-          "rank": 32,
-          "desc": null,
-          "extra": {}
-        },
-        {
-          "title": "女演员称功夫女足剧组餐标很高",
-          "url": "https://www.toutiao.com/trending/7661239789270843434",
-          "hot": 2321588,
-          "rank": 33,
-          "desc": null,
-          "extra": {}
-        },
-        {
-          "title": "贝林厄姆一秒哄好哈兰德",
-          "url": "https://www.toutiao.com/trending/7660768642728103465",
-          "hot": 2100660,
-          "rank": 34,
-          "desc": null,
-          "extra": {}
-        },
-        {
-          "title": "金价震荡科技回调 资金寻找新均衡",
-          "url": "https://www.toutiao.com/trending/7661411388552085513",
-          "hot": 1900756,
-          "rank": 35,
           "desc": null,
           "extra": {}
         },
         {
           "title": "菲律宾曾书面承认黄岩岛非其领土",
           "url": "https://www.toutiao.com/trending/7660731999812010034",
-          "hot": 1719875,
+          "hot": 5102657,
+          "rank": 24,
+          "desc": null,
+          "extra": {}
+        },
+        {
+          "title": "网友用虹吸原理巧吸窗台积水",
+          "url": "https://www.toutiao.com/trending/7661613861346279462",
+          "hot": 4617075,
+          "rank": 25,
+          "desc": null,
+          "extra": {}
+        },
+        {
+          "title": "盗窃嫌疑人作案后藏进沙滩帐篷被抓获",
+          "url": "https://www.toutiao.com/trending/7660392514222817343",
+          "hot": 4177702,
+          "rank": 26,
+          "desc": null,
+          "extra": {}
+        },
+        {
+          "title": "文章女儿晒和妹妹出游照",
+          "url": "https://www.toutiao.com/trending/7661555483534262308",
+          "hot": 3780141,
+          "rank": 27,
+          "desc": null,
+          "extra": {}
+        },
+        {
+          "title": "阿斯：阿根廷左路至今没有接班人选",
+          "url": "https://www.toutiao.com/trending/7660863191509450802",
+          "hot": 3420413,
+          "rank": 28,
+          "desc": null,
+          "extra": {}
+        },
+        {
+          "title": "大理民宿为何越来越难做",
+          "url": "https://www.toutiao.com/trending/7661502857954201151",
+          "hot": 3094918,
+          "rank": 29,
+          "desc": null,
+          "extra": {}
+        },
+        {
+          "title": "为何老外疯狂为中国技术溢价买单",
+          "url": "https://www.toutiao.com/trending/7661596444595326505",
+          "hot": 2800397,
+          "rank": 30,
+          "desc": null,
+          "extra": {}
+        },
+        {
+          "title": "女演员称功夫女足剧组餐标很高",
+          "url": "https://www.toutiao.com/trending/7661239789270843434",
+          "hot": 2533904,
+          "rank": 31,
+          "desc": null,
+          "extra": {}
+        },
+        {
+          "title": "交警罚完瓜农又掏钱买下110元瓜",
+          "url": "https://www.toutiao.com/trending/7660434557145088006",
+          "hot": 2292771,
+          "rank": 32,
+          "desc": null,
+          "extra": {}
+        },
+        {
+          "title": "HLE夺《英雄联盟》2026 MSI冠军",
+          "url": "https://www.toutiao.com/trending/7661287815292157958",
+          "hot": 2074585,
+          "rank": 33,
+          "desc": null,
+          "extra": {}
+        },
+        {
+          "title": "李金羽谈哈兰德没办法进球",
+          "url": "https://www.toutiao.com/trending/7660773967641772078",
+          "hot": 1877162,
+          "rank": 34,
+          "desc": null,
+          "extra": {}
+        },
+        {
+          "title": "A股AI算力服务链为何突然爆发",
+          "url": "https://www.toutiao.com/trending/7661579639684337194",
+          "hot": 1698527,
+          "rank": 35,
+          "desc": null,
+          "extra": {}
+        },
+        {
+          "title": "7岁男孩帮爷爷卖瓜1秒套袋",
+          "url": "https://www.toutiao.com/trending/7661032992252379145",
+          "hot": 1536890,
           "rank": 36,
           "desc": null,
           "extra": {}
         },
         {
-          "title": "评论员：受够了西班牙队阿根廷队",
-          "url": "https://www.toutiao.com/trending/7661485619473907775",
-          "hot": 1556207,
+          "title": "哈兰德：我已经彻底累垮了",
+          "url": "https://www.toutiao.com/trending/7661430594974285850",
+          "hot": 1390636,
           "rank": 37,
           "desc": null,
           "extra": {}
         },
         {
-          "title": "俄乌冲突后中国市场对俄罗斯有多重要",
-          "url": "https://www.toutiao.com/trending/7661600153941315126",
-          "hot": 1408114,
+          "title": "金价震荡科技回调 资金寻找新均衡",
+          "url": "https://www.toutiao.com/trending/7661411388552085513",
+          "hot": 1258299,
           "rank": 38,
           "desc": null,
           "extra": {}
         },
         {
-          "title": "“星女郎”艾米被北电录取",
-          "url": "https://www.toutiao.com/trending/7661524062363418675",
-          "hot": 1274115,
+          "title": "女子不服处罚 交警有力反驳现场普法",
+          "url": "https://www.toutiao.com/trending/7661225322952147007",
+          "hot": 1138556,
           "rank": 39,
           "desc": null,
           "extra": {}
@@ -1708,87 +1709,87 @@
         {
           "title": "为什么中国人这么喜欢哈兰德",
           "url": "https://www.toutiao.com/trending/7661223383362702894",
-          "hot": 1152866,
+          "hot": 1030208,
           "rank": 40,
-          "desc": null,
-          "extra": {}
-        },
-        {
-          "title": "女子不服处罚 交警有力反驳现场普法",
-          "url": "https://www.toutiao.com/trending/7661225322952147007",
-          "hot": 1043157,
-          "rank": 41,
-          "desc": null,
-          "extra": {}
-        },
-        {
-          "title": "7岁男孩帮爷爷卖瓜1秒套袋",
-          "url": "https://www.toutiao.com/trending/7661032992252379145",
-          "hot": 943887,
-          "rank": 42,
-          "desc": null,
-          "extra": {}
-        },
-        {
-          "title": "台风天独居老人被劝离老房后房屋倒塌",
-          "url": "https://www.toutiao.com/trending/7661464516341006379",
-          "hot": 854064,
-          "rank": 43,
-          "desc": null,
-          "extra": {}
-        },
-        {
-          "title": "外媒称中国四支舰队太平洋“扫海”",
-          "url": "https://www.toutiao.com/trending/7660790268983787583",
-          "hot": 772789,
-          "rank": 44,
-          "desc": null,
-          "extra": {}
-        },
-        {
-          "title": "山东两部门联合发布山洪灾害气象预警",
-          "url": "https://www.toutiao.com/trending/7661387562983948331",
-          "hot": 699249,
-          "rank": 45,
-          "desc": null,
-          "extra": {}
-        },
-        {
-          "title": "HLE夺《英雄联盟》2026 MSI冠军",
-          "url": "https://www.toutiao.com/trending/7661287815292157958",
-          "hot": 632706,
-          "rank": 46,
-          "desc": null,
-          "extra": {}
-        },
-        {
-          "title": "瑞士主帅：裁判误判偷走了胜利",
-          "url": "https://www.toutiao.com/trending/7661130808338399238",
-          "hot": 572496,
-          "rank": 47,
-          "desc": null,
-          "extra": {}
-        },
-        {
-          "title": "山西省普通高校招生征集志愿公告",
-          "url": "https://www.toutiao.com/trending/7660675605075247145",
-          "hot": 518016,
-          "rank": 48,
           "desc": null,
           "extra": {}
         },
         {
           "title": "一名伊朗海军军官在美军袭击中身亡",
           "url": "https://www.toutiao.com/trending/7661588497953721919",
-          "hot": 468720,
+          "hot": 932171,
+          "rank": 41,
+          "desc": null,
+          "extra": {}
+        },
+        {
+          "title": "“星女郎”艾米被北电录取",
+          "url": "https://www.toutiao.com/trending/7661524062363418675",
+          "hot": 843463,
+          "rank": 42,
+          "desc": null,
+          "extra": {}
+        },
+        {
+          "title": "世界杯英阿大战将上演",
+          "url": "https://www.toutiao.com/trending/7661040588103532598",
+          "hot": 763197,
+          "rank": 43,
+          "desc": null,
+          "extra": {}
+        },
+        {
+          "title": "台风天独居老人被劝离老房后房屋倒塌",
+          "url": "https://www.toutiao.com/trending/7661464516341006379",
+          "hot": 690569,
+          "rank": 44,
+          "desc": null,
+          "extra": {}
+        },
+        {
+          "title": "AI是如何“杀死”印度IT行业的",
+          "url": "https://www.toutiao.com/trending/7661654432722980388",
+          "hot": 624853,
+          "rank": 45,
+          "desc": null,
+          "extra": {}
+        },
+        {
+          "title": "评论员：受够了西班牙队阿根廷队",
+          "url": "https://www.toutiao.com/trending/7661485619473907775",
+          "hot": 565390,
+          "rank": 46,
+          "desc": null,
+          "extra": {}
+        },
+        {
+          "title": "受台风“巴威”影响广东迎高温",
+          "url": "https://www.toutiao.com/trending/7660490108324102171",
+          "hot": 511586,
+          "rank": 47,
+          "desc": null,
+          "extra": {}
+        },
+        {
+          "title": "郭涵煜组合获得温网女双冠军",
+          "url": "https://www.toutiao.com/trending/7661637716148227627",
+          "hot": 418851,
+          "rank": 48,
+          "desc": null,
+          "extra": {}
+        },
+        {
+          "title": "瑞士主帅：裁判误判偷走了胜利",
+          "url": "https://www.toutiao.com/trending/7661130808338399238",
+          "hot": 378992,
           "rank": 49,
           "desc": null,
           "extra": {}
         },
         {
-          "title": "阿根廷赢10人瑞士为何不轻松",
-          "url": "https://www.toutiao.com/trending/7661214231288365066",
-          "hot": 424116,
+          "title": "沉默的周星驰和上涨的票房",
+          "url": "https://www.toutiao.com/trending/7661472426055716406",
+          "hot": 310292,
           "rank": 50,
           "desc": null,
           "extra": {}
@@ -1803,7 +1804,7 @@
         {
           "title": "用万能旅行拍照姿势美美出片",
           "url": "https://www.xiaohongshu.com/search_result?keyword=%E7%94%A8%E4%B8%87%E8%83%BD%E6%97%85%E8%A1%8C%E6%8B%8D%E7%85%A7%E5%A7%BF%E5%8A%BF%E7%BE%8E%E7%BE%8E%E5%87%BA%E7%89%87&type=51",
-          "hot": "932.7w",
+          "hot": "948.6w",
           "rank": 1,
           "desc": null,
           "extra": {}
@@ -1811,7 +1812,7 @@
         {
           "title": "耗时三年拍下古诗词里的中国",
           "url": "https://www.xiaohongshu.com/search_result?keyword=%E8%80%97%E6%97%B6%E4%B8%89%E5%B9%B4%E6%8B%8D%E4%B8%8B%E5%8F%A4%E8%AF%97%E8%AF%8D%E9%87%8C%E7%9A%84%E4%B8%AD%E5%9B%BD&type=51",
-          "hot": "920w",
+          "hot": "936w",
           "rank": 2,
           "desc": null,
           "extra": {}
@@ -1819,7 +1820,7 @@
         {
           "title": "我拍到了海鸥雨",
           "url": "https://www.xiaohongshu.com/search_result?keyword=%E6%88%91%E6%8B%8D%E5%88%B0%E4%BA%86%E6%B5%B7%E9%B8%A5%E9%9B%A8&type=51",
-          "hot": "895.6w",
+          "hot": "910.3w",
           "rank": 3,
           "desc": null,
           "extra": {}
@@ -1827,7 +1828,7 @@
         {
           "title": "超日常美食教程速来get",
           "url": "https://www.xiaohongshu.com/search_result?keyword=%E8%B6%85%E6%97%A5%E5%B8%B8%E7%BE%8E%E9%A3%9F%E6%95%99%E7%A8%8B%E9%80%9F%E6%9D%A5get&type=51",
-          "hot": "880.2w",
+          "hot": "894.9w",
           "rank": 4,
           "desc": null,
           "extra": {}
@@ -1835,7 +1836,7 @@
         {
           "title": "定格这一刻的日照金山",
           "url": "https://www.xiaohongshu.com/search_result?keyword=%E5%AE%9A%E6%A0%BC%E8%BF%99%E4%B8%80%E5%88%BB%E7%9A%84%E6%97%A5%E7%85%A7%E9%87%91%E5%B1%B1&type=51",
-          "hot": "868.7w",
+          "hot": "883.1w",
           "rank": 5,
           "desc": null,
           "extra": {}
@@ -1843,7 +1844,7 @@
         {
           "title": "你可以永远相信赛里木湖的美景",
           "url": "https://www.xiaohongshu.com/search_result?keyword=%E4%BD%A0%E5%8F%AF%E4%BB%A5%E6%B0%B8%E8%BF%9C%E7%9B%B8%E4%BF%A1%E8%B5%9B%E9%87%8C%E6%9C%A8%E6%B9%96%E7%9A%84%E7%BE%8E%E6%99%AF&type=51",
-          "hot": "859.2w",
+          "hot": "873.3w",
           "rank": 6,
           "desc": null,
           "extra": {}
@@ -1851,7 +1852,7 @@
         {
           "title": "拼豆上也可以作画了",
           "url": "https://www.xiaohongshu.com/search_result?keyword=%E6%8B%BC%E8%B1%86%E4%B8%8A%E4%B9%9F%E5%8F%AF%E4%BB%A5%E4%BD%9C%E7%94%BB%E4%BA%86&type=51",
-          "hot": "843.3w",
+          "hot": "858.1w",
           "rank": 7,
           "desc": null,
           "extra": {}
@@ -1859,7 +1860,7 @@
         {
           "title": "我的家庭旅行更像是打副本",
           "url": "https://www.xiaohongshu.com/search_result?keyword=%E6%88%91%E7%9A%84%E5%AE%B6%E5%BA%AD%E6%97%85%E8%A1%8C%E6%9B%B4%E5%83%8F%E6%98%AF%E6%89%93%E5%89%AF%E6%9C%AC&type=51",
-          "hot": "824.2w",
+          "hot": "837.9w",
           "rank": 8,
           "desc": null,
           "extra": {}
@@ -1867,7 +1868,7 @@
         {
           "title": "原来古诗词里的河南真的存在",
           "url": "https://www.xiaohongshu.com/search_result?keyword=%E5%8E%9F%E6%9D%A5%E5%8F%A4%E8%AF%97%E8%AF%8D%E9%87%8C%E7%9A%84%E6%B2%B3%E5%8D%97%E7%9C%9F%E7%9A%84%E5%AD%98%E5%9C%A8&type=51",
-          "hot": "814.9w",
+          "hot": "828w",
           "rank": 9,
           "desc": null,
           "extra": {}
@@ -1875,7 +1876,7 @@
         {
           "title": "蒸出了奶香爆米花馒头",
           "url": "https://www.xiaohongshu.com/search_result?keyword=%E8%92%B8%E5%87%BA%E4%BA%86%E5%A5%B6%E9%A6%99%E7%88%86%E7%B1%B3%E8%8A%B1%E9%A6%92%E5%A4%B4&type=51",
-          "hot": "801.1w",
+          "hot": "814.5w",
           "rank": 10,
           "desc": null,
           "extra": {}
@@ -1883,7 +1884,7 @@
         {
           "title": "这可能是江西最被低估的一座山",
           "url": "https://www.xiaohongshu.com/search_result?keyword=%E8%BF%99%E5%8F%AF%E8%83%BD%E6%98%AF%E6%B1%9F%E8%A5%BF%E6%9C%80%E8%A2%AB%E4%BD%8E%E4%BC%B0%E7%9A%84%E4%B8%80%E5%BA%A7%E5%B1%B1&type=51",
-          "hot": "789.8w",
+          "hot": "803w",
           "rank": 11,
           "desc": null,
           "extra": {}
@@ -1891,7 +1892,7 @@
         {
           "title": "海边日落赴一场温柔约会",
           "url": "https://www.xiaohongshu.com/search_result?keyword=%E6%B5%B7%E8%BE%B9%E6%97%A5%E8%90%BD%E8%B5%B4%E4%B8%80%E5%9C%BA%E6%B8%A9%E6%9F%94%E7%BA%A6%E4%BC%9A&type=51",
-          "hot": "776.7w",
+          "hot": "789.7w",
           "rank": 12,
           "desc": null,
           "extra": {}
@@ -1899,7 +1900,7 @@
         {
           "title": "拼豆也能当火漆印章玩",
           "url": "https://www.xiaohongshu.com/search_result?keyword=%E6%8B%BC%E8%B1%86%E4%B9%9F%E8%83%BD%E5%BD%93%E7%81%AB%E6%BC%86%E5%8D%B0%E7%AB%A0%E7%8E%A9&type=51",
-          "hot": "762w",
+          "hot": "774.7w",
           "rank": 13,
           "desc": null,
           "extra": {}
@@ -1907,7 +1908,7 @@
         {
           "title": "我创造了新型遛狗法",
           "url": "https://www.xiaohongshu.com/search_result?keyword=%E6%88%91%E5%88%9B%E9%80%A0%E4%BA%86%E6%96%B0%E5%9E%8B%E9%81%9B%E7%8B%97%E6%B3%95&type=51",
-          "hot": "744.7w",
+          "hot": "756.1w",
           "rank": 14,
           "desc": null,
           "extra": {}
@@ -1915,7 +1916,7 @@
         {
           "title": "用镜头捕捉四季如画",
           "url": "https://www.xiaohongshu.com/search_result?keyword=%E7%94%A8%E9%95%9C%E5%A4%B4%E6%8D%95%E6%8D%89%E5%9B%9B%E5%AD%A3%E5%A6%82%E7%94%BB&type=51",
-          "hot": "730.8w",
+          "hot": "741.9w",
           "rank": 15,
           "desc": null,
           "extra": {}
@@ -1923,7 +1924,7 @@
         {
           "title": "笔墨重现课本诗意",
           "url": "https://www.xiaohongshu.com/search_result?keyword=%E7%AC%94%E5%A2%A8%E9%87%8D%E7%8E%B0%E8%AF%BE%E6%9C%AC%E8%AF%97%E6%84%8F&type=51",
-          "hot": "719.8w",
+          "hot": "731w",
           "rank": 16,
           "desc": null,
           "extra": {}
@@ -1931,7 +1932,7 @@
         {
           "title": "拍到了洱海的丁达尔效应",
           "url": "https://www.xiaohongshu.com/search_result?keyword=%E6%8B%8D%E5%88%B0%E4%BA%86%E6%B4%B1%E6%B5%B7%E7%9A%84%E4%B8%81%E8%BE%BE%E5%B0%94%E6%95%88%E5%BA%94&type=51",
-          "hot": "707w",
+          "hot": "718.5w",
           "rank": 17,
           "desc": null,
           "extra": {}
@@ -1939,7 +1940,7 @@
         {
           "title": "珠圆玉润妆完全是淡颜天菜",
           "url": "https://www.xiaohongshu.com/search_result?keyword=%E7%8F%A0%E5%9C%86%E7%8E%89%E6%B6%A6%E5%A6%86%E5%AE%8C%E5%85%A8%E6%98%AF%E6%B7%A1%E9%A2%9C%E5%A4%A9%E8%8F%9C&type=51",
-          "hot": "671.4w",
+          "hot": "682.1w",
           "rank": 18,
           "desc": null,
           "extra": {}
@@ -1947,7 +1948,7 @@
         {
           "title": "碎钻美甲指尖藏着细碎星光",
           "url": "https://www.xiaohongshu.com/search_result?keyword=%E7%A2%8E%E9%92%BB%E7%BE%8E%E7%94%B2%E6%8C%87%E5%B0%96%E8%97%8F%E7%9D%80%E7%BB%86%E7%A2%8E%E6%98%9F%E5%85%89&type=51",
-          "hot": "655.7w",
+          "hot": "666.1w",
           "rank": 19,
           "desc": null,
           "extra": {}
@@ -1955,7 +1956,7 @@
         {
           "title": "我来当旅行中的颜色猎手",
           "url": "https://www.xiaohongshu.com/search_result?keyword=%E6%88%91%E6%9D%A5%E5%BD%93%E6%97%85%E8%A1%8C%E4%B8%AD%E7%9A%84%E9%A2%9C%E8%89%B2%E7%8C%8E%E6%89%8B&type=51",
-          "hot": "622.5w",
+          "hot": "632w",
           "rank": 20,
           "desc": null,
           "extra": {}
@@ -2026,7 +2027,7 @@
           "url": "https://www.ithome.com/0/975/827.htm",
           "hot": null,
           "rank": 7,
-          "desc": "IT之家 7 月 12 日消息，彭博社马克 · 古尔曼（Mark Gurman）今日发文透露，新款 Apple Pencil 手写笔预计将于明年与下一代 iPad Pro 机型同步发布。古尔曼此前爆料称，苹果将在明年春季推出新款 iPad Pro。IT之家获悉，苹果正在准备两款新型号 Apple Pencil：第一款代号为 B582，是几年前推出的入门级 Apple Pencil 的升级版，采用 USB-C 接口充电而非无线充电；另一款代号为 B632，是在 2024 年与 M4 iPad Pro 一同亮相的 Apple Pencil Pro 的更新版本。此外，为了满足欧盟即将出台的、要求消费电子产品内部电池必须更易于更换的规定，苹果内部被曝正在开展大量的应对工作。现有及历代 Apple Pencil 都极难维...",
+          "desc": "IT之家 7 月 12 日消息，彭博社马克 · 古尔曼（Mark Gurman）今日发文透露，新款 Apple Pencil 手写笔预计将于明年与下一代 iPad Pro 机型同步发布。古尔曼此前爆料称，苹果将在明年春季推出新款 iPad Pro。IT之家获悉，苹果正在准备两款新型号 Apple Pencil：第一款代号为 B582，是几年前推出的入门级 Apple Pencil 的升级版，采用 USB-C 接口充电而非无线充电；另一款代号为 B632，是在 2024 年与 M4 iPad Pro 一同亮相的 Apple Pencil Pro 的升级版。此外，为了满足欧盟即将出台的、要求消费电子产品内部电池必须更易于更换的规定，苹果内部被曝正在开展大量的应对工作。现有及历代 Apple Pencil 都极难维修...",
           "extra": {},
           "desc_source": "source"
         },
@@ -2289,7 +2290,7 @@
           "desc": "The Destructive Command Guard (dcg) is for blocking dangerous git and shell commands from being executed by agents.",
           "extra": {
             "language": "Rust",
-            "stars": "2,548",
+            "stars": "2,576",
             "stars_today": "444"
           },
           "desc_source": "source"
@@ -2299,10 +2300,10 @@
           "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
           "hot": 207,
           "rank": 2,
-          "desc": "这是为Claude提供的MCP服务器，它赋予了它终端控制、文件系统搜索和diff文件编辑的能力",
+          "desc": "这是Claude的MCP服务器，它为Claude提供了终端控制、文件系统搜索和diff文件编辑功能。",
           "extra": {
             "language": "TypeScript",
-            "stars": "7,904",
+            "stars": "7,910",
             "stars_today": "207"
           },
           "desc_source": "source"
@@ -2315,7 +2316,7 @@
           "desc": "\"Vibe-Trading: Your Personal Trading Agent\"",
           "extra": {
             "language": "Python",
-            "stars": "20,257",
+            "stars": "20,286",
             "stars_today": "776"
           },
           "desc_source": "source"
@@ -2328,7 +2329,7 @@
           "desc": "Prefect是一个用于在Python中构建弹性数据管道的工作流编排框架。",
           "extra": {
             "language": "Python",
-            "stars": "23,061",
+            "stars": "23,067",
             "stars_today": "55"
           },
           "desc_source": "source"
@@ -2336,13 +2337,13 @@
         {
           "title": "Shubhamsaboo/awesome-llm-apps",
           "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
-          "hot": 549,
+          "hot": 450,
           "rank": 5,
-          "desc": "100+ AI Agent & RAG apps you can actually run — clone, customize, ship.",
+          "desc": "100+ AI Agent &amp; RAG apps you can actually run — clone, customize, ship.",
           "extra": {
             "language": "Python",
-            "stars": "118,347",
-            "stars_today": "549"
+            "stars": "118,357",
+            "stars_today": "450"
           },
           "desc_source": "source"
         },
@@ -2354,7 +2355,7 @@
           "desc": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
           "extra": {
             "language": "Jupyter Notebook",
-            "stars": "48,225",
+            "stars": "48,237",
             "stars_today": "464"
           },
           "desc_source": "source"
@@ -2364,10 +2365,10 @@
           "url": "https://github.com/home-assistant/core",
           "hot": 404,
           "rank": 7,
-          "desc": "🏡 开源智能家居自动化，将本地控制和隐私放在首位。",
+          "desc": "🏡 Open source home automation that puts local control and privacy first.",
           "extra": {
             "language": "Python",
-            "stars": "88,913",
+            "stars": "88,925",
             "stars_today": "404"
           },
           "desc_source": "source"
@@ -2380,7 +2381,7 @@
           "desc": "Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere.",
           "extra": {
             "language": "TypeScript",
-            "stars": "33,661",
+            "stars": "33,668",
             "stars_today": "122"
           },
           "desc_source": "source"
@@ -2393,7 +2394,7 @@
           "desc": "An open-source background agents coding system",
           "extra": {
             "language": "TypeScript",
-            "stars": "2,191",
+            "stars": "2,196",
             "stars_today": "9"
           },
           "desc_source": "source"
@@ -2401,13 +2402,13 @@
         {
           "title": "k1tbyte/Wand-Enhancer",
           "url": "https://github.com/k1tbyte/Wand-Enhancer",
-          "hot": 661,
+          "hot": 603,
           "rank": 10,
           "desc": "Advanced UX and interoperability extension for Wand (WeMod) app",
           "extra": {
             "language": "C#",
-            "stars": "6,709",
-            "stars_today": "661"
+            "stars": "6,726",
+            "stars_today": "603"
           },
           "desc_source": "source"
         },
@@ -2419,7 +2420,7 @@
           "desc": "T3 Code：编码代理的Web GUI",
           "extra": {
             "language": "TypeScript",
-            "stars": "13,671",
+            "stars": "13,676",
             "stars_today": "79"
           },
           "desc_source": "fetch"
@@ -2432,7 +2433,7 @@
           "desc": "An AI Hedge Fund Team",
           "extra": {
             "language": "Python",
-            "stars": "61,283",
+            "stars": "61,300",
             "stars_today": "109"
           },
           "desc_source": "source"
@@ -2445,7 +2446,7 @@
           "desc": "A multi-platform proxy client based on ClashMeta,simple and easy to use, open-source and ad-free.",
           "extra": {
             "language": "Dart",
-            "stars": "45,162",
+            "stars": "45,167",
             "stars_today": "151"
           },
           "desc_source": "source"
@@ -2466,13 +2467,13 @@
         {
           "title": "par274/sharpemu",
           "url": "https://github.com/par274/sharpemu",
-          "hot": 436,
+          "hot": 349,
           "rank": 15,
           "desc": "An experimental PlayStation 5 emulator project.",
           "extra": {
             "language": "C#",
-            "stars": "1,080",
-            "stars_today": "436"
+            "stars": "1,097",
+            "stars_today": "349"
           },
           "desc_source": "source"
         },
@@ -2484,7 +2485,7 @@
           "desc": "Postgres rewritten in Rust, now passing 100% of the Postgres regression tests",
           "extra": {
             "language": "Rust",
-            "stars": "2,339",
+            "stars": "2,348",
             "stars_today": "518"
           },
           "desc_source": "source"
@@ -2497,7 +2498,7 @@
           "desc": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
           "extra": {
             "language": "CSS",
-            "stars": "4,059",
+            "stars": "4,073",
             "stars_today": "210"
           },
           "desc_source": "source"
