@@ -1,0 +1,49 @@
+name: HotNews Collector
+
+on:
+  schedule:
+    # 每 30 分钟运行一次（UTC 时间，+8 即北京时间）
+    - cron: '*/30 * * * *'
+  workflow_dispatch:  # 也支持手动触发
+
+permissions:
+  contents: write  # 允许提交 data.json / 缓存 回仓库
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      HTTP_PROXY: ""
+      HTTPS_PROXY: ""
+      http_proxy: ""
+      https_proxy: ""
+      GLM_API_KEY: ${{ secrets.GLM_API_KEY }}
+      GLM_BASE_URL: ${{ secrets.GLM_BASE_URL }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Install dependencies
+        run: pip install urllib3 trafilatura requests
+
+      - name: Run collector (fetch article + GLM summary)
+        run: python collector.py
+
+      - name: Commit data.json and summary cache back to repo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data.json cache/summaries.json
+          if git diff --cached --quiet; then
+            echo "无变化，跳过提交"
+          else
+            git commit -m "chore: auto-update hot news data + summary cache [skip ci]"
+            git push
+          fi
