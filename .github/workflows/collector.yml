@@ -1,7 +1,9 @@
 name: HotNews Collector
 
 on:
-  workflow_dispatch:  # 仅手动触发（自动采集已移至本机 launchd，避免海外节点调 GLM 触发限流）
+  schedule:
+    - cron: "*/30 * * * *"   # 云端定时采集（不再依赖本机 launchd）
+  workflow_dispatch:
 
 permissions:
   contents: write  # 允许提交 data.json / 缓存 回仓库
@@ -13,8 +15,9 @@ jobs:
     env:
       HTTP_PROXY: ""
       HTTPS_PROXY: ""
-      GLM_API_KEY: ${{ secrets.GLM_API_KEY }}
-      GLM_BASE_URL: ${{ secrets.GLM_BASE_URL }}
+      SENSENOVA_API_KEY: ${{ secrets.SENSENOVA_API_KEY }}
+      SENSENOVA_BASE_URL: ${{ secrets.SENSENOVA_BASE_URL }}
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -28,14 +31,23 @@ jobs:
       - name: Install dependencies
         run: pip install urllib3 trafilatura requests
 
-      - name: Run collector (fetch article + GLM summary)
+      - name: Run collector (fetch article + SenseNova summary)
         run: python collector.py
 
-      - name: Commit data.json and summary cache back to repo
+      - name: Setup wrangler
+        run: npm install -g wrangler
+
+      - name: Push data to Cloudflare KV (Worker 请求时读取，免重部署)
+        run: wrangler kv key put "data.json" --remote --namespace-id 96e43b25406048c3ae5547423f7b7538 --path data.json
+
+      - name: Deploy Worker (代码/绑定变更时生效，幂等)
+        run: wrangler deploy
+
+      - name: Commit data.json and summary cache back to repo (jsDelivr 兜底)
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data.json cache/summaries.json
+          git add data.json public/data.json cache/summaries.json
           if git diff --cached --quiet; then
             echo "无变化，跳过提交"
           else

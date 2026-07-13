@@ -22,19 +22,29 @@ echo "[$(date '+%Y-%m-%d %H:%M:%S')] === 开始定时采集 ===" >> "$LOG"
 "$PY" collector.py >> "$LOG" 2>&1
 echo "[$(date '+%Y-%m-%d %H:%M:%S')] collector 退出码=$?" >> "$LOG"
 
-# 同步一份给 CF 静态部署（前端主源即同源 ./data.json，国内必达）
+# 数据主路径：写入 Cloudflare KV（Worker 请求时从 KV 读，免每次 wrangler deploy）
+# 同时 cp 一份到 public/data.json 作为 KV 空时的静态兜底 + 仓库留存。
 cp -f data.json public/data.json
-
-# 部署到 Cloudflare：让 workers.dev 自带 data.json 也保持最新（否则 jsDelivr 被墙时回退到旧空数据）
 WRANGLER=/Users/fn/.npm-global/bin/wrangler
+DATA_JSON="$(pwd)/data.json"
 if [ -x "$WRANGLER" ]; then
-  if "$WRANGLER" deploy >> "$LOG" 2>&1; then
-    echo "  [cf] 已部署 -> workers.dev 同源 data.json 更新" >> "$LOG"
+  if "$WRANGLER" kv key put "data.json" --remote --binding HOTNEWS_DATA --path "$DATA_JSON" >> "$LOG" 2>&1; then
+    echo "  [kv] 已写入 KV（线上从 KV 读最新数据）" >> "$LOG"
   else
-    echo "  [cf] deploy 失败（不影响 jsDelivr/仓库，下次重试）" >> "$LOG"
+    echo "  [kv] 写入失败（保留上次 KV 值 / 静态兜底，下次重试）" >> "$LOG"
+  fi
+  # 仅当 worker 代码或配置变动时才重新部署（数据已走 KV，无需每次重部署）
+  if git diff --quiet HEAD -- worker.js wrangler.toml 2>/dev/null; then
+    :
+  else
+    if "$WRANGLER" deploy >> "$LOG" 2>&1; then
+      echo "  [cf] worker 代码变更，已重新部署" >> "$LOG"
+    else
+      echo "  [cf] deploy 失败（不影响数据 KV）" >> "$LOG"
+    fi
   fi
 else
-  echo "  [cf] 未找到 wrangler，跳过部署" >> "$LOG"
+  echo "  [cf] 未找到 wrangler，跳过 KV/部署" >> "$LOG"
 fi
 
 # 提交并推回仓库（站点经 jsDelivr 自动更新；CI 仅作手动兜底）

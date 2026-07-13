@@ -5,3 +5,8 @@ compatibility_date = "2025-01-01"
 [assets]
 directory = "./public"
 binding = "ASSETS"
+
+# 数据走 KV：采集器(GitHub Actions)写，Worker 请求时读，免 wrangler deploy 同步
+[[kv_namespaces]]
+binding = "HOTNEWS_DATA"
+id = "96e43b25406048c3ae5547423f7b7538"
