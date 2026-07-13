@@ -196,13 +196,13 @@
 </aside>
 
 <script>
-// 主源：阿里云 OSS 国内直读。用户浏览器在中国直连 OSS，绕过 Cloudflare 出境 fetch 限制，
-//       数据由 GitHub Actions 每 30 分钟直接上传，最稳、最新鲜（不依赖 KV/CF 拉 GitHub）。
-const OSS_URL  = "https://obsidian260712.oss-cn-beijing.aliyuncs.com/hotnews/data.json";
-// 兜底1：同源 Cloudflare（打包内置快照，仅应急）
-const DATA_URL = "./data.json";
-// 兜底2：jsDelivr CDN（境外/前两者均不可用时）
-const CDN_URL  = "https://cdn.jsdelivr.net/gh/infoccxt/hot-news@main/data.json";
+// 数据源优先级（浏览器侧 fetch，不依赖 Cloudflare 出境）：
+//   主源：jsDelivr CDN —— 直读 GitHub 仓库 data.json，Actions 每 30 分提交即更新，国内可用、最新鲜
+//   兜底：同源 Cloudflare 内置快照 ./data.json（仅应急，可能略旧）
+//   目标：待 RAM 给本密钥开放 anything-toy-260717 写权限后，改由阿里云 OSS 主源直读（国内最快最稳）
+const CDN_URL  = "https://cdn.jsdelivr.net/gh/infoccxt/hot-news@main/data.json"; // 主源
+const DATA_URL = "./data.json";                                                  // 兜底：CF 快照
+const OSS_TARGET = "https://anything-toy-260717.oss-cn-beijing.aliyuncs.com/hotnews/data.json"; // 待启用
 const LOCAL = location.search.includes("local");
 
 let ALL = [], active = "all";
@@ -217,17 +217,13 @@ const fmt = n => {
 };
 
 async function load(){
-  // 主源 OSS 用 no-store 保证每次都是最新（155KB 国内直连开销可忽略）；
-  // 兜底用 default 缓存提升极端情况下的可用性。
-  let url = OSS_URL;             // 阿里云 OSS 国内直读（主源）
-  let r = await fetch(url,{cache:"no-store"});
-  if (!r.ok) {                   // OSS 不可用时回退同源 CF 快照
+  // 主源 jsDelivr 用 default 缓存（CDN 边缘缓存，重复打开快）；
+  // 兜底 CF 快照用 no-store 保证应急时取到内置最新。
+  let url = CDN_URL;             // jsDelivr 主源（最新，Actions 每 30 分提交）
+  let r = await fetch(url,{cache:"default"});
+  if (!r.ok) {                   // jsDelivr 不可用时回退同源 CF 快照
     url = DATA_URL;
     r = await fetch(url,{cache:"no-store"});
-  }
-  if (!r.ok) {                   // 再回退 jsDelivr CDN
-    url = CDN_URL;
-    r = await fetch(url,{cache:"default"});
   }
   if (!r.ok) throw Error("HTTP "+r.status);
   const d = await r.json();

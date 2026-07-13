@@ -47,11 +47,12 @@ jobs:
             commit -m "auto: 定时采集 $(date +'%Y-%m-%d %H:%M %Z')" || echo "no changes"
           git push
 
-      - name: 上传 data.json 到阿里云 OSS（国内直读主源）
+      - name: 上传 data.json 到阿里云 OSS（目标桶 anything-toy-260717，待 RAM 开放写权限后生效）
+        continue-on-error: true   # 授权未到位时上传会失败，但不打断采集->提交->自愈主链路
         env:
           OSS_KEY_ID: ${{ secrets.OSS_KEY_ID }}
           OSS_KEY_SECRET: ${{ secrets.OSS_KEY_SECRET }}
-          OSS_BUCKET: obsidian260712
+          OSS_BUCKET: anything-toy-260717
           OSS_REGION: oss-cn-beijing
           OSS_KEY: hotnews/data.json
         run: |
