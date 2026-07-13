@@ -1,66 +1,13 @@
-// 前端静态资源由 ASSETS 托管；/data.json 从 KV 读取。
-// KV 为空或过期时，Worker 自行从 GitHub 拉取最新 data.json 并回填 KV，
-// 再定时（Cron）主动刷新——于是「采集（GitHub Actions 云端）」与「部署（Cloudflare）」
-// 完全解耦，云端 Actions 不再需要任何 Cloudflare 凭证。
-// 上游用 jsDelivr 而非 raw.githubusercontent.com：
-// jsDelivr 国内被墙是「浏览器侧」问题；CF Worker 跑在海外节点，拉 jsDelivr 稳定可达，
-// 而 raw.githubusercontent.com 在 CF 侧偶发不可达，会导致 Cron 自拉失败、KV 停更。
-// jsDelivr 自动从 GitHub 同步（通常 <1 分钟延迟），满足数据新鲜度。
-const UPSTREAM = "https://cdn.jsdelivr.net/gh/infoccxt/hot-news@main/data.json";
-const MAX_AGE_MS = 35 * 60 * 1000; // 超过 35 分钟视为过期，触发回填
-
-async function fetchAndCache(env) {
-  const headers = {};
-  if (env.GH_TOKEN) headers["Authorization"] = "Bearer " + env.GH_TOKEN;
-  const r = await fetch(UPSTREAM, { headers });
-  if (!r.ok) throw new Error("upstream " + r.status);
-  const text = await r.text();
-  JSON.parse(text); // 校验为合法 JSON 再写入，避免脏数据污染 KV
-  await env.HOTNEWS_DATA.put("data.json", text);
-  return text;
-}
-
-function isFresh(text) {
-  try {
-    const d = JSON.parse(text);
-    const t = Date.parse(d.updated_at);
-    if (!t) return false;
-    return (Date.now() - t) < MAX_AGE_MS;
-  } catch {
-    return false;
-  }
-}
-
+// 数据主源已改为阿里云 OSS（浏览器在中国直连，绕过 Cloudflare 出境 fetch 到 GitHub/jsDelivr 的限制）。
+// 本 Worker 只负责托管静态前端；/data.json 兜底返回打包内置的快照（平时前端直接读 OSS，此路由仅应急）。
+// 不再依赖 KV / Cron / CF 出站拉取 —— 采集与部署完全解耦，Actions 用 GITHUB_TOKEN 提交、用 OSS key 上传。
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
     if (url.pathname === "/data.json") {
-      try {
-        const kv = await env.HOTNEWS_DATA.get("data.json");
-        if (kv && isFresh(kv)) {
-          return new Response(kv, {
-            headers: { "Content-Type": "application/json; charset=utf-8", "Cache-Control": "no-cache" },
-          });
-        }
-      } catch (e) { /* 读 KV 失败，走回填 */ }
-      // KV 空或过期：从上游拉取并回填
-      try {
-        const fresh = await fetchAndCache(env);
-        return new Response(fresh, {
-          headers: { "Content-Type": "application/json; charset=utf-8", "Cache-Control": "no-cache" },
-        });
-      } catch (e) {
-        // 上游也失败：回退打包的静态文件
-        return env.ASSETS.fetch(request);
-      }
+      // 打包内置快照兜底：若 public/ 下无 data.json 则返回 404，前端会自动转 jsDelivr。
+      return env.ASSETS.fetch(request);
     }
     return env.ASSETS.fetch(request);
-  },
-
-  // Cron 定时主动刷新 KV（wrangler.toml 的 [triggers].crons 控制频率）
-  async scheduled(event, env) {
-    try {
-      await fetchAndCache(env);
-    } catch (e) { /* 失败静默，下次 Cron 或请求时再试 */ }
   }
 };

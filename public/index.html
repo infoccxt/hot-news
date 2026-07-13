@@ -196,9 +196,12 @@
 </aside>
 
 <script>
-// 主源：同源 ./data.json（随 Cloudflare Worker 一起部署，国内必达、零外部依赖、秒开）
-// 兜底：jsDelivr CDN（随 GitHub 仓库更新，境外/CF 未部署时可用）
+// 主源：阿里云 OSS 国内直读。用户浏览器在中国直连 OSS，绕过 Cloudflare 出境 fetch 限制，
+//       数据由 GitHub Actions 每 30 分钟直接上传，最稳、最新鲜（不依赖 KV/CF 拉 GitHub）。
+const OSS_URL  = "https://obsidian260712.oss-cn-beijing.aliyuncs.com/hotnews/data.json";
+// 兜底1：同源 Cloudflare（打包内置快照，仅应急）
 const DATA_URL = "./data.json";
+// 兜底2：jsDelivr CDN（境外/前两者均不可用时）
 const CDN_URL  = "https://cdn.jsdelivr.net/gh/infoccxt/hot-news@main/data.json";
 const LOCAL = location.search.includes("local");
 
@@ -214,12 +217,15 @@ const fmt = n => {
 };
 
 async function load(){
-  // 不再强制 no-store + 时间戳破缓存：让浏览器/CDN 缓存生效，重复打开秒开。
-  // 数据每 30 分钟更新，服务端 must-revalidate 用 304 快速校验，不会看到过期太久的数据。
-  let url = DATA_URL;            // 同源 Cloudflare（主源，国内必达）
-  let r = await fetch(url,{cache:"default"});
-  if (!r.ok) {
-    // 同源失败（极少）时回退 jsDelivr CDN
+  // 主源 OSS 用 no-store 保证每次都是最新（155KB 国内直连开销可忽略）；
+  // 兜底用 default 缓存提升极端情况下的可用性。
+  let url = OSS_URL;             // 阿里云 OSS 国内直读（主源）
+  let r = await fetch(url,{cache:"no-store"});
+  if (!r.ok) {                   // OSS 不可用时回退同源 CF 快照
+    url = DATA_URL;
+    r = await fetch(url,{cache:"no-store"});
+  }
+  if (!r.ok) {                   // 再回退 jsDelivr CDN
     url = CDN_URL;
     r = await fetch(url,{cache:"default"});
   }

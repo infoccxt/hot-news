@@ -6,12 +6,5 @@ compatibility_date = "2025-01-01"
 directory = "./public"
 binding = "ASSETS"
 
-# 数据走 KV：Worker 自己从 GitHub 拉取并缓存（见 worker.js 的 scheduled/fetch 回填），
-# 云端 Actions 只负责把 data.json 提交到 GitHub，无需任何 Cloudflare 凭证。
-[[kv_namespaces]]
-binding = "HOTNEWS_DATA"
-id = "96e43b25406048c3ae5547423f7b7538"
-
-# 定时主动刷新 KV（每 20 分钟），与 Actions 的 30 分钟采集错开，保证国内读到的同源数据新鲜。
-[triggers]
-crons = ["*/20 * * * *"]
+# 数据不再走 KV：前端直接读阿里云 OSS（国内直连），Actions 每 30 分钟上传 data.json 到 OSS。
+# 由此彻底绕开 Cloudflare 出境 fetch 到 GitHub/jsDelivr 不可达的问题。无需 kv_namespaces / cron。

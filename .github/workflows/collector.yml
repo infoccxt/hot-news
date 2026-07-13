@@ -46,3 +46,28 @@ jobs:
           git -c user.name="hotnews-bot" -c user.email="bot@infoccxt.local" \
             commit -m "auto: 定时采集 $(date +'%Y-%m-%d %H:%M %Z')" || echo "no changes"
           git push
+
+      - name: 上传 data.json 到阿里云 OSS（国内直读主源）
+        env:
+          OSS_KEY_ID: ${{ secrets.OSS_KEY_ID }}
+          OSS_KEY_SECRET: ${{ secrets.OSS_KEY_SECRET }}
+          OSS_BUCKET: obsidian260712
+          OSS_REGION: oss-cn-beijing
+          OSS_KEY: hotnews/data.json
+        run: |
+          python -m pip install --quiet oss2
+          python - <<'PY'
+          import os, oss2
+          auth = oss2.Auth(os.environ["OSS_KEY_ID"], os.environ["OSS_KEY_SECRET"])
+          b = oss2.Bucket(auth,
+                          f'https://{os.environ["OSS_REGION"]}.aliyuncs.com',
+                          os.environ["OSS_BUCKET"])
+          b.put_object_from_file(
+              os.environ["OSS_KEY"], "data.json",
+              headers={
+                  "Content-Type": "application/json; charset=utf-8",
+                  "Cache-Control": "no-cache",
+              })
+          b.put_object_acl(os.environ["OSS_KEY"], oss2.BUCKET_ACL_PUBLIC_READ)
+          print("uploaded", os.environ["OSS_KEY"], "-> public-read")
+          PY
