@@ -12,7 +12,7 @@ permissions:
 jobs:
   collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 30
     env:
       # 摘要模型：日日新(SenseNova) 优先；无 key 时回退 GLM（见 collector._glm_creds）
       SENSENOVA_API_KEY: ${{ secrets.SENSENOVA_API_KEY }}
