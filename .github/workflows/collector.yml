@@ -17,6 +17,7 @@ jobs:
       # 摘要模型：日日新(SenseNova) 优先；无 key 时回退 GLM（见 collector._glm_creds）
       SENSENOVA_API_KEY: ${{ secrets.SENSENOVA_API_KEY }}
       SENSENOVA_BASE_URL: https://token.sensenova.cn/v1
+      SKIP_FETCH_BODY: "1"   # 云端美国节点抓国内源慢，跳过正文抓取，只做标题背景兜底（更快更稳）
     steps:
       - uses: actions/checkout@v4
         with:

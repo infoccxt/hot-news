@@ -312,6 +312,9 @@ def glm_summarize_text(texts, max_chars=110):
 def enrich(sources, max_workers=8):
     """抓取有正文的条目做真摘要；搜索页/无链接条目回退标题背景。
     带 url 缓存：有内容不重抓；首次运行用线程池并发抓 ~16 路，正文批量丢给 GLM 摘要。"""
+    # 云端(Actions 美国节点)抓国内源很慢且易超时：设 SKIP_FETCH_BODY=1 跳过正文抓取，
+    # 只走标题背景兜底（已验证 100% 填满、速度快）。本机备份不设该变量，做完整版。
+    SKIP_FETCH_BODY = bool(os.environ.get("SKIP_FETCH_BODY"))
     cache = load_summary_cache()
     tasks = []  # (kind, si, ii, url)
     for si, s in enumerate(sources):
@@ -327,7 +330,8 @@ def enrich(sources, max_workers=8):
                 continue  # 无链接（每日早报）→ 走标题背景兜底
             if is_search_url(url):
                 continue  # 搜索页无单篇原文，直接走标题背景兜底
-            tasks.append(("article", si, ii, url))
+            if not SKIP_FETCH_BODY:
+                tasks.append(("article", si, ii, url))
 
     # 并发抓正文（慢在网络 I/O，线程池提速）
     fetched = {}
