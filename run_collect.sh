@@ -22,8 +22,20 @@ echo "[$(date '+%Y-%m-%d %H:%M:%S')] === 开始定时采集 ===" >> "$LOG"
 "$PY" collector.py >> "$LOG" 2>&1
 echo "[$(date '+%Y-%m-%d %H:%M:%S')] collector 退出码=$?" >> "$LOG"
 
-# 同步一份给 CF 静态部署（前端有回退，主要数据走 jsDelivr）
+# 同步一份给 CF 静态部署（前端主源即同源 ./data.json，国内必达）
 cp -f data.json public/data.json
+
+# 部署到 Cloudflare：让 workers.dev 自带 data.json 也保持最新（否则 jsDelivr 被墙时回退到旧空数据）
+WRANGLER=/Users/fn/.npm-global/bin/wrangler
+if [ -x "$WRANGLER" ]; then
+  if "$WRANGLER" deploy >> "$LOG" 2>&1; then
+    echo "  [cf] 已部署 -> workers.dev 同源 data.json 更新" >> "$LOG"
+  else
+    echo "  [cf] deploy 失败（不影响 jsDelivr/仓库，下次重试）" >> "$LOG"
+  fi
+else
+  echo "  [cf] 未找到 wrangler，跳过部署" >> "$LOG"
+fi
 
 # 提交并推回仓库（站点经 jsDelivr 自动更新；CI 仅作手动兜底）
 git pull --rebase --autostash origin main >> "$LOG" 2>&1 || echo "  [git] pull 失败，稍后重试" >> "$LOG"

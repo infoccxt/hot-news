@@ -196,10 +196,10 @@
 </aside>
 
 <script>
-// 数据地址：默认读同源 data.json（与前端一起部署在 CloudStudio，零外部依赖、秒开）
-// 推到 GitHub 并启用 Actions 定时采集后，可改为 jsDelivr CDN（自动随仓库更新）：
-//   const DATA_URL = "https://cdn.jsdelivr.net/gh/<用户名>/<仓库名>@main/data.json";
-const DATA_URL = "https://cdn.jsdelivr.net/gh/infoccxt/hot-news@main/data.json";
+// 主源：同源 ./data.json（随 Cloudflare Worker 一起部署，国内必达、零外部依赖、秒开）
+// 兜底：jsDelivr CDN（随 GitHub 仓库更新，境外/CF 未部署时可用）
+const DATA_URL = "./data.json";
+const CDN_URL  = "https://cdn.jsdelivr.net/gh/infoccxt/hot-news@main/data.json";
 const LOCAL = location.search.includes("local");
 
 let ALL = [], active = "all";
@@ -216,11 +216,11 @@ const fmt = n => {
 async function load(){
   // 不再强制 no-store + 时间戳破缓存：让浏览器/CDN 缓存生效，重复打开秒开。
   // 数据每 30 分钟更新，服务端 must-revalidate 用 304 快速校验，不会看到过期太久的数据。
-  let url = DATA_URL;
+  let url = DATA_URL;            // 同源 Cloudflare（主源，国内必达）
   let r = await fetch(url,{cache:"default"});
   if (!r.ok) {
-    // jsDelivr 未更新/不可达时，回退到 CF 自带的静态 data.json
-    url = "./data.json";
+    // 同源失败（极少）时回退 jsDelivr CDN
+    url = CDN_URL;
     r = await fetch(url,{cache:"default"});
   }
   if (!r.ok) throw Error("HTTP "+r.status);
