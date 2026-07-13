@@ -26,6 +26,9 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: 安装依赖（fetch_extract 抓正文用 requests）
+        run: python -m pip install --quiet requests
+
       - name: 采集热闻并生成摘要
         run: python collector.py
 
