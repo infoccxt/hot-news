@@ -5,6 +5,11 @@ on:
     - cron: "*/30 * * * *"   # 每 30 分钟云端采集一次（无需本机）
   workflow_dispatch:
 
+# 串行：防止两个 run 同时基于旧 main 提交导致 push 冲突（non-fast-forward）
+concurrency:
+  group: hot-news-collect
+  cancel-in-progress: false
+
 # 内置 GITHUB_TOKEN 用于提交 data.json；无需任何 Cloudflare 凭证。
 permissions:
   contents: write
@@ -35,6 +40,8 @@ jobs:
 
       - name: 提交 data.json（含增量缓存）
         run: |
+          # 先拉取远端最新（并发/外部提交时避免 non-fast-forward 冲突）
+          git pull --rebase origin main || true
           git add data.json cache/summaries.json
           git -c user.name="hotnews-bot" -c user.email="bot@infoccxt.local" \
             commit -m "auto: 定时采集 $(date +'%Y-%m-%d %H:%M %Z')" || echo "no changes"

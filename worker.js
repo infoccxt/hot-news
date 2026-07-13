@@ -2,7 +2,11 @@
 // KV 为空或过期时，Worker 自行从 GitHub 拉取最新 data.json 并回填 KV，
 // 再定时（Cron）主动刷新——于是「采集（GitHub Actions 云端）」与「部署（Cloudflare）」
 // 完全解耦，云端 Actions 不再需要任何 Cloudflare 凭证。
-const UPSTREAM = "https://raw.githubusercontent.com/infoccxt/hot-news/main/data.json";
+// 上游用 jsDelivr 而非 raw.githubusercontent.com：
+// jsDelivr 国内被墙是「浏览器侧」问题；CF Worker 跑在海外节点，拉 jsDelivr 稳定可达，
+// 而 raw.githubusercontent.com 在 CF 侧偶发不可达，会导致 Cron 自拉失败、KV 停更。
+// jsDelivr 自动从 GitHub 同步（通常 <1 分钟延迟），满足数据新鲜度。
+const UPSTREAM = "https://cdn.jsdelivr.net/gh/infoccxt/hot-news@main/data.json";
 const MAX_AGE_MS = 35 * 60 * 1000; // 超过 35 分钟视为过期，触发回填
 
 async function fetchAndCache(env) {
