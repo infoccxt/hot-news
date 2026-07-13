@@ -196,13 +196,13 @@
 </aside>
 
 <script>
-// 数据源优先级（浏览器侧 fetch，不依赖 Cloudflare 出境）：
-//   主源：jsDelivr CDN —— 直读 GitHub 仓库 data.json，Actions 每 30 分提交即更新，国内可用、最新鲜
+// 数据源（浏览器侧 fetch，绕过 Cloudflare 出境限制；全部零凭据、无需用户操作）：
+//   主源：GitHub Pages —— 每次 Actions 提交即重建，国内可达、数据最新（~1-3 分钟延迟）
+//   次选：jsDelivr CDN —— 国内更快，但 GitHub 同步有数小时滞后，作次选
 //   兜底：同源 Cloudflare 内置快照 ./data.json（仅应急，可能略旧）
-//   目标：待 RAM 给本密钥开放 anything-toy-260717 写权限后，改由阿里云 OSS 主源直读（国内最快最稳）
-const CDN_URL  = "https://cdn.jsdelivr.net/gh/infoccxt/hot-news@main/data.json"; // 主源
-const DATA_URL = "./data.json";                                                  // 兜底：CF 快照
-const OSS_TARGET = "https://anything-toy-260717.oss-cn-beijing.aliyuncs.com/hotnews/data.json"; // 待启用
+const PAGES_URL = "https://infoccxt.github.io/hot-news/data.json"; // 主源（最新）
+const CDN_URL   = "https://cdn.jsdelivr.net/gh/infoccxt/hot-news@main/data.json"; // 次选（快但滞后）
+const DATA_URL  = "./data.json";                                     // 兜底：CF 快照
 const LOCAL = location.search.includes("local");
 
 let ALL = [], active = "all";
@@ -217,16 +217,32 @@ const fmt = n => {
 };
 
 async function load(){
-  // 主源 jsDelivr 用 default 缓存（CDN 边缘缓存，重复打开快）；
-  // 兜底 CF 快照用 no-store 保证应急时取到内置最新。
-  let url = CDN_URL;             // jsDelivr 主源（最新，Actions 每 30 分提交）
-  let r = await fetch(url,{cache:"default"});
-  if (!r.ok) {                   // jsDelivr 不可用时回退同源 CF 快照
-    url = DATA_URL;
-    r = await fetch(url,{cache:"no-store"});
+  // 并行取主源(Pages，最新) 与 次选(jsDelivr，快但滞后)，取 updated_at 较新者；
+  // 两者皆失败则回退同源 CF 内置快照。国内既快（jsDelivr 可达时）又新（Pages 更新时）。
+  const tryGet = async (url, cache) => {
+    try {
+      const r = await fetch(url, {cache});
+      if (!r.ok) return null;
+      return await r.json();
+    } catch { return null; }
+  };
+  const [pages, cdn] = await Promise.all([
+    tryGet(PAGES_URL, "no-store"),
+    tryGet(CDN_URL,   "default"),
+  ]);
+  let d = null;
+  if (pages && cdn) {
+    const tp = new Date(pages.updated_at).getTime();
+    const tc = new Date(cdn.updated_at).getTime();
+    d = (isNaN(tc) || tp >= tc) ? pages : cdn;   // 取更新时间较新者
+  } else {
+    d = pages || cdn;
   }
-  if (!r.ok) throw Error("HTTP "+r.status);
-  const d = await r.json();
+  if (!d) {                                       // 两者皆失败 → CF 快照兜底
+    const r = await fetch(DATA_URL, {cache:"no-store"});
+    if (!r.ok) throw Error("HTTP "+r.status);
+    d = await r.json();
+  }
   ALL = d.sources || [];
   setTime(d.updated_at);
   tabs();

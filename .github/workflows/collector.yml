@@ -2,7 +2,7 @@ name: hot-news-collector
 
 on:
   schedule:
-    - cron: "*/30 * * * *"   # 每 30 分钟云端采集一次（无需本机）
+    - cron: "*/20 * * * *"   # 每 20 分钟云端采集一次（无需本机）。改过 cron 值以重新注册 GitHub 调度器
   workflow_dispatch:
 
 # 串行：防止两个 run 同时基于旧 main 提交导致 push 冲突（non-fast-forward）
@@ -47,28 +47,6 @@ jobs:
             commit -m "auto: 定时采集 $(date +'%Y-%m-%d %H:%M %Z')" || echo "no changes"
           git push
 
-      - name: 上传 data.json 到阿里云 OSS（目标桶 anything-toy-260717，待 RAM 开放写权限后生效）
-        continue-on-error: true   # 授权未到位时上传会失败，但不打断采集->提交->自愈主链路
-        env:
-          OSS_KEY_ID: ${{ secrets.OSS_KEY_ID }}
-          OSS_KEY_SECRET: ${{ secrets.OSS_KEY_SECRET }}
-          OSS_BUCKET: anything-toy-260717
-          OSS_REGION: oss-cn-beijing
-          OSS_KEY: hotnews/data.json
-        run: |
-          python -m pip install --quiet oss2
-          python - <<'PY'
-          import os, oss2
-          auth = oss2.Auth(os.environ["OSS_KEY_ID"], os.environ["OSS_KEY_SECRET"])
-          b = oss2.Bucket(auth,
-                          f'https://{os.environ["OSS_REGION"]}.aliyuncs.com',
-                          os.environ["OSS_BUCKET"])
-          b.put_object_from_file(
-              os.environ["OSS_KEY"], "data.json",
-              headers={
-                  "Content-Type": "application/json; charset=utf-8",
-                  "Cache-Control": "no-cache",
-              })
-          b.put_object_acl(os.environ["OSS_KEY"], oss2.BUCKET_ACL_PUBLIC_READ)
-          print("uploaded", os.environ["OSS_KEY"], "-> public-read")
-          PY
+      # 注：阿里云 OSS 上传步骤已移除。原因：当前 RAM 子账号密钥无 anything-toy-260717
+      # 写权限（实测 403 AccessDenied，且无 RAM 权限可自助授权）；用户亦要求不将热闻放入
+      # obsidian260712 桶。现改由 GitHub Pages 作零凭据主源（见 public/index.html）。
