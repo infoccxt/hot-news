@@ -1,56 +1,37 @@
-name: HotNews Collector
+name: hot-news-collector
 
 on:
   schedule:
-    - cron: "*/30 * * * *"   # 云端定时采集（不再依赖本机 launchd）
+    - cron: "*/30 * * * *"   # 每 30 分钟云端采集一次（无需本机）
   workflow_dispatch:
 
+# 内置 GITHUB_TOKEN 用于提交 data.json；无需任何 Cloudflare 凭证。
 permissions:
-  contents: write  # 允许提交 data.json / 缓存 回仓库
+  contents: write
 
 jobs:
   collect:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     env:
-      HTTP_PROXY: ""
-      HTTPS_PROXY: ""
+      # 摘要模型：日日新(SenseNova) 优先；无 key 时回退 GLM（见 collector._glm_creds）
       SENSENOVA_API_KEY: ${{ secrets.SENSENOVA_API_KEY }}
-      SENSENOVA_BASE_URL: ${{ secrets.SENSENOVA_BASE_URL }}
-      CLOUDFLARE_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+      SENSENOVA_BASE_URL: https://token.sensenova.cn/v1
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
-          python-version: '3.13'
+          python-version: "3.11"
 
-      - name: Install dependencies
-        run: pip install urllib3 trafilatura requests
-
-      - name: Run collector (fetch article + SenseNova summary)
+      - name: 采集热闻并生成摘要
         run: python collector.py
 
-      - name: Setup wrangler
-        run: npm install -g wrangler
-
-      - name: Push data to Cloudflare KV (Worker 请求时读取，免重部署)
-        run: wrangler kv key put "data.json" --remote --namespace-id 96e43b25406048c3ae5547423f7b7538 --path data.json
-
-      - name: Deploy Worker (代码/绑定变更时生效，幂等)
-        run: wrangler deploy
-
-      - name: Commit data.json and summary cache back to repo (jsDelivr 兜底)
+      - name: 提交 data.json（含增量缓存）
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data.json public/data.json cache/summaries.json
-          if git diff --cached --quiet; then
-            echo "无变化，跳过提交"
-          else
-            git commit -m "chore: auto-update hot news data + summary cache [skip ci]"
-            git push
-          fi
+          git add data.json cache/summaries.json
+          git -c user.name="hotnews-bot" -c user.email="bot@infoccxt.local" \
+            commit -m "auto: 定时采集 $(date +'%Y-%m-%d %H:%M %Z')" || echo "no changes"
+          git push
