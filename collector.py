@@ -30,7 +30,7 @@ if _proxy:
     try:
         _opener = urllib.request.build_opener(
             urllib.request.ProxyHandler({"http": _proxy, "https": _proxy}))
-        print(f"  [proxy] GLM 调用已挂载代理 {_proxy}")
+        print(f"  [proxy] 源抓取已挂载代理 {_proxy}")
     except Exception as _e:
         print("  [warn] 代理 opener 创建失败:", _e)
 
@@ -71,23 +71,32 @@ def clean(text):
 
 # ── 中文翻译（GLM-4-Flash，免费）──────────────────────
 def _glm_creds():
-    """优先读 GLM_API_KEY 环境变量（CI/部署用），其次 EverOS .env（本地共用免费模型）。"""
+    """选择摘要模型：优先 SenseNova（日日新，SENSENOVA_API_KEY），其次 GLM-4-Flash（GLM_API_KEY / EverOS .env）。
+    返回 (api_key, base_url, model_name)。CI/部署用环境变量，本地共用 EverOS .env。"""
+    # 1) 日日新（商汤）优先
+    k = os.environ.get("SENSENOVA_API_KEY")
+    if k:
+        base = os.environ.get("SENSENOVA_BASE_URL") or "https://token.sensenova.cn/v1"
+        model = os.environ.get("SENSENOVA_MODEL") or "sensenova-6.7-flash-lite"
+        return k, base, model
+    # 2) GLM（智谱）环境变量
     k = os.environ.get("GLM_API_KEY")
     base = os.environ.get("GLM_BASE_URL")
     if k and base:
-        return k, base
+        return k, base, (os.environ.get("GLM_MODEL") or "GLM-4-Flash")
+    # 3) 本地 EverOS .env 的 GLM key
     k = os.environ.get("EVEROS_LLM__API_KEY")
     base = os.environ.get("EVEROS_LLM__BASE_URL")
     if k and base:
-        return k, base
+        return k, base, "GLM-4-Flash"
     p = os.path.expanduser("~/.config/everos/.env")
     if os.path.exists(p):
         txt = open(p, encoding="utf-8").read()
         m = re.search(r"EVEROS_LLM__API_KEY\s*=\s*(\S+)", txt)
         n = re.search(r"EVEROS_LLM__BASE_URL\s*=\s*(\S+)", txt)
         if m:
-            return m.group(1).strip(), (n.group(1).strip() if n else "https://open.bigmodel.cn/api/paas/v4")
-    return None, None
+            return m.group(1).strip(), (n.group(1).strip() if n else "https://open.bigmodel.cn/api/paas/v4"), "GLM-4-Flash"
+    return None, None, None
 
 
 def _extract_json(text):
@@ -110,30 +119,43 @@ def _extract_json(text):
     return None
 
 
-def _glm_chat(body, key, base, timeout=45):
-    """用 curl 子进程调智谱：curl 自动读取环境代理（沙箱/本机均稳），
-    比 urllib/requests 的代理处理更可靠。成功返回模型文本，失败返回 None。"""
+def _is_rate_limited(text):
+    """判断模型返回是否为限流（429 / rate_limit）。"""
+    t = (text or "").lower()
+    return "rate_limit" in t or "429" in t or "\"code\":\"429\"" in t
+
+
+def _glm_chat(body, key, base, timeout=90, max_retry=4):
+    """调大模型（GLM / SenseNova，接口兼容）；curl 自动读环境代理。
+    遇限流(429)指数退避重试；成功返回模型文本，全失败返回 None。"""
     import subprocess
     url = base.rstrip("/") + "/chat/completions"
-    cmd = ["curl", "-s", "--max-time", str(timeout), "-X", "POST", url,
+    cmd = ["curl", "-s", "--noproxy", "*", "--max-time", str(timeout), "-X", "POST", url,
            "-H", "Authorization: Bearer " + key, "-H", "Content-Type: application/json",
            "-d", json.dumps(body, ensure_ascii=False)]
-    try:
-        r = subprocess.run(cmd, capture_output=True, text=True, timeout=timeout + 15)
-        if r.returncode != 0:
-            print("  [warn] GLM curl 失败 rc=%d %s" % (r.returncode, r.stderr[:120]))
-            return None
-        return json.loads(r.stdout)["choices"][0]["message"]["content"]
-    except Exception as e:
-        print("  [warn] GLM 请求失败:", e)
-        return None
+    delay = 3
+    for attempt in range(max_retry):
+        try:
+            r = subprocess.run(cmd, capture_output=True, text=True, timeout=timeout + 30)
+            if r.returncode != 0:
+                print("  [warn] LLM curl 失败 rc=%d %s" % (r.returncode, r.stderr[:120]))
+                time.sleep(delay); delay *= 2; continue
+            out = r.stdout or ""
+            if _is_rate_limited(out):
+                print("  [warn] LLM 限流(429)，退避 %ds 重试(%d/%d)" % (delay, attempt + 1, max_retry))
+                time.sleep(delay); delay *= 2; continue
+            return json.loads(out)["choices"][0]["message"]["content"]
+        except Exception as e:
+            print("  [warn] LLM 请求失败:", e)
+            time.sleep(delay); delay *= 2; continue
+    return None
 
 
 def glm_translate(texts, what="headlines"):
     """把一批英文文本翻译成中文，返回同序列表。任何失败都回退原文。"""
     if not texts:
         return texts
-    key, base = _glm_creds()
+    key, base, model = _glm_creds()
     if not key:
         return texts
     if what == "headlines":
@@ -147,14 +169,14 @@ def glm_translate(texts, what="headlines"):
                  "以 JSON 对象返回：{\"zh\":[\"译文1\",\"译文2\",...]}，"
                  "数组顺序与输入完全一致，不要任何额外文字或解释。")
     body = {
-        "model": "GLM-4-Flash",
+        "model": model,
         "messages": [
             {"role": "system", "content": sys_p},
             {"role": "user", "content": json.dumps(texts, ensure_ascii=False)},
         ],
         "temperature": 0.3,
     }
-    content = _glm_chat(body, key, base, 45)
+    content = _glm_chat(body, key, base, 90)
     if content:
         obj = _extract_json(content)
         arr = None
@@ -184,19 +206,19 @@ def glm_summarize(titles):
     """给一批热搜话题生成一句话背景。失败回退空串。"""
     if not titles:
         return [""] * len(titles)
-    key, base = _glm_creds()
+    key, base, model = _glm_creds()
     if not key:
         return [""] * len(titles)
     sys_p = ("你是热点背景助手。对下面每个热搜话题，用一句客观中文（不超过45字）说明它大致是什么、为何受关注。"
              "只基于普遍常识；若不清楚具体事件，只复述其字面含义或所属领域，"
              "严禁编造人名、数字、时间、事件细节。"
              "返回 JSON：{\"zh\":[\"背景1\",...]}，数组顺序与输入一致，不要任何额外文字。")
-    body = {"model": "GLM-4-Flash",
+    body = {"model": model,
             "messages": [{"role": "system", "content": sys_p},
                          {"role": "user", "content": json.dumps(titles, ensure_ascii=False)}],
             "temperature": 0.3}
     for attempt in range(3):
-        content = _glm_chat(body, key, base, 45)
+        content = _glm_chat(body, key, base, 90)
         if content:
             obj = _extract_json(content)
             arr = obj.get("zh") if isinstance(obj, dict) else (obj if isinstance(obj, list) else None)
@@ -262,7 +284,7 @@ def glm_summarize_text(texts, max_chars=110):
     """对一批网页正文片段生成中文一句话摘要。失败回退空串。"""
     if not texts:
         return [""] * len(texts)
-    key, base = _glm_creds()
+    key, base, model = _glm_creds()
     if not key:
         return [""] * len(texts)
     sys_p = ("你是新闻摘要助手。下面每条是一篇网页文章的正文片段。"
@@ -271,12 +293,12 @@ def glm_summarize_text(texts, max_chars=110):
              "若正文信息不足，只说其讨论的主题领域。"
              "返回 JSON：{{\"zh\":[\"摘要1\",...]}}，数组顺序与输入一致，不要任何额外文字。"
              ).format(max_chars)
-    body = {"model": "GLM-4-Flash",
+    body = {"model": model,
             "messages": [{"role": "system", "content": sys_p},
                          {"role": "user", "content": json.dumps(texts, ensure_ascii=False)}],
             "temperature": 0.3}
     for attempt in range(3):
-        content = _glm_chat(body, key, base, 60)
+        content = _glm_chat(body, key, base, 90)
         if content:
             obj = _extract_json(content)
             arr = obj.get("zh") if isinstance(obj, dict) else (obj if isinstance(obj, list) else None)
