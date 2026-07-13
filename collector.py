@@ -18,9 +18,29 @@ CTX = ssl.create_default_context()
 CTX.check_hostname = False
 CTX.verify_mode = ssl.CERT_NONE
 
-# 清代理（沙箱/CI 环境可能被代理干扰，导致 urllib/requests 访问 GLM 与抓取超时）
-for _k in ("HTTP_PROXY", "HTTPS_PROXY", "http_proxy", "https_proxy", "ALL_PROXY", "all_proxy"):
-    os.environ.pop(_k, None)
+# launchd 子进程直连 open.bigmodel.cn 会超时（DNS/路由受限），必须走脚本注入的代理；
+# 代理出口在境外，智谱免费档按频率限流，靠缓存+低重试规避。git push 同样经代理。
+
+# Python urllib 默认不读 HTTP_PROXY 环境变量；本机需经代理访问智谱，
+# 故为 GLM 调用单独挂载代理 opener（抓取国内源的函数保持默认直连）。
+_opener = None
+_proxy = (os.environ.get("HTTPS_PROXY") or os.environ.get("HTTP_PROXY")
+          or os.environ.get("https_proxy") or os.environ.get("http_proxy"))
+if _proxy:
+    try:
+        _opener = urllib.request.build_opener(
+            urllib.request.ProxyHandler({"http": _proxy, "https": _proxy}))
+        print(f"  [proxy] GLM 调用已挂载代理 {_proxy}")
+    except Exception as _e:
+        print("  [warn] 代理 opener 创建失败:", _e)
+
+
+def _open(req, timeout):
+    """发送 HTTP 请求：有代理则走代理 opener，否则直连（抓取国内源用）。"""
+    if _opener:
+        return _opener.open(req, timeout=timeout, context=CTX)
+    return urllib.request.urlopen(req, timeout=timeout, context=CTX)
+
 
 UA = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
                     "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36",
@@ -90,6 +110,25 @@ def _extract_json(text):
     return None
 
 
+def _glm_chat(body, key, base, timeout=45):
+    """用 curl 子进程调智谱：curl 自动读取环境代理（沙箱/本机均稳），
+    比 urllib/requests 的代理处理更可靠。成功返回模型文本，失败返回 None。"""
+    import subprocess
+    url = base.rstrip("/") + "/chat/completions"
+    cmd = ["curl", "-s", "--max-time", str(timeout), "-X", "POST", url,
+           "-H", "Authorization: Bearer " + key, "-H", "Content-Type: application/json",
+           "-d", json.dumps(body, ensure_ascii=False)]
+    try:
+        r = subprocess.run(cmd, capture_output=True, text=True, timeout=timeout + 15)
+        if r.returncode != 0:
+            print("  [warn] GLM curl 失败 rc=%d %s" % (r.returncode, r.stderr[:120]))
+            return None
+        return json.loads(r.stdout)["choices"][0]["message"]["content"]
+    except Exception as e:
+        print("  [warn] GLM 请求失败:", e)
+        return None
+
+
 def glm_translate(texts, what="headlines"):
     """把一批英文文本翻译成中文，返回同序列表。任何失败都回退原文。"""
     if not texts:
@@ -115,16 +154,8 @@ def glm_translate(texts, what="headlines"):
         ],
         "temperature": 0.3,
     }
-    req = urllib.request.Request(
-        base.rstrip("/") + "/chat/completions",
-        data=json.dumps(body).encode("utf-8"),
-        headers={"Authorization": "Bearer " + key, "Content-Type": "application/json"},
-        method="POST",
-    )
-    try:
-        with urllib.request.urlopen(req, timeout=45, context=CTX) as r:
-            d = json.loads(r.read().decode("utf-8", "ignore"))
-        content = d["choices"][0]["message"]["content"]
+    content = _glm_chat(body, key, base, 45)
+    if content:
         obj = _extract_json(content)
         arr = None
         if isinstance(obj, list):
@@ -133,8 +164,6 @@ def glm_translate(texts, what="headlines"):
             arr = obj.get("zh") or obj.get("translations") or obj.get("result")
         if isinstance(arr, list) and len(arr) == len(texts):
             return [clean(x) or texts[i] for i, x in enumerate(arr)]
-    except Exception as e:
-        print("  [warn] 翻译失败，保留原文:", e)
     return texts
 
 
@@ -166,22 +195,18 @@ def glm_summarize(titles):
             "messages": [{"role": "system", "content": sys_p},
                          {"role": "user", "content": json.dumps(titles, ensure_ascii=False)}],
             "temperature": 0.3}
-    req = urllib.request.Request(base.rstrip("/") + "/chat/completions",
-        data=json.dumps(body).encode("utf-8"),
-        headers={"Authorization": "Bearer " + key, "Content-Type": "application/json"},
-        method="POST")
     for attempt in range(3):
-        try:
-            with urllib.request.urlopen(req, timeout=45, context=CTX) as r:
-                c = json.loads(r.read().decode("utf-8", "ignore"))
-            content = c["choices"][0]["message"]["content"]
+        content = _glm_chat(body, key, base, 45)
+        if content:
             obj = _extract_json(content)
             arr = obj.get("zh") if isinstance(obj, dict) else (obj if isinstance(obj, list) else None)
-            if isinstance(arr, list) and len(arr) == len(titles):
-                return [clean(x) or "" for x in arr]
-        except Exception as e:
-            print(f"  [warn] 摘要生成失败(第{attempt+1}次):", e)
-            time.sleep(1.5)
+            # 松弛接受：GLM 输出被截断导致数组长度不符时，按索引填充、缺失补空，
+            # 避免整批丢弃（严格相等检查会让 194 条热词一次性全空）。
+            if isinstance(arr, list) and arr:
+                return [(clean(arr[i]) if i < len(arr) and clean(arr[i]) else "")
+                        for i in range(len(titles))]
+        print(f"  [warn] 摘要生成失败(第{attempt+1}次)")
+        time.sleep(1.5)
     return [""] * len(titles)
 
 # ── 正文抓取 + 真摘要（GLM-4-Flash，免费）──────────────
@@ -250,22 +275,16 @@ def glm_summarize_text(texts, max_chars=110):
             "messages": [{"role": "system", "content": sys_p},
                          {"role": "user", "content": json.dumps(texts, ensure_ascii=False)}],
             "temperature": 0.3}
-    req = urllib.request.Request(base.rstrip("/") + "/chat/completions",
-        data=json.dumps(body).encode("utf-8"),
-        headers={"Authorization": "Bearer " + key, "Content-Type": "application/json"},
-        method="POST")
     for attempt in range(3):
-        try:
-            with urllib.request.urlopen(req, timeout=60, context=CTX) as r:
-                c = json.loads(r.read().decode("utf-8", "ignore"))
-            content = c["choices"][0]["message"]["content"]
+        content = _glm_chat(body, key, base, 60)
+        if content:
             obj = _extract_json(content)
             arr = obj.get("zh") if isinstance(obj, dict) else (obj if isinstance(obj, list) else None)
-            if isinstance(arr, list) and len(arr) == len(texts):
-                return [clean(x) or "" for x in arr]
-        except Exception as e:
-            print(f"  [warn] 正文摘要失败(第{attempt+1}次):", e)
-            time.sleep(1.5)
+            if isinstance(arr, list) and arr:
+                return [(clean(arr[i]) if i < len(arr) and clean(arr[i]) else "")
+                        for i in range(len(texts))]
+        print(f"  [warn] 正文摘要失败(第{attempt+1}次)")
+        time.sleep(1.5)
     return [""] * len(texts)
 
 def enrich(sources, max_workers=8):
@@ -323,7 +342,13 @@ def enrich(sources, max_workers=8):
                 need.append((si, ii, it["title"]))
     if need:
         titles = [x[2] for x in need]
-        bg = glm_summarize(titles)
+        bg = []
+        G = 15  # 一批最多 15 条，避免 GLM 输出截断；免费档按 IP 限频，批间留间隔
+        for i in range(0, len(titles), G):
+            chunk = titles[i:i + G]
+            bg.extend(glm_summarize(chunk))
+            if i + G < len(titles):
+                time.sleep(1.5)
         for (si, ii, _), b in zip(need, bg):
             if b:
                 it = sources[si]["items"][ii]
