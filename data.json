@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-19T01:24:13+00:00",
+  "updated_at": "2026-07-19T04:58:59+00:00",
   "sources": [
     {
       "key": "hn-ai",
@@ -7,11 +7,11 @@
       "count": 25,
       "items": [
         {
-          "title": "不要发布生成/AI 编辑的评论。HN 是供人类之间交流的平台",
+          "title": "请勿发布生成/AI 编辑的评论。HN 是供人类之间对话的",
           "url": "https://news.ycombinator.com/newsguidelines.html#generated",
           "hot": 4229,
           "rank": 1,
-          "desc": "讨论 HN 社区禁止 AI 生成内容，强调人类交流价值的规则争议。",
+          "desc": "指 HN 社区禁止发布 AI 生成内容，强调平台旨在促进人类真实交流。",
           "extra": {
             "author": "usefulposter",
             "comments": 1668
@@ -23,7 +23,7 @@
           "url": "https://ciechanow.ski/airfoil/",
           "hot": 2544,
           "rank": 2,
-          "desc": "空气动力学中产生升力的截面形状，常用于飞机机翼设计的基础概念。",
+          "desc": "指空气动力学中产生升力的截面形状，常用于飞机机翼设计领域。",
           "extra": {
             "author": "todsacerdoti",
             "comments": 296
@@ -31,11 +31,11 @@
           "desc_source": "guess"
         },
         {
-          "title": "开源 AI 是前进的道路",
+          "title": "开源 AI 是未来之路",
           "url": "https://about.fb.com/news/2024/07/open-source-ai-is-the-path-forward/",
           "hot": 2360,
           "rank": 3,
-          "desc": "主张人工智能技术应开放源代码以促进创新，反对封闭生态的观点。",
+          "desc": "观点认为开放源代码的人工智能技术将推动行业长远发展与创新。",
           "extra": {
             "author": "atgctg",
             "comments": 887
@@ -43,11 +43,11 @@
           "desc_source": "guess"
         },
         {
-          "title": "我那些怀疑 AI 的朋友都是疯子",
+          "title": "我那些怀疑 AI 的朋友全是疯子",
           "url": "https://fly.io/blog/youre-all-nuts/",
           "hot": 2356,
           "rank": 4,
-          "desc": "表达对人工智能技术持怀疑态度者的不满，认为其观念落后或错误。",
+          "desc": "表达个人观点，认为对人工智能技术持怀疑态度的人是不理智的。",
           "extra": {
             "author": "tabletcorry",
             "comments": 2826
@@ -55,11 +55,11 @@
           "desc_source": "guess"
         },
         {
-          "title": "一个 AI 代理发表了一篇抹黑我的文章",
+          "title": "一个 AI 代理发布了一篇抹黑我的文章",
           "url": "https://theshamblog.com/an-ai-agent-published-a-hit-piece-on-me/",
           "hot": 2346,
           "rank": 5,
-          "desc": "指人工智能代理自主发布内容导致个人名誉受损，引发对 AI 责任的讨论。",
+          "desc": "指人工智能代理程序发布了对个人不利的内容，引发关于 AI 责任的讨论。",
           "extra": {
             "author": "scottshambaugh",
             "comments": 951
@@ -71,7 +71,7 @@
           "url": "https://deepmind.google/technologies/gemini/",
           "hot": 2135,
           "rank": 6,
-          "desc": "谷歌推出的多模态人工智能模型，用于处理文本、图像等多种任务。",
+          "desc": "谷歌推出的人工智能模型，属于生成式 AI 领域的热门技术产品。",
           "extra": {
             "author": "dmotz",
             "comments": 1602
@@ -79,11 +79,11 @@
           "desc_source": "guess"
         },
         {
-          "title": "我相信现在整个公司都处于 AI 妄想症中",
+          "title": "我相信现在有些公司整体都处于 AI 狂热症中",
           "url": "https://twitter.com/mitchellh/status/2055380239711457578",
           "hot": 2105,
           "rank": 7,
-          "desc": "批评企业内部过度炒作人工智能概念，忽视实际业务需求的现状。",
+          "desc": "观点指出部分企业过度追捧人工智能技术，可能存在盲目跟风现象。",
           "extra": {
             "author": "reasonableklout",
             "comments": 1272
@@ -95,7 +95,7 @@
           "url": "https://www.dropsitenews.com/p/israeli-soldiers-tel-sultan-gaza-red-crescent-civil-defense-massacre-report-forensic-architecture-earshot",
           "hot": 2084,
           "rank": 8,
-          "desc": "关于以色列国防军在加沙冲突中对待援助工作者的争议性报道。",
+          "desc": "指某报告指控以色列国防军在冲突中伤害援助人员，引发国际关注。",
           "extra": {
             "author": "Qem",
             "comments": 997
@@ -107,7 +107,7 @@
           "url": "https://orchidfiles.com/im-tired-of-ai-generated-answers/",
           "hot": 2013,
           "rank": 9,
-          "desc": "反映用户对频繁使用人工智能对话功能感到疲惫和缺乏兴趣的情绪。",
+          "desc": "表达用户对频繁使用人工智能对话功能感到疲劳或不满的情绪。",
           "extra": {
             "author": "theorchid",
             "comments": 950
@@ -119,7 +119,7 @@
           "url": "https://ian.sh/tsa",
           "hot": 2004,
           "rank": 10,
-          "desc": "探讨利用数据库漏洞技术突破机场安全检查系统的网络安全话题。",
+          "desc": "指声称利用数据库漏洞技术规避安全检查的说法，涉及网络安全领域。",
           "extra": {
             "author": "iancarroll",
             "comments": 440
@@ -127,11 +127,11 @@
           "desc_source": "guess"
         },
         {
-          "title": "空调：1697 美元只为一个开关",
+          "title": "空调：1697 美元买个开关",
           "url": "https://blog.hopefullyuseful.com/blog/advantage-air-ezone-tablet-diy-repair/",
           "hot": 2001,
           "rank": 11,
-          "desc": "质疑某智能空调产品价格过高，认为其核心功能价值与售价不匹配。",
+          "desc": "吐槽空调产品价格高昂，认为其功能价值与售价不成正比。",
           "extra": {
             "author": "ranebo",
             "comments": 478
@@ -143,7 +143,7 @@
           "url": "https://unix.foo/posts/local-ai-needs-to-be-norm/",
           "hot": 1903,
           "rank": 12,
-          "desc": "主张人工智能模型应在用户本地设备运行，以保障隐私和降低延迟。",
+          "desc": "观点主张人工智能模型应在本地设备运行，以保障隐私与效率。",
           "extra": {
             "author": "cylo",
             "comments": 749
@@ -155,7 +155,7 @@
           "url": "https://ai.googleblog.com/2018/05/duplex-ai-system-for-natural-conversation.html",
           "hot": 1875,
           "rank": 13,
-          "desc": "谷歌开发的能模拟人类语音通话，自动完成预约等现实任务的 AI 技术。",
+          "desc": "谷歌开发的 AI 系统，能通过语音通话代为完成预约等现实任务。",
           "extra": {
             "author": "ivank",
             "comments": 750
@@ -163,11 +163,11 @@
           "desc_source": "guess"
         },
         {
-          "title": "Google Chrome 未经同意在您的设备上静默安装 4 GB AI 模型",
+          "title": "Google Chrome 在未经同意的情况下静默在你的设备上安装 4 GB AI 模型",
           "url": "https://www.thatprivacyguy.com/blog/chrome-silent-nano-install/",
           "hot": 1755,
           "rank": 14,
-          "desc": "指控谷歌浏览器在未获用户许可下自动下载大型人工智能模型文件。",
+          "desc": "指谷歌浏览器被指在未获许可下安装 AI 模型，引发隐私担忧。",
           "extra": {
             "author": "john-doe",
             "comments": 1143
@@ -179,7 +179,7 @@
           "url": "https://www.foldnfly.com/",
           "hot": 1753,
           "rank": 15,
-          "desc": "关于折叠纸飞机以优化飞行距离和稳定性的手工设计与空气动力学原理。",
+          "desc": "指手工制作纸飞机的造型与结构研究，属于航空科普或娱乐活动。",
           "extra": {
             "author": "wilsonfiifi",
             "comments": 206
@@ -187,11 +187,11 @@
           "desc_source": "guess"
         },
         {
-          "title": "AWS CEO 表示用 AI 取代初级员工是“我听说过的最蠢的事”",
+          "title": "AWS CEO 称用 AI 取代初级员工是“我听过最蠢的事”",
           "url": "https://www.theregister.com/2025/08/21/aws_ceo_entry_level_jobs_opinion/",
           "hot": 1697,
           "rank": 16,
-          "desc": "AWS 首席执行官评论 AI 替代初级员工言论，引发关于 AI 就业影响的讨论。",
+          "desc": "AWS 高管反对用 AI 替代初级员工，认为此举不明智，引发行业对 AI 就业影响的讨论。",
           "extra": {
             "author": "JustExAWS",
             "comments": 744
@@ -203,7 +203,7 @@
           "url": "https://www.wired.com/story/elon-musk-government-young-engineers/",
           "hot": 1683,
           "rank": 17,
-          "desc": "指协助 DOGE 工作的年轻工程师群体，引发对人员资质的关注。",
+          "desc": "指年轻工程师参与美国效率部工作，因经验不足引发公众对政府项目质量的关注。",
           "extra": {
             "author": "medler",
             "comments": 2991
@@ -215,7 +215,7 @@
           "url": "https://opensourceaimustwin.com/?share=v2",
           "hot": 1603,
           "rank": 18,
-          "desc": "关于开源人工智能模型发展必要性的观点，涉及技术生态竞争。",
+          "desc": "强调开源人工智能模型的重要性，反映业界对技术开放性与竞争格局的关注。",
           "extra": {
             "author": "vednig",
             "comments": 482
@@ -223,11 +223,11 @@
           "desc_source": "guess"
         },
         {
-          "title": "Zoom 条款现允许使用用户内容训练 AI 且无法选择退出",
+          "title": "Zoom 条款现在允许在用户内容上训练 AI 且无法选择退出",
           "url": "https://explore.zoom.us/en/terms/",
           "hot": 1581,
           "rank": 19,
-          "desc": "视频会议软件更新隐私条款，引发用户对数据隐私及 AI 训练权的担忧。",
+          "desc": "Zoom 更新条款允许用用户数据训练 AI 且不可选退，引发隐私担忧。",
           "extra": {
             "author": "isodev",
             "comments": 511
@@ -239,7 +239,7 @@
           "url": "https://www.anthropic.com/glasswing",
           "hot": 1541,
           "rank": 20,
-          "desc": "旨在提升关键软件安全性的项目，应对人工智能时代的安全挑战。",
+          "desc": "该项目旨在提升关键软件安全性，应对 AI 时代带来的潜在网络安全挑战。",
           "extra": {
             "author": "Ryan5453",
             "comments": 836
@@ -247,11 +247,11 @@
           "desc_source": "guess"
         },
         {
-          "title": "Show HN：我是一名航空飞行员——我构建了我的航班交互式图表/地球仪",
+          "title": "Show HN：我是一名航空公司飞行员——我构建了我的航班交互式图表/地球仪",
           "url": "https://jameshard.ing/pilot",
           "hot": 1539,
           "rank": 21,
-          "desc": "飞行员分享自建的航班交互式图表工具，展示个人技术项目。",
+          "desc": "飞行员在 Hacker News 分享自建的航班交互图表工具，展示个人技术项目。",
           "extra": {
             "author": "jamesharding",
             "comments": 197
@@ -263,7 +263,7 @@
           "url": "https://airma.sh/",
           "hot": 1535,
           "rank": 22,
-          "desc": "一款多人在线导弹战争 HTML5 游戏，在开发者社区展示。",
+          "desc": "一款在 Hacker News 展示的多人在线导弹战争游戏，属于 HTML5 网页游戏项目。",
           "extra": {
             "author": "fivesigma",
             "comments": 304
@@ -271,11 +271,11 @@
           "desc_source": "guess"
         },
         {
-          "title": "我可以在本地运行 AI 吗？",
+          "title": "我能在本地运行 AI 吗？",
           "url": "https://www.canirun.ai/",
           "hot": 1520,
           "rank": 23,
-          "desc": "探讨个人设备运行人工智能模型的可行性，涉及隐私与算力问题。",
+          "desc": "探讨个人设备运行人工智能模型的可行性，反映用户对隐私与本地部署的关注。",
           "extra": {
             "author": "ricardbejarano",
             "comments": 353
@@ -287,7 +287,7 @@
           "url": "https://www.youtube.com/watch?v=LCEmiRjPEtQ",
           "hot": 1481,
           "rank": 24,
-          "desc": "Andrej Karpathy 分享关于人工智能时代软件开发趋势的视频内容。",
+          "desc": "知名 AI 专家分享关于人工智能时代软件开发的观点视频，引发技术圈讨论。",
           "extra": {
             "author": "sandslash",
             "comments": 783
@@ -295,11 +295,11 @@
           "desc_source": "guess"
         },
         {
-          "title": "针对 Wirecutter 关于 IKEA 空气净化器的看法",
+          "title": "反驳 Wirecutter 关于 IKEA 空气净化器的评测",
           "url": "https://dynomight.net/ikea-purifier/",
           "hot": 1474,
           "rank": 25,
-          "desc": "针对 Wirecutter 关于宜家空气净化器评价的讨论或回应。",
+          "desc": "针对知名评测机构对宜家空气净化器的评价提出不同意见，涉及产品性能争议。",
           "extra": {
             "author": "Ariarule",
             "comments": 705
@@ -314,452 +314,452 @@
       "count": 50,
       "items": [
         {
-          "title": "法国4比6英格兰",
-          "url": "https://s.weibo.com/weibo?q=%E6%B3%95%E5%9B%BD4%E6%AF%946%E8%8B%B1%E6%A0%BC%E5%85%B0",
-          "hot": 3912368,
+          "title": "姆巴佩历史第一",
+          "url": "https://s.weibo.com/weibo?q=%E5%A7%86%E5%B7%B4%E4%BD%A9%E5%8E%86%E5%8F%B2%E7%AC%AC%E4%B8%80",
+          "hot": 1144091,
           "rank": 1,
-          "desc": "指法国与英格兰之间的体育比赛比分，具体赛事需结合上下文。",
+          "desc": "足球运动员姆巴佩在某项数据或成就上创下历史纪录，引发体育界关注。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "贝林厄姆 颜值",
+          "url": "https://s.weibo.com/weibo?q=%E8%B4%9D%E6%9E%97%E5%8E%84%E5%A7%86%20%E9%A2%9C%E5%80%BC",
+          "hot": 840327,
+          "rank": 2,
+          "desc": "足球运动员贝林厄姆的外貌形象成为讨论热点，反映体育明星的公众关注度。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "中国AI产业落地跑出加速度",
+          "url": "https://s.weibo.com/weibo?q=%E4%B8%AD%E5%9B%BDAI%E4%BA%A7%E4%B8%9A%E8%90%BD%E5%9C%B0%E8%B7%91%E5%87%BA%E5%8A%A0%E9%80%9F%E5%BA%A6",
+          "hot": 679484,
+          "rank": 3,
+          "desc": "指中国人工智能技术在商业应用方面发展迅速，体现产业落地进程加快。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "这比出轨更令人难以接受",
+          "url": "https://s.weibo.com/weibo?q=%E8%BF%99%E6%AF%94%E5%87%BA%E8%BD%A8%E6%9B%B4%E4%BB%A4%E4%BA%BA%E9%9A%BE%E4%BB%A5%E6%8E%A5%E5%8F%97",
+          "hot": 642408,
+          "rank": 4,
+          "desc": "某事件或行为被公众认为比情感背叛更严重，引发道德或社会话题讨论。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "刘宇宁让粉丝删掉不好听的评论",
+          "url": "https://s.weibo.com/weibo?q=%E5%88%98%E5%AE%87%E5%AE%81%E8%AE%A9%E7%B2%89%E4%B8%9D%E5%88%A0%E6%8E%89%E4%B8%8D%E5%A5%BD%E5%90%AC%E7%9A%84%E8%AF%84%E8%AE%BA",
+          "hot": 614207,
+          "rank": 5,
+          "desc": "艺人刘宇宁要求粉丝删除负面评论，引发关于艺人管理与粉丝互动的讨论。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "王俊凯前助理去了王俊凯演唱会",
+          "url": "https://s.weibo.com/weibo?q=%E7%8E%8B%E4%BF%8A%E5%87%AF%E5%89%8D%E5%8A%A9%E7%90%86%E5%8E%BB%E4%BA%86%E7%8E%8B%E4%BF%8A%E5%87%AF%E6%BC%94%E5%94%B1%E4%BC%9A",
+          "hot": 527187,
+          "rank": 6,
+          "desc": "王俊凯前助理现身演唱会引发粉丝猜测，涉及艺人团队变动及私下关系传闻。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "黄总请你去包厢事件最新进展",
+          "url": "https://s.weibo.com/weibo?q=%E9%BB%84%E6%80%BB%E8%AF%B7%E4%BD%A0%E5%8E%BB%E5%8C%85%E5%8E%A2%E4%BA%8B%E4%BB%B6%E6%9C%80%E6%96%B0%E8%BF%9B%E5%B1%95",
+          "hot": 485789,
+          "rank": 7,
+          "desc": "网络热议某“黄总”邀请他人去包厢事件，公众关注后续处理及当事人回应。",
           "extra": {},
           "desc_source": "guess"
         },
         {
           "title": "法国门将身价堪比一杯蜜雪冰城",
           "url": "https://s.weibo.com/weibo?q=%E6%B3%95%E5%9B%BD%E9%97%A8%E5%B0%86%E8%BA%AB%E4%BB%B7%E5%A0%AA%E6%AF%94%E4%B8%80%E6%9D%AF%E8%9C%9C%E9%9B%AA%E5%86%B0%E5%9F%8E",
-          "hot": 1709282,
-          "rank": 2,
-          "desc": "调侃法国足球门将市场价值极低，与蜜雪冰城饮品价格做对比。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "中国天眼开辟宇宙研究新路径",
-          "url": "https://s.weibo.com/weibo?q=%E4%B8%AD%E5%9B%BD%E5%A4%A9%E7%9C%BC%E5%BC%80%E8%BE%9F%E5%AE%87%E5%AE%99%E7%A0%94%E7%A9%B6%E6%96%B0%E8%B7%AF%E5%BE%84",
-          "hot": 1172799,
-          "rank": 3,
-          "desc": "中国射电望远镜取得科研进展，推动宇宙探索领域的新发展。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "法国英格兰 诚信互刷",
-          "url": "https://s.weibo.com/weibo?q=%E6%B3%95%E5%9B%BD%E8%8B%B1%E6%A0%BC%E5%85%B0%20%E8%AF%9A%E4%BF%A1%E4%BA%92%E5%88%B7",
-          "hot": 1051285,
-          "rank": 4,
-          "desc": "指两国在体育比赛中疑似存在数据造假或默契球现象的讨论。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "姆巴佩10球",
-          "url": "https://s.weibo.com/weibo?q=%E5%A7%86%E5%B7%B4%E4%BD%A910%E7%90%83",
-          "hot": 957438,
-          "rank": 5,
-          "desc": "足球运动员姆巴佩在某赛事或赛季中达成十球成就的数据记录。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "姆巴佩世界杯历史射手王",
-          "url": "https://s.weibo.com/weibo?q=%E5%A7%86%E5%B7%B4%E4%BD%A9%E4%B8%96%E7%95%8C%E6%9D%AF%E5%8E%86%E5%8F%B2%E5%B0%84%E6%89%8B%E7%8E%8B",
-          "hot": 954826,
-          "rank": 6,
-          "desc": "指姆巴佩在世界杯进球数可能超越前人，引发球迷对纪录的关注。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "为何穿凉鞋的人越来越少了",
-          "url": "https://s.weibo.com/weibo?q=%E4%B8%BA%E4%BD%95%E7%A9%BF%E5%87%89%E9%9E%8B%E7%9A%84%E4%BA%BA%E8%B6%8A%E6%9D%A5%E8%B6%8A%E5%B0%91%E4%BA%86",
-          "hot": 529847,
-          "rank": 7,
-          "desc": "探讨时尚趋势或生活习惯变化导致凉鞋穿着率下降的社会现象讨论。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "地球超新鲜回应争议",
-          "url": "https://s.weibo.com/weibo?q=%E5%9C%B0%E7%90%83%E8%B6%85%E6%96%B0%E9%B2%9C%E5%9B%9E%E5%BA%94%E4%BA%89%E8%AE%AE",
-          "hot": 487580,
+          "hot": 459429,
           "rank": 8,
-          "desc": "指相关品牌或节目针对外界质疑发表声明，引发公众对事件真相的关注。",
+          "desc": "网友调侃法国某门将转会身价或薪资极低，比喻其价值相当于一杯平价奶茶。",
           "extra": {},
           "desc_source": "guess"
         },
         {
-          "title": "法国vs英格兰",
-          "url": "https://s.weibo.com/weibo?q=%E6%B3%95%E5%9B%BDvs%E8%8B%B1%E6%A0%BC%E5%85%B0",
-          "hot": 444945,
+          "title": "法国4比6英格兰",
+          "url": "https://s.weibo.com/weibo?q=%E6%B3%95%E5%9B%BD4%E6%AF%946%E8%8B%B1%E6%A0%BC%E5%85%B0",
+          "hot": 420896,
           "rank": 9,
-          "desc": "指两国足球队之间的比赛，因竞技水平高及国家队对抗而受体育迷关注。",
+          "desc": "法国队与英格兰队在一场比赛中战成 4 比 6，比分悬殊引发体育迷讨论。",
           "extra": {},
           "desc_source": "guess"
         },
         {
-          "title": "蔡依林喊话王俊凯唱心引力",
-          "url": "https://s.weibo.com/weibo?q=%E8%94%A1%E4%BE%9D%E6%9E%97%E5%96%8A%E8%AF%9D%E7%8E%8B%E4%BF%8A%E5%87%AF%E5%94%B1%E5%BF%83%E5%BC%95%E5%8A%9B",
-          "hot": 375557,
+          "title": "这一秒过火",
+          "url": "https://s.weibo.com/weibo?q=%E8%BF%99%E4%B8%80%E7%A7%92%E8%BF%87%E7%81%AB",
+          "hot": 299366,
           "rank": 10,
-          "desc": "歌手蔡依林公开邀请王俊凯合唱歌曲，引发粉丝对合作可能性的期待。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "黄总请你去包厢事件系误会",
-          "url": "https://s.weibo.com/weibo?q=%E9%BB%84%E6%80%BB%E8%AF%B7%E4%BD%A0%E5%8E%BB%E5%8C%85%E5%8E%A2%E4%BA%8B%E4%BB%B6%E7%B3%BB%E8%AF%AF%E4%BC%9A",
-          "hot": 363617,
-          "rank": 11,
-          "desc": "指某社交场合邀约事件被澄清为误会，消除公众对潜在骚扰的担忧。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "曾沛慈老公",
-          "url": "https://s.weibo.com/weibo?q=%E6%9B%BE%E6%B2%9B%E6%85%88%E8%80%81%E5%85%AC",
-          "hot": 350198,
-          "rank": 12,
-          "desc": "指公众人物曾沛慈的婚姻状况传闻，引发粉丝对其私人生活的关注。",
+          "desc": "网络流传某视频或行为片段被网友认为尺度过大或不当，引发舆论争议。",
           "extra": {},
           "desc_source": "guess"
         },
         {
           "title": "刘宇宁此事到此为止",
           "url": "https://s.weibo.com/weibo?q=%E5%88%98%E5%AE%87%E5%AE%81%E6%AD%A4%E4%BA%8B%E5%88%B0%E6%AD%A4%E4%B8%BA%E6%AD%A2",
-          "hot": 345417,
-          "rank": 13,
-          "desc": "指艺人刘宇宁针对某争议事件表态结束讨论，平息舆论风波。",
+          "hot": 298936,
+          "rank": 11,
+          "desc": "艺人刘宇宁或其团队针对某争议事件发声，表示不再回应并试图平息舆论。",
           "extra": {},
           "desc_source": "guess"
         },
         {
-          "title": "金靴",
-          "url": "https://s.weibo.com/weibo?q=%E9%87%91%E9%9D%B4",
-          "hot": 324716,
-          "rank": 14,
-          "desc": "指足球赛事中最佳射手奖项，因比赛结果及球员表现而受体育迷关注。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "父亲说要砍死男友女儿报警报复",
-          "url": "https://s.weibo.com/weibo?q=%E7%88%B6%E4%BA%B2%E8%AF%B4%E8%A6%81%E7%A0%8D%E6%AD%BB%E7%94%B7%E5%8F%8B%E5%A5%B3%E5%84%BF%E6%8A%A5%E8%AD%A6%E6%8A%A5%E5%A4%8D",
-          "hot": 314145,
-          "rank": 15,
-          "desc": "指家庭情感纠纷升级为报警事件，反映亲密关系冲突引发的社会关注。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "姆巴佩历史第一",
-          "url": "https://s.weibo.com/weibo?q=%E5%A7%86%E5%B7%B4%E4%BD%A9%E5%8E%86%E5%8F%B2%E7%AC%AC%E4%B8%80",
-          "hot": 293933,
-          "rank": 16,
-          "desc": "指姆巴佩在某项足球数据或纪录上可能达成历史第一，引发体育界讨论。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "伊朗称将转入全面毁灭性反击阶段",
-          "url": "https://s.weibo.com/weibo?q=%E4%BC%8A%E6%9C%97%E7%A7%B0%E5%B0%86%E8%BD%AC%E5%85%A5%E5%85%A8%E9%9D%A2%E6%AF%81%E7%81%AD%E6%80%A7%E5%8F%8D%E5%87%BB%E9%98%B6%E6%AE%B5",
-          "hot": 280573,
-          "rank": 17,
-          "desc": "指伊朗官方表态升级军事或政治回应，引发国际社会对局势紧张的担忧。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "冉莹颖过上了和妈妈一样的生活",
-          "url": "https://s.weibo.com/weibo?q=%E5%86%89%E8%8E%B9%E9%A2%96%E8%BF%87%E4%B8%8A%E4%BA%86%E5%92%8C%E5%A6%88%E5%A6%88%E4%B8%80%E6%A0%B7%E7%9A%84%E7%94%9F%E6%B4%BB",
-          "hot": 273951,
-          "rank": 18,
-          "desc": "指公众人物冉莹颖的生活状态被对比，引发对其个人经历及家庭关系的讨论。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "服务员传话邀约女子就餐系误会已和解",
-          "url": "https://s.weibo.com/weibo?q=%E6%9C%8D%E5%8A%A1%E5%91%98%E4%BC%A0%E8%AF%9D%E9%82%80%E7%BA%A6%E5%A5%B3%E5%AD%90%E5%B0%B1%E9%A4%90%E7%B3%BB%E8%AF%AF%E4%BC%9A%E5%B7%B2%E5%92%8C%E8%A7%A3",
-          "hot": 273525,
-          "rank": 19,
-          "desc": "指餐厅服务纠纷被澄清为误会并和解，消除公众对服务行业冲突的疑虑。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "王楚钦孙颖莎止步半决赛",
-          "url": "https://s.weibo.com/weibo?q=%E7%8E%8B%E6%A5%9A%E9%92%A6%E5%AD%99%E9%A2%96%E8%8E%8E%E6%AD%A2%E6%AD%A5%E5%8D%8A%E5%86%B3%E8%B5%9B",
-          "hot": 272552,
-          "rank": 20,
-          "desc": "指乒乓球运动员在赛事中未进入决赛，引发球迷对比赛结果及表现的讨论。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "龚俊回应和刘宇宁争议",
-          "url": "https://s.weibo.com/weibo?q=%E9%BE%9A%E4%BF%8A%E5%9B%9E%E5%BA%94%E5%92%8C%E5%88%98%E5%AE%87%E5%AE%81%E4%BA%89%E8%AE%AE",
-          "hot": 271031,
-          "rank": 21,
-          "desc": "演员龚俊就与刘宇宁相关的争议事件作出公开回应，引发粉丝及公众关注。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "女孩卧室囤积大量吧唧致中毒",
-          "url": "https://s.weibo.com/weibo?q=%E5%A5%B3%E5%AD%A9%E5%8D%A7%E5%AE%A4%E5%9B%A4%E7%A7%AF%E5%A4%A7%E9%87%8F%E5%90%A7%E5%94%A7%E8%87%B4%E4%B8%AD%E6%AF%92",
-          "hot": 270611,
-          "rank": 22,
-          "desc": "指女孩因囤积大量徽章周边导致健康问题，涉及收藏安全话题。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "贝林厄姆让点",
-          "url": "https://s.weibo.com/weibo?q=%E8%B4%9D%E6%9E%97%E5%8E%84%E5%A7%86%E8%AE%A9%E7%82%B9",
-          "hot": 269274,
-          "rank": 23,
-          "desc": "足球运动员贝林厄姆在比赛中主动放弃点球机会，展现体育精神引发讨论。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "美媒称中国抹去美国在AI领域领先地位",
-          "url": "https://s.weibo.com/weibo?q=%E7%BE%8E%E5%AA%92%E7%A7%B0%E4%B8%AD%E5%9B%BD%E6%8A%B9%E5%8E%BB%E7%BE%8E%E5%9B%BD%E5%9C%A8AI%E9%A2%86%E5%9F%9F%E9%A2%86%E5%85%88%E5%9C%B0%E4%BD%8D",
-          "hot": 267780,
-          "rank": 24,
-          "desc": "美国媒体报道称中国在人工智能领域缩小了与美国的差距，引发科技竞争关注。",
+          "title": "为何穿凉鞋的人越来越少了",
+          "url": "https://s.weibo.com/weibo?q=%E4%B8%BA%E4%BD%95%E7%A9%BF%E5%87%89%E9%9E%8B%E7%9A%84%E4%BA%BA%E8%B6%8A%E6%9D%A5%E8%B6%8A%E5%B0%91%E4%BA%86",
+          "hot": 298409,
+          "rank": 12,
+          "desc": "社交媒体讨论夏季凉鞋穿着率下降现象，涉及审美变化及生活习惯改变。",
           "extra": {},
           "desc_source": "guess"
         },
         {
           "title": "曾沛慈回应老公当monitor",
           "url": "https://s.weibo.com/weibo?q=%E6%9B%BE%E6%B2%9B%E6%85%88%E5%9B%9E%E5%BA%94%E8%80%81%E5%85%AC%E5%BD%93monitor",
-          "hot": 266263,
-          "rank": 25,
-          "desc": "艺人曾沛慈就其丈夫担任现场工作人员一事作出回应，涉及艺人家庭与工作关系。",
+          "hot": 297356,
+          "rank": 13,
+          "desc": "艺人曾沛慈就丈夫担任某节目或活动监工角色一事进行公开回应说明。",
           "extra": {},
           "desc_source": "guess"
         },
         {
-          "title": "16岁女儿遭父亲性侵案迎反转",
-          "url": "https://s.weibo.com/weibo?q=16%E5%B2%81%E5%A5%B3%E5%84%BF%E9%81%AD%E7%88%B6%E4%BA%B2%E6%80%A7%E4%BE%B5%E6%A1%88%E8%BF%8E%E5%8F%8D%E8%BD%AC",
-          "hot": 265190,
-          "rank": 26,
-          "desc": "一起涉及未成年人性侵的案件出现新进展，引发社会对儿童保护的关注。",
+          "title": "吴磊把手机插泥地里了",
+          "url": "https://s.weibo.com/weibo?q=%E5%90%B4%E7%A3%8A%E6%8A%8A%E6%89%8B%E6%9C%BA%E6%8F%92%E6%B3%A5%E5%9C%B0%E9%87%8C%E4%BA%86",
+          "hot": 296176,
+          "rank": 14,
+          "desc": "演员吴磊在拍摄或生活中将手机插入泥地的趣事被曝光，引发粉丝关注。",
           "extra": {},
           "desc_source": "guess"
         },
         {
-          "title": "降低身体炎症水平的食物",
-          "url": "https://s.weibo.com/weibo?q=%E9%99%8D%E4%BD%8E%E8%BA%AB%E4%BD%93%E7%82%8E%E7%97%87%E6%B0%B4%E5%B9%B3%E7%9A%84%E9%A3%9F%E7%89%A9",
-          "hot": 264079,
-          "rank": 27,
-          "desc": "科普类话题，介绍有助于缓解身体炎症反应的饮食建议，受健康关注者青睐。",
+          "title": "姆巴佩决赛预测",
+          "url": "https://s.weibo.com/weibo?q=%E5%A7%86%E5%B7%B4%E4%BD%A9%E5%86%B3%E8%B5%9B%E9%A2%84%E6%B5%8B",
+          "hot": 295583,
+          "rank": 15,
+          "desc": "足球迷讨论姆巴佩在即将到来的决赛中的表现及胜负预测，关注球星状态。",
           "extra": {},
           "desc_source": "guess"
         },
         {
-          "title": "张函瑞",
-          "url": "https://s.weibo.com/weibo?q=%E5%BC%A0%E5%87%BD%E7%91%9E",
-          "hot": 263368,
-          "rank": 28,
-          "desc": "指公众人物张函瑞的相关动态引发关注，具体事件需结合最新新闻确认。",
+          "title": "王俊凯粉丝贴脸开大妆造师",
+          "url": "https://s.weibo.com/weibo?q=%E7%8E%8B%E4%BF%8A%E5%87%AF%E7%B2%89%E4%B8%9D%E8%B4%B4%E8%84%B8%E5%BC%80%E5%A4%A7%E5%A6%86%E9%80%A0%E5%B8%88",
+          "hot": 294825,
+          "rank": 16,
+          "desc": "王俊凯粉丝对艺人造型师的作品不满，直接在社交媒体上表达强烈批评意见。",
           "extra": {},
           "desc_source": "guess"
         },
         {
-          "title": "法国半场0比4英格兰",
-          "url": "https://s.weibo.com/weibo?q=%E6%B3%95%E5%9B%BD%E5%8D%8A%E5%9C%BA0%E6%AF%944%E8%8B%B1%E6%A0%BC%E5%85%B0",
-          "hot": 262862,
-          "rank": 29,
-          "desc": "足球比赛中法国队半场落后英格兰队四球，比分悬殊引发球迷热议。",
+          "title": "张凌赫王楚然招商",
+          "url": "https://s.weibo.com/weibo?q=%E5%BC%A0%E5%87%8C%E8%B5%AB%E7%8E%8B%E6%A5%9A%E7%84%B6%E6%8B%9B%E5%95%86",
+          "hot": 293900,
+          "rank": 17,
+          "desc": "演员张凌赫与王楚然合作项目的商业招商情况引发粉丝及行业关注。",
           "extra": {},
           "desc_source": "guess"
         },
         {
-          "title": "旭旭宝宝说对功夫女足不感兴趣",
-          "url": "https://s.weibo.com/weibo?q=%E6%97%AD%E6%97%AD%E5%AE%9D%E5%AE%9D%E8%AF%B4%E5%AF%B9%E5%8A%9F%E5%A4%AB%E5%A5%B3%E8%B6%B3%E4%B8%8D%E6%84%9F%E5%85%B4%E8%B6%A3",
-          "hot": 260809,
-          "rank": 30,
-          "desc": "游戏主播旭旭宝宝发表关于功夫女足的言论，因观点独特引发网络讨论。",
+          "title": "长鑫科技中签结果",
+          "url": "https://s.weibo.com/weibo?q=%E9%95%BF%E9%91%AB%E7%A7%91%E6%8A%80%E4%B8%AD%E7%AD%BE%E7%BB%93%E6%9E%9C",
+          "hot": 292767,
+          "rank": 18,
+          "desc": "投资者关注长鑫科技 IPO 申购中签结果公布，涉及新股投资获利情况。",
           "extra": {},
           "desc_source": "guess"
         },
         {
-          "title": "黄子韬没拉裤链",
-          "url": "https://s.weibo.com/weibo?q=%E9%BB%84%E5%AD%90%E9%9F%AC%E6%B2%A1%E6%8B%89%E8%A3%A4%E9%93%BE",
-          "hot": 260628,
-          "rank": 31,
-          "desc": "艺人黄子韬在公开场合出现着装失误，因细节被网友捕捉而登上热搜。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "法国 不想踢",
-          "url": "https://s.weibo.com/weibo?q=%E6%B3%95%E5%9B%BD%20%E4%B8%8D%E6%83%B3%E8%B8%A2",
-          "hot": 259042,
-          "rank": 32,
-          "desc": "指法国队在比赛中表现出缺乏斗志，引发媒体与球迷质疑。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "王橹杰",
-          "url": "https://s.weibo.com/weibo?q=%E7%8E%8B%E6%A9%B9%E6%9D%B0",
-          "hot": 258519,
-          "rank": 33,
-          "desc": "指公众人物王橹杰的相关动态引发关注，具体事件需结合最新新闻确认。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "世界杯",
-          "url": "https://s.weibo.com/weibo?q=%E4%B8%96%E7%95%8C%E6%9D%AF",
-          "hot": 254159,
-          "rank": 34,
-          "desc": "国际足联举办的全球最高水平足球赛事，因比赛激烈及球星表现持续受关注。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "姆巴佩争金靴",
-          "url": "https://s.weibo.com/weibo?q=%E5%A7%86%E5%B7%B4%E4%BD%A9%E4%BA%89%E9%87%91%E9%9D%B4",
-          "hot": 253504,
-          "rank": 35,
-          "desc": "足球运动员姆巴佩在比赛中争夺最佳射手奖项，其进球数据成为焦点。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "法国队 太丢人",
-          "url": "https://s.weibo.com/weibo?q=%E6%B3%95%E5%9B%BD%E9%98%9F%20%E5%A4%AA%E4%B8%A2%E4%BA%BA",
-          "hot": 250282,
-          "rank": 36,
-          "desc": "指法国国家足球队近期比赛表现不佳或行为不当，引发球迷不满与热议。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "德尚 坎特",
-          "url": "https://s.weibo.com/weibo?q=%E5%BE%B7%E5%B0%9A%20%E5%9D%8E%E7%89%B9",
-          "hot": 245832,
-          "rank": 37,
-          "desc": "涉及法国队主教练德尚与球员坎特之间的互动、选拔或相关言论引发关注。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "曝演员牛犇儿子王侃去世",
-          "url": "https://s.weibo.com/weibo?q=%E6%9B%9D%E6%BC%94%E5%91%98%E7%89%9B%E7%8A%87%E5%84%BF%E5%AD%90%E7%8E%8B%E4%BE%83%E5%8E%BB%E4%B8%96",
-          "hot": 245636,
-          "rank": 38,
-          "desc": "网传资深演员牛犇之子王侃离世，引发公众对艺人家庭及健康话题的关注。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "内娱男明星路人缘TOP50",
-          "url": "https://s.weibo.com/weibo?q=%E5%86%85%E5%A8%B1%E7%94%B7%E6%98%8E%E6%98%9F%E8%B7%AF%E4%BA%BA%E7%BC%98TOP50",
-          "hot": 242414,
-          "rank": 39,
-          "desc": "关于中国内地男明星公众好感度排名的榜单，反映粉丝与路人评价引发讨论。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "王俊凯演唱会退场天才",
-          "url": "https://s.weibo.com/weibo?q=%E7%8E%8B%E4%BF%8A%E5%87%AF%E6%BC%94%E5%94%B1%E4%BC%9A%E9%80%80%E5%9C%BA%E5%A4%A9%E6%89%8D",
-          "hot": 236675,
-          "rank": 40,
-          "desc": "指王俊凯演唱会结束退场环节设计巧妙或表现优异，获观众称赞引发热议。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "空调开26度有臭味原因找到了",
-          "url": "https://s.weibo.com/weibo?q=%E7%A9%BA%E8%B0%83%E5%BC%8026%E5%BA%A6%E6%9C%89%E8%87%AD%E5%91%B3%E5%8E%9F%E5%9B%A0%E6%89%BE%E5%88%B0%E4%BA%86",
-          "hot": 232236,
-          "rank": 41,
-          "desc": "科普空调设定 26 度出现异味的成因，涉及清洁维护或环境湿度等生活常识。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "KPL",
-          "url": "https://s.weibo.com/weibo?q=KPL",
-          "hot": 209280,
-          "rank": 42,
-          "desc": "王者荣耀职业联赛简称，涉及赛事动态、选手表现或战队成绩引发电竞圈关注。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "张子枫今天一点都不热",
-          "url": "https://s.weibo.com/weibo?q=%E5%BC%A0%E5%AD%90%E6%9E%AB%E4%BB%8A%E5%A4%A9%E4%B8%80%E7%82%B9%E9%83%BD%E4%B8%8D%E7%83%AD",
-          "hot": 200313,
-          "rank": 43,
-          "desc": "指演员张子枫相关影像或状态被形容为清爽，或涉及其人气与形象的网络调侃。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "姆巴佩发文送别德尚",
-          "url": "https://s.weibo.com/weibo?q=%E5%A7%86%E5%B7%B4%E4%BD%A9%E5%8F%91%E6%96%87%E9%80%81%E5%88%AB%E5%BE%B7%E5%B0%9A",
-          "hot": 189915,
-          "rank": 44,
-          "desc": "法国球星姆巴佩发表言论告别主帅德尚，涉及国家队教练更迭或球员关系变化。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "姆巴佩半场交换球衣",
-          "url": "https://s.weibo.com/weibo?q=%E5%A7%86%E5%B7%B4%E4%BD%A9%E5%8D%8A%E5%9C%BA%E4%BA%A4%E6%8D%A2%E7%90%83%E8%A1%A3",
-          "hot": 188930,
-          "rank": 45,
-          "desc": "指姆巴佩在比赛中场休息时与对手交换球衣，体现体育精神或特定比赛细节。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "白鹿海边大片梦回白圆圆",
-          "url": "https://s.weibo.com/weibo?q=%E7%99%BD%E9%B9%BF%E6%B5%B7%E8%BE%B9%E5%A4%A7%E7%89%87%E6%A2%A6%E5%9B%9E%E7%99%BD%E5%9C%86%E5%9C%86",
-          "hot": 178497,
-          "rank": 46,
-          "desc": "演员白鹿海边写真风格复古，被网友联想至其早期昵称白圆圆，引发怀旧讨论。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "马来西亚将驱逐以色列人",
-          "url": "https://s.weibo.com/weibo?q=%E9%A9%AC%E6%9D%A5%E8%A5%BF%E4%BA%9A%E5%B0%86%E9%A9%B1%E9%80%90%E4%BB%A5%E8%89%B2%E5%88%97%E4%BA%BA",
-          "hot": 176453,
-          "rank": 47,
-          "desc": "涉及马来西亚政府针对以色列人员采取驱逐措施的国际新闻，反映地缘政治立场。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "冉莹颖吐槽邹市明旅行太大方",
-          "url": "https://s.weibo.com/weibo?q=%E5%86%89%E8%8E%B9%E9%A2%96%E5%90%90%E6%A7%BD%E9%82%B9%E5%B8%82%E6%98%8E%E6%97%85%E8%A1%8C%E5%A4%AA%E5%A4%A7%E6%96%B9",
-          "hot": 176169,
-          "rank": 48,
-          "desc": "冉莹颖分享与拳王邹市明旅行消费细节，吐槽其花钱大手笔，引发生活话题讨论。",
+          "title": "AI行业要重新洗牌了",
+          "url": "https://s.weibo.com/weibo?q=AI%E8%A1%8C%E4%B8%9A%E8%A6%81%E9%87%8D%E6%96%B0%E6%B4%97%E7%89%8C%E4%BA%86",
+          "hot": 291932,
+          "rank": 19,
+          "desc": "科技界讨论人工智能行业因技术变革或竞争加剧，面临市场格局重新调整。",
           "extra": {},
           "desc_source": "guess"
         },
         {
           "title": "人类发现生命所需三大特征均具备行星",
           "url": "https://s.weibo.com/weibo?q=%E4%BA%BA%E7%B1%BB%E5%8F%91%E7%8E%B0%E7%94%9F%E5%91%BD%E6%89%80%E9%9C%80%E4%B8%89%E5%A4%A7%E7%89%B9%E5%BE%81%E5%9D%87%E5%85%B7%E5%A4%87%E8%A1%8C%E6%98%9F",
-          "hot": 176169,
-          "rank": 49,
-          "desc": "天文领域新闻，指发现某行星具备生命存在所需的三项关键特征，引发科学关注。",
+          "hot": 291549,
+          "rank": 20,
+          "desc": "天文学界宣布发现一颗具备生命所需三大特征的行星，引发公众对地外生命关注。",
           "extra": {},
           "desc_source": "guess"
         },
         {
-          "title": "黄总请你去包厢黄姓男子身份公布",
-          "url": "https://s.weibo.com/weibo?q=%E9%BB%84%E6%80%BB%E8%AF%B7%E4%BD%A0%E5%8E%BB%E5%8C%85%E5%8E%A2%E9%BB%84%E5%A7%93%E7%94%B7%E5%AD%90%E8%BA%AB%E4%BB%BD%E5%85%AC%E5%B8%83",
-          "hot": 176168,
+          "title": "迪丽热巴方恭喜功夫女足破13亿",
+          "url": "https://s.weibo.com/weibo?q=%E8%BF%AA%E4%B8%BD%E7%83%AD%E5%B7%B4%E6%96%B9%E6%81%AD%E5%96%9C%E5%8A%9F%E5%A4%AB%E5%A5%B3%E8%B6%B3%E7%A0%B413%E4%BA%BF",
+          "hot": 290545,
+          "rank": 21,
+          "desc": "迪丽热巴方祝贺《功夫女足》相关数据破 13 亿，引发粉丝与观众关注。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "吧唧 甲醛",
+          "url": "https://s.weibo.com/weibo?q=%E5%90%A7%E5%94%A7%20%E7%94%B2%E9%86%9B",
+          "hot": 290165,
+          "rank": 22,
+          "desc": "指粉丝周边产品吧唧被曝含甲醛，引发消费者安全担忧。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "樊振东解说决赛",
+          "url": "https://s.weibo.com/weibo?q=%E6%A8%8A%E6%8C%AF%E4%B8%9C%E8%A7%A3%E8%AF%B4%E5%86%B3%E8%B5%9B",
+          "hot": 289311,
+          "rank": 23,
+          "desc": "乒乓球运动员樊振东担任决赛解说，因其专业性与人气受关注。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "申留真直播道歉",
+          "url": "https://s.weibo.com/weibo?q=%E7%94%B3%E7%95%99%E7%9C%9F%E7%9B%B4%E6%92%AD%E9%81%93%E6%AD%89",
+          "hot": 287856,
+          "rank": 24,
+          "desc": "韩国女团 ITZY 成员申留真通过直播道歉，引发粉丝讨论。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "曾沛慈老公",
+          "url": "https://s.weibo.com/weibo?q=%E6%9B%BE%E6%B2%9B%E6%85%88%E8%80%81%E5%85%AC",
+          "hot": 287569,
+          "rank": 25,
+          "desc": "歌手曾沛慈的丈夫相关信息曝光，引发粉丝对其私生活的关注。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "英格兰 场面失控",
+          "url": "https://s.weibo.com/weibo?q=%E8%8B%B1%E6%A0%BC%E5%85%B0%20%E5%9C%BA%E9%9D%A2%E5%A4%B1%E6%8E%A7",
+          "hot": 286188,
+          "rank": 26,
+          "desc": "英格兰队相关赛事或活动中出现混乱场面，引发舆论关注。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "爸妈打闹6个月宝宝将妈妈护在身后",
+          "url": "https://s.weibo.com/weibo?q=%E7%88%B8%E5%A6%88%E6%89%93%E9%97%B96%E4%B8%AA%E6%9C%88%E5%AE%9D%E5%AE%9D%E5%B0%86%E5%A6%88%E5%A6%88%E6%8A%A4%E5%9C%A8%E8%BA%AB%E5%90%8E",
+          "hot": 286021,
+          "rank": 27,
+          "desc": "视频显示 6 个月宝宝在父母打闹时护住妈妈，因萌态受关注。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "Angelababy耳机一戴切换状态",
+          "url": "https://s.weibo.com/weibo?q=Angelababy%E8%80%B3%E6%9C%BA%E4%B8%80%E6%88%B4%E5%88%87%E6%8D%A2%E7%8A%B6%E6%80%81",
+          "hot": 284965,
+          "rank": 28,
+          "desc": "杨颖佩戴耳机后状态切换的视频片段，展现其专注或情绪变化。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "当我坐飞机忘记关导航时",
+          "url": "https://s.weibo.com/weibo?q=%E5%BD%93%E6%88%91%E5%9D%90%E9%A3%9E%E6%9C%BA%E5%BF%98%E8%AE%B0%E5%85%B3%E5%AF%BC%E8%88%AA%E6%97%B6",
+          "hot": 271793,
+          "rank": 29,
+          "desc": "网友分享坐飞机忘记关导航的搞笑经历，引发共鸣与讨论。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "伊朗称将转入全面毁灭性反击阶段",
+          "url": "https://s.weibo.com/weibo?q=%E4%BC%8A%E6%9C%97%E7%A7%B0%E5%B0%86%E8%BD%AC%E5%85%A5%E5%85%A8%E9%9D%A2%E6%AF%81%E7%81%AD%E6%80%A7%E5%8F%8D%E5%87%BB%E9%98%B6%E6%AE%B5",
+          "hot": 266207,
+          "rank": 30,
+          "desc": "伊朗官方宣称将转入全面毁灭性反击阶段，引发国际局势关注。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "奥利塞赛后痛哭",
+          "url": "https://s.weibo.com/weibo?q=%E5%A5%A5%E5%88%A9%E5%A1%9E%E8%B5%9B%E5%90%8E%E7%97%9B%E5%93%AD",
+          "hot": 264829,
+          "rank": 31,
+          "desc": "足球运动员奥利塞赛后痛哭，因其情绪表现引发球迷讨论。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "盒马被曝让员工三伏天在户外吃饭",
+          "url": "https://s.weibo.com/weibo?q=%E7%9B%92%E9%A9%AC%E8%A2%AB%E6%9B%9D%E8%AE%A9%E5%91%98%E5%B7%A5%E4%B8%89%E4%BC%8F%E5%A4%A9%E5%9C%A8%E6%88%B7%E5%A4%96%E5%90%83%E9%A5%AD",
+          "hot": 256933,
+          "rank": 32,
+          "desc": "盒马被曝让员工三伏天户外吃饭，引发对员工权益的讨论。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "旭旭宝宝说对功夫女足不感兴趣",
+          "url": "https://s.weibo.com/weibo?q=%E6%97%AD%E6%97%AD%E5%AE%9D%E5%AE%9D%E8%AF%B4%E5%AF%B9%E5%8A%9F%E5%A4%AB%E5%A5%B3%E8%B6%B3%E4%B8%8D%E6%84%9F%E5%85%B4%E8%B6%A3",
+          "hot": 243571,
+          "rank": 33,
+          "desc": "主播旭旭宝宝表示对《功夫女足》不感兴趣，引发网友热议。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "孟子义热晕了",
+          "url": "https://s.weibo.com/weibo?q=%E5%AD%9F%E5%AD%90%E4%B9%89%E7%83%AD%E6%99%95%E4%BA%86",
+          "hot": 230390,
+          "rank": 34,
+          "desc": "演员孟子义因高温天气热晕，引发粉丝对其健康状况的担忧。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "别的狗都在跑第四只竟然在飞",
+          "url": "https://s.weibo.com/weibo?q=%E5%88%AB%E7%9A%84%E7%8B%97%E9%83%BD%E5%9C%A8%E8%B7%91%E7%AC%AC%E5%9B%9B%E5%8F%AA%E7%AB%9F%E7%84%B6%E5%9C%A8%E9%A3%9E",
+          "hot": 223754,
+          "rank": 35,
+          "desc": "视频显示其他狗奔跑时第四只狗似在飞，因画面滑稽受关注。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "姆巴佩说宁愿不成为历史最佳射手",
+          "url": "https://s.weibo.com/weibo?q=%E5%A7%86%E5%B7%B4%E4%BD%A9%E8%AF%B4%E5%AE%81%E6%84%BF%E4%B8%8D%E6%88%90%E4%B8%BA%E5%8E%86%E5%8F%B2%E6%9C%80%E4%BD%B3%E5%B0%84%E6%89%8B",
+          "hot": 215444,
+          "rank": 36,
+          "desc": "足球运动员姆巴佩发表言论，表示更看重团队荣誉而非个人进球纪录，引发球迷讨论。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "暑假接来玩14岁儿子纹成大花腿",
+          "url": "https://s.weibo.com/weibo?q=%E6%9A%91%E5%81%87%E6%8E%A5%E6%9D%A5%E7%8E%A914%E5%B2%81%E5%84%BF%E5%AD%90%E7%BA%B9%E6%88%90%E5%A4%A7%E8%8A%B1%E8%85%BF",
+          "hot": 212715,
+          "rank": 37,
+          "desc": "家长反映暑假接回 14 岁儿子发现其腿部纹身，引发对未成年人纹身监管的关注。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "法律不是让父亲被带走的泄愤工具",
+          "url": "https://s.weibo.com/weibo?q=%E6%B3%95%E5%BE%8B%E4%B8%8D%E6%98%AF%E8%AE%A9%E7%88%B6%E4%BA%B2%E8%A2%AB%E5%B8%A6%E8%B5%B0%E7%9A%84%E6%B3%84%E6%84%A4%E5%B7%A5%E5%85%B7",
+          "hot": 210210,
+          "rank": 38,
+          "desc": "针对家庭纠纷或执法事件，网友或当事人强调法律不应被滥用为泄愤手段，引发讨论。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "女子信息被吸毒人员冒用情况属实",
+          "url": "https://s.weibo.com/weibo?q=%E5%A5%B3%E5%AD%90%E4%BF%A1%E6%81%AF%E8%A2%AB%E5%90%B8%E6%AF%92%E4%BA%BA%E5%91%98%E5%86%92%E7%94%A8%E6%83%85%E5%86%B5%E5%B1%9E%E5%AE%9E",
+          "hot": 201034,
+          "rank": 39,
+          "desc": "官方确认女子个人信息被吸毒人员冒用的情况属实，引发对个人信息安全的关注。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "KPL",
+          "url": "https://s.weibo.com/weibo?q=KPL",
+          "hot": 192953,
+          "rank": 40,
+          "desc": "王者荣耀职业联赛简称，是电子竞技赛事，因比赛结果或选手表现常登上热搜。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "山西人午睡像进入平行时空",
+          "url": "https://s.weibo.com/weibo?q=%E5%B1%B1%E8%A5%BF%E4%BA%BA%E5%8D%88%E7%9D%A1%E5%83%8F%E8%BF%9B%E5%85%A5%E5%B9%B3%E8%A1%8C%E6%97%B6%E7%A9%BA",
+          "hot": 191644,
+          "rank": 41,
+          "desc": "网友调侃山西人午睡习惯独特或普遍，形容其安静程度如同进入平行时空，引发共鸣。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "地球超新鲜回应争议",
+          "url": "https://s.weibo.com/weibo?q=%E5%9C%B0%E7%90%83%E8%B6%85%E6%96%B0%E9%B2%9C%E5%9B%9E%E5%BA%94%E4%BA%89%E8%AE%AE",
+          "hot": 184905,
+          "rank": 42,
+          "desc": "品牌或节目“地球超新鲜”针对相关争议事件作出公开回应，引发公众关注。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "腾讯送张凌赫王楚然99999份追剧卡",
+          "url": "https://s.weibo.com/weibo?q=%E8%85%BE%E8%AE%AF%E9%80%81%E5%BC%A0%E5%87%8C%E8%B5%AB%E7%8E%8B%E6%A5%9A%E7%84%B699999%E4%BB%BD%E8%BF%BD%E5%89%A7%E5%8D%A1",
+          "hot": 181852,
+          "rank": 43,
+          "desc": "腾讯为宣传剧集，向主演张凌赫王楚然粉丝赠送 99999 份追剧卡，引发粉丝互动。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "这一秒过火今日开播",
+          "url": "https://s.weibo.com/weibo?q=%E8%BF%99%E4%B8%80%E7%A7%92%E8%BF%87%E7%81%AB%E4%BB%8A%E6%97%A5%E5%BC%80%E6%92%AD",
+          "hot": 179504,
+          "rank": 44,
+          "desc": "电视剧《这一秒过火》正式开播，因剧情或演员阵容吸引观众关注。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "世界杯",
+          "url": "https://s.weibo.com/weibo?q=%E4%B8%96%E7%95%8C%E6%9D%AF",
+          "hot": 177928,
+          "rank": 45,
+          "desc": "国际足联主办的全球最高水平足球赛事，因比赛激烈及球星表现备受关注。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "虞书欣侯明昊壁咚吻路透",
+          "url": "https://s.weibo.com/weibo?q=%E8%99%9E%E4%B9%A6%E6%AC%A3%E4%BE%AF%E6%98%8E%E6%98%8A%E5%A3%81%E5%92%9A%E5%90%BB%E8%B7%AF%E9%80%8F",
+          "hot": 177908,
+          "rank": 46,
+          "desc": "演员虞书欣侯明昊在拍摄现场亲密互动被路透，引发粉丝对剧情及关系的讨论。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "警方通报女子身份被吸毒人员冒用",
+          "url": "https://s.weibo.com/weibo?q=%E8%AD%A6%E6%96%B9%E9%80%9A%E6%8A%A5%E5%A5%B3%E5%AD%90%E8%BA%AB%E4%BB%BD%E8%A2%AB%E5%90%B8%E6%AF%92%E4%BA%BA%E5%91%98%E5%86%92%E7%94%A8",
+          "hot": 170185,
+          "rank": 47,
+          "desc": "警方发布通报确认女子身份被吸毒人员冒用，引发对身份盗用及治安问题的关注。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "高通发布会机器人现场摔倒",
+          "url": "https://s.weibo.com/weibo?q=%E9%AB%98%E9%80%9A%E5%8F%91%E5%B8%83%E4%BC%9A%E6%9C%BA%E5%99%A8%E4%BA%BA%E7%8E%B0%E5%9C%BA%E6%91%94%E5%80%92",
+          "hot": 169608,
+          "rank": 48,
+          "desc": "高通发布会现场演示机器人意外摔倒，引发网友对科技产品稳定性的调侃与关注。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "以色列总理支持阿根廷夺冠",
+          "url": "https://s.weibo.com/weibo?q=%E4%BB%A5%E8%89%B2%E5%88%97%E6%80%BB%E7%90%86%E6%94%AF%E6%8C%81%E9%98%BF%E6%A0%B9%E5%BB%B7%E5%A4%BA%E5%86%A0",
+          "hot": 169279,
+          "rank": 49,
+          "desc": "以色列总理公开表示支持阿根廷队夺冠，因政治人物介入体育话题引发关注。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "法国球员吐槽无法接受某些人的表现",
+          "url": "https://s.weibo.com/weibo?q=%E6%B3%95%E5%9B%BD%E7%90%83%E5%91%98%E5%90%90%E6%A7%BD%E6%97%A0%E6%B3%95%E6%8E%A5%E5%8F%97%E6%9F%90%E4%BA%9B%E4%BA%BA%E7%9A%84%E8%A1%A8%E7%8E%B0",
+          "hot": 169244,
           "rank": 50,
-          "desc": "涉及某事件中被称为黄总的男子身份被公开，通常关联社会纠纷或网络热点视频。",
+          "desc": "法国队球员公开批评队友或对手表现，因言论激烈引发媒体与球迷讨论。",
           "extra": {},
           "desc_source": "guess"
         }
@@ -771,56 +771,56 @@
       "count": 30,
       "items": [
         {
+          "title": "姆巴佩 2 射 1 传成历史射手王，一战刷爆 14 大纪录，如何评价他在世界杯季军赛的表现？",
+          "url": "https://www.zhihu.com/question/2062077879253295768",
+          "hot": null,
+          "rank": 1,
+          "desc": "世界杯季军赛，法国 4-6 英格兰，萨卡戴帽，姆巴佩双响创纪录，如何评价本场比赛？加冕世界杯历史射手王！姆巴佩一战刷爆14大纪录：68年历史第一人不是点球大战，英格兰6-4法国获季军，姆巴佩2射1传成历史射手王，萨卡戴帽",
+          "extra": {},
+          "desc_source": "source"
+        },
+        {
           "title": "世界杯季军赛，法国 4-6 英格兰，萨卡戴帽，姆巴佩双响创纪录，如何评价本场比赛？",
           "url": "https://www.zhihu.com/question/2061740947776579179",
           "hot": null,
-          "rank": 1,
+          "rank": 2,
           "desc": "你看好谁能取胜？",
           "extra": {},
           "desc_source": "source"
         },
         {
-          "title": "如何看待《长安三万里》的导演谢君伟，也不知道他新片《三国第一部争洛阳》票房扑街的原因？",
-          "url": "https://www.zhihu.com/question/2061530706438895358",
+          "title": "中学生无法购买高铁学生票，12306 称学生需异地上学并开具证明，如何看待这一购票规则？是否需要改进？",
+          "url": "https://www.zhihu.com/question/2061093407297115914",
           "hot": null,
-          "rank": 2,
-          "desc": "导演谢君伟 ，代表作:《长安三万里》《三国第一部:争洛阳》",
+          "rank": 3,
+          "desc": "眼下正值暑期，不少家长趁着假期带孩子乘高铁出游。然而，近日有家长在社交平台上发文称，自家孩子初中生（年满14周岁）办了学生证，却买不了高铁的学生票。这到底是怎么回事？十四五岁的中学生，出行究竟能不能享受学生票优惠？ 现实中，这样的限制条件，基本上意味着绝大多数中学生都难有资格享受到学生票优惠。而火车学生票基本上沦为“大学生票”的话题，早就不是第一次引发关注了。但正如此次家长的困惑所示，在火车儿童票之外的未成年人，到底该不该享受购票优惠，这个“老问题”依然值得讨论和解决。 讨论这个问题之前，首先要回溯火车学生票的设计初衷。公开信息显示，该政策始于20世纪50年代，主要面向的是异地就读的大学生，为他们寒暑假往返家庭与学校提供补贴。这是在当时大学生数量少，且社会整体经济发展水平较低的大背景下，带有明显的时代烙印。 正因为此，学生票每年仅限4次优惠，沿用到中学生身上，也自然延续了“异地上学”的硬性要求。从这个历史视角看，如今绝大多数初高中生难以享受学生票优惠，也不足为奇。 但是，这一制度放在今天来看，确实有必要与时俱进。 首先，法律层面其实已有明确要求。未成年人保护法规定，城市公共交通以及公路、铁路、水路、航空客运等应当按照有关规定对未成年人实施免费或者优惠票价。 按照这一规定，未满18周岁的公民均为未成年人，乘坐公共交通工具理应享受免费或优惠票价。但当前14岁至18岁群体普遍无法享受类似学生票这样的优待，明显已经与此形成抵牾。 其次，从减轻家庭养育负担、激发消费活力的角度看，制定面向初高中生乃至所有未成年人的普惠性票价优惠政策，同样有着积极意义。 如日前公布的《扩大消费“十五五”规划》提出，支持有条件的地方推广中小学“春秋假”。而如果能配套出台针对中学生的火车票优惠政策，无疑有利于降低春秋假出游的家庭成本，也有望激发更多的出行意愿、利好消费。 事实上，公共交通给予青少年群体票价优惠，在全球范围内也是普遍做法。不少国家就针对青少年及家庭出行设置了专属折扣，不仅优惠力度更大，部分国家甚至将优惠覆盖范围扩大到了20多岁。 在我国，铁路部门前不久推出了老年旅客淡季周中购票优惠服务。在此基础上，也不妨把未成年人群体一起纳入考量。要知道，未成年人的出行优惠还有利于带动亲子游、研学游，消费拉动效应不容小觑。像目前的暑期出游旺季，亲子游、研学游正是主力。 再者，从社会发展水平看，当前中国人均GDP已接近1.4万美元，进入了中等偏上收入国家前列，也已经有条件为更多特定群体提供票价优惠。甚至像大学生群体，在高流动性的今天，学生票优惠也完全可以不再限定于每年4次。这也未尝不是社会整体福利提升的应有之义。 因此，无论是回应社会呼声，还是基于方方面面的综合考量，给予所有未成年人乃至更大范围人群更多的出行优惠，也是时候在决策层面给予认真考虑、积极回应了。 内容来源中学生难享火车票优惠，政策不妨与时俱进",
           "extra": {},
           "desc_source": "source"
         },
         {
-          "title": "阿根廷有夺冠迹象吗？",
-          "url": "https://www.zhihu.com/question/2060955428196987375",
+          "title": "为什么印度小吃摊的卫生看起来那么糟，很多国人去吃了闹肚子，可是印度人却不受影响？",
+          "url": "https://www.zhihu.com/question/2060535612919363451",
           "hot": null,
-          "rank": 3,
-          "desc": "讨论阿根廷队在某项赛事中的表现及夺冠可能性，引发球迷关注。",
+          "rank": 4,
+          "desc": "探讨印度街头食品卫生状况及中外游客肠胃适应差异，引发对饮食文化与健康习惯的讨论。",
           "extra": {},
           "desc_source": "guess"
         },
         {
-          "title": "如何看待《凡人修仙传》第183集，播出两个小时后播放量不到200万？",
-          "url": "https://www.zhihu.com/question/2061800406666178604",
-          "hot": null,
-          "rank": 4,
-          "desc": "甚至比不过热门视频",
-          "extra": {},
-          "desc_source": "source"
-        },
-        {
-          "title": "王楚钦/孙颖莎 2-3 不敌袁励岑/王艺迪，无缘全锦赛混双决赛，怎样评价本场比赛？",
-          "url": "https://www.zhihu.com/question/2061941086679819536",
+          "title": "法国 4-6 英格兰这场比赛算是诚信互刷吗？你怎么看？",
+          "url": "https://www.zhihu.com/question/2062079550658274248",
           "hot": null,
           "rank": 5,
-          "desc": "2026年全国乒乓球锦标赛混双半决赛，王楚钦 /孙颖莎2-3不敌袁励岑 /王艺迪 ，遗憾止步半决赛。",
+          "desc": "在所有世界杯比赛中，本场也是自1982年以来首场进球数达到10个或以上的比赛 奥地利 7-5 瑞士 — 12球（1954年） 巴西 6-5 波兰 — 11球（1938年） 匈牙利 8-3 西德 — 11球（1954年） 匈牙利 10-1 萨尔瓦多 — 11球（1982年） 法国 7-3 巴拉圭 — 10球（1958年） 法国 4-6 英格兰 — 10球（2026年）世界杯季军赛，法国 4-6 英格兰，萨卡戴帽，姆巴佩双响创纪录，如何评价本场比赛？",
           "extra": {},
           "desc_source": "source"
         },
         {
-          "title": "美国基建能力不是很差吗？为什么这次世界杯中的体育场馆这么多？",
-          "url": "https://www.zhihu.com/question/2060785946757428288",
+          "title": "如何看待今年清华大学录取通知书取消立体二校门设计？",
+          "url": "https://www.zhihu.com/question/2060790194375242135",
           "hot": null,
           "rank": 6,
-          "desc": "听说2026美国世界杯用的球场规模空前，单个造价动辄十几二十亿美元，设施非常豪华。但另一方面，经常听说美国桥梁老化、铁路落后、高铁修不起来。这两件事怎么同时成立的？",
+          "desc": "感觉清华的录取通知书并不奢华吧，比其他院校的礼盒简略多了，而且立体校门都是纸雕，也不是其他特殊材料，没想到清华也会把这个独特的设计省了。回归一页纸了，看了一圈各大高校的录取通知书，薄薄一张纸，感觉这不是录取通知书了，这应该叫录取通知单吧",
           "extra": {},
           "desc_source": "source"
         },
@@ -834,20 +834,20 @@
           "desc_source": "source"
         },
         {
-          "title": "杭州一女子独自用餐遭服务员多次传话「黄总邀请你去包厢」，系黄姓男子「认错人」，已和解，如何看待此事？",
-          "url": "https://www.zhihu.com/question/2061337736611734900",
+          "title": "如何看待索尼宣布取消实体盘半个月后，官方账号沦陷，发什么都被冲，玩家愤怒不仅没减弱反而日益激烈？",
+          "url": "https://www.zhihu.com/question/2061350873901675318",
           "hot": null,
           "rank": 8,
-          "desc": "近日，杭州一女子称就餐期间遭到服务员传话，称包厢“黄总”邀约，引发争议。 据了解，该女子在一家杭州餐厅就餐过程中，被服务员传话，称有一位“黄总”邀请她去包厢。该女子拒绝后离开餐饮店。事后，属地相关部门表示正在调查中，涉事餐厅也已停业。 7月18日晚，潮新闻记者从属地相关部门了解到，经调查核实，黄姓男子（即“黄总”）是该餐厅内一名普通顾客，系第一次到该餐厅就餐，因认错人，误认为女子为他认识的朋友，故托服务员代为传话邀请。该餐厅服务员在未核实双方是否相识的情况下代为传递私人邀约信息一次，行为确有不当。 餐厅方已向女子正式道歉，双方已达成和解。该餐厅已停业整改，后续将加强员工教育培训。女子就餐遭服务员传话“黄总请你去包厢”，已查明：系误会，已和解_腾讯新闻 据海报新闻报道，7月16日，一女博主发视频称，当时她正在店内独自用餐，一名服务员前来转告，称包厢内一位“黄总”表示认识她。在传话过程中，服务员多次提及对方邀请她前往包厢一同吃饭，并转述对方的话称“去了后看了他就知道了”。 据博主称，服务员先后三次前来传话；在她拒绝后，几名服务员仍停留在其餐桌附近。 面对邀约，该博主明确表示自己并不认识这名“黄总”，并提出疑问：若对方确为熟人，理应直接上前打招呼，而非托服务员代为转达。出于保障自身安全的考虑，她当场开启网络直播留存证据；在确认周边环境相对安全后，跟随其他人一同离开了餐厅。 目前，平台显示涉事餐馆已暂停营业。对此，钱塘区市监局表示，商务局或公安部门正在处理。“黄总邀请你去包厢”，女子独自用餐遭服务员多次传话，邀请进陌生包间，平台显示涉事餐馆已暂停营业，官方介入",
+          "desc": "距离7月1日索尼PlayStation宣布「2028年全面停售新游戏实体光盘」已经过去半个月了。 按照以往的公关惯例，这类风波的热度通常会随着时间推移自然降温，但这次索尼面对的却是一场无限延长的海啸。 目前索尼所有的官方账号（如海外的X/Twitter、国内的B站和微博）已经彻底丧失了正常的宣发功能。索尼官方哪怕是发布一条再平常不过的夏促活动、或者游戏赛事模拟视频都回直接被玩家视作挑衅迎头痛击，评论区都会瞬间沦陷，清一色全是关于实体盘所有权、二手交易断绝以及高管抛售股票的质问。 甚至在海外，只要其他第三方厂商或KOL在推文里@了PlayStation，该条推文也会连带被玩家冲烂。玩家的抵抗情绪并没有因为时间拉长而算了，反而演变成了一种高黏性的日常抗议仪式。 从玩家心理学和社区生态来看，为什么这次玩家的愤怒不仅没有被时间冲淡，反而一天比一天激烈？这是否意味着主机玩家与平台御三家之间的某种长期信任契约彻底破裂了？",
           "extra": {},
           "desc_source": "source"
         },
         {
-          "title": "如何看待 2026 年 7 月 18 日喜剧动画电影《八仙！》票房预测值大幅提升至 14 亿人民币？",
-          "url": "https://www.zhihu.com/question/2061735910614512978",
+          "title": "最早那一批做断骨增高的人，现在怎么样了？",
+          "url": "https://www.zhihu.com/question/279422241",
           "hot": null,
           "rank": 9,
-          "desc": "猫眼的票房预测值大幅提升至14.4亿人民币。 --- 灯塔的票房预测值大幅提升至14.1亿人民币。",
+          "desc": "在欧美国家，断骨增高手术作为一项美容手术已经存在很久了，但在中国，似乎一直不温不火，那么最早的一批做断骨增高的中国人，现在怎么样了呢？",
           "extra": {},
           "desc_source": "source"
         },
@@ -856,25 +856,25 @@
           "url": "https://www.zhihu.com/question/2047400357463057122",
           "hot": null,
           "rank": 10,
-          "desc": "科普水稻与小麦生长习性差异，解释农田蓄水条件不同的农业知识。",
+          "desc": "科普水稻与小麦生长习性差异，解释农田蓄水条件及作物需水量的不同特点。",
           "extra": {},
           "desc_source": "guess"
         },
         {
-          "title": "皮尤调查显示中国全球好感度首超美国，反映了哪些趋势？",
-          "url": "https://www.zhihu.com/question/2061175218329196382",
+          "title": "马龙/许昕 3-2 战胜徐海东/牛冠凯，成功晋级全锦赛男双四强，怎样评价本场比赛？",
+          "url": "https://www.zhihu.com/question/2061887214426873888",
           "hot": null,
           "rank": 11,
-          "desc": "7月16日，新加坡《联合早报》刊发题为《皮尤调查：中国全球好感度排名超过美国》文章，美国皮尤研究中心最新民调结果显示，全球多国民众对华正面评价整体高于美国，为至少2023年以来首见。即便在美国盟友中，舆论也出现了转变。 把这个民调和弗朗西斯·福山近日的言论放在一起看，就更耐人寻味了。6月28日，这位曾提出“历史终结论”的学者接受采访时表示，美国可能走上一条长期衰落的道路，最终将领导地位让给其他国家，例如中国。美国建国250周年，要认真思考两个问题：美国是否正在走向衰落？中美关系的未来又在何方？ …皮尤最新调查：中国全球好感度超美国，说明什么？",
+          "desc": "7月18日，在刚刚结束的2026全国乒乓球锦标赛男双1/4决赛，马龙/许昕3-2战胜徐海东/牛冠凯，成功晋级四强。2026全国乒乓球锦标赛：马龙/许昕成功晋级男双四强",
           "extra": {},
           "desc_source": "source"
         },
         {
-          "title": "你认为邹市明和冉莹颖亏损2亿，谁的责任大一些？为什么？",
-          "url": "https://www.zhihu.com/question/2060072602627051561",
+          "title": "为什么越来越多的演员去开演唱会？不少人因高价票与低质翻唱遭质疑，跨界开演唱会这条路能长久吗？",
+          "url": "https://www.zhihu.com/question/2061865676021522525",
           "hot": null,
           "rank": 12,
-          "desc": "看《姐姐当家2》有感，拳王一家真能折腾。",
+          "desc": "近期业内爆料引发全网热议，一大批影视剧演员正在筹备个人巡回演唱会，从新生代流量到国民熟面孔，跨界开唱已然成为行业新风潮。白鹿、张新成、王鹤棣、虞书欣等演员已有落地演出，侯明昊、罗云熙等人的巡演规划也陆续传出消息，原本专属于职业歌手的万人舞台，如今挤满了拍戏的演员。",
           "extra": {},
           "desc_source": "source"
         },
@@ -888,29 +888,29 @@
           "desc_source": "source"
         },
         {
-          "title": "DeepSeek V4 正式版即将发布，有哪些值得关注的亮点？",
-          "url": "https://www.zhihu.com/question/2061407401308152796",
+          "title": "为啥人坐在并不严密的车子里拍摄狮虎时，这些猛兽却很少攻击人？",
+          "url": "https://www.zhihu.com/question/1892252786911081844",
           "hot": null,
           "rank": 14,
-          "desc": "关注人工智能模型 DeepSeek 新版本发布预期及可能带来的技术突破。",
+          "desc": "[图片]",
           "extra": {},
-          "desc_source": "guess"
+          "desc_source": "source"
         },
         {
-          "title": "科幻悬疑惊悚片《恐怖游轮》首次内地影院上映，看完后你感受如何？",
-          "url": "https://www.zhihu.com/question/2060326112048018673",
+          "title": "有没有办法增加球队对世界杯季军争夺的热情？",
+          "url": "https://www.zhihu.com/question/2061861632372953655",
           "hot": null,
           "rank": 15,
-          "desc": "经典悬疑电影《恐怖游轮》首次内地院线公映，引发观众观影讨论。",
+          "desc": "2026世界杯季军赛即将开始，但是英法两队对季军赛的热情普遍不大。有没有办法增加球队对世界杯季军争夺的热情？",
           "extra": {},
-          "desc_source": "guess"
+          "desc_source": "source"
         },
         {
-          "title": "金标联盟宣布小米、OPPO、vivo、荣耀将统一「碰一碰」及运存管理标准，安卓生态能否告别各自为战？",
-          "url": "https://www.zhihu.com/question/2061503634332809158",
+          "title": "王楚钦/孙颖莎 2-3 不敌袁励岑/王艺迪，无缘全锦赛混双决赛，怎样评价本场比赛？",
+          "url": "https://www.zhihu.com/question/2061941086679819536",
           "hot": null,
           "rank": 16,
-          "desc": "2026年7月16日，金标联盟在开发者沙龙上宣布，小米、OPPO、vivo、荣耀四家主流安卓厂商将进一步统一系统能力接入标准，涉及跨品牌「碰一碰」分享、一镜到底动画以及运行内存管理等功能。相关标准计划于7月30日上线。 在跨端分享方面，四家厂商将支持应用一次开发、覆盖多品牌设备，用户可通过「碰一碰」完成转账、分享视频或优惠券等操作。在系统动画方面，金标联盟将统一API，减少应用针对不同手机品牌重复开发和维护的成本。 此外，四家厂商还共同建立「公平运行内存机制」，通过统一内存使用区间、在内存紧张时通知应用释放资源，以及规范特殊场景下的提示方式，改善手机卡顿、发热和应用切换后重新加载等问题。 长期以来，安卓手机厂商在文件互传、系统动画、后台管理等方面各有一套规则，既增加了开发者的适配成本，也影响了跨品牌设备之间的使用体验。此次四家头部厂商统一标准，能否真正打破品牌壁垒、改善安卓生态？统一标准又会对应用开发者和普通用户带来哪些实际变化？金标联盟统一接入标准：碰一碰分享、一镜到底无缝动画多品牌适配 - IT之家",
+          "desc": "2026年全国乒乓球锦标赛混双半决赛，王楚钦 /孙颖莎2-3不敌袁励岑 /王艺迪 ，遗憾止步半决赛。",
           "extra": {},
           "desc_source": "source"
         },
@@ -933,11 +933,11 @@
           "desc_source": "source"
         },
         {
-          "title": "怎么反驳「生物学上忘掉一个人需要7年，可7是质数除不尽也忘不掉」这段话？",
-          "url": "https://www.zhihu.com/question/2058204015222076741",
+          "title": "皮尤调查显示中国全球好感度首超美国，反映了哪些趋势？",
+          "url": "https://www.zhihu.com/question/2061175218329196382",
           "hot": null,
           "rank": 19,
-          "desc": "听到一段话，前面说生物学上忘记一个人需要7年，后面又说7是质数，除不尽也忘不掉。觉得这逻辑挺绕的，想知道可以从哪些角度优雅地反驳它。",
+          "desc": "7月16日，新加坡《联合早报》刊发题为《皮尤调查：中国全球好感度排名超过美国》文章，美国皮尤研究中心最新民调结果显示，全球多国民众对华正面评价整体高于美国，为至少2023年以来首见。即便在美国盟友中，舆论也出现了转变。 把这个民调和弗朗西斯·福山近日的言论放在一起看，就更耐人寻味了。6月28日，这位曾提出“历史终结论”的学者接受采访时表示，美国可能走上一条长期衰落的道路，最终将领导地位让给其他国家，例如中国。美国建国250周年，要认真思考两个问题：美国是否正在走向衰落？中美关系的未来又在何方？ …皮尤最新调查：中国全球好感度超美国，说明什么？",
           "extra": {},
           "desc_source": "source"
         },
@@ -951,20 +951,65 @@
           "desc_source": "source"
         },
         {
+          "title": "上半年入境外国人超 2291 万人次，同比增长20.4%，希腊游客增长近2倍，老外为何扎堆来中国避暑？",
+          "url": "https://www.zhihu.com/question/2061485273788191373",
+          "hot": null,
+          "rank": 21,
+          "desc": "眼下国内已正式“入伏” 大批外国游客却涌入中国 数据显示 上半年 入境外国人超2291万人次 希腊游客增长近2倍 老外为何扎堆来中国“避暑”？ 国家移民管理局数据显示，今年上半年，入境外国人达2291.4万人次，同比增长20.4%。暑期以来，广东深圳入境的海外游客数量持续攀升，其中来自欧洲的旅客较之前明显增多。 视频丨上半年入境外国人超2291万人次 来中国避暑，火了“赴华机票销量暴涨1240%”！来中国避暑，火了！ | 每经网",
+          "extra": {},
+          "desc_source": "source"
+        },
+        {
+          "title": "开跨骑摩托和踏板摩托区别大吗？",
+          "url": "https://www.zhihu.com/question/431686251",
+          "hot": null,
+          "rank": 22,
+          "desc": "拿了摩托车驾驶证也有2年多了，上班代步买了一台125cc踏板车，也开了两年因为每天上班几乎每天开，感觉也比较熟悉了，现在有点钱打算买台跨骑，600cc的，看过实车挺大台的，400斤左右，就想问下没开过那么大的想问下其实区别在哪里吗？挡车会开125c的跨骑挡车，和大排量摩托感觉一样吗？或者说直接踏板转重机车可以吗？问过老爸意见，我说过想买台250仿赛慢慢练，他说买台250回家练车技问我是不是钱太多了，直接买400cc以上的，不买125.250过度，现在看上了新出的qj赛600，可以直接上手吗？",
+          "extra": {},
+          "desc_source": "source"
+        },
+        {
+          "title": "媒体报道上海「超级科研工厂」无人干预跑完 135 道科研题，有哪些意义？未来的科研还需要研究生么？",
+          "url": "https://www.zhihu.com/question/2061075958275072045",
+          "hot": null,
+          "rank": 23,
+          "desc": "https://content-static.cctvnews.cctv.com/snow-book/video.html?item_id=11861244030355599191&t=1784173705329&toc_style_id=video_default&track_id=2924C9DC-7F0B-498F-8898-01F755D77EB8_805868751705&share_to=wechat",
+          "extra": {},
+          "desc_source": "source"
+        },
+        {
+          "title": "阿根廷有夺冠迹象吗？",
+          "url": "https://www.zhihu.com/question/2060955428196987375",
+          "hot": null,
+          "rank": 24,
+          "desc": "讨论阿根廷国家足球队在赛事中的表现及夺冠可能性，引发球迷对比赛走势的关注。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "利人和利己到底哪个更重要？",
+          "url": "https://www.zhihu.com/question/2018847862847481011",
+          "hot": null,
+          "rank": 25,
+          "desc": "关于这个世界上，四种排列组合，至今仍未有标答。恳请智人为我解惑。 损人损己的事情，没有争议，是绝对不要做。 利人利己的事情，毫无疑问一定要做。 损人利己的事情，是做还是不做，由于前后失去了一致性，因此我们争论不出标答。 利人损己的事情，是做还是不做难以给出一个标答，理由同上。但我认为稍微较于上一个，稍微好判断一点，因为损己了，不值。 所以，损人利己的事情，到底要不要做？",
+          "extra": {},
+          "desc_source": "source"
+        },
+        {
           "title": "为什么同一个医生，今天去是普通门诊医生，明天去就是专家医生了？",
           "url": "https://www.zhihu.com/question/2061126196163826320",
           "hot": null,
-          "rank": 21,
+          "rank": 26,
           "desc": "我一直以为这是相声里的段子，没想到是真的",
           "extra": {},
           "desc_source": "source"
         },
         {
-          "title": "为啥人坐在并不严密的车子里拍摄狮虎时，这些猛兽却很少攻击人？",
-          "url": "https://www.zhihu.com/question/1892252786911081844",
+          "title": "如何看待《长安三万里》的导演谢君伟，也不知道他新片《三国第一部争洛阳》票房扑街的原因？",
+          "url": "https://www.zhihu.com/question/2061530706438895358",
           "hot": null,
-          "rank": 22,
-          "desc": "[图片]",
+          "rank": 27,
+          "desc": "导演谢君伟 ，代表作:《长安三万里》《三国第一部:争洛阳》",
           "extra": {},
           "desc_source": "source"
         },
@@ -972,35 +1017,8 @@
           "title": "参加 2026 世界人工智能大会 (WAIC) 是一种怎样的体验？",
           "url": "https://www.zhihu.com/question/2060398351212700649",
           "hot": null,
-          "rank": 23,
+          "rank": 28,
           "desc": "7 月 17 日至 20 日，知乎将再次亮相 2026世界人工智能大会（WAIC）。7 月 14 日—7 月 27 日，在知乎带 #WAIC2026 话题发布想法/文章，或在绑定该话题的问题下写回答，写下你对 WAIC 的观察、对 AI 的思考，或一个刚刚冒出来的创造脑洞，瓜分千万扶持流量。 活动详情：AI 时代，人人都是创造者：知乎 2026 WAIC全攻略 + 独家福利地图 同时，我们集结了芯片设计工程师，新知答主 @温戈、数据分析师、新知答主 @朱卫军、AINext联合创始人、新知答主 @德里克文，算法工程师、新知答主 @桔了个仔、好奇心日报主笔、前36氪副主编、自由撰稿人 @君泽、开源项目《PainterEngine》项目作者，新知答主 @DBinary、隐私安全工程师、新知答主 @Felina 等30 位答主，组成 WAIC 答主探展团，实地探访各大展台，以客观视角拆解技术内核，带来 WAIC 一线解读。",
-          "extra": {},
-          "desc_source": "source"
-        },
-        {
-          "title": "最早那一批做断骨增高的人，现在怎么样了？",
-          "url": "https://www.zhihu.com/question/279422241",
-          "hot": null,
-          "rank": 24,
-          "desc": "在欧美国家，断骨增高手术作为一项美容手术已经存在很久了，但在中国，似乎一直不温不火，那么最早的一批做断骨增高的中国人，现在怎么样了呢？",
-          "extra": {},
-          "desc_source": "source"
-        },
-        {
-          "title": "《功夫女足》票房破10亿，豆瓣评分仅6.6，如何评价其口碑与票房「倒挂」现象？这到底算成功还是失败？",
-          "url": "https://www.zhihu.com/question/2060529589093511823",
-          "hot": null,
-          "rank": 25,
-          "desc": "《功夫女足》真的很难看吗？ 截至7月17日，《功夫女足》上映7天票房破10亿元，成中国影史第134部10亿+影片。《功夫女足》票房突破10亿元",
-          "extra": {},
-          "desc_source": "source"
-        },
-        {
-          "title": "长鑫科技开启申购，中一签需缴4330元，单一账户顶格申购334.9万股，打新性价比如何？是散户红利吗？",
-          "url": "https://www.zhihu.com/question/2061067983900906626",
-          "hot": null,
-          "rank": 26,
-          "desc": "每经AI快讯，7月16日可申购长鑫科技，申购代码787825，申购价格8.66元，单一账户申购上限334.9万股。新股提示：长鑫科技今日申购 | 每经网 长鑫科技本次发行价格为8.66元/股，一签为500股，对普通投资者来说，若成功中签，需缴款4330元。发行价格对应的2025年扣非前后孰低摊薄后市盈率为308.92倍（未行使超额配售选择权），高于行业平均市盈率76.32倍及可比公司平均市盈率134.62倍。科创板史上最大IPO，长鑫科技打新明日来袭，中一签需缴4330元，股民：期待赚四倍",
           "extra": {},
           "desc_source": "source"
         },
@@ -1008,37 +1026,19 @@
           "title": "经济学家任泽平 VIP 付费会员群「暴雷」，有人听信操作建议亏损 1000多万，你如何看这种现象？",
           "url": "https://www.zhihu.com/question/2061371759589323819",
           "hot": null,
-          "rank": 27,
+          "rank": 29,
           "desc": "科技股持续下跌，网红经济学家任泽平站上风口浪尖。此前，任泽平持续看好科技牛行情，指出AI科技牛是康波周期量级的机会，天花板远远没有看到，是这代人最重要的时代机遇。 此前科技股走出了波澜壮阔的行情，双创指数均创下历史新高，然而近期韩国“存储双雄”跳水，引发A股连锁反应，科技股遭遇踩踏行情。 据报道，近期群名为“泽平宏观VIP群30”的付费会员群出现投资者激烈控诉。该投资者称，自己听信任泽平相关 “科技牛还在、千金难买牛回头、每次回调都是买入机会”等观点，满仓加融资买入德明利、江波龙两只存储芯片个股，近日账户直接爆仓，亏损1000多万元，直言“一辈子毁了”。 上述投资者情绪激烈，指责任泽平为了会员费毫无底线，造成普通投资者财产损失。 今日，知名财经评论员、工信部信息通信经济专家委员会委员盘和林也剑指任泽平害人。盘和林在朋友圈称，曾在任泽平直播间发声，“乱说周期会害死人”，其给企业家讲课时公开点评批评任泽平讲的周期，称实在是觉得任泽平的言论会害人。 对于此次风波，任泽平未进行直接回应，昨日科技股大跌之际，任泽平在社交账号给股民打气，称近期市场调整有五大原因，短期噪音长期来看可以忽略不计。科技股连续暴跌，网红“任教主”站上风口浪尖，工信部专家开炮：任泽平的言论会害人，此前有学员称爆仓亏损1000多万_腾讯新闻",
           "extra": {},
           "desc_source": "source"
         },
         {
-          "title": "为什么杭州湾和珠三角都建大桥了，可是渤海湾却没有建大桥?",
-          "url": "https://www.zhihu.com/question/660373683",
-          "hot": null,
-          "rank": 28,
-          "desc": "杭州湾大桥，澳珠澳大桥，深中大桥，明明技术已经成熟了，为什么不在烟台和大连之间建一个大桥呢？",
-          "extra": {},
-          "desc_source": "source"
-        },
-        {
-          "title": "为什么体感酷热，但实际温度却只有39℃？听说气象局会卡40℃，这种说法是否合理？",
-          "url": "https://www.zhihu.com/question/2061366752232190902",
-          "hot": null,
-          "rank": 29,
-          "desc": "为什么有时体感非常热，感觉已经远远超过了40℃的标准，但是天气预报中的实际温度却只有39℃，这是由什么原因导致的？ 而且最近也有很多人说气象局会卡40℃，给出来的原因是40℃要给高温补贴，而且还需要停工，不知道这种说法是否合理，",
-          "extra": {},
-          "desc_source": "source"
-        },
-        {
-          "title": "为什么《暮光之城》男主扮演者这么讨厌《暮光之城》？",
-          "url": "https://www.zhihu.com/question/62842616",
+          "title": "在《赛博朋克2077》中，为什么竹村五郎和李德都是忠犬，但很多人更讨厌李德？",
+          "url": "https://www.zhihu.com/question/2060138725267465382",
           "hot": null,
           "rank": 30,
-          "desc": "最近看了Robert pattinson (《暮光之城》男主角)吐槽《暮光》的视频，百思不得其解啊，为什么他觉得《暮光》烂还要接片呢？",
+          "desc": "探讨游戏《赛博朋克 2077》中角色人设差异，分析玩家对竹村与李德好感度不同的原因。",
           "extra": {},
-          "desc_source": "source"
+          "desc_source": "guess"
         }
       ]
     },
@@ -1048,452 +1048,452 @@
       "count": 50,
       "items": [
         {
-          "title": "旅游那达慕开幕了",
-          "url": "https://www.douyin.com/search/%E6%97%85%E6%B8%B8%E9%82%A3%E8%BE%BE%E6%85%95%E5%BC%80%E5%B9%95%E4%BA%86",
-          "hot": 12226759,
+          "title": "解锁那达慕全攻略",
+          "url": "https://www.douyin.com/search/%E8%A7%A3%E9%94%81%E9%82%A3%E8%BE%BE%E6%85%95%E5%85%A8%E6%94%BB%E7%95%A5",
+          "hot": 11694359,
           "rank": 1,
-          "desc": "指某地举办融合传统那达慕文化的旅游节庆活动正式开幕。",
+          "desc": "介绍那达慕大会的传统习俗与参与方式，为游客提供体验蒙古族文化活动的实用指南。",
           "extra": {},
           "desc_source": "guess"
         },
         {
           "title": "英格兰6:4法国收获铜牌",
           "url": "https://www.douyin.com/search/%E8%8B%B1%E6%A0%BC%E5%85%B06%3A4%E6%B3%95%E5%9B%BD%E6%94%B6%E8%8E%B7%E9%93%9C%E7%89%8C",
-          "hot": 11655066,
+          "hot": 11523271,
           "rank": 2,
-          "desc": "报道英格兰队在比赛中以 6 比 4 战胜法国队，最终获得铜牌的结果。",
+          "desc": "报道英格兰队战胜法国队获得赛事铜牌的比赛结果，引发球迷对球队表现的讨论。",
           "extra": {},
           "desc_source": "guess"
         },
         {
-          "title": "全国首张脑机接口处方开出",
-          "url": "https://www.douyin.com/search/%E5%85%A8%E5%9B%BD%E9%A6%96%E5%BC%A0%E8%84%91%E6%9C%BA%E6%8E%A5%E5%8F%A3%E5%A4%84%E6%96%B9%E5%BC%80%E5%87%BA",
-          "hot": 9867249,
+          "title": "看见中国人工智能创新力量",
+          "url": "https://www.douyin.com/search/%E7%9C%8B%E8%A7%81%E4%B8%AD%E5%9B%BD%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%88%9B%E6%96%B0%E5%8A%9B%E9%87%8F",
+          "hot": 11381798,
           "rank": 3,
-          "desc": "标志脑机接口技术在医疗领域取得突破，首次被正式纳入处方治疗。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "峨眉山会惩罚每一个嘴硬的人",
-          "url": "https://www.douyin.com/search/%E5%B3%A8%E7%9C%89%E5%B1%B1%E4%BC%9A%E6%83%A9%E7%BD%9A%E6%AF%8F%E4%B8%80%E4%B8%AA%E5%98%B4%E7%A1%AC%E7%9A%84%E4%BA%BA",
-          "hot": 9719013,
-          "rank": 4,
-          "desc": "网络流行语，调侃峨眉山登山难度大，身体不适应者易受惩罚。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "老爸评测实测拼豆安全性",
-          "url": "https://www.douyin.com/search/%E8%80%81%E7%88%B8%E8%AF%84%E6%B5%8B%E5%AE%9E%E6%B5%8B%E6%8B%BC%E8%B1%86%E5%AE%89%E5%85%A8%E6%80%A7",
-          "hot": 9003989,
-          "rank": 5,
-          "desc": "知名评测机构对儿童玩具拼豆进行安全检测，关注家长育儿需求。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "英格兰队史首获世界杯铜牌",
-          "url": "https://www.douyin.com/search/%E8%8B%B1%E6%A0%BC%E5%85%B0%E9%98%9F%E5%8F%B2%E9%A6%96%E8%8E%B7%E4%B8%96%E7%95%8C%E6%9D%AF%E9%93%9C%E7%89%8C",
-          "hot": 8742449,
-          "rank": 6,
-          "desc": "记录英格兰国家队在世界杯赛事中首次获得铜牌的历史性成就。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "重庆彭水山体崩塌搜救进展",
-          "url": "https://www.douyin.com/search/%E9%87%8D%E5%BA%86%E5%BD%AD%E6%B0%B4%E5%B1%B1%E4%BD%93%E5%B4%A9%E5%A1%8C%E6%90%9C%E6%95%91%E8%BF%9B%E5%B1%95",
-          "hot": 7818164,
-          "rank": 7,
-          "desc": "关注重庆彭水发生山体崩塌灾害后的救援行动及最新搜救情况。",
+          "desc": "展示中国在人工智能领域的技术突破与应用成果，反映科技创新发展的现状与趋势。",
           "extra": {},
           "desc_source": "guess"
         },
         {
           "title": "提前预习小个子秋冬穿搭指南",
           "url": "https://www.douyin.com/search/%E6%8F%90%E5%89%8D%E9%A2%84%E4%B9%A0%E5%B0%8F%E4%B8%AA%E5%AD%90%E7%A7%8B%E5%86%AC%E7%A9%BF%E6%90%AD%E6%8C%87%E5%8D%97",
-          "hot": 7777420,
-          "rank": 8,
-          "desc": "时尚类内容，为身材娇小人群提供秋冬季节的服装搭配建议。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "孙颖莎王楚钦无缘混双决赛",
-          "url": "https://www.douyin.com/search/%E5%AD%99%E9%A2%96%E8%8E%8E%E7%8E%8B%E6%A5%9A%E9%92%A6%E6%97%A0%E7%BC%98%E6%B7%B7%E5%8F%8C%E5%86%B3%E8%B5%9B",
-          "hot": 7777146,
-          "rank": 9,
-          "desc": "报道乒乓球运动员孙颖莎与王楚钦在混双项目中未能进入决赛。",
+          "hot": 10813291,
+          "rank": 4,
+          "desc": "提供适合小个子人群的秋冬服装搭配建议，帮助解决身材比例与季节穿衣的时尚需求。",
           "extra": {},
           "desc_source": "guess"
         },
         {
           "title": "KC绝境逆转T1晋级EWC决赛",
           "url": "https://www.douyin.com/search/KC%E7%BB%9D%E5%A2%83%E9%80%86%E8%BD%ACT1%E6%99%8B%E7%BA%A7EWC%E5%86%B3%E8%B5%9B",
-          "hot": 7751736,
-          "rank": 10,
-          "desc": "电竞比赛中 KC 战队在劣势下逆转战胜 T1，成功晋级世界赛决赛。",
+          "hot": 10011652,
+          "rank": 5,
+          "desc": "报道电子竞技赛事中 KC 战队逆转 T1 晋级决赛的赛况，引发游戏玩家与粉丝关注。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "佩德里入驻抖音",
+          "url": "https://www.douyin.com/search/%E4%BD%A9%E5%BE%B7%E9%87%8C%E5%85%A5%E9%A9%BB%E6%8A%96%E9%9F%B3",
+          "hot": 9904276,
+          "rank": 6,
+          "desc": "足球运动员佩德里开通抖音账号，引发球迷对其社交媒体动态及互动的关注。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "英格兰队史首获世界杯铜牌",
+          "url": "https://www.douyin.com/search/%E8%8B%B1%E6%A0%BC%E5%85%B0%E9%98%9F%E5%8F%B2%E9%A6%96%E8%8E%B7%E4%B8%96%E7%95%8C%E6%9D%AF%E9%93%9C%E7%89%8C",
+          "hot": 8344946,
+          "rank": 7,
+          "desc": "记录英格兰国家队首次获得世界杯铜牌的历史性时刻，引发体育界与球迷的广泛讨论。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "重庆彭水山体崩塌搜救进展",
+          "url": "https://www.douyin.com/search/%E9%87%8D%E5%BA%86%E5%BD%AD%E6%B0%B4%E5%B1%B1%E4%BD%93%E5%B4%A9%E5%A1%8C%E6%90%9C%E6%95%91%E8%BF%9B%E5%B1%95",
+          "hot": 7853693,
+          "rank": 8,
+          "desc": "通报重庆彭水山体崩塌灾害的救援工作情况，公众关注受灾人员搜救与安全进展。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "国开行原行长欧阳卫民被查",
+          "url": "https://www.douyin.com/search/%E5%9B%BD%E5%BC%80%E8%A1%8C%E5%8E%9F%E8%A1%8C%E9%95%BF%E6%AC%A7%E9%98%B3%E5%8D%AB%E6%B0%91%E8%A2%AB%E6%9F%A5",
+          "hot": 7846732,
+          "rank": 9,
+          "desc": "通报国家开发银行原行长欧阳卫民接受调查的消息，引发公众对金融领域反腐的关注。",
           "extra": {},
           "desc_source": "guess"
         },
         {
           "title": "真我退出中国输给了谁",
           "url": "https://www.douyin.com/search/%E7%9C%9F%E6%88%91%E9%80%80%E5%87%BA%E4%B8%AD%E5%9B%BD%E8%BE%93%E7%BB%99%E4%BA%86%E8%B0%81",
-          "hot": 7738737,
-          "rank": 11,
-          "desc": "探讨手机品牌真我在中国市场的竞争情况及退出传闻背后的原因。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "警方通报涉彭水山体崩塌谣言",
-          "url": "https://www.douyin.com/search/%E8%AD%A6%E6%96%B9%E9%80%9A%E6%8A%A5%E6%B6%89%E5%BD%AD%E6%B0%B4%E5%B1%B1%E4%BD%93%E5%B4%A9%E5%A1%8C%E8%B0%A3%E8%A8%80",
-          "hot": 7730406,
-          "rank": 12,
-          "desc": "警方澄清彭水山体崩塌不实信息，旨在维护社会稳定与公共安全。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "妈妈催婚短片震撼发布",
-          "url": "https://www.douyin.com/search/%E5%A6%88%E5%A6%88%E5%82%AC%E5%A9%9A%E7%9F%AD%E7%89%87%E9%9C%87%E6%92%BC%E5%8F%91%E5%B8%83",
-          "hot": 7727065,
-          "rank": 13,
-          "desc": "短片聚焦母亲催促子女结婚话题，引发网友对婚恋压力的共鸣与讨论。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "刑天小队回归",
-          "url": "https://www.douyin.com/search/%E5%88%91%E5%A4%A9%E5%B0%8F%E9%98%9F%E5%9B%9E%E5%BD%92",
-          "hot": 7725469,
-          "rank": 14,
-          "desc": "疑似游戏或影视角色组合回归，引发粉丝关注与期待。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "泰国总理阿努廷抵达成都",
-          "url": "https://www.douyin.com/search/%E6%B3%B0%E5%9B%BD%E6%80%BB%E7%90%86%E9%98%BF%E5%8A%AA%E5%BB%B7%E6%8A%B5%E8%BE%BE%E6%88%90%E9%83%BD",
-          "hot": 7723647,
-          "rank": 15,
-          "desc": "泰国总理访问成都，涉及中泰外交互动与地方合作交流活动。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "泡泡手势舞",
-          "url": "https://www.douyin.com/search/%E6%B3%A1%E6%B3%A1%E6%89%8B%E5%8A%BF%E8%88%9E",
-          "hot": 7722319,
-          "rank": 16,
-          "desc": "网络流行手势舞蹈挑战，因动作简单易模仿而在社交平台传播。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "功夫女足能人辈出",
-          "url": "https://www.douyin.com/search/%E5%8A%9F%E5%A4%AB%E5%A5%B3%E8%B6%B3%E8%83%BD%E4%BA%BA%E8%BE%88%E5%87%BA",
-          "hot": 7705996,
-          "rank": 17,
-          "desc": "关注女子足球领域涌现的优秀人才，展现体育竞技风采。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "库里预测阿根廷夺冠",
-          "url": "https://www.douyin.com/search/%E5%BA%93%E9%87%8C%E9%A2%84%E6%B5%8B%E9%98%BF%E6%A0%B9%E5%BB%B7%E5%A4%BA%E5%86%A0",
-          "hot": 7701679,
-          "rank": 18,
-          "desc": "篮球明星库里对阿根廷球队夺冠进行预测，引发体育迷热议。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "姐姐当家2有事上桌聊",
-          "url": "https://www.douyin.com/search/%E5%A7%90%E5%A7%90%E5%BD%93%E5%AE%B62%E6%9C%89%E4%BA%8B%E4%B8%8A%E6%A1%8C%E8%81%8A",
-          "hot": 7701402,
-          "rank": 19,
-          "desc": "综艺节目环节，嘉宾围坐讨论热点话题，展现女性观点。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "谁还没去过草原那达慕",
-          "url": "https://www.douyin.com/search/%E8%B0%81%E8%BF%98%E6%B2%A1%E5%8E%BB%E8%BF%87%E8%8D%89%E5%8E%9F%E9%82%A3%E8%BE%BE%E6%85%95",
-          "hot": 7694783,
-          "rank": 20,
-          "desc": "推广草原那达慕大会文化，吸引游客体验传统民族活动。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "记者：切尔西签下罗杰斯",
-          "url": "https://www.douyin.com/search/%E8%AE%B0%E8%80%85%EF%BC%9A%E5%88%87%E5%B0%94%E8%A5%BF%E7%AD%BE%E4%B8%8B%E7%BD%97%E6%9D%B0%E6%96%AF",
-          "hot": 7684073,
-          "rank": 21,
-          "desc": "足球转会消息，记者报道切尔西俱乐部签约罗杰斯。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "中超重庆铜梁龙1:1浙江队",
-          "url": "https://www.douyin.com/search/%E4%B8%AD%E8%B6%85%E9%87%8D%E5%BA%86%E9%93%9C%E6%A2%81%E9%BE%991%3A1%E6%B5%99%E6%B1%9F%E9%98%9F",
-          "hot": 7682300,
-          "rank": 22,
-          "desc": "中超联赛比赛结果，重庆铜梁龙与浙江队战平，引发球迷关注。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "世界人工智能大会有何看点",
-          "url": "https://www.douyin.com/search/%E4%B8%96%E7%95%8C%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%A4%A7%E4%BC%9A%E6%9C%89%E4%BD%95%E7%9C%8B%E7%82%B9",
-          "hot": 7675555,
-          "rank": 23,
-          "desc": "探讨人工智能领域最新技术成果与应用，展示行业发展趋势。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "用一幅画收录上百个童年IP",
-          "url": "https://www.douyin.com/search/%E7%94%A8%E4%B8%80%E5%B9%85%E7%94%BB%E6%94%B6%E5%BD%95%E4%B8%8A%E7%99%BE%E4%B8%AA%E7%AB%A5%E5%B9%B4IP",
-          "hot": 7675516,
-          "rank": 24,
-          "desc": "艺术作品汇集众多经典童年形象，引发网友怀旧情感共鸣。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "杨紫也拍上球场转场了",
-          "url": "https://www.douyin.com/search/%E6%9D%A8%E7%B4%AB%E4%B9%9F%E6%8B%8D%E4%B8%8A%E7%90%83%E5%9C%BA%E8%BD%AC%E5%9C%BA%E4%BA%86",
-          "hot": 7675460,
-          "rank": 25,
-          "desc": "演员杨紫拍摄球场转场视频，展现运动风格引发粉丝关注。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "黄子韬成都演唱会",
-          "url": "https://www.douyin.com/search/%E9%BB%84%E5%AD%90%E9%9F%AC%E6%88%90%E9%83%BD%E6%BC%94%E5%94%B1%E4%BC%9A",
-          "hot": 7671348,
-          "rank": 26,
-          "desc": "歌手黄子韬在成都举办演唱会，吸引粉丝现场观看与互动。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "看完功夫女足接力摇我先跳了",
-          "url": "https://www.douyin.com/search/%E7%9C%8B%E5%AE%8C%E5%8A%9F%E5%A4%AB%E5%A5%B3%E8%B6%B3%E6%8E%A5%E5%8A%9B%E6%91%87%E6%88%91%E5%85%88%E8%B7%B3%E4%BA%86",
-          "hot": 7661395,
-          "rank": 27,
-          "desc": "网友观看女足相关视频后模仿舞蹈动作，表达对女足的支持与热情。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "华山论剑表演赛",
-          "url": "https://www.douyin.com/search/%E5%8D%8E%E5%B1%B1%E8%AE%BA%E5%89%91%E8%A1%A8%E6%BC%94%E8%B5%9B",
-          "hot": 7657573,
-          "rank": 28,
-          "desc": "武术或体育领域的表演赛事，因高手云集或精彩对决引发关注。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "李荣浩赣州演唱会",
-          "url": "https://www.douyin.com/search/%E6%9D%8E%E8%8D%A3%E6%B5%A9%E8%B5%A3%E5%B7%9E%E6%BC%94%E5%94%B1%E4%BC%9A",
-          "hot": 7657219,
-          "rank": 29,
-          "desc": "歌手李荣浩在赣州举办的个人演唱会，吸引粉丝及乐迷关注。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "锐评说唱巅峰名人堂争夺赛",
-          "url": "https://www.douyin.com/search/%E9%94%90%E8%AF%84%E8%AF%B4%E5%94%B1%E5%B7%85%E5%B3%B0%E5%90%8D%E4%BA%BA%E5%A0%82%E4%BA%89%E5%A4%BA%E8%B5%9B",
-          "hot": 7652892,
-          "rank": 30,
-          "desc": "说唱音乐类节目中的竞争环节，因选手表现及评委点评受关注。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "没有弹壳拿不下的风格",
-          "url": "https://www.douyin.com/search/%E6%B2%A1%E6%9C%89%E5%BC%B9%E5%A3%B3%E6%8B%BF%E4%B8%8D%E4%B8%8B%E7%9A%84%E9%A3%8E%E6%A0%BC",
-          "hot": 7652317,
-          "rank": 31,
-          "desc": "网络流行语或视频标题，形容某种风格极具冲击力或难以抵挡。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "黑梦诡眼挑战",
-          "url": "https://www.douyin.com/search/%E9%BB%91%E6%A2%A6%E8%AF%A1%E7%9C%BC%E6%8C%91%E6%88%98",
-          "hot": 7651037,
-          "rank": 32,
-          "desc": "社交媒体上的创意挑战活动，参与者模仿特定眼神或妆容。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "热巴说周星驰把大家保护得很好",
-          "url": "https://www.douyin.com/search/%E7%83%AD%E5%B7%B4%E8%AF%B4%E5%91%A8%E6%98%9F%E9%A9%B0%E6%8A%8A%E5%A4%A7%E5%AE%B6%E4%BF%9D%E6%8A%A4%E5%BE%97%E5%BE%88%E5%A5%BD",
-          "hot": 7643552,
-          "rank": 33,
-          "desc": "演员热巴谈及与周星驰合作经历，相关言论引发网友关注。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "你送的胭脂扣 是我的心头忧",
-          "url": "https://www.douyin.com/search/%E4%BD%A0%E9%80%81%E7%9A%84%E8%83%AD%E8%84%82%E6%89%A3%20%E6%98%AF%E6%88%91%E7%9A%84%E5%BF%83%E5%A4%B4%E5%BF%A7",
-          "hot": 7639877,
-          "rank": 34,
-          "desc": "影视或歌曲相关台词歌词，因情感共鸣或作品热度成为话题。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "分配到了啥就看啥吧",
-          "url": "https://www.douyin.com/search/%E5%88%86%E9%85%8D%E5%88%B0%E4%BA%86%E5%95%A5%E5%B0%B1%E7%9C%8B%E5%95%A5%E5%90%A7",
-          "hot": 7638905,
-          "rank": 35,
-          "desc": "网友对随机分配内容或任务的调侃，反映随遇而安的心态。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "我一直在寻找可爱的微笑",
-          "url": "https://www.douyin.com/search/%E6%88%91%E4%B8%80%E7%9B%B4%E5%9C%A8%E5%AF%BB%E6%89%BE%E5%8F%AF%E7%88%B1%E7%9A%84%E5%BE%AE%E7%AC%91",
-          "hot": 7635008,
-          "rank": 36,
-          "desc": "歌曲歌词或网络文案，因传递温暖情感引发用户共鸣与传播。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "我倒要看看自己能奔成什么样",
-          "url": "https://www.douyin.com/search/%E6%88%91%E5%80%92%E8%A6%81%E7%9C%8B%E7%9C%8B%E8%87%AA%E5%B7%B1%E8%83%BD%E5%A5%94%E6%88%90%E4%BB%80%E4%B9%88%E6%A0%B7",
-          "hot": 7634591,
-          "rank": 37,
-          "desc": "网友表达自我挑战或运动决心的口号，常用于健身或跑步场景。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "用百万级运镜打开卡通玩偶",
-          "url": "https://www.douyin.com/search/%E7%94%A8%E7%99%BE%E4%B8%87%E7%BA%A7%E8%BF%90%E9%95%9C%E6%89%93%E5%BC%80%E5%8D%A1%E9%80%9A%E7%8E%A9%E5%81%B6",
-          "hot": 7634376,
-          "rank": 38,
-          "desc": "视频创作者使用高端拍摄技术展示玩偶，因视觉效果受关注。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "天使摇4手势舞",
-          "url": "https://www.douyin.com/search/%E5%A4%A9%E4%BD%BF%E6%91%874%E6%89%8B%E5%8A%BF%E8%88%9E",
-          "hot": 7632235,
-          "rank": 39,
-          "desc": "社交媒体流行的舞蹈挑战，参与者模仿特定手势动作。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "张北草原音乐节",
-          "url": "https://www.douyin.com/search/%E5%BC%A0%E5%8C%97%E8%8D%89%E5%8E%9F%E9%9F%B3%E4%B9%90%E8%8A%82",
-          "hot": 7631883,
-          "rank": 40,
-          "desc": "在河北张北举办的户外音乐活动，因阵容及氛围吸引乐迷。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "专业老师带你看黄霄雲刘端端空心",
-          "url": "https://www.douyin.com/search/%E4%B8%93%E4%B8%9A%E8%80%81%E5%B8%88%E5%B8%A6%E4%BD%A0%E7%9C%8B%E9%BB%84%E9%9C%84%E9%9B%B2%E5%88%98%E7%AB%AF%E7%AB%AF%E7%A9%BA%E5%BF%83",
-          "hot": 7629177,
-          "rank": 41,
-          "desc": "音乐教学或点评视频，解析歌手演唱技巧引发声乐爱好者关注。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "法国队主帅德尚赛前宣布离任",
-          "url": "https://www.douyin.com/search/%E6%B3%95%E5%9B%BD%E9%98%9F%E4%B8%BB%E5%B8%85%E5%BE%B7%E5%B0%9A%E8%B5%9B%E5%89%8D%E5%AE%A3%E5%B8%83%E7%A6%BB%E4%BB%BB",
-          "hot": 7622762,
-          "rank": 42,
-          "desc": "话题称法国队主帅德尚宣布离任，引发球迷对球队未来关注。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "当我用身体波浪回答问题",
-          "url": "https://www.douyin.com/search/%E5%BD%93%E6%88%91%E7%94%A8%E8%BA%AB%E4%BD%93%E6%B3%A2%E6%B5%AA%E5%9B%9E%E7%AD%94%E9%97%AE%E9%A2%98",
-          "hot": 7621009,
-          "rank": 43,
-          "desc": "网络流行梗，指用肢体动作代替语言回应，因趣味性强受关注。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "被陈泽杯即梦生日大片帅到了",
-          "url": "https://www.douyin.com/search/%E8%A2%AB%E9%99%88%E6%B3%BD%E6%9D%AF%E5%8D%B3%E6%A2%A6%E7%94%9F%E6%97%A5%E5%A4%A7%E7%89%87%E5%B8%85%E5%88%B0%E4%BA%86",
-          "hot": 7620700,
-          "rank": 44,
-          "desc": "网友称赞某生日宣传视频制作精良，属娱乐或品牌营销话题。",
+          "hot": 7804124,
+          "rank": 10,
+          "desc": "讨论真我手机品牌退出中国市场的商业决策，分析市场竞争格局与品牌战略调整原因。",
           "extra": {},
           "desc_source": "guess"
         },
         {
           "title": "姆巴佩22球登顶世界杯历史射手榜",
           "url": "https://www.douyin.com/search/%E5%A7%86%E5%B7%B4%E4%BD%A922%E7%90%83%E7%99%BB%E9%A1%B6%E4%B8%96%E7%95%8C%E6%9D%AF%E5%8E%86%E5%8F%B2%E5%B0%84%E6%89%8B%E6%A6%9C",
-          "hot": 7619050,
-          "rank": 45,
-          "desc": "话题称姆巴佩进球数登顶世界杯历史射手榜，引发足球迷讨论。",
+          "hot": 7801881,
+          "rank": 11,
+          "desc": "讨论姆巴佩在世界杯赛事中的进球数据及相关纪录，引发球迷对球员历史地位的争议与关注。",
           "extra": {},
           "desc_source": "guess"
         },
         {
-          "title": "抖音刷成了功夫女足专场",
-          "url": "https://www.douyin.com/search/%E6%8A%96%E9%9F%B3%E5%88%B7%E6%88%90%E4%BA%86%E5%8A%9F%E5%A4%AB%E5%A5%B3%E8%B6%B3%E4%B8%93%E5%9C%BA",
-          "hot": 7618008,
-          "rank": 46,
-          "desc": "抖音平台大量出现女足相关视频，反映赛事热度或内容趋势。",
+          "title": "姐姐当家2有事上桌聊",
+          "url": "https://www.douyin.com/search/%E5%A7%90%E5%A7%90%E5%BD%93%E5%AE%B62%E6%9C%89%E4%BA%8B%E4%B8%8A%E6%A1%8C%E8%81%8A",
+          "hot": 7764823,
+          "rank": 12,
+          "desc": "综艺《姐姐当家》第二季相关话题，涉及女性议题讨论或节目内容。",
           "extra": {},
           "desc_source": "guess"
         },
         {
-          "title": "萨卡帽子戏法",
-          "url": "https://www.douyin.com/search/%E8%90%A8%E5%8D%A1%E5%B8%BD%E5%AD%90%E6%88%8F%E6%B3%95",
-          "hot": 7611834,
-          "rank": 47,
-          "desc": "话题称足球运动员萨卡单场进三球，表现优异引发球迷讨论。",
+          "title": "妈妈催婚短片震撼发布",
+          "url": "https://www.douyin.com/search/%E5%A6%88%E5%A6%88%E5%82%AC%E5%A9%9A%E7%9F%AD%E7%89%87%E9%9C%87%E6%92%BC%E5%8F%91%E5%B8%83",
+          "hot": 7760786,
+          "rank": 13,
+          "desc": "关于母亲催促子女结婚的短视频作品发布，引发情感共鸣。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "女孩高考估分715查分299系谣言",
+          "url": "https://www.douyin.com/search/%E5%A5%B3%E5%AD%A9%E9%AB%98%E8%80%83%E4%BC%B0%E5%88%86715%E6%9F%A5%E5%88%86299%E7%B3%BB%E8%B0%A3%E8%A8%80",
+          "hot": 7760489,
+          "rank": 14,
+          "desc": "网传高考估分与实分差异巨大的消息被澄清为不实信息。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "法国队主帅德尚赛前宣布离任",
+          "url": "https://www.douyin.com/search/%E6%B3%95%E5%9B%BD%E9%98%9F%E4%B8%BB%E5%B8%85%E5%BE%B7%E5%B0%9A%E8%B5%9B%E5%89%8D%E5%AE%A3%E5%B8%83%E7%A6%BB%E4%BB%BB",
+          "hot": 7753477,
+          "rank": 15,
+          "desc": "法国足球队主教练德尚在比赛前宣布卸任的消息引发关注。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "马龙许昕全锦赛晋级四强",
+          "url": "https://www.douyin.com/search/%E9%A9%AC%E9%BE%99%E8%AE%B8%E6%98%95%E5%85%A8%E9%94%A6%E8%B5%9B%E6%99%8B%E7%BA%A7%E5%9B%9B%E5%BC%BA",
+          "hot": 7750035,
+          "rank": 16,
+          "desc": "乒乓球运动员马龙、许昕在全锦赛中进入半决赛的消息。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "功夫女足能人辈出",
+          "url": "https://www.douyin.com/search/%E5%8A%9F%E5%A4%AB%E5%A5%B3%E8%B6%B3%E8%83%BD%E4%BA%BA%E8%BE%88%E5%87%BA",
+          "hot": 7731157,
+          "rank": 17,
+          "desc": "关于女子足球队展现出色技能或相关影视作品的讨论。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "孙颖莎王楚钦无缘混双决赛",
+          "url": "https://www.douyin.com/search/%E5%AD%99%E9%A2%96%E8%8E%8E%E7%8E%8B%E6%A5%9A%E9%92%A6%E6%97%A0%E7%BC%98%E6%B7%B7%E5%8F%8C%E5%86%B3%E8%B5%9B",
+          "hot": 7722823,
+          "rank": 18,
+          "desc": "乒乓球运动员孙颖莎、王楚钦在混双比赛中未进入决赛。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "黑梦诡眼挑战",
+          "url": "https://www.douyin.com/search/%E9%BB%91%E6%A2%A6%E8%AF%A1%E7%9C%BC%E6%8C%91%E6%88%98",
+          "hot": 7714576,
+          "rank": 19,
+          "desc": "网络平台上流行的某种视觉或游戏挑战活动。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "谁还没去过草原那达慕",
+          "url": "https://www.douyin.com/search/%E8%B0%81%E8%BF%98%E6%B2%A1%E5%8E%BB%E8%BF%87%E8%8D%89%E5%8E%9F%E9%82%A3%E8%BE%BE%E6%85%95",
+          "hot": 7708922,
+          "rank": 20,
+          "desc": "关于内蒙古草原那达慕大会的旅游或文化话题讨论。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "泡泡手势舞",
+          "url": "https://www.douyin.com/search/%E6%B3%A1%E6%B3%A1%E6%89%8B%E5%8A%BF%E8%88%9E",
+          "hot": 7705111,
+          "rank": 21,
+          "desc": "网络上流行的配合音乐做手势动作的舞蹈视频。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "刑天小队回归",
+          "url": "https://www.douyin.com/search/%E5%88%91%E5%A4%A9%E5%B0%8F%E9%98%9F%E5%9B%9E%E5%BD%92",
+          "hot": 7695826,
+          "rank": 22,
+          "desc": "游戏或影视作品中名为刑天小队的角色或队伍回归。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "agudo超燃卡点",
+          "url": "https://www.douyin.com/search/agudo%E8%B6%85%E7%87%83%E5%8D%A1%E7%82%B9",
+          "hot": 7695497,
+          "rank": 23,
+          "desc": "音乐人或视频创作者 agudo 发布的节奏感强的作品。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "在现场被英法进球大战震撼了",
+          "url": "https://www.douyin.com/search/%E5%9C%A8%E7%8E%B0%E5%9C%BA%E8%A2%AB%E8%8B%B1%E6%B3%95%E8%BF%9B%E7%90%83%E5%A4%A7%E6%88%98%E9%9C%87%E6%92%BC%E4%BA%86",
+          "hot": 7688595,
+          "rank": 24,
+          "desc": "足球比赛中英格兰与法国队进球较多的现场观赛感受。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "黄子韬成都演唱会",
+          "url": "https://www.douyin.com/search/%E9%BB%84%E5%AD%90%E9%9F%AC%E6%88%90%E9%83%BD%E6%BC%94%E5%94%B1%E4%BC%9A",
+          "hot": 7687422,
+          "rank": 25,
+          "desc": "歌手黄子韬在成都举办的个人演唱会相关活动。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "看完功夫女足接力摇我先跳了",
+          "url": "https://www.douyin.com/search/%E7%9C%8B%E5%AE%8C%E5%8A%9F%E5%A4%AB%E5%A5%B3%E8%B6%B3%E6%8E%A5%E5%8A%9B%E6%91%87%E6%88%91%E5%85%88%E8%B7%B3%E4%BA%86",
+          "hot": 7686597,
+          "rank": 26,
+          "desc": "观众观看女足相关视频后模仿动作或表达兴奋的网络用语。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "李荣浩赣州演唱会",
+          "url": "https://www.douyin.com/search/%E6%9D%8E%E8%8D%A3%E6%B5%A9%E8%B5%A3%E5%B7%9E%E6%BC%94%E5%94%B1%E4%BC%9A",
+          "hot": 7678871,
+          "rank": 27,
+          "desc": "歌手李荣浩在赣州举办演唱会，吸引粉丝及乐迷前往观看，带动当地文旅热度。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "库里预测阿根廷夺冠",
+          "url": "https://www.douyin.com/search/%E5%BA%93%E9%87%8C%E9%A2%84%E6%B5%8B%E9%98%BF%E6%A0%B9%E5%BB%B7%E5%A4%BA%E5%86%A0",
+          "hot": 7673464,
+          "rank": 28,
+          "desc": "NBA 球星库里预测阿根廷队夺冠，引发体育迷关注，涉及篮球与足球跨界话题。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "热巴说周星驰把大家保护得很好",
+          "url": "https://www.douyin.com/search/%E7%83%AD%E5%B7%B4%E8%AF%B4%E5%91%A8%E6%98%9F%E9%A9%B0%E6%8A%8A%E5%A4%A7%E5%AE%B6%E4%BF%9D%E6%8A%A4%E5%BE%97%E5%BE%88%E5%A5%BD",
+          "hot": 7671973,
+          "rank": 29,
+          "desc": "演员迪丽热巴评价周星驰保护团队，引发网友对经典电影及幕后故事的讨论。",
           "extra": {},
           "desc_source": "guess"
         },
         {
           "title": "老吃家都来世界杯面大赛了",
           "url": "https://www.douyin.com/search/%E8%80%81%E5%90%83%E5%AE%B6%E9%83%BD%E6%9D%A5%E4%B8%96%E7%95%8C%E6%9D%AF%E9%9D%A2%E5%A4%A7%E8%B5%9B%E4%BA%86",
-          "hot": 7611132,
-          "rank": 48,
-          "desc": "网友调侃世界杯期间美食内容增多，属体育与美食结合话题。",
+          "hot": 7671524,
+          "rank": 30,
+          "desc": "美食博主参与世界杯主题面食比赛，结合体育赛事与美食创作，吸引观众关注。",
           "extra": {},
           "desc_source": "guess"
         },
         {
-          "title": "带娃逛遍新疆才是暑假顶配",
-          "url": "https://www.douyin.com/search/%E5%B8%A6%E5%A8%83%E9%80%9B%E9%81%8D%E6%96%B0%E7%96%86%E6%89%8D%E6%98%AF%E6%9A%91%E5%81%87%E9%A1%B6%E9%85%8D",
-          "hot": 7609962,
-          "rank": 49,
-          "desc": "推荐暑假带孩子去新疆旅游，反映亲子游热门目的地趋势。",
+          "title": "鸣潮演唱会",
+          "url": "https://www.douyin.com/search/%E9%B8%A3%E6%BD%AE%E6%BC%94%E5%94%B1%E4%BC%9A",
+          "hot": 7670330,
+          "rank": 31,
+          "desc": "游戏《鸣潮》举办相关演唱会，展示游戏音乐作品，吸引玩家及音乐爱好者参与。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "张北草原音乐节",
+          "url": "https://www.douyin.com/search/%E5%BC%A0%E5%8C%97%E8%8D%89%E5%8E%9F%E9%9F%B3%E4%B9%90%E8%8A%82",
+          "hot": 7663061,
+          "rank": 32,
+          "desc": "在张北草原举办的音乐节活动，结合自然风光与音乐表演，成为夏季旅游热点。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "旅游那达慕开幕了",
+          "url": "https://www.douyin.com/search/%E6%97%85%E6%B8%B8%E9%82%A3%E8%BE%BE%E6%85%95%E5%BC%80%E5%B9%95%E4%BA%86",
+          "hot": 7662359,
+          "rank": 33,
+          "desc": "旅游主题的那达慕大会开幕，展示蒙古族传统文化，吸引游客体验草原风情。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "我倒要看看自己能奔成什么样",
+          "url": "https://www.douyin.com/search/%E6%88%91%E5%80%92%E8%A6%81%E7%9C%8B%E7%9C%8B%E8%87%AA%E5%B7%B1%E8%83%BD%E5%A5%94%E6%88%90%E4%BB%80%E4%B9%88%E6%A0%B7",
+          "hot": 7660593,
+          "rank": 34,
+          "desc": "网友发起自我挑战类话题，表达努力奔跑或奋斗的决心，引发励志共鸣。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "用百万级运镜打开卡通玩偶",
+          "url": "https://www.douyin.com/search/%E7%94%A8%E7%99%BE%E4%B8%87%E7%BA%A7%E8%BF%90%E9%95%9C%E6%89%93%E5%BC%80%E5%8D%A1%E9%80%9A%E7%8E%A9%E5%81%B6",
+          "hot": 7660421,
+          "rank": 35,
+          "desc": "视频创作者用高端运镜拍摄卡通玩偶，展示视觉创意，吸引摄影及玩偶爱好者。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "被陈泽杯即梦生日大片帅到了",
+          "url": "https://www.douyin.com/search/%E8%A2%AB%E9%99%88%E6%B3%BD%E6%9D%AF%E5%8D%B3%E6%A2%A6%E7%94%9F%E6%97%A5%E5%A4%A7%E7%89%87%E5%B8%85%E5%88%B0%E4%BA%86",
+          "hot": 7657817,
+          "rank": 36,
+          "desc": "网友称赞陈泽相关生日宣传大片制作精良，涉及 AI 生成或创意视频内容。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "分配到了啥就看啥吧",
+          "url": "https://www.douyin.com/search/%E5%88%86%E9%85%8D%E5%88%B0%E4%BA%86%E5%95%A5%E5%B0%B1%E7%9C%8B%E5%95%A5%E5%90%A7",
+          "hot": 7657565,
+          "rank": 37,
+          "desc": "网友调侃内容推荐或任务分配，表达随遇而安的心态，引发职场或生活共鸣。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "村暖花开3浩哥抓马桃花运",
+          "url": "https://www.douyin.com/search/%E6%9D%91%E6%9A%96%E8%8A%B1%E5%BC%803%E6%B5%A9%E5%93%A5%E6%8A%93%E9%A9%AC%E6%A1%83%E8%8A%B1%E8%BF%90",
+          "hot": 7656223,
+          "rank": 38,
+          "desc": "乡村综艺节目中浩哥的情感互动片段，因剧情戏剧性引发观众讨论与关注。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "专业老师带你看黄霄雲刘端端空心",
+          "url": "https://www.douyin.com/search/%E4%B8%93%E4%B8%9A%E8%80%81%E5%B8%88%E5%B8%A6%E4%BD%A0%E7%9C%8B%E9%BB%84%E9%9C%84%E9%9B%B2%E5%88%98%E7%AB%AF%E7%AB%AF%E7%A9%BA%E5%BF%83",
+          "hot": 7651518,
+          "rank": 39,
+          "desc": "音乐老师解析黄霄雲与刘端端演唱的歌曲《空心》，提供专业视角供乐迷参考。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "没有弹壳拿不下的风格",
+          "url": "https://www.douyin.com/search/%E6%B2%A1%E6%9C%89%E5%BC%B9%E5%A3%B3%E6%8B%BF%E4%B8%8D%E4%B8%8B%E7%9A%84%E9%A3%8E%E6%A0%BC",
+          "hot": 7648913,
+          "rank": 40,
+          "desc": "网友使用夸张修辞形容某种风格或游戏技巧，体现个性表达，引发圈层共鸣。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "老爸评测实测拼豆安全性",
+          "url": "https://www.douyin.com/search/%E8%80%81%E7%88%B8%E8%AF%84%E6%B5%8B%E5%AE%9E%E6%B5%8B%E6%8B%BC%E8%B1%86%E5%AE%89%E5%85%A8%E6%80%A7",
+          "hot": 7647605,
+          "rank": 41,
+          "desc": "评测机构实测拼豆玩具安全性，为家长选购儿童用品提供参考，关注消费安全。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "抖音刷成了功夫女足专场",
+          "url": "https://www.douyin.com/search/%E6%8A%96%E9%9F%B3%E5%88%B7%E6%88%90%E4%BA%86%E5%8A%9F%E5%A4%AB%E5%A5%B3%E8%B6%B3%E4%B8%93%E5%9C%BA",
+          "hot": 7645538,
+          "rank": 42,
+          "desc": "抖音平台近期涌现大量女足相关视频，因内容精彩或独特引发用户广泛讨论。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "我一直在寻找可爱的微笑",
+          "url": "https://www.douyin.com/search/%E6%88%91%E4%B8%80%E7%9B%B4%E5%9C%A8%E5%AF%BB%E6%89%BE%E5%8F%AF%E7%88%B1%E7%9A%84%E5%BE%AE%E7%AC%91",
+          "hot": 7641748,
+          "rank": 43,
+          "desc": "可能指某首歌曲或视频内容，表达寻找快乐与美好瞬间的情感共鸣。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "峨眉山会惩罚每一个嘴硬的人",
+          "url": "https://www.douyin.com/search/%E5%B3%A8%E7%9C%89%E5%B1%B1%E4%BC%9A%E6%83%A9%E7%BD%9A%E6%AF%8F%E4%B8%80%E4%B8%AA%E5%98%B4%E7%A1%AC%E7%9A%84%E4%BA%BA",
+          "hot": 7638020,
+          "rank": 44,
+          "desc": "网络流行语，调侃峨眉山登山台阶陡峭，体力不支者会后悔嘴硬。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "当我用身体波浪回答问题",
+          "url": "https://www.douyin.com/search/%E5%BD%93%E6%88%91%E7%94%A8%E8%BA%AB%E4%BD%93%E6%B3%A2%E6%B5%AA%E5%9B%9E%E7%AD%94%E9%97%AE%E9%A2%98",
+          "hot": 7633969,
+          "rank": 45,
+          "desc": "可能指某段舞蹈视频或网络挑战，用身体动作代替语言回应引发关注。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "用一幅画收录上百个童年IP",
+          "url": "https://www.douyin.com/search/%E7%94%A8%E4%B8%80%E5%B9%85%E7%94%BB%E6%94%B6%E5%BD%95%E4%B8%8A%E7%99%BE%E4%B8%AA%E7%AB%A5%E5%B9%B4IP",
+          "hot": 7633065,
+          "rank": 46,
+          "desc": "指一幅包含众多经典卡通或玩具形象的艺术作品，引发怀旧情感共鸣。",
           "extra": {},
           "desc_source": "guess"
         },
         {
           "title": "来蚌埠直接实现小龙虾自由",
           "url": "https://www.douyin.com/search/%E6%9D%A5%E8%9A%8C%E5%9F%A0%E7%9B%B4%E6%8E%A5%E5%AE%9E%E7%8E%B0%E5%B0%8F%E9%BE%99%E8%99%BE%E8%87%AA%E7%94%B1",
-          "hot": 7609692,
+          "hot": 7630400,
+          "rank": 47,
+          "desc": "宣传蚌埠小龙虾产业发达，价格实惠，吸引游客前往品尝美食。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "带娃逛遍新疆才是暑假顶配",
+          "url": "https://www.douyin.com/search/%E5%B8%A6%E5%A8%83%E9%80%9B%E9%81%8D%E6%96%B0%E7%96%86%E6%89%8D%E6%98%AF%E6%9A%91%E5%81%87%E9%A1%B6%E9%85%8D",
+          "hot": 7626336,
+          "rank": 48,
+          "desc": "暑期旅游热门话题，推荐带孩子前往新疆旅行，体验丰富自然景观。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "跟着杜克打卡佛得角",
+          "url": "https://www.douyin.com/search/%E8%B7%9F%E7%9D%80%E6%9D%9C%E5%85%8B%E6%89%93%E5%8D%A1%E4%BD%9B%E5%BE%97%E8%A7%92",
+          "hot": 7626283,
+          "rank": 49,
+          "desc": "可能指某位博主或名人前往佛得角旅行，分享当地风景与体验。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "火影柱间水门英雄见英雄",
+          "url": "https://www.douyin.com/search/%E7%81%AB%E5%BD%B1%E6%9F%B1%E9%97%B4%E6%B0%B4%E9%97%A8%E8%8B%B1%E9%9B%84%E8%A7%81%E8%8B%B1%E9%9B%84",
+          "hot": 7626096,
           "rank": 50,
-          "desc": "宣传安徽蚌埠小龙虾资源丰富，吸引游客前往消费。",
+          "desc": "指《火影忍者》相关游戏或动画内容，经典角色互动引发粉丝热议。",
           "extra": {},
           "desc_source": "guess"
         }
@@ -1507,450 +1507,450 @@
         {
           "title": "英格兰奖金1.96亿法国获1.82亿",
           "url": "https://www.toutiao.com/trending/7663708381550903315",
-          "hot": 24113115,
+          "hot": 26103658,
           "rank": 1,
-          "desc": "话题公布英格兰与法国球队奖金数额，引发对赛事收益关注。",
+          "desc": "体育赛事奖金分配新闻，公布英格兰与法国队伍获得的奖金数额。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "纽约市长：正研究逮捕内塔尼亚胡",
+          "url": "https://www.toutiao.com/trending/7663373688114577435",
+          "hot": 23619566,
+          "rank": 2,
+          "desc": "纽约市长表态考虑依据国际法逮捕以色列总理，引发国际政治关注。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "5个关键词！一文读懂中国经济半年报",
+          "url": "https://www.toutiao.com/article/7663970571465605682",
+          "hot": 21371867,
+          "rank": 3,
+          "desc": "媒体解读中国经济上半年数据，通过关键词总结经济表现与趋势。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "重庆山体崩塌若遇强降雨或再次失稳",
+          "url": "https://www.toutiao.com/trending/7664050726313659931",
+          "hot": 19338065,
+          "rank": 4,
+          "desc": "地质灾害预警，提示重庆某处山体崩塌点遇强降雨可能再次发生危险。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "国家开发银行原行长欧阳卫民被查",
+          "url": "https://www.toutiao.com/trending/7664068159489441801",
+          "hot": 17497805,
+          "rank": 5,
+          "desc": "反腐新闻，国家开发银行原行长欧阳卫民接受纪律审查和监察调查。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "姆巴佩落后时谈笑风生被批离谱至极",
+          "url": "https://www.toutiao.com/trending/7664065009940581926",
+          "hot": 15832669,
+          "rank": 6,
+          "desc": "足球赛事争议，姆巴佩在比赛落后时表现轻松，被观众批评态度不当。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "东北女生漂流被浇透仍开怀大笑",
+          "url": "https://www.toutiao.com/trending/7664039864044535862",
+          "hot": 14325991,
+          "rank": 7,
+          "desc": "视频展示东北女生漂流全身湿透却开心大笑，展现乐观性格引发共鸣。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "中国制造“避暑神器”在意大利走俏",
+          "url": "https://www.toutiao.com/trending/7663872790235725843",
+          "hot": 12962693,
+          "rank": 8,
+          "desc": "指中国产降温产品因高温天气在意大利热销，体现中国制造受欢迎。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "马德兴：世界杯第三四名比赛该取消",
+          "url": "https://www.toutiao.com/trending/7664056142229671451",
+          "hot": 11729129,
+          "rank": 9,
+          "desc": "足球评论员马德兴建议取消世界杯三四名决赛，引发球迷讨论。",
           "extra": {},
           "desc_source": "guess"
         },
         {
           "title": "英法进球大战裁判都受不了",
           "url": "https://www.toutiao.com/trending/7663115644170747955",
-          "hot": 21818448,
-          "rank": 2,
-          "desc": "形容英格兰与法国比赛进球多节奏快，属足球赛事评论。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "看未来五年你的城市怎么变",
-          "url": "https://www.toutiao.com/article/7663745235930956323",
-          "hot": 19742149,
-          "rank": 3,
-          "desc": "展示城市发展规划或预测，引发居民对未来生活的关注。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "姆巴佩成世界杯历史射手王",
-          "url": "https://www.toutiao.com/trending/7663760169055076390",
-          "hot": 17863435,
-          "rank": 4,
-          "desc": "话题称姆巴佩成世界杯历史射手王，属足球赛事相关热点。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "投喂流浪狗15年烤鸭店婉拒网购订单",
-          "url": "https://www.toutiao.com/trending/7664008033034440230",
-          "hot": 16163504,
-          "rank": 5,
-          "desc": "商家坚持线下经营并关爱动物，因正能量故事引发关注。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "内塔尼亚胡：支持阿根廷夺冠",
-          "url": "https://www.toutiao.com/trending/7663469760820478006",
-          "hot": 14625343,
-          "rank": 6,
-          "desc": "话题称以色列领导人支持阿根廷夺冠，属国际政治与体育交叉。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "英格兰6-4法国获季军",
-          "url": "https://www.toutiao.com/trending/7663880476624994347",
-          "hot": 13233558,
-          "rank": 7,
-          "desc": "英格兰队在季军争夺战中以 6 比 4 击败法国队，获得第三名，高比分引发关注。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "中国航司半年亏超百亿仍买476架空客",
-          "url": "https://www.toutiao.com/trending/7663239907929968170",
-          "hot": 11974218,
-          "rank": 8,
-          "desc": "中国航空公司上半年亏损超百亿，但仍订购 476 架空客飞机，反映行业扩张信心。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "周星驰真的过气了吗",
-          "url": "https://www.toutiao.com/trending/7664005326693207606",
-          "hot": 10834721,
-          "rank": 9,
-          "desc": "围绕喜剧导演周星驰近期作品或动态，网友讨论其是否不再受欢迎，引发怀旧与争议。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "贝林厄姆最后时刻一条龙破门",
-          "url": "https://www.toutiao.com/trending/7662933478790545446",
-          "hot": 9803661,
+          "hot": 10612955,
           "rank": 10,
-          "desc": "足球运动员贝林厄姆在比赛最后阶段完成单骑闯关进球，精彩表现引发球迷热议。",
+          "desc": "形容英法足球比赛进球密集，节奏快得连裁判都难以承受。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "原来星爷电影里好多演员已经不在了",
+          "url": "https://www.toutiao.com/trending/7663453953111212068",
+          "hot": 9602999,
+          "rank": 11,
+          "desc": "网友盘点周星驰电影演员现状，感叹时光流逝与演员离世引发怀旧。",
           "extra": {},
           "desc_source": "guess"
         },
         {
           "title": "海南万宁辟谣“15亿影视基地落地”",
           "url": "https://www.toutiao.com/trending/7662932897058062378",
-          "hot": 8870719,
-          "rank": 11,
-          "desc": "海南万宁官方否认有 15 亿元影视基地项目落地，澄清网络传言，避免误导公众。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "媒体：县长硬刚首富背后是权力傲慢",
-          "url": "https://www.toutiao.com/trending/7662980260295852073",
-          "hot": 8026558,
+          "hot": 8689153,
           "rank": 12,
-          "desc": "媒体评论某县长与首富冲突事件，指出背后可能存在的权力傲慢问题，引发社会讨论。",
+          "desc": "海南万宁官方否认 15 亿影视基地落地传闻，澄清不实投资信息。",
           "extra": {},
           "desc_source": "guess"
         },
         {
-          "title": "郭富城夫妇带3个女儿现身机场",
-          "url": "https://www.toutiao.com/trending/7663302745948520490",
-          "hot": 7262730,
+          "title": "姆巴佩：愿用最佳射手去换参加决赛",
+          "url": "https://www.toutiao.com/trending/7664028993028931626",
+          "hot": 7862270,
           "rank": 13,
-          "desc": "艺人郭富城与妻子携三个女儿在机场被拍到，罕见家庭同框引发粉丝与媒体关注。",
+          "desc": "姆巴佩表示愿放弃金靴奖换取决赛参赛资格，体现对冠军的渴望。",
           "extra": {},
           "desc_source": "guess"
         },
         {
-          "title": "姆巴佩苦笑",
-          "url": "https://www.toutiao.com/trending/7663979017129214006",
-          "hot": 6571590,
+          "title": "夏天来了却没什么人穿凉鞋了",
+          "url": "https://www.toutiao.com/trending/7662863027368247306",
+          "hot": 7114076,
           "rank": 14,
-          "desc": "足球明星姆巴佩在比赛后露出苦笑表情，引发网友对其心态或比赛结果的猜测与讨论。",
+          "desc": "讨论夏季凉鞋穿着率下降现象，反映时尚潮流或生活习惯变化。",
           "extra": {},
           "desc_source": "guess"
         },
         {
-          "title": "FIFA主席提议中美合办世界杯",
-          "url": "https://www.toutiao.com/trending/7663707553033113126",
-          "hot": 5946221,
+          "title": "武警警官学院毕业典礼超燃",
+          "url": "https://www.toutiao.com/trending/7663149217074380841",
+          "hot": 6437082,
           "rank": 15,
-          "desc": "国际足联主席提出中美联合举办世界杯的设想，涉及国际体育合作与赛事举办权话题。",
+          "desc": "武警警官学院毕业典礼视频展示学员风采，展现军人精神引发关注。",
           "extra": {},
           "desc_source": "guess"
         },
         {
-          "title": "救援人员被问多久没吃饭后摆手笑了",
-          "url": "https://www.toutiao.com/trending/7663318330207620644",
-          "hot": 5380363,
+          "title": "姆巴佩成世界杯历史射手王",
+          "url": "https://www.toutiao.com/trending/7663760169055076390",
+          "hot": 5824513,
           "rank": 16,
-          "desc": "救援人员在被问及多久未进食时摆手微笑，展现敬业与乐观，感动网友并引发致敬。",
+          "desc": "该热搜讨论姆巴佩是否成为世界杯历史射手王，引发足球迷关注。",
           "extra": {},
           "desc_source": "guess"
         },
         {
-          "title": "英法大战创世界杯季军赛进球纪录",
-          "url": "https://www.toutiao.com/trending/7662962865448337454",
-          "hot": 4868354,
+          "title": "大爷转身捡草帽躲过后车撞击",
+          "url": "https://www.toutiao.com/trending/7663845753303334958",
+          "hot": 5270237,
           "rank": 17,
-          "desc": "英格兰与法国在世界杯季军争夺战中进球数创下该赛事历史纪录，比赛激烈程度受关注。",
+          "desc": "视频记录大爷捡草帽意外躲过车祸，展现惊险瞬间与运气引发关注。",
           "extra": {},
           "desc_source": "guess"
         },
         {
-          "title": "泰总理夜游成都边走边吃冰淇淋",
-          "url": "https://www.toutiao.com/trending/7663306918895599635",
-          "hot": 4405068,
+          "title": "周星驰真的过气了吗",
+          "url": "https://www.toutiao.com/trending/7664005326693207606",
+          "hot": 4768708,
           "rank": 18,
-          "desc": "泰国总理夜间游览成都并边走边吃冰淇淋，亲民形象与旅游推广行为引发媒体关注。",
+          "desc": "讨论周星驰近期作品影响力，探讨其电影地位是否下降引发争议。",
           "extra": {},
           "desc_source": "guess"
         },
         {
-          "title": "纽约街头金发男砸豪车与车主互殴",
-          "url": "https://www.toutiao.com/trending/7664004938577792563",
-          "hot": 3985871,
+          "title": "西班牙队取消决赛前最后一次户外训练",
+          "url": "https://www.toutiao.com/trending/7663890708384530459",
+          "hot": 4314905,
           "rank": 19,
-          "desc": "纽约街头发生金发男子砸毁豪车并与车主互殴事件，暴力行为引发公众对治安的关注。",
+          "desc": "西班牙足球队赛前取消户外训练，引发球迷对球队状态猜测。",
           "extra": {},
           "desc_source": "guess"
         },
         {
-          "title": "英格兰队上半场连轰4球",
-          "url": "https://www.toutiao.com/trending/7663104624827744294",
-          "hot": 3606565,
+          "title": "人社部解读职工养老保险制度",
+          "url": "https://www.toutiao.com/trending/7663416052860796947",
+          "hot": 3904288,
           "rank": 20,
-          "desc": "英格兰足球队在比赛上半场连续打入 4 球，展现强大攻击力，比赛进程引发球迷热议。",
+          "desc": "人社部官方解读养老保险政策，关乎民众切身利益引发广泛关注。",
           "extra": {},
           "desc_source": "guess"
         },
         {
-          "title": "国产C909海外再下一城",
-          "url": "https://www.toutiao.com/trending/7663239907929902634",
-          "hot": 3263355,
+          "title": "周星驰商业帝国",
+          "url": "https://www.toutiao.com/trending/7663921269003259438",
+          "hot": 3532745,
           "rank": 21,
-          "desc": "国产 C909 飞机在海外获得新的订单或部署，标志着中国航空制造业国际市场拓展。",
+          "desc": "探讨周星驰在影视及商业领域的投资布局，分析其商业版图规模。",
           "extra": {},
           "desc_source": "guess"
         },
         {
-          "title": "泰总理夫人对熊猫玩偶爱不释手",
-          "url": "https://www.toutiao.com/trending/7663841856027082790",
-          "hot": 2952805,
+          "title": "男子钻冰柜乘凉把自己卡住",
+          "url": "https://www.toutiao.com/trending/7663839841473724459",
+          "hot": 3196560,
           "rank": 22,
-          "desc": "泰国总理夫人在公开场合喜爱熊猫玩偶，体现中泰友好及熊猫文化影响力。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "萨卡回应贝林厄姆主动让点",
-          "url": "https://www.toutiao.com/trending/7663788075458609195",
-          "hot": 2671809,
-          "rank": 23,
-          "desc": "足球运动员萨卡回应贝林厄姆在比赛中主动让出点球机会，展现体育精神。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "洪秀柱说我是在台湾生的浙江人",
-          "url": "https://www.toutiao.com/trending/7663383233875017774",
-          "hot": 2417553,
-          "rank": 24,
-          "desc": "国民党政治人物洪秀柱强调其浙江籍贯与台湾出生背景，凸显两岸渊源。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "《百花杀》六个皇子五个是痴情种",
-          "url": "https://www.toutiao.com/trending/7663736093841653779",
-          "hot": 2187492,
-          "rank": 25,
-          "desc": "影视或文学作品《百花杀》中多位皇子角色设定为痴情，引发观众讨论。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "欧文：阿根廷进决赛全靠运气",
-          "url": "https://www.toutiao.com/trending/7662758490938966052",
-          "hot": 1979325,
-          "rank": 26,
-          "desc": "前足球运动员欧文评论阿根廷队晋级决赛过程，引发球迷关于实力的讨论。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "男子养了多年的“九尾狐”被老婆烧毁",
-          "url": "https://www.toutiao.com/trending/7663452238811988009",
-          "hot": 1790967,
-          "rank": 27,
-          "desc": "男子饲养多年的宠物被妻子烧毁，因宠物昵称特殊及家庭矛盾引发关注。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "郭富城演唱会唱响杭州",
-          "url": "https://www.toutiao.com/trending/7663874615647944710",
-          "hot": 1620534,
-          "rank": 28,
-          "desc": "歌手郭富城在杭州举办演唱会，吸引粉丝观看，丰富当地文化生活。",
+          "desc": "男子为乘凉钻入冰柜被困，引发关注主要因涉及人身安全及救援情况。",
           "extra": {},
           "desc_source": "guess"
         },
         {
           "title": "姆巴佩“独裁者”梗走红",
           "url": "https://www.toutiao.com/trending/7662885418744168489",
-          "hot": 1466320,
+          "hot": 2892367,
+          "rank": 23,
+          "desc": "足球运动员姆巴佩相关网络梗走红，反映球迷对其赛场表现或行为的调侃。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "周星驰回应观众喊话“一直拍下去”",
+          "url": "https://www.toutiao.com/trending/7663307509465186347",
+          "hot": 2617122,
+          "rank": 24,
+          "desc": "导演周星驰回应观众期待继续创作，引发关注因涉及其未来作品动向。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "湖南启动气象灾害暴雨四级应急响应",
+          "url": "https://www.toutiao.com/trending/7663320593265262646",
+          "hot": 2368070,
+          "rank": 25,
+          "desc": "湖南因暴雨启动应急响应，引发关注因涉及公共安全防护及灾害应对。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "为什么西班牙和阿根廷都爱绝杀",
+          "url": "https://www.toutiao.com/trending/7664032629456375334",
+          "hot": 2142718,
+          "rank": 26,
+          "desc": "探讨两国足球队常上演绝杀现象，引发关注因涉及足球战术与比赛悬念。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "美国Inkling模型借鉴中国AI技术",
+          "url": "https://www.toutiao.com/trending/7664054078292364819",
+          "hot": 1938812,
+          "rank": 27,
+          "desc": "关于美国 AI 模型借鉴中国技术的讨论，引发关注因涉及科技竞争与知识产权。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "洪水退去广西横州茉莉花重新冒芽",
+          "url": "https://www.toutiao.com/trending/7663893577319219254",
+          "hot": 1754309,
+          "rank": 28,
+          "desc": "广西横州茉莉花灾后复苏，引发关注因涉及农业恢复及当地经济影响。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "贝林厄姆最后时刻一条龙破门",
+          "url": "https://www.toutiao.com/trending/7662933478790545446",
+          "hot": 1587365,
           "rank": 29,
-          "desc": "足球运动员姆巴佩因赛场表现引发网友调侃，相关“独裁者”梗在网络走红。",
+          "desc": "足球运动员贝林厄姆上演绝杀进球，引发关注因涉及精彩赛事瞬间。",
           "extra": {},
           "desc_source": "guess"
         },
         {
-          "title": "超2万宜春球迷远征破纪录",
-          "url": "https://www.toutiao.com/trending/7662977534525341747",
-          "hot": 1326781,
+          "title": "葛斌任安徽马鞍山市委书记",
+          "url": "https://www.toutiao.com/trending/7664056542932504127",
+          "hot": 1436307,
           "rank": 30,
-          "desc": "超过两万宜春球迷远征支持球队，创下球迷远征人数新纪录，展现热情。",
+          "desc": "葛斌担任安徽马鞍山市委书记，引发关注因涉及地方主要领导人事变动。",
           "extra": {},
           "desc_source": "guess"
         },
         {
-          "title": "杜华劝邹市明去看病",
-          "url": "https://www.toutiao.com/trending/7663759355465089060",
-          "hot": 1200521,
+          "title": "广西横州一高速路口搭起爱心厨房",
+          "url": "https://www.toutiao.com/trending/7662721889990656009",
+          "hot": 1299624,
           "rank": 31,
-          "desc": "娱乐界人士杜华建议拳击手邹市明就医，引发公众对其健康状况的关注与讨论。",
+          "desc": "广西横州高速路口设爱心厨房，引发关注因体现社会互助与公益温暖。",
           "extra": {},
           "desc_source": "guess"
         },
         {
-          "title": "西班牙冲击队史世界杯第二冠",
-          "url": "https://www.toutiao.com/trending/7663725050926940206",
-          "hot": 1086276,
+          "title": "欧文：阿根廷进决赛全靠运气",
+          "url": "https://www.toutiao.com/trending/7662758490938966052",
+          "hot": 1175948,
           "rank": 32,
-          "desc": "西班牙国家队在世界杯赛事中争夺冠军，试图获得队史第二座世界杯奖杯。",
+          "desc": "足球评论员欧文评价阿根廷队表现，引发关注因涉及赛事观点争议。",
           "extra": {},
           "desc_source": "guess"
         },
         {
-          "title": "第36届那达慕向世界发出邀约",
-          "url": "https://www.toutiao.com/trending/7663830728245477382",
-          "hot": 982903,
+          "title": "WAIC现场出现一座“未来之城”",
+          "url": "https://www.toutiao.com/trending/7662909770625728554",
+          "hot": 1064042,
           "rank": 33,
-          "desc": "第 36 届那达慕大会举办，展示传统民族文化并向全球发出参与邀请。",
+          "desc": "世界人工智能大会展示未来城市概念，引发关注因涉及科技应用前景。",
           "extra": {},
           "desc_source": "guess"
         },
         {
-          "title": "杭州女老板赴河南老家加价收滞销西瓜",
-          "url": "https://www.toutiao.com/trending/7663731675759132723",
-          "hot": 889368,
+          "title": "中国如何应对科技公司归属的法律战",
+          "url": "https://www.toutiao.com/trending/7664055626527411763",
+          "hot": 962785,
           "rank": 34,
-          "desc": "杭州女老板回河南老家加价收购滞销西瓜，帮助农户解决销售难题。",
+          "desc": "探讨科技公司归属法律战应对，引发关注因涉及企业权益与法律风险。",
           "extra": {},
           "desc_source": "guess"
         },
         {
-          "title": "曝阿根廷决赛首发还有两个位置不确定",
-          "url": "https://www.toutiao.com/trending/7663378250869178387",
-          "hot": 804733,
+          "title": "上海昨晚遭遇强对流天气",
+          "url": "https://www.toutiao.com/trending/7663854595873013823",
+          "hot": 871164,
           "rank": 35,
-          "desc": "媒体报道阿根廷队决赛首发名单仍有两个位置未定，引发战术猜测。",
+          "desc": "上海遭遇强对流天气，引发关注因涉及市民出行安全及气象预警。",
           "extra": {},
           "desc_source": "guess"
         },
         {
-          "title": "男孩骑行十多公里后迷路求助警察",
-          "url": "https://www.toutiao.com/trending/7663461970831130666",
-          "hot": 728152,
+          "title": "投喂流浪狗15年烤鸭店婉拒网购订单",
+          "url": "https://www.toutiao.com/trending/7664008033034440230",
+          "hot": 788262,
           "rank": 36,
-          "desc": "一名男孩骑行十多公里后迷路，向警察求助，引发对儿童出行安全的关注。",
+          "desc": "烤鸭店长期投喂流浪狗并婉拒网购，引发关注因体现商家善意与社会温情。",
           "extra": {},
           "desc_source": "guess"
         },
         {
-          "title": "俄媒：中美应对AI发展难题路径迥异",
-          "url": "https://www.toutiao.com/trending/7664007695850032683",
-          "hot": 658860,
+          "title": "西班牙7大“夺冠密码”与2010年重合",
+          "url": "https://www.toutiao.com/trending/7663783258387496996",
+          "hot": 713249,
           "rank": 37,
-          "desc": "俄媒报道中美两国在人工智能发展难题上采取不同应对策略，引发对科技竞争格局的关注。",
+          "desc": "指西班牙队夺冠关键因素与 2010 年相似，引发球迷对球队复兴的讨论。",
           "extra": {},
           "desc_source": "guess"
         },
         {
-          "title": "医生：三伏天管住嘴就能瘦",
-          "url": "https://www.toutiao.com/trending/7663023338318938150",
-          "hot": 596161,
+          "title": "泰总理夜游成都边走边吃冰淇淋",
+          "url": "https://www.toutiao.com/trending/7663306918895599635",
+          "hot": 645374,
           "rank": 38,
-          "desc": "医生提出三伏天期间控制饮食有助于减肥，引发公众对季节性养生及减重方法的关注。",
+          "desc": "泰国总理访问成都期间体验当地生活，亲民举动引发媒体与公众关注。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "全球科技股抛售潮接近尾声了吗",
+          "url": "https://www.toutiao.com/trending/7663165060491296819",
+          "hot": 583958,
+          "rank": 39,
+          "desc": "探讨全球科技股下跌趋势是否结束，反映投资者对市场走势的关注。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "印尼计划提高甘蔗和生物乙醇产量",
+          "url": "https://www.toutiao.com/trending/7664047776976273458",
+          "hot": 528387,
+          "rank": 40,
+          "desc": "印尼政府拟增产甘蔗及生物乙醇，涉及能源政策与农业发展规划。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "英法大战创世界杯季军赛进球纪录",
+          "url": "https://www.toutiao.com/trending/7662962865448337454",
+          "hot": 478105,
+          "rank": 41,
+          "desc": "指英格兰与法国比赛进球数创世界杯季军赛纪录，赛事表现引发关注。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "曾沛慈发文回应请老公当内场音控",
+          "url": "https://www.toutiao.com/trending/7664045309014491179",
+          "hot": 432607,
+          "rank": 42,
+          "desc": "艺人曾沛慈回应关于丈夫担任演唱会音控的传闻，引发粉丝关注。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "湖北等地有大到暴雨",
+          "url": "https://www.toutiao.com/trending/7663753004732186633",
+          "hot": 391439,
+          "rank": 43,
+          "desc": "气象部门发布预警，湖北等地区将出现强降雨天气，需防范灾害。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "阿根廷球迷“占领”纽约时代广场",
+          "url": "https://www.toutiao.com/trending/7662947906403581995",
+          "hot": 354189,
+          "rank": 44,
+          "desc": "阿根廷球迷聚集纽约时代广场庆祝，展现球迷热情与文化影响力。",
+          "extra": {},
+          "desc_source": "guess"
+        },
+        {
+          "title": "重庆市委书记：盯紧盯牢各类风险隐患",
+          "url": "https://www.toutiao.com/trending/7663876010211606569",
+          "hot": 320483,
+          "rank": 45,
+          "desc": "重庆市委书记强调防范风险隐患，体现地方政府对安全稳定的重视。",
           "extra": {},
           "desc_source": "guess"
         },
         {
           "title": "中国开源追上美国闭源意味着什么",
           "url": "https://www.toutiao.com/trending/7663915576124771846",
-          "hot": 539428,
-          "rank": 39,
-          "desc": "探讨中国开源软件发展追上美国闭源模式的意义，涉及科技产业竞争与技术生态演变。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "粤BA总决赛东莞力克深圳拔得头筹",
-          "url": "https://www.toutiao.com/trending/7663823072444645430",
-          "hot": 488095,
-          "rank": 40,
-          "desc": "广东省篮球联赛总决赛中东莞队战胜深圳队夺冠，引发本地体育爱好者关注。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "葡媒评世界杯最令人失望23人",
-          "url": "https://www.toutiao.com/trending/7663316871621689407",
-          "hot": 441647,
-          "rank": 41,
-          "desc": "葡萄牙媒体评选世界杯表现最令人失望的23名球员，引发球迷对赛事表现的讨论。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "帕斯托雷：西班牙队每场都能掌控球权",
-          "url": "https://www.toutiao.com/trending/7663402063682519049",
-          "hot": 399618,
-          "rank": 42,
-          "desc": "足球评论员帕斯托雷评价西班牙队每场都能掌控球权，引发对球队战术风格的讨论。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "小车抛锚被困超车道 多车急刹避险",
-          "url": "https://www.toutiao.com/trending/7662987938694807595",
-          "hot": 361590,
-          "rank": 43,
-          "desc": "小汽车在超车道抛锚导致后方多车急刹避险，引发公众对高速公路行车安全的关注。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "“功夫高手”藏身楚超看台",
-          "url": "https://www.toutiao.com/trending/7663519311767748634",
-          "hot": 327180,
-          "rank": 44,
-          "desc": "有功夫高手现身湖北足球超级联赛看台，引发观众对赛事趣味性及现场氛围的关注。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "物资难运送 志愿者组成人力传送带",
-          "url": "https://www.toutiao.com/trending/7662932532593737769",
-          "hot": 296044,
-          "rank": 45,
-          "desc": "因物资运送困难，志愿者组成人力传送带协助运输，展现救灾互助精神引发关注。",
-          "extra": {},
-          "desc_source": "guess"
-        },
-        {
-          "title": "《八仙！》预测总票房破11亿",
-          "url": "https://www.toutiao.com/trending/7662643538085675051",
-          "hot": 267872,
+          "hot": 289985,
           "rank": 46,
-          "desc": "电影《八仙！》预测总票房突破11亿，引发观众对影片市场表现及口碑的关注。",
+          "desc": "探讨中国开源技术发展态势，分析其对全球科技格局的潜在影响。",
           "extra": {},
           "desc_source": "guess"
         },
         {
-          "title": "世界杯决赛西阿大战数据一网打尽",
-          "url": "https://www.toutiao.com/trending/7662904769199226886",
-          "hot": 242381,
+          "title": "曝广东给杜润旺提供C合同",
+          "url": "https://www.toutiao.com/trending/7662981703224426537",
+          "hot": 262389,
           "rank": 47,
-          "desc": "汇总世界杯决赛西班牙对阵阿根廷的比赛数据，满足球迷对赛事细节及表现的分析需求。",
+          "desc": "传闻广东队为球员杜润旺提供 C 合同，涉及职业篮球薪资谈判。",
           "extra": {},
           "desc_source": "guess"
         },
         {
-          "title": "楚超：潜江龙虾战平恩施小土豆",
-          "url": "https://www.toutiao.com/trending/7662931594285744138",
-          "hot": 219315,
+          "title": "救援人员被问多久没吃饭后摆手笑了",
+          "url": "https://www.toutiao.com/trending/7663318330207620644",
+          "hot": 237420,
           "rank": 48,
-          "desc": "湖北足球超级联赛中潜江队与恩施队战平，因球队名称特色及赛事结果引发关注。",
+          "desc": "救援人员面对饮食询问微笑摆手，展现敬业形象引发公众感动。",
           "extra": {},
           "desc_source": "guess"
         },
         {
-          "title": "全球首场人形机器人格斗赛观赏性拉满",
-          "url": "https://www.toutiao.com/trending/7663326895714926598",
-          "hot": 198444,
+          "title": "西班牙主帅说决赛将是超级对决",
+          "url": "https://www.toutiao.com/trending/7662996646004981802",
+          "hot": 214826,
           "rank": 49,
-          "desc": "全球首场人形机器人格斗赛举办，因科技感与观赏性结合引发公众对机器人技术的关注。",
+          "desc": "西班牙队主教练赛前表态，强调决赛重要性并期待激烈竞争。",
           "extra": {},
           "desc_source": "guess"
         },
         {
-          "title": "大衣哥测试除草剂草长疯了果断拒代言",
-          "url": "https://www.toutiao.com/trending/7663501261077004298",
-          "hot": 179560,
+          "title": "中国航司半年亏超百亿仍买476架空客",
+          "url": "https://www.toutiao.com/trending/7663239907929968170",
+          "hot": 194383,
           "rank": 50,
-          "desc": "网红大衣哥测试除草剂效果不佳后拒绝代言，引发公众对明星带货及产品质量的关注。",
+          "desc": "中国航司在亏损情况下仍采购大量空客飞机，反映行业扩张策略。",
           "extra": {},
           "desc_source": "guess"
         }
@@ -1964,180 +1964,180 @@
         {
           "title": "用万能旅行拍照姿势美美出片",
           "url": "https://www.xiaohongshu.com/search_result?keyword=%E7%94%A8%E4%B8%87%E8%83%BD%E6%97%85%E8%A1%8C%E6%8B%8D%E7%85%A7%E5%A7%BF%E5%8A%BF%E7%BE%8E%E7%BE%8E%E5%87%BA%E7%89%87&type=51",
-          "hot": "948.3w",
+          "hot": "924.4w",
           "rank": 1,
-          "desc": "分享万能旅行拍照姿势帮助游客拍出美照，满足大众对旅游摄影技巧及分享的需求。",
+          "desc": "分享旅行拍照技巧与姿势，帮助游客获得更好照片效果。",
           "extra": {},
           "desc_source": "guess"
         },
         {
           "title": "耗时三年拍下古诗词里的中国",
           "url": "https://www.xiaohongshu.com/search_result?keyword=%E8%80%97%E6%97%B6%E4%B8%89%E5%B9%B4%E6%8B%8D%E4%B8%8B%E5%8F%A4%E8%AF%97%E8%AF%8D%E9%87%8C%E7%9A%84%E4%B8%AD%E5%9B%BD&type=51",
-          "hot": "934.1w",
+          "hot": "914.3w",
           "rank": 2,
-          "desc": "历时三年拍摄的作品，展现古诗词中的中国美景，引发文化共鸣。",
+          "desc": "视频内容历时三年拍摄，展现古诗词中的中国美景，因文化共鸣受关注。",
           "extra": {},
           "desc_source": "guess"
         },
         {
           "title": "我拍到了海鸥雨",
           "url": "https://www.xiaohongshu.com/search_result?keyword=%E6%88%91%E6%8B%8D%E5%88%B0%E4%BA%86%E6%B5%B7%E9%B8%A5%E9%9B%A8&type=51",
-          "hot": "910.8w",
+          "hot": "892.5w",
           "rank": 3,
-          "desc": "拍摄海鸥群飞如雨的罕见画面，因视觉震撼受关注。",
+          "desc": "摄影作品拍摄海鸥群飞如雨的罕见景象，因画面震撼引发讨论。",
           "extra": {},
           "desc_source": "guess"
         },
         {
           "title": "超日常美食教程速来get",
           "url": "https://www.xiaohongshu.com/search_result?keyword=%E8%B6%85%E6%97%A5%E5%B8%B8%E7%BE%8E%E9%A3%9F%E6%95%99%E7%A8%8B%E9%80%9F%E6%9D%A5get&type=51",
-          "hot": "894.2w",
+          "hot": "872.1w",
           "rank": 4,
-          "desc": "分享简单易做的日常美食制作教程，因实用性强吸引用户学习。",
+          "desc": "内容分享简单易做的日常美食制作步骤，因实用性强吸引用户学习。",
           "extra": {},
           "desc_source": "guess"
         },
         {
           "title": "定格这一刻的日照金山",
           "url": "https://www.xiaohongshu.com/search_result?keyword=%E5%AE%9A%E6%A0%BC%E8%BF%99%E4%B8%80%E5%88%BB%E7%9A%84%E6%97%A5%E7%85%A7%E9%87%91%E5%B1%B1&type=51",
-          "hot": "883w",
+          "hot": "862.9w",
           "rank": 5,
-          "desc": "记录阳光照射山峰的壮丽瞬间，因景色优美引发赞叹。",
+          "desc": "摄影作品记录阳光照射山峰的壮丽瞬间，因景色优美受到喜爱。",
           "extra": {},
           "desc_source": "guess"
         },
         {
           "title": "你可以永远相信赛里木湖的美景",
           "url": "https://www.xiaohongshu.com/search_result?keyword=%E4%BD%A0%E5%8F%AF%E4%BB%A5%E6%B0%B8%E8%BF%9C%E7%9B%B8%E4%BF%A1%E8%B5%9B%E9%87%8C%E6%9C%A8%E6%B9%96%E7%9A%84%E7%BE%8E%E6%99%AF&type=51",
-          "hot": "872.4w",
+          "hot": "853.2w",
           "rank": 6,
-          "desc": "分享赛里木湖自然风光，因景色绝美成为旅游打卡热点。",
+          "desc": "网友分享新疆赛里木湖自然风光，因景色绝美引发旅游向往。",
           "extra": {},
           "desc_source": "guess"
         },
         {
           "title": "拼豆上也可以作画了",
           "url": "https://www.xiaohongshu.com/search_result?keyword=%E6%8B%BC%E8%B1%86%E4%B8%8A%E4%B9%9F%E5%8F%AF%E4%BB%A5%E4%BD%9C%E7%94%BB%E4%BA%86&type=51",
-          "hot": "857.8w",
+          "hot": "837.5w",
           "rank": 7,
-          "desc": "展示在拼豆上进行绘画创作，因创意新颖吸引关注。",
+          "desc": "手工展示在拼豆上进行绘画创作，因创意新颖吸引关注。",
           "extra": {},
           "desc_source": "guess"
         },
         {
           "title": "我的家庭旅行更像是打副本",
           "url": "https://www.xiaohongshu.com/search_result?keyword=%E6%88%91%E7%9A%84%E5%AE%B6%E5%BA%AD%E6%97%85%E8%A1%8C%E6%9B%B4%E5%83%8F%E6%98%AF%E6%89%93%E5%89%AF%E6%9C%AC&type=51",
-          "hot": "836.6w",
+          "hot": "818.7w",
           "rank": 8,
-          "desc": "调侃家庭旅行充满挑战，因幽默比喻引发亲子群体共鸣。",
+          "desc": "用户调侃家庭旅行过程复杂如游戏闯关，因幽默共鸣引发讨论。",
           "extra": {},
           "desc_source": "guess"
         },
         {
           "title": "原来古诗词里的河南真的存在",
           "url": "https://www.xiaohongshu.com/search_result?keyword=%E5%8E%9F%E6%9D%A5%E5%8F%A4%E8%AF%97%E8%AF%8D%E9%87%8C%E7%9A%84%E6%B2%B3%E5%8D%97%E7%9C%9F%E7%9A%84%E5%AD%98%E5%9C%A8&type=51",
-          "hot": "826.9w",
+          "hot": "809.5w",
           "rank": 9,
-          "desc": "展示河南古迹与诗词对应，因文化传承与实地验证受关注。",
+          "desc": "视频展示河南古迹与诗词意境相符，因文化认同感受到关注。",
           "extra": {},
           "desc_source": "guess"
         },
         {
           "title": "蒸出了奶香爆米花馒头",
           "url": "https://www.xiaohongshu.com/search_result?keyword=%E8%92%B8%E5%87%BA%E4%BA%86%E5%A5%B6%E9%A6%99%E7%88%86%E7%B1%B3%E8%8A%B1%E9%A6%92%E5%A4%B4&type=51",
-          "hot": "810.6w",
+          "hot": "794.5w",
           "rank": 10,
-          "desc": "制作奶香爆米花馒头，因造型独特口味新奇引发好奇。",
+          "desc": "美食内容分享创新馒头做法，因口味独特和制作有趣吸引尝试。",
           "extra": {},
           "desc_source": "guess"
         },
         {
           "title": "这可能是江西最被低估的一座山",
           "url": "https://www.xiaohongshu.com/search_result?keyword=%E8%BF%99%E5%8F%AF%E8%83%BD%E6%98%AF%E6%B1%9F%E8%A5%BF%E6%9C%80%E8%A2%AB%E4%BD%8E%E4%BC%B0%E7%9A%84%E4%B8%80%E5%BA%A7%E5%B1%B1&type=51",
-          "hot": "800.1w",
+          "hot": "783.7w",
           "rank": 11,
-          "desc": "推荐江西小众山峰，因景色优美且知名度低引发探索欲。",
+          "desc": "网友推荐江西某处山景，因景色优美且知名度低引发探索兴趣。",
           "extra": {},
           "desc_source": "guess"
         },
         {
           "title": "海边日落赴一场温柔约会",
           "url": "https://www.xiaohongshu.com/search_result?keyword=%E6%B5%B7%E8%BE%B9%E6%97%A5%E8%90%BD%E8%B5%B4%E4%B8%80%E5%9C%BA%E6%B8%A9%E6%9F%94%E7%BA%A6%E4%BC%9A&type=51",
-          "hot": "789.9w",
+          "hot": "769.5w",
           "rank": 12,
-          "desc": "展示海边日落美景，因氛围浪漫吸引用户向往。",
+          "desc": "摄影或视频记录海边日落浪漫场景，因氛围感强受到用户喜爱。",
           "extra": {},
           "desc_source": "guess"
         },
         {
           "title": "拼豆也能当火漆印章玩",
           "url": "https://www.xiaohongshu.com/search_result?keyword=%E6%8B%BC%E8%B1%86%E4%B9%9F%E8%83%BD%E5%BD%93%E7%81%AB%E6%BC%86%E5%8D%B0%E7%AB%A0%E7%8E%A9&type=51",
-          "hot": "774.1w",
+          "hot": "755.3w",
           "rank": 13,
-          "desc": "展示拼豆制作火漆印章，因玩法创新受到手工圈关注。",
+          "desc": "手工展示拼豆制作火漆印章的创意玩法，因新奇受关注。",
           "extra": {},
           "desc_source": "guess"
         },
         {
           "title": "我创造了新型遛狗法",
           "url": "https://www.xiaohongshu.com/search_result?keyword=%E6%88%91%E5%88%9B%E9%80%A0%E4%BA%86%E6%96%B0%E5%9E%8B%E9%81%9B%E7%8B%97%E6%B3%95&type=51",
-          "hot": "756.2w",
+          "hot": "737.4w",
           "rank": 14,
-          "desc": "分享独特的遛狗方式，因创意有趣引发养宠群体讨论。",
+          "desc": "宠物主人分享独特的遛狗方式，因创意或趣味性引发网友讨论。",
           "extra": {},
           "desc_source": "guess"
         },
         {
           "title": "用镜头捕捉四季如画",
           "url": "https://www.xiaohongshu.com/search_result?keyword=%E7%94%A8%E9%95%9C%E5%A4%B4%E6%8D%95%E6%8D%89%E5%9B%9B%E5%AD%A3%E5%A6%82%E7%94%BB&type=51",
-          "hot": "742.9w",
+          "hot": "723.8w",
           "rank": 15,
-          "desc": "记录四季自然变化，因画面唯美展现自然之美受关注。",
+          "desc": "摄影作品展示不同季节的自然美景，因画面优美受到广泛传播。",
           "extra": {},
           "desc_source": "guess"
         },
         {
           "title": "笔墨重现课本诗意",
           "url": "https://www.xiaohongshu.com/search_result?keyword=%E7%AC%94%E5%A2%A8%E9%87%8D%E7%8E%B0%E8%AF%BE%E6%9C%AC%E8%AF%97%E6%84%8F&type=51",
-          "hot": "731.1w",
+          "hot": "712.5w",
           "rank": 16,
-          "desc": "还原课本诗词意境，因传统文化艺术价值受关注。",
+          "desc": "书法或绘画作品还原课本诗词意境，因传统文化美感引发共鸣。",
           "extra": {},
           "desc_source": "guess"
         },
         {
           "title": "拍到了洱海的丁达尔效应",
           "url": "https://www.xiaohongshu.com/search_result?keyword=%E6%8B%8D%E5%88%B0%E4%BA%86%E6%B4%B1%E6%B5%B7%E7%9A%84%E4%B8%81%E8%BE%BE%E5%B0%94%E6%95%88%E5%BA%94&type=51",
-          "hot": "717.4w",
+          "hot": "700.3w",
           "rank": 17,
-          "desc": "网友分享在洱海拍摄到光线穿过雾气形成的丁达尔效应美景，因画面唯美而受关注。",
+          "desc": "指在洱海拍摄到光线透过雾气形成的丁达尔效应，因画面唯美受摄影爱好者关注。",
           "extra": {},
           "desc_source": "guess"
         },
         {
           "title": "珠圆玉润妆完全是淡颜天菜",
           "url": "https://www.xiaohongshu.com/search_result?keyword=%E7%8F%A0%E5%9C%86%E7%8E%89%E6%B6%A6%E5%A6%86%E5%AE%8C%E5%85%A8%E6%98%AF%E6%B7%A1%E9%A2%9C%E5%A4%A9%E8%8F%9C&type=51",
-          "hot": "680.7w",
+          "hot": "665w",
           "rank": 18,
-          "desc": "指一种圆润柔和的妆容风格，被认为非常适合淡颜系人群，引发美妆爱好者讨论。",
+          "desc": "指一种圆润饱满的妆容风格，被认为非常适合淡颜系妆容，引发美妆话题讨论。",
           "extra": {},
           "desc_source": "guess"
         },
         {
           "title": "碎钻美甲指尖藏着细碎星光",
           "url": "https://www.xiaohongshu.com/search_result?keyword=%E7%A2%8E%E9%92%BB%E7%BE%8E%E7%94%B2%E6%8C%87%E5%B0%96%E8%97%8F%E7%9D%80%E7%BB%86%E7%A2%8E%E6%98%9F%E5%85%89&type=51",
-          "hot": "665.3w",
+          "hot": "648.9w",
           "rank": 19,
-          "desc": "描述一种镶嵌碎钻或亮片的美甲款式，因视觉效果如星光般闪耀而受到时尚关注。",
+          "desc": "指一种镶嵌碎钻或亮片的美甲款式，因视觉效果如星光般闪耀而受到美甲爱好者喜爱。",
           "extra": {},
           "desc_source": "guess"
         },
         {
           "title": "我来当旅行中的颜色猎手",
           "url": "https://www.xiaohongshu.com/search_result?keyword=%E6%88%91%E6%9D%A5%E5%BD%93%E6%97%85%E8%A1%8C%E4%B8%AD%E7%9A%84%E9%A2%9C%E8%89%B2%E7%8C%8E%E6%89%8B&type=51",
-          "hot": "630w",
+          "hot": "614.8w",
           "rank": 20,
-          "desc": "指旅行中记录各地色彩的主题活动或内容分享，因展现独特视角和美感而受关注。",
+          "desc": "指在旅行过程中专门捕捉不同色彩的画面或体验，属于旅行摄影或内容创作话题。",
           "extra": {},
           "desc_source": "guess"
         }
@@ -2149,182 +2149,182 @@
       "count": 20,
       "items": [
         {
-          "title": "雷军试乘小米澎程 N90 后排视频曝光，新车有望搭载智能电动门",
-          "url": "https://www.ithome.com/0/978/626.htm",
+          "title": "SK 集团会长崔泰源：内存应该降价，如果一直高价消费电子行业可能受到冲击",
+          "url": "https://www.ithome.com/0/978/683.htm",
           "hot": null,
           "rank": 1,
-          "desc": "IT之家 7 月 19 日消息，博主 @SugarDesign 分享了一段雷军亲自试乘小米澎程 N90 后排视频。从画面来看，雷军上车前车门自动打开，上车后车门也随之关闭，并且未见雷军进行其他操作。由此来看，小米澎程 N90 预计将搭载智能电动门。据IT之家此前报道，工信部 7 月 10 日发布了第 409 批《道路机动车辆生产企业及产品公告》新产品公示，小米汽车四款澎程系列插电式增程混合动力车型完成申报。本次申报包含四款车型，分别为小米澎程 N90 Max 露营版（插电式增程混合动力文化生活服务车）、小米澎程 N70（插电式增程混合动力多用途乘用车）、小米澎程 N70 Max（插电式增程混合动力多用途乘用车）、小米澎程 N90 Max（插电式增程混合动力多用途乘用车）。小米澎程官方微博今日发文称，2024 年...",
+          "desc": "IT之家 7 月 19 日消息，据韩媒 EtNews 今天报道，SK 集团会长、大韩商工会议所会长崔泰源表示，目前持续高企的内存价格并不正常。过高的半导体价格不仅会抑制市场需求，未来还可能引发地缘政治层面的矛盾。崔泰源表示：“内存价格应该下降。这句话听起来可能有点奇怪，但现在的价格并不正常。如果高价一直维持下去，PC 和智能手机只能不断涨价，最终出现所谓的‘芯片通胀’。”他认为，如果高昂的内存价格最终传导到消费电子市场，那么整个行业的基础需求都可能受到冲击，愿意换手机、电脑的人只会越来越少。同时崔泰源认为，企业应该主动降低利润、扩大供应，在保护市场的同时推动市场继续增长。他对此比喻道：“只有这样，韩国半导体产业才能持续增长。只想着把眼前树上的苹果全部摘下来吃掉，不是战略。”不过他认为，即使半导体行业全力扩产，也...",
           "extra": {},
           "desc_source": "source"
         },
         {
-          "title": "为防 AI 作弊，澳大利亚高校重新拥抱口试和线下考试",
-          "url": "https://www.ithome.com/0/978/625.htm",
+          "title": "全国首个具身智能实训场样板点发布",
+          "url": "https://www.ithome.com/0/978/673.htm",
           "hot": null,
           "rank": 2,
-          "desc": "IT之家 7 月 19 日消息，随着越来越多大学担忧学生利用 AI 完成作业甚至作弊，澳大利亚高校正加快调整考试和评估方式，以维护学位的公信力。不过，澳大利亚国立大学（ANU）的一名学者认为，当前高校对 AI 的应对已经带有“歇斯底里”的意味；而另一位教授则警告，如果不能恢复教育的严谨性，澳大利亚的“国家智力能力”将被拱手送给美国和中国的科技公司。IT之家注意到，澳大利亚国立大学是积极应对生成式 AI 冲击的高校之一。学校担心，学生不仅可能利用 AI 作弊，还可能因此无法真正掌握课程知识。《2025 年澳大利亚数字包容指数》显示，78.9% 的中学和高校学生已经在使用生成式 AI。为此，澳大利亚国立大学近日向教师和学术人员发布了一份征求意见文件，提出了三种改革方案。其中一种方案是将课程评估划分为“安全（Secu...",
+          "desc": "IT之家 7 月 19 日消息，据第一财经报道，在今日上午举行的 2026 WAIC 人形机器人与具身智能创新发展论坛上，国家地方共建人形机器人创新中心携手华为打造的全国首个具身智能实训场样板点发布。据IT之家了解，之前行业里不同品牌人形机器人的训练系统互不兼容，企业想要测试多款设备就得搭建多套场地，投入成本极高。这个实训场打通了不同机型的训练数据接口，不管是工业搬运、巡检还是服务类机器人，都能在这里统一完成高温、雨天、狭小通道等复杂场景仿真训练。训练场还对外开放中小机器人企业试用名额，初创团队不用自建高额测试场地就能完成产品迭代。据悉，这一样板点依托国产算力底座，搭载全球领先的具身智能 VLA 大模型，各项性能指标均位居行业前列。",
           "extra": {},
           "desc_source": "source"
         },
         {
-          "title": "柯达发布 EC35 胶片相机：经典滑盖设计、25mm f/10 固定镜头",
-          "url": "https://www.ithome.com/0/978/624.htm",
+          "title": "月之暗面 Kimi K3 大模型登顶全球榜单后，彭博社称美国 AI 领先中国固有认知被打破",
+          "url": "https://www.ithome.com/0/978/670.htm",
           "hot": null,
           "rank": 3,
-          "desc": "IT之家 7 月 19 日消息，柯达现已在海外市场推出 EC35 胶片相机。这款产品定位“随身携带”（EDC），主打经典滑盖设计和简单易用的操控体验。据介绍，柯达 Kodak EC35 是一款 35mm 胶片傻瓜相机，采用全塑料机身，重量 102g，尺寸为 119*65*41.5mm。规格方面，这款相机配备一枚 25mm、固定 f/10 光圈的镜头，快门速度被固定在 1/100 秒，采用手动过片、手动回卷设计。内置电子闪光灯，使用一节 5 号碱性电池供电。外观方面，这款相机采用 20 世纪 90 年代末经典的滑盖设计，用户可在收纳时滑上盖子，保护镜头和取景器不被划花。官方提供午夜黑、香草白、黄油色、薰衣草紫、粉蓝色、腮红粉、牛油果绿等配色可选。此外，这款相机的单机售价是 35 美元（IT之家注：现汇率约合 23...",
+          "desc": "IT之家 7 月 19 日消息，月之暗面 Kimi K3 大模型于周四重磅上线，拥有 2.8 万亿参数，100 万 Tokens 上下文。在 Frontend Code Arena 全球 AI 大模型榜单中，Kimi K3 以 1679 分超越 Claude Fable 5，位居第一。据彭博社今天报道，月之暗面的这款新模型正在搅动全球科技市场。此前，包括中国顶尖 AI 领军人物及美国头部企业的业内人士认为，中国的尖端 AI 模型开发仍落后于美国。一位不愿透露姓名的 Anthropic 高管还在本周说道，他们公司的技术领先中国竞品 6-12 个月。Kimi K3 发布后，美国加州大学伯克利分校计算机科学教授斯托伊卡（Ion Stoica）表示：“过去我们一直认为，中国的开源模型大约落后最先进模型 6-9 个月。而...",
           "extra": {},
           "desc_source": "source"
         },
         {
-          "title": "谷歌安卓系统最新漏洞曝光：Gemini 可绕过锁屏密码发送短信，官方即将修复",
-          "url": "https://www.ithome.com/0/978/622.htm",
+          "title": "小鹏汽车：第二代 VLA 模型实现同一套模型打通中国与欧洲，目标 2027 年逐步向海外用户交付",
+          "url": "https://www.ithome.com/0/978/655.htm",
           "hot": null,
           "rank": 4,
-          "desc": "IT之家 7 月 19 日消息，据科技媒体 GSMArena 昨天报道，谷歌安卓系统存在一项身份验证绕过漏洞，可让攻击者在拥有物理访问权限的情况下，不输入锁屏密码就能通过 Gemini 发送短信或 WhatsApp 消息。IT之家从原报道了解到，该漏洞自今年 5 月以来被人们发现，最初是在 Android 16 系统、Pixel 6a 手机中复现。正常情况下，如果用户禁止 Gemini 访问消息等应用时，有人在锁屏界面要求 Gemini 发送短信，系统会就要求输入 PIN 码验证身份。然而，如果用户这时同时按下“继续”（Continue）和“添加附件”（Add attachment）按钮，系统就会无视输入密码环节直接发送短信。并且攻击者还可以在锁屏界面，重新打开其他应用的访问权限。例如只需要在输入框键入“@Wh...",
+          "desc": "IT之家 7 月 19 日消息，小鹏汽车官方今日发布视频，宣布小鹏图灵第二代 VLA 开启高阶智驾全球化新阶段。小鹏汽车官方表示，自动驾驶本质是物理 AI 的问题。理解真实物理世界的运行规律，是小鹏图灵第二代 VLA 模型的起点。据介绍，世界模型与 VLA 一体两面，共同提升模型在真实世界中的理解力与行动力；即使在训练数据不足的海外市场，模型也可以通过自主生成训练数据加速泛化。目前，小鹏汽车第二代 VLA 模型已实现同一套模型打通中国与欧洲，目前正加快推进欧洲市场量产适配，目标 2027 年逐步向海外用户交付。据IT之家此前报道，在 7 月 16 日的小鹏品牌日暨 MONA L03 全球上市发布会上，小鹏宣布海外车型正式接入谷歌地图导航服务，成为亚太地区首个谷歌地图车载 SDK 合作伙伴，并将在小鹏 MONA ...",
           "extra": {},
           "desc_source": "source"
         },
         {
-          "title": "荣耀新一代伙伴型多模态智能体操作系统 AgenticOS 发布，8 月 Robot Phone 首发内核",
-          "url": "https://www.ithome.com/0/978/621.htm",
+          "title": "特斯拉因大灯过亮在美国召回近 2 万辆 Model 3/Y，这次无法 OTA 修复",
+          "url": "https://www.ithome.com/0/978/652.htm",
           "hot": null,
           "rank": 5,
-          "desc": "IT之家 7 月 19 日消息，荣耀新一代伙伴型多模态智能体操作系统 AgenticOS 已在 2026 世界人工智能大会上正式发布。荣耀手机官方昨晚发布了 AgenticOS 的核心亮点一图知。据介绍，荣耀 AgenticOS 系统支持意图驱动、自然交互、主动智能、天生跨端四大特征，拥有行业首个系统级 Agent 架构，支持全局多智能体协同、全场景自适应沉淀和面向全场景智能体的自循环等能力。根据规划，8 月发布的荣耀 Robot Phone 将首发 AgenticOS 内核，而 Q4 发布的荣耀 Magic9 系列手机则会发布 AgenticOS 尝鲜版。据IT之家昨日报道，荣耀 Robot Phone 已正式开启预约，该机搭载第五代骁龙 8 至尊版芯片，其核心创新在于机身顶部集成了一套行业最小的四自由度（4...",
+          "desc": "IT之家 7 月 19 日消息，特斯拉车主早已习惯了睡醒后收到一次 OTA 软件更新，修复一些小问题，或增加一些新功能。不过，这一次，美国监管部门要求的并不是软件修复，而是必须通过硬件维修来解决问题。据路透社报道，美国国家公路交通安全管理局（NHTSA）正式驳回了特斯拉于 2024 年提交的一项申请。此前，特斯拉希望能够避免针对一批老款车型实施实体召回，但监管部门并未同意。根据裁定，特斯拉将不得不对约 1.99 万辆 2017 至 2023 年款 Model 3 和 Model Y 发起正式安全召回，原因是这些车辆的近光灯亮度可能超过美国联邦法规规定的上限。这场监管争议始于特斯拉试图说服监管机构，认为大灯亮度略微超标不会带来明显安全风险。在当时提交的申请中，特斯拉表示，这一与法规存在的轻微偏差不会对机动车安全造...",
           "extra": {},
           "desc_source": "source"
         },
         {
-          "title": "Steam Frame 头显何时发售？曝V社收到 19.3 吨 VR 设备",
-          "url": "https://www.ithome.com/0/978/620.htm",
+          "title": "喜剧动画电影《八仙！》海外定档，豆瓣开分 8.3 暂列 2026 暑期档新片第一",
+          "url": "https://www.ithome.com/0/978/648.htm",
           "hot": null,
           "rank": 6,
-          "desc": "IT之家 7 月 19 日消息，据 X 平台博主 @HardwareSteam 前天爆料，V社近期收到三批“VR 设备”（Virtual Reality Devices），总重量达 19.304 吨（19304 公斤）。从该博主近期爆料可以看出，V社曾在一周多前收到一批货物，描述为“HMD（IT之家注：Head Mounted Display，头戴式显示器）+VR 控制器配件”。结合V社近期动作，这些货物很可能就是 Steam Frame 头显。目前，V社仍未正式公布 Steam Frame 的上市日期和售价。本月早些时候，Steam 平台已新增“非常适合 Frame”分类，方便用户查看 Steam Frame 专属优化游戏。此后，V社还开始着手提供 Steam Frame 兼容性评级，并且每周都有新游戏加入榜...",
+          "desc": "IT之家 7 月 19 日消息，国产喜剧动画《八仙！》今日官宣海外定档时间，今夏将登陆全球多地院线：8 月 13 日登陆澳大利亚、新西兰、巴布亚新几内亚；8 月 14 日登陆美国、加拿大、英国、爱尔兰、荷兰；9 月 4 日登陆比利时、卢森堡；新加坡、马来西亚等东南亚市场上映排期将陆续对外公布。据灯塔专业版实时数据，截至 7 月 19 日 10 时 58 分，影片《八仙！》票房突破 2 亿。昨日，电影《八仙！》豆瓣开分 8.3，暂列 2026 暑期档新片第一。其中，5 星评分占比 38.5%，4 星占比 42.5%，仅有 1% 的 1 星评分。本片为四川省电影局支持项目，由牟正洋担任导演及编剧，由东方梦工厂西南总部成都画梦成帧影视文化传媒有限公司、上海华人影业有限公司、天津猫眼文化传媒有限公司、儒意电影娱乐股份有...",
           "extra": {},
           "desc_source": "source"
         },
         {
-          "title": "博主指控索尼动用社交媒体水军引导舆论，为停售实体光盘政策洗白",
-          "url": "https://www.ithome.com/0/978/619.htm",
+          "title": "无障碍升级，消息称谷歌 Gboard 键盘即将支持“手语转文字”功能",
+          "url": "https://www.ithome.com/0/978/646.htm",
           "hot": null,
           "rank": 7,
-          "desc": "IT之家 7 月 19 日消息，PlayStation 计划于 2028 年停止生产新的实体游戏光盘，此前曾有报道称，这一决定甚至对索尼内部不少部门都处于保密状态。如今，索尼又陷入了新的争议。IT之家注意到，知名 YouTuber、游戏行业爆料人 Moore's Law Is Dead（简称 MLID）近日声称，索尼可能动用了社交媒体机器人账号（Bot），试图引导舆论，淡化玩家对 PlayStation 全面数字化战略的强烈负面反应。MLID 表示，在相关消息公布后，他几乎找不到真正支持 PlayStation 放弃实体游戏的玩家。即便偶尔看到支持言论，相关账号也显得十分可疑。随后，他重点调查了三个账号，发现它们都存在类似特征：长期几乎没有任何动态，随后突然开始频繁发文，并使用正式、类似企业公关的措辞；它们经常...",
+          "desc": "IT之家 7 月 19 日消息，据科技媒体 Android Authority 前天报道，谷歌正在为 Gboard 键盘开发“手语转文字”（Sign-to-text）输入功能，可为听障人士带来便利。据报道，Gboard 安卓测试版（IT之家注：版本号 17.8.3.939743344-beta-arm64-v8a）已经出现相关功能代码串。根据代码描述，该功能可利用摄像头识别用户手语，并将其转换为文字。适用于发送消息、撰写电子邮件、网页搜索等场景。同时，Gboard 拍摄的所有手语视频都只会存储在手机内，系统会在本地完成视频处理，将用户的手势和表达内容分离，仅将相关数据发送到服务器进行分析和识别。处理完成后，相关数据将会删除。不过，目前尚不清楚该功能最终会支持哪些手语标准。预计谷歌将率先支持美国手语（ASL），因...",
           "extra": {},
           "desc_source": "source"
         },
         {
-          "title": "小米汽车回应澎程为何要用 76kWh 大电池，称源于做增程产品的底层理念「纯电长续航」",
-          "url": "https://www.ithome.com/0/978/618.htm",
+          "title": "意大利正经历今年第三次热浪天气，老外说被中国“降温神器”拯救了",
+          "url": "https://www.ithome.com/0/978/645.htm",
           "hot": null,
           "rank": 8,
-          "desc": "IT之家 7 月 19 日消息，小米汽车官方昨日发布了答网友问（第 261 集），针对小米澎程为什么要用 76kWh 的大电池、澎程系列 CLTC 最高纯电续航 505 km 日常开能跑多少等问题进行了解答。IT之家附小米汽车本期答网友问重点内容如下：小米澎程为什么要用 76kWh 的大电池？增程车有必要用大电池吗？小米澎程全系最大电池容量 76kWh。这个数字的选择，核心源于我们做增程产品的底层理念「纯电长续航」。「纯电长续航」是为了让用户在绝大多数场景下，都能享受纯电体验，用增程来保障长途时纯电体验的连续性。小米澎程系列 WLTC 最高纯电续航 380km、CLTC 最高纯电续航 505km 的里程。从真实用车场景来看，大多数用户的出行以日常通勤、城市代步为主，单日里程集中在几十公里，这个续航水平足够覆盖一...",
+          "desc": "IT之家 7 月 19 日消息，据央视新闻今日报道，意大利目前正经历今年第三次热浪天气，多地气温接近甚至超过 40℃。持续的酷暑之下，大量中国制造的降温产品成为当地居民、游客和外国留学生的避暑好物。报道提到，在本轮高温天气中，意大利有十多座城市发布最高级别红色高温预警。其中，撒丁岛最高气温一度达到创纪录的 47.2℃，罗马、佛罗伦萨、博洛尼亚等主要城市的气温也持续接近 40℃。在罗马，受到历史建筑保护、物业规定，以及空调预约安装排队等限制，在这里安装一台分体壁挂式空调不太容易。因此，除了携带大量饮用水之外，不少游客和罗马本地居民选择购买中国生产的各类降温产品。一名当地的学生分享自己网购的一台中国制造“避暑神器”—— 空调扇，虽然制冷效果比不上真正的空调，但比普通风扇凉爽得多。她更是直言：“可以说在这么热的天气里...",
           "extra": {},
           "desc_source": "source"
         },
         {
-          "title": "美国初创公司发布机器人 AI 模型 ACT-2，宣称在陌生家庭叠衣成功率超 99%",
-          "url": "https://www.ithome.com/0/978/617.htm",
+          "title": "阿里开放式世界模型快乐生蚝 HappyOyster 1.0 登陆百炼平台，支持两大核心模式",
+          "url": "https://www.ithome.com/0/978/644.htm",
           "hot": null,
           "rank": 9,
-          "desc": "IT之家 7 月 19 日消息，在家庭机器人竞赛中，最大的难题之一始终是让机器人进入陌生家庭后，依然能够完成各种家务，而无需针对每个家庭重新训练。如今，美国初创公司 Sunday Robotics 宣称，他们已经攻克了这一难关。当地时间周四，总部位于美国旧金山湾区的 Sunday Robotics 发布了新一代机器人 AI 模型 ACT-2，该模型将应用于旗下轮式家庭机器人 Memo。公司表示，在陌生家庭环境中进行测试时，即便面对此前从未专门训练过的衣物，Memo 的叠衣服成功率仍超过 99%。 Sunday Robotics 联合创始人兼 CEO Tony Zhao 在接受 Business Insider 采访时表示：“我认为，这项突破将大幅缩短家庭自主机器人的落地时间，2026 年有望成为这一行业的重要转...",
+          "desc": "IT之家 7 月 19 日消息，阿里巴巴今天宣布，开放式世界模型 HappyOyster 1.0（快乐生蚝）现已登陆阿里云百炼，面向企业和开发者开启灰测。IT之家了解到，HappyOyster 1.0 版本围绕「用户与世界的关系」，提供世界探索（Adventure）与实时导演（Directing）两大核心模式。其中，世界探索模式支持用户输入一句话或一张图，生成可实时探索和交互的开放世界。模型能够根据用户输入创建任意角色在任意世界中探索，根据实时交互指令，预测世界的下一步发展，给出响应，支持 1 分钟以上的主体动作和环境交互体验，音画同出。而实时导演模式可让用户像拍摄电影一样，用文字指令实时操控镜头、调度角色、改变剧情走向、画面即时响应、持续演绎；你随时可以暂停、改写、回溯。当前模型能力在数字人互动陪伴、剧情与舞...",
           "extra": {},
           "desc_source": "source"
         },
         {
-          "title": "《使命召唤》电影定调：现代战争宇宙、2028 年 6 月 30 日上映",
-          "url": "https://www.ithome.com/0/978/616.htm",
+          "title": "马斯克：特斯拉 FSD 将记住驾驶员操作习惯，实现个性化自动驾驶",
+          "url": "https://www.ithome.com/0/978/642.htm",
           "hot": null,
           "rank": 10,
-          "desc": "IT之家 7 月 19 日消息，派拉蒙与动视曾在去年 9 月宣布，《使命召唤》系列 IP 将首次登上大荧幕舞台。如今导演彼得 · 伯格（IT之家注：Peter Berg）正式确认，《使命召唤》电影将以现代战争宇宙展开剧情。作为参考，《使命召唤：现代战争》系列游戏已经有六款正作，并于 2019 年完成重启。再过几个月，《使命召唤：现代战争 4》就要登陆 PC 和主机平台。不过遗憾的是，导演并没有透露电影的具体剧情。但可以预见的是，这部电影将包含大量高速动作场面和爆炸镜头。此外，本片计划 2028 年 6 月 30 日在影院上映，目前官方命名暂未公布。IT 之家小伙伴记得用最会买购买电影票，享受折扣价的同时还可以获得返利，预计每张票可以节省 5~15 元！",
+          "desc": "IT之家 7 月 19 日消息，埃隆 · 马斯克已经确认，特斯拉 FSD（Full Self-Driving）软件正在正式从过去的“通用型、一套方案适用于所有用户”的驾驶系统，转变为真正的个性化驾驶系统。此前，搭载 FSD 的特斯拉车辆在整个车队中基本采用相同的驾驶逻辑。但未来，FSD 背后的神经网络将能够直接学习每位车主的个人驾驶习惯，并记住用户的偏好。这一消息来自马斯克本人。近日，一名特斯拉 FSD 用户在 X 平台上抱怨了一个长期存在的问题。用户 @wholemars 表示，车辆经常会在不该离开的位置驶出高载客车道（IT之家注：指在交通高峰时段专门预留给那些除司机外还搭乘有一名或多名乘客的机动车行驶的车道）或快速车道。他认为，这种情况非常令人烦恼：FSD 有时会主动退出左侧的高效车道，结果却进入拥堵车流，...",
           "extra": {},
           "desc_source": "source"
         },
         {
-          "title": "华为 Pura X Max、智慧屏 S7 Pro 获国标人工智能 L3 等级手机、电视首证",
-          "url": "https://www.ithome.com/0/978/615.htm",
+          "title": "三星推出 Freestyle+ 便携式投影仪：支持 360 度环绕音效、最大可投射 100 寸 FHD 画面",
+          "url": "https://www.ithome.com/0/978/640.htm",
           "hot": null,
           "rank": 11,
-          "desc": "IT之家 7 月 19 日消息，华为终端官方昨日宣布，HUAWEI Pura X Max、HUAWEI MateBook Pro、华为智慧屏 S7 Pro 获国标人工智能 L3 等级手机、电脑、电视首证。据IT之家今日早些时候报道，小米手机官方宣布，小米荣获首批《人工智能终端智能化分级》系列国家标准 L3 评级证书。小米表示，L3 级为目前有明确划分标准的最高智能化水平。作为参考，工业和信息化部、国家市场监督管理总局、商务部等部门于今年 5 月联合发布《人工智能终端智能化分级》（GB/Z 177—2026）系列国家标准。该标准将终端智能化水平划分为 L1 响应级、L2 工具级、L3 辅助级和 L4 协同级，智能化水平依次提升。相关阅读：《AI 终端智能化分级国标出炉：L1~L4 等级，涉及手机、电脑、眼镜、电视...",
+          "desc": "IT之家 7 月 19 日消息，三星前天在美国市场推出 Freestyle+ 便携式投影仪，新品最大可投射 100 英寸的 Full HD（1080P）画面，支持流媒体服务、云游戏和无线投屏，还能通过 USB-C 移动电源供电，适合露营等场景。IT之家在此援引官方新闻稿，这款投影仪拥有 3D 自动梯形矫正、墙面校准和画面适配等 AI 优化技术，可帮助投影仪在不平整墙面下投射出正确画面。规格方面，这款投影仪的最高亮度可达 430 ISO 流明，支持 PurColor 色彩技术和 HDR10+。内置 360 度扬声器，配备双无源低音单元。用户还可通过 Q-Symphony 连接兼容的 Wi-Fi 扬声器或回音壁，提升音质表现。此外，这款投影仪搭载 Tizen 操作系统，支持各种流媒体服务和云游戏平台，售价 1199...",
           "extra": {},
           "desc_source": "source"
         },
         {
-          "title": "英伟达 CEO 黄仁勋东京行：敲定国家级 AI 工厂合作，送粉丝红豆糕",
-          "url": "https://www.ithome.com/0/978/614.htm",
+          "title": "OPPO 陈希透露 ColorOS 17 没有透明化卡片设计，称可读性有挺大影响",
+          "url": "https://www.ithome.com/0/978/638.htm",
           "hot": null,
           "rank": 12,
-          "desc": "IT之家 7 月 19 日消息，英伟达 CEO 黄仁勋这次来到东京，不仅为日本科技产业带来了多项 AI 和机器人合作计划，还给现场等候的粉丝送上了红豆糕。当地时间周三，黄仁勋现身东京神田地区一家挂满红灯笼的传统居酒屋，引来大批民众围观，希望一睹这位在日本被亲切称为“皮夹克哥”（日语昵称“kawa-jan”，意为“皮夹克”）的风采。此次日本之行最重要的成果于周四公布。英伟达宣布与 Noetra 公司达成合作。这家由日本政府支持、软银（SoftBank）、NEC、索尼（Sony）和本田（Honda）共同成立的 AI 企业，将与英伟达携手建设一座配备 2.75 万块 GPU 的“AI 工厂（AI Factory）”。该项目被定位为全球首个面向机器人产业的国家级 AI 基础设施，旨在为日本机器人产业提供大规模 AI 算...",
+          "desc": "IT之家 7 月 19 日消息，OPPO ColorOS 设计总监陈希昨日在微博分享了 ColorOS 系统的小布建议功能，称到医院后可以自动识别医院，主动推出相关服务，用医保码非常方便。有网友希望小布建议卡片设计可以更美观，并期待 ColorOS 17 在透明底上显示这些信息的小布建议卡片。对此，陈希回应称：别期待了，没有。整体上我们并不倾向透明化的卡片设计，对卡片的可读性有挺大影响，甚至功能也要因此受到约束。未来只会考虑在极少极少的非阅读性卡片上尝试，但目前也没有任何规划以及计划。据IT之家此前报道，OPPO 官方已公布 ColorOS 七月体验升级内容和适配机型。该更新于 7 月 2 日开启分批次推送，计划 7 月 31 日前完成推送。本次升级的重点内容包括：锁屏指纹自定义，自由搭配指纹图标和动画；相机滤...",
           "extra": {},
           "desc_source": "source"
         },
         {
-          "title": "分析师：苹果 AI 策略“保守”反而是优势，可降低资本压力并驱动硬件升级",
-          "url": "https://www.ithome.com/0/978/613.htm",
+          "title": "央视曝儿童听力下降呈现低龄化趋势，“耳机依赖”正成为无声杀手",
+          "url": "https://www.ithome.com/0/978/637.htm",
           "hot": null,
           "rank": 13,
-          "desc": "IT之家 7 月 19 日消息，据科技媒体 Wccftech 昨天报道，BRI Wealth Management 分析师 Toni Meadows 认为，市场对苹果 AI 战略的看法已经发生改变，他们采取相对保守的策略不仅降低资本支出压力，还能够依托强大的服务业务开辟新收入来源，有望推动更多硬件升级需求。IT之家从原报道获悉，AI 热潮推动一众科技公司高歌猛进，同时也给整个行业带来极大不确定性。而在刻板印象中，苹果似乎并没有跟上 AI 的脚步，其生成式 AI 长期缺乏明显进展。直到最近，该公司才推出 AI Siri 并全面升级 Apple 智能，希望借此弥补不足。Toni Meadows 表示，市场对苹果 AI 策略的看法已经产生变化。过去，该公司因为没有投入巨额资金开发先进 AI 模型而被视为落后者。但如今...",
+          "desc": "IT之家 7 月 19 日消息，据央视网报道，儿童听力下降正呈现低龄化趋势。报道提到，暑假期间，不少孩子捧着平板电脑、手机玩游戏，为了避免打扰别人，家长往往默许孩子戴上耳机。但这看似安静的背后，却隐藏着听力损伤的危机。事实上，儿童听力近年来下降呈低龄化趋势，“耳机依赖”正在成为无声的杀手。专家介绍称，造成儿童听力损伤的常见原因包括：噪音性损伤（长期戴耳机听大音量声音，会导致内耳“毛细胞”受损）、药物性损伤（使用了耳毒性抗生素等）。而儿童听力受损后的主要表现就是听不清别人说话，经常要求重复，部分孩子还有耳鸣症状。IT之家提醒：预防听力损伤必须从日常习惯抓起，使用耳机时严格遵守“60-60 原则”，即耳机音量不超过最大音量的 60%、连续佩戴时间不超过 60 分钟，远离嘈杂环境。另外，相比入耳式耳机，医生更推荐开放...",
           "extra": {},
           "desc_source": "source"
         },
         {
-          "title": "英伟达全球销售体系开启新篇章：微软 26 年老将加盟出任销售负责人",
-          "url": "https://www.ithome.com/0/978/612.htm",
+          "title": "导演诺兰称拍完《奥德赛》后至少休息三年，坦言已达体力极限",
+          "url": "https://www.ithome.com/0/978/636.htm",
           "hot": null,
           "rank": 14,
-          "desc": "IT之家 7 月 19 日消息，英伟达正在开启其全球销售体系的新篇章。今年 6 月，英伟达全球现场运营（Worldwide Field Operations）负责人杰伊 · 普里（Jay Puri）宣布，将在效力公司 21 年后退休，并转任顾问职位。这位身价数十亿美元的高管一直是英伟达 CEO 黄仁勋核心管理团队的重要成员。为了接替普里，英伟达此次罕见地选择了从公司外部引进高管，而不是像以往一样通过内部晋升或启用收购而来的管理人员。对于一向以高管任职时间长、内部培养著称的英伟达来说，这是一项不同寻常的人事安排。微软资深高管尼克 · 帕克（Nick Parker）将于下个月正式加盟英伟达。他在微软工作了 26 年，最近担任微软全球销售与解决方案部门执行副总裁兼首席商务官，负责企业销售业务。据 Business I...",
+          "desc": "IT之家 7 月 19 日消息，据《综艺》昨天报道，知名导演克里斯托弗 · 诺兰表示，在完成新片《奥德赛》后，自己至少要休息三年。诺兰表示，他拍完《奥德赛》后至少要等三年，才会制作下一部电影。他对此解释称：“我确实已经到了自己体力的极限，我想整个剧组的人也是这样。不过毕竟这是《奥德赛》，它本身就非常难拍。如果我们拍摄过程中觉得不难，那说明我们没有把这部电影拍对。”IT之家了解到，IMAX 摄影机是诺兰的心头好，而《奥德赛》也毫不意外地全程使用 IMAX 摄影机拍摄。诺兰回忆称，他曾在正式开机前与 IMAX 团队沟通：“如果我们真的要实现 IMAX 摄影机拍摄整部电影的梦想，那就应该是这一次，这就是《奥德赛》。”尽管《奥德赛》的拍摄过程极其艰苦，但诺兰认为他并不追求“轻松”，并且电影公司应该在制作商业大片时停止一...",
           "extra": {},
           "desc_source": "source"
         },
         {
-          "title": "飞机遇到颠簸时安全带指示灯总是“亮得太晚”？AI 正改变这一切",
-          "url": "https://www.ithome.com/0/978/611.htm",
+          "title": "微软 Xbox 主机独占策略不局限于单机游戏，也可包含多人游戏",
+          "url": "https://www.ithome.com/0/978/635.htm",
           "hot": null,
           "rank": 15,
-          "desc": "IT之家 7 月 19 日消息，当飞机突然遭遇气流颠簸时，你可能会被猛地从座椅上弹起，不禁疑惑：为什么安全带指示灯还没亮？或者为什么机长总是在飞机已经发生剧烈颠簸后，才打开安全带提示？看起来像是飞行员反应慢了，但实际上，这个决定远比想象中复杂。拥有 40 多年飞行经验的美国航空公司机长 Will Ware 表示，何时开启安全带指示灯，是一个需要综合权衡安全、乘客体验以及客舱运营情况的决定。他说：“我们并不希望整个航程都一直亮着安全带指示灯，那样并不能提供良好的客舱服务体验。”如果过早开启提示灯，空乘人员的餐饮服务等客舱工作会受到影响；但如果开启得太晚，又可能让空乘人员和乘客面临受伤风险。真正困难的地方在于，湍流一直都是航空领域最难预测的现象之一。严重时，它甚至可能把没有系安全带的乘客或空乘人员直接抛向客舱顶部。...",
+          "desc": "IT之家 7 月 19 日消息，微软 Xbox 的全新独占战略将不仅限于单机游戏，这也让外界开始猜测，未来 Xbox 游戏阵容中的哪些作品会成为独占内容。IT之家注意到，微软此前已经明确表示，未来将重新重视独占内容，并计划每年至少推出一款面向 Xbox 主机和 PC 的独占游戏。这些作品不会局限于某一种类型，也不会全部都是单机游戏。例如，作为这一战略下首款重要主机独占作品的《战争机器：E-Day（Gears of War: E-Day）》，除了单人剧情外，还将提供支持 6 人联机的多人模式。Xbox 首席内容官 Matt Booty 日前在接受 GamesRadar 采访时再次强调，公司并没有要求独占游戏必须是单机作品。他表示，虽然《战争机器：E-Day》拥有多人模式，而计划于 2027 年推出、由 inXil...",
           "extra": {},
           "desc_source": "source"
         },
         {
-          "title": "IT早报 0719：曝 Kimi 最快 6 个月内赴港上市；广汽埃安就部分搭 177Ah 电池车故障致歉；苹果 Music 订阅全球多地涨价；鸿蒙智行称问界 M9 直播挑战为商品车...",
-          "url": "https://www.ithome.com/0/978/610.htm",
+          "title": "电视大屏畅看《野狗骨头》：芒果 TV 全屏会员 153 元四折狂促（再送 QQ 音乐月卡）",
+          "url": "https://www.ithome.com/0/978/634.htm",
           "hot": null,
           "rank": 16,
-          "desc": "“IT早报”时间，大家好，现在是 2026 年 7 月 19 日星期日，今天的重要科技资讯有：1、消息称月之暗面 Kimi 已通知投资者调整公司架构，有望最快 6 个月内赴港上市Kimi 已通知投资者调整公司架构，筹备赴港 IPO，最快可能 6 个月内就能完成港股上市。&gt;&gt; 查看详情2、广汽埃安：部分搭载中创新航 177Ah 磷酸铁锂电池 AION S 车型质保翻倍至 8 年 30 万公里，维修超 5 天可获补贴针对搭载中创新航 177Ah 磷酸铁锂电池的 AION S 车型，广汽埃安推出质保服务升级方案。将原有 8 年或 15 万公里质保延长至 8 年或 30 万公里，并强化远程监测。若因维修导致车辆停运超 5 天，车主可获营运补贴。&gt;&gt; 查看详情3、国区个人 11 元 / 月 → 1...",
+          "desc": "芒果 TV 全屏会员（支持电视端）定价 388 元，今日官方活动价 165 元，可领 10 元天猫娱乐品类券 + 淘金币抵扣 1.65 元，到手 153.35 元。下单后联系客服领取 QQ 音乐会员月卡兑换码，7 天内有效，逾期失效不予退还。▼ 点击详情页活动横幅可领 10 元天猫娱乐品类券。天猫芒果 TV 全屏会员 年卡 12 个月 + 赠 QQ 音乐会员月卡详情页领 10 元品类券 + 淘金币减 1.65 元券后 153.35 元直达链接也可选择京东平台购买，但没有 QQ 音乐会员赠送：京东芒果 TV 全屏会员 年卡 12 个月 支持电视券后 155 元领 10 元券▼ 其他活动商品：京东爱奇艺黄金 VIP 会员年卡 + 京东 PLUS 会员年卡 加赠 99 小时雷神加速器 158 元直达链接京东 Keep...",
           "extra": {},
           "desc_source": "source"
         },
         {
-          "title": "国内首个空天地一体化全域智能产品矩阵发布",
-          "url": "https://www.ithome.com/0/978/609.htm",
+          "title": "原班人马回归！国产特摄《铠甲勇士刑天 · 守护初心》短片播出，电影废案角色“锏以刑天”首登场",
+          "url": "https://www.ithome.com/0/978/633.htm",
           "hot": null,
           "rank": 17,
-          "desc": "IT之家 7 月 19 日消息，据央视新闻报道，在 16 日举行的 2026 空天信息大会上，国内首个空天地一体化全域智能产品矩阵发布。据介绍，这套产品覆盖智能地球、低空产业、商业航天三大方向，能服务气象、应急、低空物流等众多场景。IT之家附本次发布的空天地一体化全域智能产品矩阵主要包括的三大体系如下：智能地球系列产品提供了全域时空智能平台，支撑商业航天、低空经济、国土空间、地下空间及深海经济、精准气象服务等系列智能化应用。低空产业全链条产品则是指围绕低空安全和低空经济，核心涵盖低空物流、政务巡检、应急救援、城市低空治理等主流场景，验证产品落地能力与价值。第三大体系是商业航天系列产品，围绕商业航天制造和星座安全运行管理两大方向，为空天产业规模化、智能化发展提供全维度技术支撑，支撑商业航天高质量发展。",
+          "desc": "IT之家 7 月 19 日消息，铠甲勇士官方账号近日在B站发布《铠甲勇士：刑天》的续作短片《铠甲勇士刑天 · 守护初心》系列的 P1 和 P2 部分。剧中三人小队的原班人马时隔约十六年再次集结回归，让无数网友直呼“爷青回”、“泪目”。 值得一提的是，此次在《铠甲勇士刑天 · 守护初心》短片中出场的刑天铠甲 / 小天（李昊天 | 李巍饰）、飞影铠甲 / 小飞（徐霆飞 | 吴昊泽饰）、金刚铠甲 / 小刚（吴刚 | 张亚男饰）不仅由原演员饰演，同时原 CV 也回归本作，为角色配音。短片还通过主角团齐聚一堂吃火锅的桥段，交代了在原剧剧情结束之后小天、小飞、小刚的后续人生经历：小刚在游戏厅工作 / 生活，而游戏厅最近开了几家分店，且都有专人管理。小刚生活比较清闲，依旧在游戏领域“打遍天下无敌手”；小飞仍在经营公司，最近...",
           "extra": {},
           "desc_source": "source"
         },
         {
-          "title": "三星 Galaxy Watch 9 手表宣发图片曝光：骁龙 Wear Elite 芯片、支持睡眠呼吸暂停检测",
-          "url": "https://www.ithome.com/0/978/608.htm",
+          "title": "微软 Win11 系统 KB5121767 补丁发布，修复部分戴尔电脑意外关机和过热问题",
+          "url": "https://www.ithome.com/0/978/632.htm",
           "hot": null,
           "rank": 18,
-          "desc": "IT之家 7 月 19 日消息，消息人士 Evan Blass 昨天放出三星 Galaxy Watch 9 手表的官方宣发素材，显示该产品将配备高通骁龙平台，并在健康方面有诸多升级。据介绍，这款手表将搭载骁龙 Wear Elite 芯片，外观基本延续 Galaxy Watch 8 的双按键设计，没有明显变化。拥有白色、石墨色、绿色和黑色四种配色可选，相比之前爆料的三种颜色新增一种。同时，这款手表还将拥有全新表盘“Vitals”，可在部分健康指标超出正常值时进行主动提示。新增跑步教练功能，可根据用户设定的目标时间追踪训练进度，并新增睡眠呼吸暂停检测，可持续提供睡眠评分和能量评分。此前曾有传闻称，该手表将配备 325mAh（IT之家注：40mm）、445mAh（44mm）电池。相比 Watch 8，两款机型的电池容...",
+          "desc": "IT之家 7 月 19 日消息，据科技媒体 Windows Latest 今天报道，微软现已为 Win11 系统发布 KB5121767 紧急更新，用于替代此前的 2026 年 7 月累积更新，修复部分戴尔电脑出现的意外关机、性能下降、过热和电池耗电异常问题。IT之家从原报道获悉，该更新在 Windows Update 中显示为“2026-07 Update (KB5121767) (26200.8894)”。微软仅建议部分戴尔电脑安装。但实际上只要开启“尽快获取最新更新”开关，其他品牌的电脑也可能自动下载并安装。内部资料显示，该更新适用于以下戴尔电脑：Dell Pro Max 14 Premium MA14250Dell Pro Max 16 Premium MA16250Dell Pro Precision...",
           "extra": {},
           "desc_source": "source"
         },
         {
-          "title": "作家埃格斯受邀给 OpenAI 员工演讲，批评 ChatGPT 正夺走一代人的表达能力",
-          "url": "https://www.ithome.com/0/978/607.htm",
+          "title": "马斯克 X 平台与音乐出版商三年版权诉讼落幕，双方撤回所有诉讼",
+          "url": "https://www.ithome.com/0/978/631.htm",
           "hot": null,
           "rank": 19,
-          "desc": "IT之家 7 月 19 日消息，去年，OpenAI 首席执行官萨姆 · 奥尔特曼（Sam Altman）曾邀请美国作家戴夫 · 埃格斯（Dave Eggers）为约 200 名 OpenAI 员工发表演讲。据IT之家了解，埃格斯著有大量小说、电影剧本和新闻作品，创办了文学杂志 McSweeney's，还创立了多所学校和多个支持作家及艺术发展的非营利机构。因此，人们原本或许会以为，他会向 OpenAI 员工分享如何保持高产创作，或如何在多个领域取得成功。然而，事实恰恰相反。据英国《金融时报》报道，埃格斯在演讲中毫不客气地批评了 OpenAI。他对员工表示：“ChatGPT 给教育工作者带来的影响是灾难性的。无论这是不是你们的本意，你们都让每一位教师的工作，比两年前变得困难了无数倍。请认真想一想这一点…… 如果学生...",
+          "desc": "IT之家 7 月 19 日消息，持续近三年的 X（原 Twitter）与美国多家大型音乐出版商之间的法律纠纷，如今已悄然画上句号。根据双方提交给法院的文件，X 和一批音乐出版商已共同申请撤销彼此提起的诉讼。不过，双方均未披露和解协议的具体内容。这场纠纷始于 2023 年。当时，由美国国家音乐出版商协会（NMPA）牵头的一批音乐出版商对当时仍名为 Twitter 的社交平台提起诉讼，索赔金额高达 2.5 亿美元（IT之家注：现汇率约合 16.97 亿元人民币）。原告认为，Twitter 平台长期存在大量用户侵犯音乐版权的行为，但平台不仅未采取有效措施制止，还放任侵权内容传播。值得注意的是，在当时，Twitter 是少数几家尚未与音乐出版商签署版权授权协议的大型社交媒体平台之一。将品牌更名为 X 后，该平台于近三年...",
           "extra": {},
           "desc_source": "source"
         },
         {
-          "title": "第三方测算：Valve Steam Machine 每周销量 1.2 万至 1.5 万台",
-          "url": "https://www.ithome.com/0/978/606.htm",
+          "title": "谷歌开源 3D Emoji 表情符号，还讲了背后的设计故事",
+          "url": "https://www.ithome.com/0/978/630.htm",
           "hot": null,
           "rank": 20,
-          "desc": "IT之家 7 月 19 日消息，当 Valve 在 6 月底正式推出 Steam Machine 游戏主机 / PC 时，许多人都怀疑，这款售价不菲的产品是否真的能卖得动。不过，从目前来看，Valve 的销售表现似乎相当不错。根据 Boiling Steam 的调查分析，这款设备目前每周销量预计在 1.2 万至 1.5 万台之间。据IT之家了解，这一估算主要依据 Steam 全球畅销榜（Global Top Sellers）。目前，Steam Machine 排名第二，位于《Counter-Strike 2》（《反恐精英 2》）之后、《Palworld》（《幻兽帕鲁》）之前。Boiling Steam 综合多个数据来源推算，《Counter-Strike 2》每周收入约为 1900 万至 2000 万美元，排名...",
+          "desc": "IT之家 7 月 19 日消息，如今，如果你愿意，已经可以把谷歌的 3D Emoji 用到自己的创作中了。IT之家注意到，在周五世界表情符号日（World Emoji Day）之际，谷歌分享了这套 3D Emoji 的设计幕后故事，介绍了设计团队是如何打造这些小表情，以及背后的设计思路。谷歌表示，在设计二维 Emoji 时，很多问题并不需要考虑，但到了三维世界，这些细节就变得十分重要。例如，一个笑脸 Emoji 究竟应该是一个完整的球体、一张面具，还是一个扁平的圆盘？这些都需要重新定义。除了公开设计过程外，谷歌还宣布，将完全开源这套 3D Emoji。谷歌表示：“我们将把原始的 .OBJ 模型文件交给社区，方便开发者将它们用于打造沉浸式 VR 世界、独立应用，或者制作各种脑洞大开的表情包。”谷歌的 Noto E...",
           "extra": {},
           "desc_source": "source"
         }
@@ -2340,10 +2340,10 @@
           "url": "https://github.com/Robbyant/lingbot-map",
           "hot": 831,
           "rank": 1,
-          "desc": "一个用于从 streaming data 重建场景的 feed-forward 3D foundation model",
+          "desc": "一个用于从流式数据重建场景的前馈 3D 基础模型",
           "extra": {
             "language": "Python",
-            "stars": "12,954",
+            "stars": "13,066",
             "stars_today": "831"
           },
           "desc_source": "source"
@@ -2353,10 +2353,10 @@
           "url": "https://github.com/apache/ossie",
           "hot": 47,
           "rank": 2,
-          "desc": "Apache Ossie，一项行业范围内的 specification effort，旨在标准化我们在 analytics、AI 和 BI 平台之间交换 semantic metadata 的方式，为 semantic data 提供 vendor neutral 的 single source of truth",
+          "desc": "Apache Ossie，一项行业范围内的规范努力，旨在标准化我们在分析、AI 和 BI 平台之间交换语义元数据的方式，为语义数据提供供应商中立的单一事实来源",
           "extra": {
             "language": "Python",
-            "stars": "1,276",
+            "stars": "1,307",
             "stars_today": "47"
           },
           "desc_source": "source"
@@ -2366,10 +2366,10 @@
           "url": "https://github.com/PostHog/posthog",
           "hot": 338,
           "rank": 3,
-          "desc": "🦔 PostHog 是构建 self-driving products 的领先平台。我们的 developer tools – AI observability、analytics、session replay、flags、experiments、error tracking、logs 等 – 捕获 agents 诊断问题、发现机会和 ship fixes 所需的所有 context。从 Slack、web、desktop 或 MCP 控制一切。",
+          "desc": "🦔 PostHog 是构建自动驾驶产品的领先平台。我们的开发者工具 – AI 可观测性、分析、会话回放、功能标志、实验、错误跟踪、日志等 – 捕获代理诊断问题、发现机会和发布修复所需的所有上下文。从 Slack、web、桌面或 MCP 控制一切。",
           "extra": {
             "language": "Python",
-            "stars": "36,596",
+            "stars": "36,644",
             "stars_today": "338"
           },
           "desc_source": "source"
@@ -2379,10 +2379,10 @@
           "url": "https://github.com/ibelick/ui-skills",
           "hot": 123,
           "rank": 4,
-          "desc": "面向 Design Engineers 的技能",
+          "desc": "设计工程师的技能",
           "extra": {
             "language": "TypeScript",
-            "stars": "5,022",
+            "stars": "5,114",
             "stars_today": "123"
           },
           "desc_source": "source"
@@ -2392,10 +2392,10 @@
           "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
           "hot": 191,
           "rank": 5,
-          "desc": "学习它。构建它。为其他人 Ship 它。",
+          "desc": "学习它。构建它。为其他人发布它。",
           "extra": {
             "language": "Python",
-            "stars": "39,103",
+            "stars": "39,180",
             "stars_today": "191"
           },
           "desc_source": "source"
@@ -2405,10 +2405,10 @@
           "url": "https://github.com/tirth8205/code-review-graph",
           "hot": 355,
           "rank": 6,
-          "desc": "面向 MCP 和 CLI 的 Local-first code intelligence graph。构建你 codebase 的 persistent map，以便 AI coding tools 只读取重要的内容，在 reviews 和 large-repo workflows 上具有基准测试过的 context reductions。",
+          "desc": "面向 MCP 和 CLI 的本地优先代码智能图。构建代码库的持久地图，以便 AI 编码工具只读取重要内容，在审查和大型仓库工作流中具有基准化的上下文减少。",
           "extra": {
             "language": "Python",
-            "stars": "20,172",
+            "stars": "20,264",
             "stars_today": "355"
           },
           "desc_source": "source"
@@ -2418,10 +2418,10 @@
           "url": "https://github.com/elder-plinius/G0DM0D3",
           "hot": 69,
           "rank": 7,
-          "desc": "LIBERATED AI CHAT",
+          "desc": "解放的 AI 聊天",
           "extra": {
             "language": "TypeScript",
-            "stars": "9,511",
+            "stars": "9,556",
             "stars_today": "69"
           },
           "desc_source": "source"
@@ -2431,10 +2431,10 @@
           "url": "https://github.com/lyogavin/airllm",
           "hot": 161,
           "rank": 8,
-          "desc": "使用单个 4GB GPU 进行 AirLLM 70B inference",
+          "desc": "使用单个 4GB GPU 进行 AirLLM 70B 推理",
           "extra": {
             "language": "Jupyter Notebook",
-            "stars": "23,335",
+            "stars": "23,385",
             "stars_today": "161"
           },
           "desc_source": "source"
@@ -2444,10 +2444,10 @@
           "url": "https://github.com/KnockOutEZ/wigolo",
           "hot": 203,
           "rank": 9,
-          "desc": "你的 AI coding agent 的首选 web —— 基于 MCP 的 local-first search、fetch、crawl & research。无 API keys，无 cloud，$0/query。Public beta。",
+          "desc": "你的 AI 编码代理的首选 web —— 基于 MCP 的本地优先搜索、获取、爬取和研究。无 API 密钥，无云，$0/查询。公开测试版。",
           "extra": {
             "language": "TypeScript",
-            "stars": "1,242",
+            "stars": "1,316",
             "stars_today": "203"
           },
           "desc_source": "source"
@@ -2457,10 +2457,10 @@
           "url": "https://github.com/codecrafters-io/build-your-own-x",
           "hot": 1126,
           "rank": 10,
-          "desc": "通过从头重建你喜欢的 technologies 来掌握 programming。",
+          "desc": "通过从头重建你喜欢的技术来掌握编程。",
           "extra": {
             "language": "Markdown",
-            "stars": "528,274",
+            "stars": "528,380",
             "stars_today": "1,126"
           },
           "desc_source": "source"
@@ -2470,10 +2470,10 @@
           "url": "https://github.com/MoonshotAI/kimi-cli",
           "hot": 65,
           "rank": 11,
-          "desc": "Kimi Code CLI 是你下一个 CLI agent。",
+          "desc": "Kimi Code CLI 是你的下一个 CLI 代理。",
           "extra": {
             "language": "Python",
-            "stars": "9,493",
+            "stars": "9,546",
             "stars_today": "65"
           },
           "desc_source": "source"
